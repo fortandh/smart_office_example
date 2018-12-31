@@ -1,0 +1,927 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_th404LcCEee8W6YHtXWaIQ" type="Henshin" name="smart_office.henshin_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_ufmaULcCEee8W6YHtXWaIQ" type="2001" fontName=".AppleSystemUIFont" italic="true" lineColor="0">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5kGCgLcCEee8W6YHtXWaIQ" source="defaultAction">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5kGCgbcCEee8W6YHtXWaIQ" key="value" value="preserve"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ufnBYLcCEee8W6YHtXWaIQ" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ufnBYbcCEee8W6YHtXWaIQ" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="__OYEwLcCEee8W6YHtXWaIQ" type="3001" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="__OYEwrcCEee8W6YHtXWaIQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="__OYEw7cCEee8W6YHtXWaIQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="__OYExLcCEee8W6YHtXWaIQ" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_AP6aQLcDEee8W6YHtXWaIQ" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_office.henshin#_AP5MILcDEee8W6YHtXWaIQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_AP6aQbcDEee8W6YHtXWaIQ"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="__OYExbcCEee8W6YHtXWaIQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="__OYExrcCEee8W6YHtXWaIQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office.henshin#__OTzULcCEee8W6YHtXWaIQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="__OYEwbcCEee8W6YHtXWaIQ" x="8" y="39"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_CPXwkLcDEee8W6YHtXWaIQ" type="3001" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_CPXwkrcDEee8W6YHtXWaIQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_CPXwk7cDEee8W6YHtXWaIQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_CPXwlLcDEee8W6YHtXWaIQ" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_lPhrMLcEEee8W6YHtXWaIQ" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_office.henshin#_lPgdELcEEee8W6YHtXWaIQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_lPhrMbcEEee8W6YHtXWaIQ"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_CPXwlbcDEee8W6YHtXWaIQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_CPXwlrcDEee8W6YHtXWaIQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office.henshin#_CPRp8LcDEee8W6YHtXWaIQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CPXwkbcDEee8W6YHtXWaIQ" x="222" y="39"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_NHGvILcDEee8W6YHtXWaIQ" type="3001" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_NHGvIrcDEee8W6YHtXWaIQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_NHGvI7cDEee8W6YHtXWaIQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_NHGvJLcDEee8W6YHtXWaIQ" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_N8_OQLcDEee8W6YHtXWaIQ" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_office.henshin#_N8680LcDEee8W6YHtXWaIQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_N8_OQbcDEee8W6YHtXWaIQ"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_NHGvJbcDEee8W6YHtXWaIQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_NHGvJrcDEee8W6YHtXWaIQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office.henshin#_NHCdsLcDEee8W6YHtXWaIQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NHGvIbcDEee8W6YHtXWaIQ" x="434" y="39"/>
+      </children>
+    </children>
+    <element xmi:type="henshin:Rule" href="smart_office.henshin#_ufj-ELcCEee8W6YHtXWaIQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ufmaUbcCEee8W6YHtXWaIQ" x="21" y="20" width="603" height="170"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_nPsBkLcDEee8W6YHtXWaIQ" type="2001" fontName=".AppleSystemUIFont" italic="true" lineColor="0">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rvEhg7cEEee8W6YHtXWaIQ" source="defaultAction">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_rvEhhLcEEee8W6YHtXWaIQ" key="value" value="preserve"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_nPsBkrcDEee8W6YHtXWaIQ" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_nPsBk7cDEee8W6YHtXWaIQ" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_rvLPMLcEEee8W6YHtXWaIQ" type="3001" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_rvLPMrcEEee8W6YHtXWaIQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_rvLPM7cEEee8W6YHtXWaIQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_rvLPNLcEEee8W6YHtXWaIQ" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_sgk28LcEEee8W6YHtXWaIQ" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_office.henshin#_sgkP4LcEEee8W6YHtXWaIQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_sgk28bcEEee8W6YHtXWaIQ"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_rvLPNbcEEee8W6YHtXWaIQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_rvLPNrcEEee8W6YHtXWaIQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office.henshin#_rvEhgLcEEee8W6YHtXWaIQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rvLPMbcEEee8W6YHtXWaIQ" x="225" y="27"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_tu8HgLcEEee8W6YHtXWaIQ" type="3001" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_tu8HgrcEEee8W6YHtXWaIQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_tu8Hg7cEEee8W6YHtXWaIQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_tu8HhLcEEee8W6YHtXWaIQ" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_ucPSYLcEEee8W6YHtXWaIQ" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_office.henshin#_ucJy0LcEEee8W6YHtXWaIQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ucPSYbcEEee8W6YHtXWaIQ"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_tu8HhbcEEee8W6YHtXWaIQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_tu8HhrcEEee8W6YHtXWaIQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office.henshin#_tu1Z0LcEEee8W6YHtXWaIQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tu8HgbcEEee8W6YHtXWaIQ" x="16" y="28"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_0iW8ELcEEee8W6YHtXWaIQ" type="3001" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_0iW8ErcEEee8W6YHtXWaIQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_0iW8E7cEEee8W6YHtXWaIQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_0iW8FLcEEee8W6YHtXWaIQ" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_1hgr8LcEEee8W6YHtXWaIQ" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_office.henshin#_1hbMYLcEEee8W6YHtXWaIQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_1hgr8bcEEee8W6YHtXWaIQ"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_0iXjILcEEee8W6YHtXWaIQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_0iXjIbcEEee8W6YHtXWaIQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office.henshin#_0iRcgLcEEee8W6YHtXWaIQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0iW8EbcEEee8W6YHtXWaIQ" x="435" y="31"/>
+      </children>
+    </children>
+    <element xmi:type="henshin:Rule" href="smart_office.henshin#_nPplULcDEee8W6YHtXWaIQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nPsBkbcDEee8W6YHtXWaIQ" x="21" y="216" width="603" height="137"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_ofiN8LcFEee8W6YHtXWaIQ" type="2001" fontName=".AppleSystemUIFont" italic="true" lineColor="0">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LqnborcGEee8W6YHtXWaIQ" source="defaultAction">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Lqnbo7cGEee8W6YHtXWaIQ" key="value" value="preserve"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ofi1ALcFEee8W6YHtXWaIQ" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ofi1AbcFEee8W6YHtXWaIQ" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_Lqv-gLcGEee8W6YHtXWaIQ" type="3001" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_Lqv-grcGEee8W6YHtXWaIQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_Lqv-g7cGEee8W6YHtXWaIQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_Lqv-hLcGEee8W6YHtXWaIQ" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_MKWroLcGEee8W6YHtXWaIQ" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_office.henshin#_MKWEkLcGEee8W6YHtXWaIQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_MKWrobcGEee8W6YHtXWaIQ"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_Lqv-hbcGEee8W6YHtXWaIQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_Lqv-hrcGEee8W6YHtXWaIQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office.henshin#_LqmNgLcGEee8W6YHtXWaIQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lqv-gbcGEee8W6YHtXWaIQ" x="45" y="23"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_PgYMQLcGEee8W6YHtXWaIQ" type="3001" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_PgYMQrcGEee8W6YHtXWaIQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_PgYMQ7cGEee8W6YHtXWaIQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_PgYzULcGEee8W6YHtXWaIQ" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_P4vo8LcGEee8W6YHtXWaIQ" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_office.henshin#_P4vB4LcGEee8W6YHtXWaIQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_P4vo8bcGEee8W6YHtXWaIQ"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_PgYzUbcGEee8W6YHtXWaIQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_PgYzUrcGEee8W6YHtXWaIQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office.henshin#_PgPCULcGEee8W6YHtXWaIQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PgYMQbcGEee8W6YHtXWaIQ" x="398" y="23"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_T2kJYLcGEee8W6YHtXWaIQ" type="3001" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_T2kwcLcGEee8W6YHtXWaIQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_T2kwcbcGEee8W6YHtXWaIQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_T2kwcrcGEee8W6YHtXWaIQ" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_ULP_8LcGEee8W6YHtXWaIQ" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_office.henshin#_ULOx0LcGEee8W6YHtXWaIQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ULP_8bcGEee8W6YHtXWaIQ"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_T2kwc7cGEee8W6YHtXWaIQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_T2kwdLcGEee8W6YHtXWaIQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office.henshin#_T2ZxULcGEee8W6YHtXWaIQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_T2kJYbcGEee8W6YHtXWaIQ" x="237" y="23"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_mAaDoLcGEee8W6YHtXWaIQ" type="3001" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_mAaDorcGEee8W6YHtXWaIQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_mAaDo7cGEee8W6YHtXWaIQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_mAaDpLcGEee8W6YHtXWaIQ" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_mWav4LcGEee8W6YHtXWaIQ" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_office.henshin#_mWaI0LcGEee8W6YHtXWaIQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_mWav4bcGEee8W6YHtXWaIQ"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_mAaDpbcGEee8W6YHtXWaIQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_mAaDprcGEee8W6YHtXWaIQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office.henshin#_mARgwLcGEee8W6YHtXWaIQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mAaDobcGEee8W6YHtXWaIQ" x="226" y="106"/>
+      </children>
+    </children>
+    <element xmi:type="henshin:Rule" href="smart_office.henshin#_ofg_0LcFEee8W6YHtXWaIQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ofiN8bcFEee8W6YHtXWaIQ" x="21" y="374" width="603"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_WpZA4LcHEee8W6YHtXWaIQ" type="2001" fontName=".AppleSystemUIFont" italic="true" lineColor="0">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_iHO9M7cHEee8W6YHtXWaIQ" source="defaultAction">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_iHO9NLcHEee8W6YHtXWaIQ" key="value" value="preserve"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_WpZA4rcHEee8W6YHtXWaIQ" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_WpZA47cHEee8W6YHtXWaIQ" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_iHVq4LcHEee8W6YHtXWaIQ" type="3001" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_iHVq4rcHEee8W6YHtXWaIQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_iHVq47cHEee8W6YHtXWaIQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_iHVq5LcHEee8W6YHtXWaIQ" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_iypRsLcHEee8W6YHtXWaIQ" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_office.henshin#_iyoDkLcHEee8W6YHtXWaIQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_iypRsbcHEee8W6YHtXWaIQ"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_iHVq5bcHEee8W6YHtXWaIQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_iHVq5rcHEee8W6YHtXWaIQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office.henshin#_iHO9MLcHEee8W6YHtXWaIQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iHVq4bcHEee8W6YHtXWaIQ" x="234" y="36"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_kGKvELcHEee8W6YHtXWaIQ" type="3001" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_kGKvErcHEee8W6YHtXWaIQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_kGKvE7cHEee8W6YHtXWaIQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_kGKvFLcHEee8W6YHtXWaIQ" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_nU2RkLcHEee8W6YHtXWaIQ" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_office.henshin#_nUsgkLcHEee8W6YHtXWaIQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_nU2RkbcHEee8W6YHtXWaIQ"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_kGKvFbcHEee8W6YHtXWaIQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_kGKvFrcHEee8W6YHtXWaIQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office.henshin#_kGBlILcHEee8W6YHtXWaIQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kGKvEbcHEee8W6YHtXWaIQ" x="40" y="37"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_lUh_oLcHEee8W6YHtXWaIQ" type="3001" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_lUh_orcHEee8W6YHtXWaIQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_lUh_o7cHEee8W6YHtXWaIQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_lUh_pLcHEee8W6YHtXWaIQ" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_xW8BkLcHEee8W6YHtXWaIQ" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_office.henshin#_xW1T4LcHEee8W6YHtXWaIQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_xW8BkbcHEee8W6YHtXWaIQ"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_lUh_pbcHEee8W6YHtXWaIQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_lUh_prcHEee8W6YHtXWaIQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office.henshin#_lUY1sLcHEee8W6YHtXWaIQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lUh_obcHEee8W6YHtXWaIQ" x="452" y="12"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_mC46cLcHEee8W6YHtXWaIQ" type="3001" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_mC46crcHEee8W6YHtXWaIQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_mC46c7cHEee8W6YHtXWaIQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_mC46dLcHEee8W6YHtXWaIQ" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_vy4N0LcHEee8W6YHtXWaIQ" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_office.henshin#_vyxgILcHEee8W6YHtXWaIQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_vy4N0bcHEee8W6YHtXWaIQ"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_mC46dbcHEee8W6YHtXWaIQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_mC46drcHEee8W6YHtXWaIQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office.henshin#_mCwXkLcHEee8W6YHtXWaIQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mC46cbcHEee8W6YHtXWaIQ" x="452" y="63"/>
+      </children>
+    </children>
+    <element xmi:type="henshin:Rule" href="smart_office.henshin#_WpXLsLcHEee8W6YHtXWaIQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WpZA4bcHEee8W6YHtXWaIQ" x="21" y="605" width="603" height="152"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_jTZY4LcIEee8W6YHtXWaIQ" type="2001" fontName=".AppleSystemUIFont" italic="true" lineColor="0">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-sreM7cIEee8W6YHtXWaIQ" source="defaultAction">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-sreNLcIEee8W6YHtXWaIQ" key="value" value="preserve"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_jTZ_8LcIEee8W6YHtXWaIQ" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_jTZ_8bcIEee8W6YHtXWaIQ" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_-sxk0LcIEee8W6YHtXWaIQ" type="3001" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_-sxk0rcIEee8W6YHtXWaIQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_-sxk07cIEee8W6YHtXWaIQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_-sxk1LcIEee8W6YHtXWaIQ" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_AxIpQLcJEee8W6YHtXWaIQ" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_office.henshin#_AxBUgLcJEee8W6YHtXWaIQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_AxIpQbcJEee8W6YHtXWaIQ"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_-sxk1bcIEee8W6YHtXWaIQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_-sxk1rcIEee8W6YHtXWaIQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office.henshin#_-sreMLcIEee8W6YHtXWaIQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-sxk0bcIEee8W6YHtXWaIQ" x="42" y="57"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="__OYdELcIEee8W6YHtXWaIQ" type="3001" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="__OYdErcIEee8W6YHtXWaIQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="__OYdE7cIEee8W6YHtXWaIQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="__OYdFLcIEee8W6YHtXWaIQ" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_CIihELcJEee8W6YHtXWaIQ" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_office.henshin#_CIhS8LcJEee8W6YHtXWaIQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_CIihEbcJEee8W6YHtXWaIQ"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="__OYdFbcIEee8W6YHtXWaIQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="__OYdFrcIEee8W6YHtXWaIQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office.henshin#__ORIULcIEee8W6YHtXWaIQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="__OYdEbcIEee8W6YHtXWaIQ" x="238" y="55"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="__oAeALcIEee8W6YHtXWaIQ" type="3001" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="__oAeArcIEee8W6YHtXWaIQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="__oAeA7cIEee8W6YHtXWaIQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="__oAeBLcIEee8W6YHtXWaIQ" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_DECgALcJEee8W6YHtXWaIQ" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_office.henshin#_DD7LQLcJEee8W6YHtXWaIQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_DECgAbcJEee8W6YHtXWaIQ"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="__oAeBbcIEee8W6YHtXWaIQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="__oAeBrcIEee8W6YHtXWaIQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office.henshin#__n5wULcIEee8W6YHtXWaIQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="__oAeAbcIEee8W6YHtXWaIQ" x="418" y="23"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_ADBmELcJEee8W6YHtXWaIQ" type="3001" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_ADBmErcJEee8W6YHtXWaIQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_ADBmE7cJEee8W6YHtXWaIQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_ADBmFLcJEee8W6YHtXWaIQ" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_Guf_kLcJEee8W6YHtXWaIQ" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_office.henshin#_GuYDwLcJEee8W6YHtXWaIQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Guf_kbcJEee8W6YHtXWaIQ"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_ADBmFbcJEee8W6YHtXWaIQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_ADBmFrcJEee8W6YHtXWaIQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office.henshin#_AC6RULcJEee8W6YHtXWaIQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ADBmEbcJEee8W6YHtXWaIQ" x="419" y="92"/>
+      </children>
+    </children>
+    <element xmi:type="henshin:Rule" href="smart_office.henshin#_jTYKwLcIEee8W6YHtXWaIQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jTZY4bcIEee8W6YHtXWaIQ" x="21" y="786" width="603" height="181"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_hqczMLcKEee8W6YHtXWaIQ" type="2001" fontName=".AppleSystemUIFont" italic="true" lineColor="0">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1o3CY7cKEee8W6YHtXWaIQ" source="defaultAction">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1o3CZLcKEee8W6YHtXWaIQ" key="value" value="preserve"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_hqdaQLcKEee8W6YHtXWaIQ" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_hqdaQbcKEee8W6YHtXWaIQ" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_1pBacLcKEee8W6YHtXWaIQ" type="3001" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_1pBacrcKEee8W6YHtXWaIQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_1pBac7cKEee8W6YHtXWaIQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_1pBadLcKEee8W6YHtXWaIQ" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_5-Mq8LcKEee8W6YHtXWaIQ" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_office.henshin#_5-MD4LcKEee8W6YHtXWaIQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_5-Mq8bcKEee8W6YHtXWaIQ"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_1pBadbcKEee8W6YHtXWaIQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_1pBadrcKEee8W6YHtXWaIQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office.henshin#_1o3CYLcKEee8W6YHtXWaIQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1pBacbcKEee8W6YHtXWaIQ" x="196" y="39"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_26b_ALcKEee8W6YHtXWaIQ" type="3001" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_26b_ArcKEee8W6YHtXWaIQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_26b_A7cKEee8W6YHtXWaIQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_26b_BLcKEee8W6YHtXWaIQ" type="7002">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_26b_BbcKEee8W6YHtXWaIQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_26b_BrcKEee8W6YHtXWaIQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office.henshin#_26UDMLcKEee8W6YHtXWaIQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_26b_AbcKEee8W6YHtXWaIQ" x="499" y="42"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_3Z2e4LcKEee8W6YHtXWaIQ" type="3001" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_3Z2e4rcKEee8W6YHtXWaIQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_3Z2e47cKEee8W6YHtXWaIQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_3Z3F8LcKEee8W6YHtXWaIQ" type="7002">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_3Z3F8bcKEee8W6YHtXWaIQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_3Z3F8rcKEee8W6YHtXWaIQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office.henshin#_3ZvxMLcKEee8W6YHtXWaIQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3Z2e4bcKEee8W6YHtXWaIQ" x="366" y="40"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="__sbYoL7XEeelAPHAkymOlA" type="3001" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="__sb_sL7XEeelAPHAkymOlA" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="__scmwL7XEeelAPHAkymOlA" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="__scmwb7XEeelAPHAkymOlA" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_AfdYEL7YEeelAPHAkymOlA" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_office.henshin#_Afbi4L7YEeelAPHAkymOlA"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_AfdYEb7YEeelAPHAkymOlA"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="__scmwr7XEeelAPHAkymOlA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="__scmw77XEeelAPHAkymOlA"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office.henshin#__sAh4L7XEeelAPHAkymOlA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="__sbYob7XEeelAPHAkymOlA" x="37" y="40"/>
+      </children>
+    </children>
+    <element xmi:type="henshin:Rule" href="smart_office.henshin#_hqblELcKEee8W6YHtXWaIQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hqczMbcKEee8W6YHtXWaIQ" x="21" y="994" width="603" height="137"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_pN1PoLcLEee8W6YHtXWaIQ" type="2001" fontName=".AppleSystemUIFont" italic="true" lineColor="0">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_u4aM07cLEee8W6YHtXWaIQ" source="defaultAction">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_u4aM1LcLEee8W6YHtXWaIQ" key="value" value="preserve"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_pN12sLcLEee8W6YHtXWaIQ" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_pN12sbcLEee8W6YHtXWaIQ" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_u4iIoLcLEee8W6YHtXWaIQ" type="3001" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_u4iIorcLEee8W6YHtXWaIQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_u4iIo7cLEee8W6YHtXWaIQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_u4iIpLcLEee8W6YHtXWaIQ" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_wYdqULcLEee8W6YHtXWaIQ" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_office.henshin#_wYdDQLcLEee8W6YHtXWaIQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_wYdqUbcLEee8W6YHtXWaIQ"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_u4iIpbcLEee8W6YHtXWaIQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_u4iIprcLEee8W6YHtXWaIQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office.henshin#_u4aM0LcLEee8W6YHtXWaIQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u4iIobcLEee8W6YHtXWaIQ" x="210" y="16"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_vZYy8LcLEee8W6YHtXWaIQ" type="3001" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_vZZaALcLEee8W6YHtXWaIQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_vZZaAbcLEee8W6YHtXWaIQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_vZZaArcLEee8W6YHtXWaIQ" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_w-_e0LcLEee8W6YHtXWaIQ" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_office.henshin#_w-3jALcLEee8W6YHtXWaIQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_w-_e0bcLEee8W6YHtXWaIQ"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_vZZaA7cLEee8W6YHtXWaIQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_vZZaBLcLEee8W6YHtXWaIQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office.henshin#_vZQ3ILcLEee8W6YHtXWaIQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vZYy8bcLEee8W6YHtXWaIQ" x="26" y="16"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_v4lQYLcLEee8W6YHtXWaIQ" type="3001" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_v4lQYrcLEee8W6YHtXWaIQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_v4lQY7cLEee8W6YHtXWaIQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_v4lQZLcLEee8W6YHtXWaIQ" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_x-o98LcLEee8W6YHtXWaIQ" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_office.henshin#_x-hCILcLEee8W6YHtXWaIQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_x-o98bcLEee8W6YHtXWaIQ"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_v4lQZbcLEee8W6YHtXWaIQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_v4lQZrcLEee8W6YHtXWaIQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office.henshin#_v4a4ULcLEee8W6YHtXWaIQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v4lQYbcLEee8W6YHtXWaIQ" x="400" y="16"/>
+      </children>
+    </children>
+    <element xmi:type="henshin:Rule" href="smart_office.henshin#_pN0BgLcLEee8W6YHtXWaIQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pN1PobcLEee8W6YHtXWaIQ" x="21" y="1151" width="603" height="110"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_LyhLsLcMEee8W6YHtXWaIQ" type="2001" fontName=".AppleSystemUIFont" italic="true" lineColor="0">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QIyBU7cMEee8W6YHtXWaIQ" source="defaultAction">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QIyBVLcMEee8W6YHtXWaIQ" key="value" value="preserve"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_LyhywLcMEee8W6YHtXWaIQ" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_LyhywbcMEee8W6YHtXWaIQ" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_QI4vALcMEee8W6YHtXWaIQ" type="3001" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_QI5WELcMEee8W6YHtXWaIQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_QI5WEbcMEee8W6YHtXWaIQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_QI5WErcMEee8W6YHtXWaIQ" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_SHRuULcMEee8W6YHtXWaIQ" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_office.henshin#_SHH9ULcMEee8W6YHtXWaIQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_SHRuUbcMEee8W6YHtXWaIQ"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_QI5WE7cMEee8W6YHtXWaIQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_QI5WFLcMEee8W6YHtXWaIQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office.henshin#_QIyBULcMEee8W6YHtXWaIQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QI4vAbcMEee8W6YHtXWaIQ" x="28" y="21"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_QpW-0LcMEee8W6YHtXWaIQ" type="3001" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_QpXl4LcMEee8W6YHtXWaIQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_QpXl4bcMEee8W6YHtXWaIQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_QpXl4rcMEee8W6YHtXWaIQ" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_TJ0wcLcMEee8W6YHtXWaIQ" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_office.henshin#_TJ0JYLcMEee8W6YHtXWaIQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_TJ0wcbcMEee8W6YHtXWaIQ"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_QpXl47cMEee8W6YHtXWaIQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_QpXl5LcMEee8W6YHtXWaIQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office.henshin#_QpPDALcMEee8W6YHtXWaIQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QpW-0bcMEee8W6YHtXWaIQ" x="211" y="21"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_RHXJcLcMEee8W6YHtXWaIQ" type="3001" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_RHXJcrcMEee8W6YHtXWaIQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_RHXJc7cMEee8W6YHtXWaIQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_RHXJdLcMEee8W6YHtXWaIQ" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_UXUeULcMEee8W6YHtXWaIQ" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_office.henshin#_UXL7cLcMEee8W6YHtXWaIQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_UXUeUbcMEee8W6YHtXWaIQ"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_RHXJdbcMEee8W6YHtXWaIQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_RHXJdrcMEee8W6YHtXWaIQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office.henshin#_RHQbwLcMEee8W6YHtXWaIQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RHXJcbcMEee8W6YHtXWaIQ" x="401" y="21"/>
+      </children>
+    </children>
+    <element xmi:type="henshin:Rule" href="smart_office.henshin#_Lyf9kLcMEee8W6YHtXWaIQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LyhLsbcMEee8W6YHtXWaIQ" x="21" y="1281" width="603" height="112"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_S1FaELcNEee8W6YHtXWaIQ" type="2001" fontName=".AppleSystemUIFont" italic="true" lineColor="0">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xNKLw7cNEee8W6YHtXWaIQ" source="defaultAction">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xNKLxLcNEee8W6YHtXWaIQ" key="value" value="preserve"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_S1FaErcNEee8W6YHtXWaIQ" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_S1FaE7cNEee8W6YHtXWaIQ" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_xNTVsLcNEee8W6YHtXWaIQ" type="3001" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_xNTVsrcNEee8W6YHtXWaIQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_xNTVs7cNEee8W6YHtXWaIQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_xNTVtLcNEee8W6YHtXWaIQ" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_2i7WkLcNEee8W6YHtXWaIQ" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_office.henshin#_2i6vgLcNEee8W6YHtXWaIQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_2i7WkbcNEee8W6YHtXWaIQ"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_xNTVtbcNEee8W6YHtXWaIQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_xNTVtrcNEee8W6YHtXWaIQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office.henshin#_xNKLwLcNEee8W6YHtXWaIQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xNTVsbcNEee8W6YHtXWaIQ" x="29" y="25"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_xvVrwLcNEee8W6YHtXWaIQ" type="3001" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_xvVrwrcNEee8W6YHtXWaIQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_xvVrw7cNEee8W6YHtXWaIQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_xvVrxLcNEee8W6YHtXWaIQ" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_53LVkLcNEee8W6YHtXWaIQ" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_office.henshin#_53KHcLcNEee8W6YHtXWaIQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_53LVkbcNEee8W6YHtXWaIQ"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_xvVrxbcNEee8W6YHtXWaIQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_xvVrxrcNEee8W6YHtXWaIQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office.henshin#_xvL6wLcNEee8W6YHtXWaIQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xvVrwbcNEee8W6YHtXWaIQ" x="247" y="25"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_yDYpILcNEee8W6YHtXWaIQ" type="3001" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_yDYpIrcNEee8W6YHtXWaIQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_yDYpI7cNEee8W6YHtXWaIQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_yDYpJLcNEee8W6YHtXWaIQ" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_2_Np8LcNEee8W6YHtXWaIQ" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_office.henshin#_2_NC4LcNEee8W6YHtXWaIQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_2_Np8bcNEee8W6YHtXWaIQ"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_yDYpJbcNEee8W6YHtXWaIQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_yDYpJrcNEee8W6YHtXWaIQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office.henshin#_yDNqALcNEee8W6YHtXWaIQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yDYpIbcNEee8W6YHtXWaIQ" x="430" y="25"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_0iOqILcNEee8W6YHtXWaIQ" type="3001" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_0iPRMLcNEee8W6YHtXWaIQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_0iPRMbcNEee8W6YHtXWaIQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_0iPRMrcNEee8W6YHtXWaIQ" type="7002">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_0iPRM7cNEee8W6YHtXWaIQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_0iPRNLcNEee8W6YHtXWaIQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office.henshin#_0iGuULcNEee8W6YHtXWaIQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0iOqIbcNEee8W6YHtXWaIQ" x="214" y="107"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_1hyCoLcNEee8W6YHtXWaIQ" type="3001" fontName=".AppleSystemUIFont">
+        <children xmi:type="notation:DecorationNode" xmi:id="_1hyCorcNEee8W6YHtXWaIQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_1hyCo7cNEee8W6YHtXWaIQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_1hyCpLcNEee8W6YHtXWaIQ" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_8Mni8LcNEee8W6YHtXWaIQ" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_office.henshin#_8MfAELcNEee8W6YHtXWaIQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_8MoKALcNEee8W6YHtXWaIQ"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_1hyCpbcNEee8W6YHtXWaIQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_1hyCprcNEee8W6YHtXWaIQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office.henshin#_1hoRoLcNEee8W6YHtXWaIQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1hyCobcNEee8W6YHtXWaIQ" x="416" y="109"/>
+      </children>
+    </children>
+    <element xmi:type="henshin:Rule" href="smart_office.henshin#_S1Dk4LcNEee8W6YHtXWaIQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S1FaEbcNEee8W6YHtXWaIQ" x="21" y="1421" width="603"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_th404bcCEee8W6YHtXWaIQ"/>
+  <element xmi:type="henshin:Module" href="smart_office.henshin#_th4N0LcCEee8W6YHtXWaIQ"/>
+  <edges xmi:type="notation:Connector" xmi:id="_Xq8hULcDEee8W6YHtXWaIQ" type="4001" source="_CPXwkLcDEee8W6YHtXWaIQ" target="_NHGvILcDEee8W6YHtXWaIQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Xq8hU7cDEee8W6YHtXWaIQ" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Xq9IYLcDEee8W6YHtXWaIQ" y="12"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Xq9IYbcDEee8W6YHtXWaIQ" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Xq9IYrcDEee8W6YHtXWaIQ" y="32"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Xq8hUbcDEee8W6YHtXWaIQ" fontName=".AppleSystemUIFont"/>
+    <element xmi:type="henshin:Edge" href="smart_office.henshin#_Xq6sILcDEee8W6YHtXWaIQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Xq8hUrcDEee8W6YHtXWaIQ" points="[28, 2, -129, 0]$[153, 2, -4, 0]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Xq_koLcDEee8W6YHtXWaIQ" id="(0.03361344537815126,0.5609756097560976)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_oNAwALcEEee8W6YHtXWaIQ" type="4001" source="_CPXwkLcDEee8W6YHtXWaIQ" target="__OYEwLcCEee8W6YHtXWaIQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_oNBXELcEEee8W6YHtXWaIQ" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_oNBXEbcEEee8W6YHtXWaIQ" y="13"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_oNBXErcEEee8W6YHtXWaIQ" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_oNBXE7cEEee8W6YHtXWaIQ" y="33"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_oNAwAbcEEee8W6YHtXWaIQ" fontName=".AppleSystemUIFont"/>
+    <element xmi:type="henshin:Edge" href="smart_office.henshin#_oM_h4LcEEee8W6YHtXWaIQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_oNAwArcEEee8W6YHtXWaIQ" points="[-1, 2, 127, 0]$[-119, 2, 9, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_oNDzULcEEee8W6YHtXWaIQ" id="(0.007692307692307693,0.3902439024390244)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_oNDzUbcEEee8W6YHtXWaIQ" id="(0.90625,0.5121951219512195)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_RqcFgLcFEee8W6YHtXWaIQ" type="4001" source="_rvLPMLcEEee8W6YHtXWaIQ" target="_tu8HgLcEEee8W6YHtXWaIQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_RqcFg7cFEee8W6YHtXWaIQ" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_RqcFhLcFEee8W6YHtXWaIQ" y="16"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_RqcFhbcFEee8W6YHtXWaIQ" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_RqcFhrcFEee8W6YHtXWaIQ" y="36"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_RqcFgbcFEee8W6YHtXWaIQ" fontName=".AppleSystemUIFont"/>
+    <element xmi:type="henshin:Edge" href="smart_office.henshin#_RqaQULcFEee8W6YHtXWaIQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_RqcFgrcFEee8W6YHtXWaIQ" points="[-4, 1, 133, 0]$[-117, 3, 20, 2]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RqehwLcFEee8W6YHtXWaIQ" id="(0.03076923076923077,0.5853658536585366)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RqehwbcFEee8W6YHtXWaIQ" id="(0.7916666666666666,0.5853658536585366)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_T0xPELcFEee8W6YHtXWaIQ" type="4001" source="_rvLPMLcEEee8W6YHtXWaIQ" target="_0iW8ELcEEee8W6YHtXWaIQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_T0xPE7cFEee8W6YHtXWaIQ" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_T0xPFLcFEee8W6YHtXWaIQ" y="15"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_T0xPFbcFEee8W6YHtXWaIQ" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_T0xPFrcFEee8W6YHtXWaIQ" y="35"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_T0xPEbcFEee8W6YHtXWaIQ" fontName=".AppleSystemUIFont"/>
+    <element xmi:type="henshin:Edge" href="smart_office.henshin#_T0wA8LcFEee8W6YHtXWaIQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_T0xPErcFEee8W6YHtXWaIQ" points="[15, 5, -92, 0]$[95, 4, -12, -1]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_T00SYLcFEee8W6YHtXWaIQ" id="(0.8846153846153846,0.4634146341463415)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_T00SYbcFEee8W6YHtXWaIQ" id="(0.10084033613445378,0.4878048780487805)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_du6ukLcGEee8W6YHtXWaIQ" type="4001" source="_T2kJYLcGEee8W6YHtXWaIQ" target="_Lqv-gLcGEee8W6YHtXWaIQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_du6uk7cGEee8W6YHtXWaIQ" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_du6ulLcGEee8W6YHtXWaIQ" y="-9"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_du6ulbcGEee8W6YHtXWaIQ" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_du6ulrcGEee8W6YHtXWaIQ" x="-1" y="9"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_du6ukbcGEee8W6YHtXWaIQ" fontName=".AppleSystemUIFont"/>
+    <element xmi:type="henshin:Edge" href="smart_office.henshin#_du5gcLcGEee8W6YHtXWaIQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_du6ukrcGEee8W6YHtXWaIQ" points="[-17, 3, 67, 0]$[-79, 3, 5, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_du8jwLcGEee8W6YHtXWaIQ" id="(0.2125,0.43902439024390244)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_du8jwbcGEee8W6YHtXWaIQ" id="(0.9615384615384616,0.5121951219512195)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_f5fIsLcGEee8W6YHtXWaIQ" type="4001" source="_T2kJYLcGEee8W6YHtXWaIQ" target="_PgYMQLcGEee8W6YHtXWaIQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_f5fIs7cGEee8W6YHtXWaIQ" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_f5fItLcGEee8W6YHtXWaIQ" x="2" y="8"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_f5fItbcGEee8W6YHtXWaIQ" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_f5fItrcGEee8W6YHtXWaIQ" x="3" y="-7"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_f5fIsbcGEee8W6YHtXWaIQ" fontName=".AppleSystemUIFont"/>
+    <element xmi:type="henshin:Edge" href="smart_office.henshin#_f5dTgLcGEee8W6YHtXWaIQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_f5fIsrcGEee8W6YHtXWaIQ" points="[15, 5, -69, 0]$[73, 5, -11, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_f5iMALcGEee8W6YHtXWaIQ" id="(0.8125,0.4146341463414634)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_f5iMAbcGEee8W6YHtXWaIQ" id="(0.09322033898305085,0.5365853658536586)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sb3rMLcGEee8W6YHtXWaIQ" type="4001" source="_Lqv-gLcGEee8W6YHtXWaIQ" target="_mAaDoLcGEee8W6YHtXWaIQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_sb3rM7cGEee8W6YHtXWaIQ" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sb3rNLcGEee8W6YHtXWaIQ" x="8" y="30"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sb3rNbcGEee8W6YHtXWaIQ" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sb3rNrcGEee8W6YHtXWaIQ" x="5" y="21"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_sb3rMbcGEee8W6YHtXWaIQ" fontName=".AppleSystemUIFont"/>
+    <element xmi:type="henshin:Edge" href="smart_office.henshin#_sb12ALcGEee8W6YHtXWaIQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sb3rMrcGEee8W6YHtXWaIQ" points="[32, 21, -89, -57]$[116, 77, -5, -1]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sb6ugLcGEee8W6YHtXWaIQ" id="(0.05,0.36585365853658536)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_tvbk0LcGEee8W6YHtXWaIQ" type="4001" source="_PgYMQLcGEee8W6YHtXWaIQ" target="_mAaDoLcGEee8W6YHtXWaIQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_tvbk07cGEee8W6YHtXWaIQ" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_tvbk1LcGEee8W6YHtXWaIQ" x="17" y="-21"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_tvbk1bcGEee8W6YHtXWaIQ" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_tvbk1rcGEee8W6YHtXWaIQ" x="5" y="-17"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_tvbk0bcGEee8W6YHtXWaIQ" fontName=".AppleSystemUIFont"/>
+    <element xmi:type="henshin:Edge" href="smart_office.henshin#_tvZvoLcGEee8W6YHtXWaIQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_tvbk0rcGEee8W6YHtXWaIQ" points="[-35, 21, 107, -64]$[-131, 85, 11, 0]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tveBELcGEee8W6YHtXWaIQ" id="(0.89,0.5365853658536586)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_2Ka-sLcHEee8W6YHtXWaIQ" type="4001" source="_iHVq4LcHEee8W6YHtXWaIQ" target="_kGKvELcHEee8W6YHtXWaIQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_2Ka-s7cHEee8W6YHtXWaIQ" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_2Ka-tLcHEee8W6YHtXWaIQ" y="-11"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_2Ka-tbcHEee8W6YHtXWaIQ" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_2Ka-trcHEee8W6YHtXWaIQ" y="9"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_2Ka-sbcHEee8W6YHtXWaIQ" fontName=".AppleSystemUIFont"/>
+    <element xmi:type="henshin:Edge" href="smart_office.henshin#_2KZwkLcHEee8W6YHtXWaIQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2Ka-srcHEee8W6YHtXWaIQ" points="[-5, 7, 108, 0]$[-103, 6, 10, -1]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2Kda8LcHEee8W6YHtXWaIQ" id="(0.04672897196261682,0.34146341463414637)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2Kda8bcHEee8W6YHtXWaIQ" id="(0.8958333333333334,0.4878048780487805)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_2o7foLcHEee8W6YHtXWaIQ" type="4001" source="_iHVq4LcHEee8W6YHtXWaIQ" target="_lUh_oLcHEee8W6YHtXWaIQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_2o8GsLcHEee8W6YHtXWaIQ" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_2o8GsbcHEee8W6YHtXWaIQ" x="5" y="-17"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_2o8GsrcHEee8W6YHtXWaIQ" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_2o8Gs7cHEee8W6YHtXWaIQ" x="2" y="-3"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_2o7fobcHEee8W6YHtXWaIQ" fontName=".AppleSystemUIFont"/>
+    <element xmi:type="henshin:Edge" href="smart_office.henshin#_2o64kLcHEee8W6YHtXWaIQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2o7forcHEee8W6YHtXWaIQ" points="[19, -4, -134, 27]$[130, -38, -23, -7]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2o974LcHEee8W6YHtXWaIQ" id="(0.822429906542056,0.4146341463414634)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2o974bcHEee8W6YHtXWaIQ" id="(0.19327731092436976,0.24390243902439024)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_3AXIMLcHEee8W6YHtXWaIQ" type="4001" source="_iHVq4LcHEee8W6YHtXWaIQ" target="_mC46cLcHEee8W6YHtXWaIQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_3AXIM7cHEee8W6YHtXWaIQ" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_3AXINLcHEee8W6YHtXWaIQ" x="1" y="10"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_3AXINbcHEee8W6YHtXWaIQ" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_3AXINrcHEee8W6YHtXWaIQ" x="3" y="19"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_3AXIMbcHEee8W6YHtXWaIQ" fontName=".AppleSystemUIFont"/>
+    <element xmi:type="henshin:Edge" href="smart_office.henshin#_3AV6ELcHEee8W6YHtXWaIQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3AXIMrcHEee8W6YHtXWaIQ" points="[14, 3, -120, -28]$[125, 31, -9, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3AYWULcHEee8W6YHtXWaIQ" id="(0.8691588785046729,0.43902439024390244)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3AYWUbcHEee8W6YHtXWaIQ" id="(0.07563025210084033,0.5365853658536586)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_MN3LQLcJEee8W6YHtXWaIQ" type="4001" source="__OYdELcIEee8W6YHtXWaIQ" target="_-sxk0LcIEee8W6YHtXWaIQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_MN3LQ7cJEee8W6YHtXWaIQ" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_MN3LRLcJEee8W6YHtXWaIQ" x="-1" y="-8"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_MN3LRbcJEee8W6YHtXWaIQ" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_MN3LRrcJEee8W6YHtXWaIQ" x="-1" y="12"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_MN3LQbcJEee8W6YHtXWaIQ" fontName=".AppleSystemUIFont"/>
+    <element xmi:type="henshin:Edge" href="smart_office.henshin#_MN2kMLcJEee8W6YHtXWaIQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_MN3LQrcJEee8W6YHtXWaIQ" points="[-16, -4, 107, 0]$[-116, -4, 7, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MN5AcLcJEee8W6YHtXWaIQ" id="(0.14953271028037382,0.6829268292682927)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MN5AcbcJEee8W6YHtXWaIQ" id="(0.9270833333333334,0.5365853658536586)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_MtXxwLcJEee8W6YHtXWaIQ" type="4001" source="__OYdELcIEee8W6YHtXWaIQ" target="__oAeALcIEee8W6YHtXWaIQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_MtYY0LcJEee8W6YHtXWaIQ" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_MtYY0bcJEee8W6YHtXWaIQ" x="1" y="-10"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_MtYY0rcJEee8W6YHtXWaIQ" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_MtYY07cJEee8W6YHtXWaIQ" x="1" y="8"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_MtXxwbcJEee8W6YHtXWaIQ" fontName=".AppleSystemUIFont"/>
+    <element xmi:type="henshin:Edge" href="smart_office.henshin#_MtWjoLcJEee8W6YHtXWaIQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_MtXxwrcJEee8W6YHtXWaIQ" points="[19, -6, -88, 24]$[92, -32, -15, -2]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MtZm8LcJEee8W6YHtXWaIQ" id="(0.822429906542056,0.36585365853658536)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MtZm8bcJEee8W6YHtXWaIQ" id="(0.12605042016806722,0.4146341463414634)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_NCoQELcJEee8W6YHtXWaIQ" type="4001" source="__OYdELcIEee8W6YHtXWaIQ" target="_ADBmELcJEee8W6YHtXWaIQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_NCoQE7cJEee8W6YHtXWaIQ" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_NCoQFLcJEee8W6YHtXWaIQ" x="1" y="-6"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_NCoQFbcJEee8W6YHtXWaIQ" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_NCoQFrcJEee8W6YHtXWaIQ" x="1" y="13"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_NCoQEbcJEee8W6YHtXWaIQ" fontName=".AppleSystemUIFont"/>
+    <element xmi:type="henshin:Edge" href="smart_office.henshin#_NCnB8LcJEee8W6YHtXWaIQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_NCoQErcJEee8W6YHtXWaIQ" points="[14, 6, -81, -35]$[88, 41, -7, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NCqFQLcJEee8W6YHtXWaIQ" id="(0.8691588785046729,0.5365853658536586)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NCqFQbcJEee8W6YHtXWaIQ" id="(0.058823529411764705,0.6341463414634146)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_G8kl4LcLEee8W6YHtXWaIQ" type="4001" source="_1pBacLcKEee8W6YHtXWaIQ" target="_3Z2e4LcKEee8W6YHtXWaIQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_G8kl47cLEee8W6YHtXWaIQ" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_G8kl5LcLEee8W6YHtXWaIQ" y="-9"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_G8kl5bcLEee8W6YHtXWaIQ" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_G8kl5rcLEee8W6YHtXWaIQ" y="11"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_G8kl4bcLEee8W6YHtXWaIQ" fontName=".AppleSystemUIFont"/>
+    <element xmi:type="henshin:Edge" href="smart_office.henshin#_G8jXwLcLEee8W6YHtXWaIQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_G8kl4rcLEee8W6YHtXWaIQ" points="[16, 4, -72, 0]$[79, 4, -9, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_G8nCILcLEee8W6YHtXWaIQ" id="(0.8504672897196262,0.4146341463414634)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_G8nCIbcLEee8W6YHtXWaIQ" id="(0.16363636363636364,0.5)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_HTw94LcLEee8W6YHtXWaIQ" type="4001" source="_3Z2e4LcKEee8W6YHtXWaIQ" target="_26b_ALcKEee8W6YHtXWaIQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_HTxk8LcLEee8W6YHtXWaIQ" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_HTxk8bcLEee8W6YHtXWaIQ" y="-9"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_HTxk8rcLEee8W6YHtXWaIQ" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_HTxk87cLEee8W6YHtXWaIQ" y="11"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_HTw94bcLEee8W6YHtXWaIQ" fontName=".AppleSystemUIFont"/>
+    <element xmi:type="henshin:Edge" href="smart_office.henshin#_HTwW0LcLEee8W6YHtXWaIQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_HTw94rcLEee8W6YHtXWaIQ" points="[28, 0, -82, 0]$[106, -1, -4, -1]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HTzaILcLEee8W6YHtXWaIQ" id="(0.09090909090909091,0.45)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_1NmNQLcLEee8W6YHtXWaIQ" type="4001" source="_u4iIoLcLEee8W6YHtXWaIQ" target="_vZYy8LcLEee8W6YHtXWaIQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_1Nm0ULcLEee8W6YHtXWaIQ" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_1Nm0UbcLEee8W6YHtXWaIQ" x="-1" y="-8"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_1Nm0UrcLEee8W6YHtXWaIQ" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_1Nm0U7cLEee8W6YHtXWaIQ" x="-1" y="12"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_1NmNQbcLEee8W6YHtXWaIQ" fontName=".AppleSystemUIFont"/>
+    <element xmi:type="henshin:Edge" href="smart_office.henshin#_1NlmMLcLEee8W6YHtXWaIQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1NmNQrcLEee8W6YHtXWaIQ" points="[-11, 6, 101, 0]$[-99, 6, 13, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1NopgLcLEee8W6YHtXWaIQ" id="(0.102803738317757,0.3902439024390244)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1NopgbcLEee8W6YHtXWaIQ" id="(0.8645833333333334,0.5365853658536586)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_1nq6ILcLEee8W6YHtXWaIQ" type="4001" source="_u4iIoLcLEee8W6YHtXWaIQ" target="_v4lQYLcLEee8W6YHtXWaIQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_1nq6I7cLEee8W6YHtXWaIQ" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_1nq6JLcLEee8W6YHtXWaIQ" y="-12"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_1nq6JbcLEee8W6YHtXWaIQ" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_1nq6JrcLEee8W6YHtXWaIQ" y="8"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_1nq6IbcLEee8W6YHtXWaIQ" fontName=".AppleSystemUIFont"/>
+    <element xmi:type="henshin:Edge" href="smart_office.henshin#_1npsALcLEee8W6YHtXWaIQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1nq6IrcLEee8W6YHtXWaIQ" points="[14, 4, -100, 0]$[97, 4, -17, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1nsIQLcLEee8W6YHtXWaIQ" id="(0.8691588785046729,0.43902439024390244)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1nsIQbcLEee8W6YHtXWaIQ" id="(0.14285714285714285,0.5365853658536586)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_ZsqLULcMEee8W6YHtXWaIQ" type="4001" source="_QpW-0LcMEee8W6YHtXWaIQ" target="_QI4vALcMEee8W6YHtXWaIQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ZsqLU7cMEee8W6YHtXWaIQ" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ZsqLVLcMEee8W6YHtXWaIQ" x="2" y="-9"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ZsqLVbcMEee8W6YHtXWaIQ" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ZsqLVrcMEee8W6YHtXWaIQ" x="2" y="11"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_ZsqLUbcMEee8W6YHtXWaIQ" fontName=".AppleSystemUIFont"/>
+    <element xmi:type="henshin:Edge" href="smart_office.henshin#_Zso9MLcMEee8W6YHtXWaIQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ZsqLUrcMEee8W6YHtXWaIQ" points="[-11, 4, 107, 0]$[-98, 4, 20, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZssAgLcMEee8W6YHtXWaIQ" id="(0.102803738317757,0.4146341463414634)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZssAgbcMEee8W6YHtXWaIQ" id="(0.7916666666666666,0.5121951219512195)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_awNTALcMEee8W6YHtXWaIQ" type="4001" source="_QpW-0LcMEee8W6YHtXWaIQ" target="_RHXJcLcMEee8W6YHtXWaIQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_awN6EbcMEee8W6YHtXWaIQ" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_awN6ErcMEee8W6YHtXWaIQ" x="-2" y="-10"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_awN6E7cMEee8W6YHtXWaIQ" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_awN6FLcMEee8W6YHtXWaIQ" x="-2" y="10"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_awNTAbcMEee8W6YHtXWaIQ" fontName=".AppleSystemUIFont"/>
+    <element xmi:type="henshin:Edge" href="smart_office.henshin#_awMr8LcMEee8W6YHtXWaIQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_awN6ELcMEee8W6YHtXWaIQ" points="[18, 4, -105, 0]$[101, 3, -22, -1]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_awPIMLcMEee8W6YHtXWaIQ" id="(0.8317757009345794,0.3902439024390244)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_awPIMbcMEee8W6YHtXWaIQ" id="(0.18487394957983194,0.4878048780487805)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_GwOroLcOEee8W6YHtXWaIQ" type="4001" source="_xvVrwLcNEee8W6YHtXWaIQ" target="_xNTVsLcNEee8W6YHtXWaIQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_GwPSsLcOEee8W6YHtXWaIQ" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_GwPSsbcOEee8W6YHtXWaIQ" y="-10"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_GwPSsrcOEee8W6YHtXWaIQ" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_GwPSs7cOEee8W6YHtXWaIQ" y="10"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_GwOrobcOEee8W6YHtXWaIQ" fontName=".AppleSystemUIFont"/>
+    <element xmi:type="henshin:Edge" href="smart_office.henshin#_GwOEkLcOEee8W6YHtXWaIQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_GwOrorcOEee8W6YHtXWaIQ" points="[-4, 5, 100, 0]$[-92, 4, 12, -1]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GwQg0LcOEee8W6YHtXWaIQ" id="(0.05,0.36585365853658536)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GwQg0bcOEee8W6YHtXWaIQ" id="(0.9076923076923077,0.4878048780487805)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_HWA5QLcOEee8W6YHtXWaIQ" type="4001" source="_xvVrwLcNEee8W6YHtXWaIQ" target="_yDYpILcNEee8W6YHtXWaIQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_HWBgULcOEee8W6YHtXWaIQ" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_HWBgUbcOEee8W6YHtXWaIQ" y="-11"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_HWBgUrcOEee8W6YHtXWaIQ" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_HWBgU7cOEee8W6YHtXWaIQ" y="9"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_HWA5QbcOEee8W6YHtXWaIQ" fontName=".AppleSystemUIFont"/>
+    <element xmi:type="henshin:Edge" href="smart_office.henshin#_HWASMLcOEee8W6YHtXWaIQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_HWA5QrcOEee8W6YHtXWaIQ" points="[18, 4, -123, 0]$[121, 4, -20, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HWCucLcOEee8W6YHtXWaIQ" id="(0.775,0.4146341463414634)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HWCucbcOEee8W6YHtXWaIQ" id="(0.1694915254237288,0.5121951219512195)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_KffLoLcOEee8W6YHtXWaIQ" type="4001" source="_yDYpILcNEee8W6YHtXWaIQ" target="_1hyCoLcNEee8W6YHtXWaIQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_KffLo7cOEee8W6YHtXWaIQ" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_KffysLcOEee8W6YHtXWaIQ" x="-15" y="-3"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_KffysbcOEee8W6YHtXWaIQ" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_KffysrcOEee8W6YHtXWaIQ" x="-1" y="-2"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_KffLobcOEee8W6YHtXWaIQ" fontName=".AppleSystemUIFont"/>
+    <element xmi:type="henshin:Edge" href="smart_office.henshin#_KfekkLcOEee8W6YHtXWaIQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KffLorcOEee8W6YHtXWaIQ" points="[-3, 21, 7, -52]$[-18, 64, -8, -9]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Kfhn4LcOEee8W6YHtXWaIQ" id="(0.43448275862068964,0.21951219512195122)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_O1Zb8LcOEee8W6YHtXWaIQ" type="4001" source="_xNTVsLcNEee8W6YHtXWaIQ" target="_0iOqILcNEee8W6YHtXWaIQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_O1aDALcOEee8W6YHtXWaIQ" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_O1aDAbcOEee8W6YHtXWaIQ" x="5" y="-10"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_O1aDArcOEee8W6YHtXWaIQ" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_O1aDA7cOEee8W6YHtXWaIQ" x="-5" y="-21"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_O1Zb8bcOEee8W6YHtXWaIQ" fontName=".AppleSystemUIFont"/>
+    <element xmi:type="henshin:Edge" href="smart_office.henshin#_O1YN0LcOEee8W6YHtXWaIQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_O1Zb8rcOEee8W6YHtXWaIQ" points="[34, 21, -98, -58]$[120, 76, -12, -3]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_O1b4MLcOEee8W6YHtXWaIQ" id="(0.21818181818181817,0.425)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_U1nR8LcOEee8W6YHtXWaIQ" type="4001" source="_mAaDoLcGEee8W6YHtXWaIQ" target="_Lqv-gLcGEee8W6YHtXWaIQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_U1nR87cOEee8W6YHtXWaIQ" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_U1nR9LcOEee8W6YHtXWaIQ" x="36" y="-27"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_U1nR9bcOEee8W6YHtXWaIQ" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_U1nR9rcOEee8W6YHtXWaIQ" x="46" y="-19"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_U1nR8bcOEee8W6YHtXWaIQ" fontName=".AppleSystemUIFont"/>
+    <element xmi:type="henshin:Edge" href="smart_office.henshin#_U1mD0LcOEee8W6YHtXWaIQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_U1nR8rcOEee8W6YHtXWaIQ" points="[-24, 8, 116, 96]$[-24, 8, 116, 96]$[-116, -67, 24, 21]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_U1ogELcOEee8W6YHtXWaIQ" id="(0.24,0.6097560975609756)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_agNdQLcOEee8W6YHtXWaIQ" type="4001" source="_mAaDoLcGEee8W6YHtXWaIQ" target="_PgYMQLcGEee8W6YHtXWaIQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_agNdQ7cOEee8W6YHtXWaIQ" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_agNdRLcOEee8W6YHtXWaIQ" x="38" y="17"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_agNdRbcOEee8W6YHtXWaIQ" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_agNdRrcOEee8W6YHtXWaIQ" x="44" y="8"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_agNdQbcOEee8W6YHtXWaIQ" fontName=".AppleSystemUIFont"/>
+    <element xmi:type="henshin:Edge" href="smart_office.henshin#_agMPILcOEee8W6YHtXWaIQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_agNdQrcOEee8W6YHtXWaIQ" points="[18, -10, -127, 66]$[141, -67, -4, 9]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_agPScLcOEee8W6YHtXWaIQ" id="(0.82,0.6097560975609756)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_agPScbcOEee8W6YHtXWaIQ" id="(0.4661016949152542,0.7804878048780488)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_A298wLcPEee8W6YHtXWaIQ" type="4001" source="_0iOqILcNEee8W6YHtXWaIQ" target="_xNTVsLcNEee8W6YHtXWaIQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_A2-j0LcPEee8W6YHtXWaIQ" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_A2-j0bcPEee8W6YHtXWaIQ" x="-18" y="-22"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_A2-j0rcPEee8W6YHtXWaIQ" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_A2-j07cPEee8W6YHtXWaIQ" x="-15" y="-10"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_A298wbcPEee8W6YHtXWaIQ" fontName=".AppleSystemUIFont"/>
+    <element xmi:type="henshin:Edge" href="smart_office.henshin#_A28HkLcPEee8W6YHtXWaIQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_A298wrcPEee8W6YHtXWaIQ" points="[-8, -5, 112, 70]$[-115, -67, 5, 8]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_A3BAELcPEee8W6YHtXWaIQ" id="(0.14545454545454545,0.65)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_A3BAEbcPEee8W6YHtXWaIQ" id="(0.5615384615384615,0.8048780487804879)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_BZDWILcPEee8W6YHtXWaIQ" type="4001" source="_0iOqILcNEee8W6YHtXWaIQ" target="_yDYpILcNEee8W6YHtXWaIQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_BZDWI7cPEee8W6YHtXWaIQ" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_BZDWJLcPEee8W6YHtXWaIQ" x="-34" y="-2"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_BZDWJbcPEee8W6YHtXWaIQ" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_BZDWJrcPEee8W6YHtXWaIQ" x="-34" y="-15"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_BZDWIbcPEee8W6YHtXWaIQ" fontName=".AppleSystemUIFont"/>
+    <element xmi:type="henshin:Edge" href="smart_office.henshin#_BZCIALcPEee8W6YHtXWaIQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_BZDWIrcPEee8W6YHtXWaIQ" points="[15, -5, -173, 52]$[176, -55, -12, 2]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_BZFLULcPEee8W6YHtXWaIQ" id="(0.7272727272727273,0.125)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_BZFLUbcPEee8W6YHtXWaIQ" id="(0.1016949152542373,0.7317073170731707)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_CJwaULcPEee8W6YHtXWaIQ" type="4001" source="_yDYpILcNEee8W6YHtXWaIQ" target="_0iOqILcNEee8W6YHtXWaIQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_CJwaU7cPEee8W6YHtXWaIQ" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_CJwaVLcPEee8W6YHtXWaIQ" x="-43" y="-24"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_CJwaVbcPEee8W6YHtXWaIQ" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_CJwaVrcPEee8W6YHtXWaIQ" x="-44" y="-11"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_CJwaUbcPEee8W6YHtXWaIQ" fontName=".AppleSystemUIFont"/>
+    <element xmi:type="henshin:Edge" href="smart_office.henshin#_CJvzQLcPEee8W6YHtXWaIQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_CJwaUrcPEee8W6YHtXWaIQ" points="[-56, 21, 173, -64]$[-220, 86, 9, 1]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CJxocLcPEee8W6YHtXWaIQ" id="(0.8363636363636363,0.575)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_B8v1cL7YEeelAPHAkymOlA" type="4001" source="_1pBacLcKEee8W6YHtXWaIQ" target="__sbYoL7XEeelAPHAkymOlA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_B8xDkL7YEeelAPHAkymOlA" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_B8xDkb7YEeelAPHAkymOlA" y="13"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_B8xDkr7YEeelAPHAkymOlA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_B8xDk77YEeelAPHAkymOlA" y="-14"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_B8v1cb7YEeelAPHAkymOlA" fontName=".AppleSystemUIFont"/>
+    <element xmi:type="henshin:Edge" href="smart_office.henshin#_B8tZML7YEeelAPHAkymOlA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_B8v1cr7YEeelAPHAkymOlA" points="[-22, -2, 81, 0]$[-81, -3, 22, -1]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_B80t8L7YEeelAPHAkymOlA" id="(0.205607476635514,0.5609756097560976)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_B80t8b7YEeelAPHAkymOlA" id="(0.78,0.4878048780487805)"/>
+  </edges>
+</notation:Diagram>

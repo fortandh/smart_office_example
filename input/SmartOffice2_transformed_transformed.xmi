@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="ASCII"?>
+<smart_office:SmartOffice xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:smart_office="http://momot.big.tuwien.ac.at/smart_office/2.0" xsi:schemaLocation="http://momot.big.tuwien.ac.at/smart_office/2.0 ../metamodel/smart_office.ecore">
+  <clazz xsi:type="smart_office:Room" name="reception" door="//@clazz.7 //@clazz.8" heater="//@clazz.1" light="//@clazz.2" roomba="//@clazz.10" agent="//@clazz.6 //@clazz.9" brightness="//@clazz.3" cleanness="//@clazz.5" temperature="//@clazz.4"/>
+  <clazz xsi:type="smart_office:Heater" name="heater_reception" on="true" room="//@clazz.0"/>
+  <clazz xsi:type="smart_office:Light" name="light_reception" on="true" room="//@clazz.0"/>
+  <clazz xsi:type="smart_office:Brightness" name="brightness_reception" value="high"/>
+  <clazz xsi:type="smart_office:Temperature" name="temperature_reception" value="high"/>
+  <clazz xsi:type="smart_office:Cleanness" name="cleanness_reception" value="dirty"/>
+  <clazz xsi:type="smart_office:Agent" name="tom" room="//@clazz.0"/>
+  <clazz xsi:type="smart_office:Door" name="d4" room="//@clazz.0 //@clazz.17"/>
+  <clazz xsi:type="smart_office:Door" name="d1" room="//@clazz.0 //@clazz.11"/>
+  <clazz xsi:type="smart_office:Agent" name="tom" room="//@clazz.0"/>
+  <clazz xsi:type="smart_office:Roomba" name="roomba_1" room="//@clazz.0"/>
+  <clazz xsi:type="smart_office:Room" name="corridor" door="//@clazz.8 //@clazz.12 //@clazz.13" light="//@clazz.14" brightness="//@clazz.15" cleanness="//@clazz.16"/>
+  <clazz xsi:type="smart_office:Door" name="d2" room="//@clazz.11 //@clazz.39"/>
+  <clazz xsi:type="smart_office:Door" name="d3" room="//@clazz.11 //@clazz.33"/>
+  <clazz xsi:type="smart_office:Light" name="light_corridor" on="true" room="//@clazz.11"/>
+  <clazz xsi:type="smart_office:Brightness" name="brightness_corridor" value="high"/>
+  <clazz xsi:type="smart_office:Cleanness" name="cleanness_corridor" value="dirty"/>
+  <clazz xsi:type="smart_office:Room" name="office1" door="//@clazz.7 //@clazz.18" window="//@clazz.23" heater="//@clazz.20" light="//@clazz.19" brightness="//@clazz.21" cleanness="//@clazz.24" temperature="//@clazz.22"/>
+  <clazz xsi:type="smart_office:Door" name="d5" room="//@clazz.17 //@clazz.59"/>
+  <clazz xsi:type="smart_office:Light" name="light_office1" on="true" room="//@clazz.17"/>
+  <clazz xsi:type="smart_office:Heater" name="heater_office1" room="//@clazz.17"/>
+  <clazz xsi:type="smart_office:Brightness" name="brightness_office1" value="high"/>
+  <clazz xsi:type="smart_office:Temperature" name="temperature_office1" value="low"/>
+  <clazz xsi:type="smart_office:Window" name="window_office1" on="true" room="//@clazz.17"/>
+  <clazz xsi:type="smart_office:Cleanness" name="cleanness_office1" value="dirty"/>
+  <clazz xsi:type="smart_office:Agent" name="mary" room="//@clazz.65"/>
+  <clazz xsi:type="smart_office:Room" name="prtroom" door="//@clazz.27 //@clazz.28" agent="//@clazz.32" printer="//@clazz.29" cleanness="//@clazz.31"/>
+  <clazz xsi:type="smart_office:Door" name="d6" room="//@clazz.26 //@clazz.33"/>
+  <clazz xsi:type="smart_office:Door" name="d7" room="//@clazz.26 //@clazz.53"/>
+  <clazz xsi:type="smart_office:Printer" name="printer_prtroom" asset="//@clazz.30" room="//@clazz.26"/>
+  <clazz xsi:type="smart_office:Asset" name="asset_printer_prtroom"/>
+  <clazz xsi:type="smart_office:Cleanness" name="cleanness_prtroom" value="dirty"/>
+  <clazz xsi:type="smart_office:Agent" name="rick" room="//@clazz.26"/>
+  <clazz xsi:type="smart_office:Room" name="meeting" door="//@clazz.13 //@clazz.27 //@clazz.34" window="//@clazz.37" heater="//@clazz.35" cleanness="//@clazz.38" temperature="//@clazz.36"/>
+  <clazz xsi:type="smart_office:Door" name="d8" room="//@clazz.33 //@clazz.39"/>
+  <clazz xsi:type="smart_office:Heater" name="heater_meeting" on="true" room="//@clazz.33"/>
+  <clazz xsi:type="smart_office:Temperature" name="temperature_meeting" value="high"/>
+  <clazz xsi:type="smart_office:Window" name="window_meeting" on="true" room="//@clazz.33"/>
+  <clazz xsi:type="smart_office:Cleanness" name="cleanness_meeting" value="dirty"/>
+  <clazz xsi:type="smart_office:Room" name="office3" door="//@clazz.12 //@clazz.34 //@clazz.40" window="//@clazz.43" light="//@clazz.41" agent="//@clazz.46" brightness="//@clazz.42" cleanness="//@clazz.45" temperature="//@clazz.36"/>
+  <clazz xsi:type="smart_office:Door" name="d10" room="//@clazz.39 //@clazz.47"/>
+  <clazz xsi:type="smart_office:Light" name="light_office3" on="true" room="//@clazz.39"/>
+  <clazz xsi:type="smart_office:Brightness" name="brightness_office3" value="high"/>
+  <clazz xsi:type="smart_office:Window" name="window_office3" on="true" room="//@clazz.39"/>
+  <clazz xsi:type="smart_office:Temperature" name="temperature_office3" value="low"/>
+  <clazz xsi:type="smart_office:Cleanness" name="cleanness_office3" value="dirty"/>
+  <clazz xsi:type="smart_office:Agent" name="lucia" room="//@clazz.39"/>
+  <clazz xsi:type="smart_office:Room" name="manager" door="//@clazz.40 //@clazz.48" light="//@clazz.49" brightness="//@clazz.50" cleanness="//@clazz.51"/>
+  <clazz xsi:type="smart_office:Door" name="d9" room="//@clazz.47 //@clazz.65"/>
+  <clazz xsi:type="smart_office:Light" name="light_manager" on="true" room="//@clazz.47"/>
+  <clazz xsi:type="smart_office:Brightness" name="brightness_manager" value="high"/>
+  <clazz xsi:type="smart_office:Cleanness" name="cleanness_manager" value="dirty"/>
+  <clazz xsi:type="smart_office:Secretary" name="carman" room="//@clazz.65"/>
+  <clazz xsi:type="smart_office:Room" name="office2" door="//@clazz.28" heater="//@clazz.55" light="//@clazz.54" brightness="//@clazz.56" cleanness="//@clazz.58" temperature="//@clazz.57"/>
+  <clazz xsi:type="smart_office:Light" name="light_office2" on="true" room="//@clazz.53"/>
+  <clazz xsi:type="smart_office:Heater" name="heater_office2" on="true" room="//@clazz.53"/>
+  <clazz xsi:type="smart_office:Brightness" name="brightness_office2" value="high"/>
+  <clazz xsi:type="smart_office:Temperature" name="temperature_office2" value="high"/>
+  <clazz xsi:type="smart_office:Cleanness" name="cleanness_office2" value="dirty"/>
+  <clazz xsi:type="smart_office:Room" name="server" door="//@clazz.18" light="//@clazz.60" roomba="//@clazz.64" server="//@clazz.63" brightness="//@clazz.61" cleanness="//@clazz.62"/>
+  <clazz xsi:type="smart_office:Light" name="light_server" on="true" room="//@clazz.59"/>
+  <clazz xsi:type="smart_office:Brightness" name="brightness_server" value="high"/>
+  <clazz xsi:type="smart_office:Cleanness" name="cleanness_server" value="dirty"/>
+  <clazz xsi:type="smart_office:Server" name="server_1" room="//@clazz.59"/>
+  <clazz xsi:type="smart_office:Roomba" name="roomba_2" room="//@clazz.59"/>
+  <clazz xsi:type="smart_office:Room" name="kitchen" door="//@clazz.48" secretary="//@clazz.52" agent="//@clazz.25" printer="//@clazz.66" cleanness="//@clazz.68"/>
+  <clazz xsi:type="smart_office:Printer" name="printer_kitchen" room="//@clazz.65"/>
+  <clazz xsi:type="smart_office:Asset" name="asset_printer_kitchen"/>
+  <clazz xsi:type="smart_office:Cleanness" name="cleanness_kitchen" value="dirty"/>
+</smart_office:SmartOffice>

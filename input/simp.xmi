@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<smart_office:SmartOffice
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:smart_office="http://momot.big.tuwien.ac.at/smart_office/2.0"
+    xsi:schemaLocation="http://momot.big.tuwien.ac.at/smart_office/2.0 ../metamodel/smart_office.ecore">
+  <clazz xsi:type="smart_office:Room"
+      name="a"
+      door="//@clazz.4"
+      roomba="//@clazz.1"/>
+  <clazz xsi:type="smart_office:Roomba"
+      name="roomba"
+      room="//@clazz.0"/>
+  <clazz xsi:type="smart_office:Room"
+      name="b"
+      door="//@clazz.4"
+      cleanness="//@clazz.3"/>
+  <clazz xsi:type="smart_office:Cleanness"
+      name="cb"
+      value="dirty"/>
+  <clazz xsi:type="smart_office:Door"
+      name="d"
+      room="//@clazz.0 //@clazz.2"/>
+</smart_office:SmartOffice>

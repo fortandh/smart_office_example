@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/smart_office_2/src" modelPluginID="smart_office_2"
+    modelName="Smart_office" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="8.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>smart_office.ecore</foreignModel>
+  <genPackages prefix="Smart_office" disposableProviderFactory="true" ecorePackage="smart_office.ecore#/">
+    <genClasses ecoreClass="smart_office.ecore#//SmartOffice">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference smart_office.ecore#//SmartOffice/clazz"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="smart_office.ecore#//Clazz">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute smart_office.ecore#//Clazz/name"/>
+    </genClasses>
+    <genClasses ecoreClass="smart_office.ecore#//Room">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smart_office.ecore#//Room/door"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smart_office.ecore#//Room/window"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smart_office.ecore#//Room/heater"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smart_office.ecore#//Room/light"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smart_office.ecore#//Room/roomba"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smart_office.ecore#//Room/secretary"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smart_office.ecore#//Room/agent"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smart_office.ecore#//Room/printer"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smart_office.ecore#//Room/server"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smart_office.ecore#//Room/brightness"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smart_office.ecore#//Room/cleanness"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smart_office.ecore#//Room/temperature"/>
+    </genClasses>
+    <genClasses ecoreClass="smart_office.ecore#//Door">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smart_office.ecore#//Door/room"/>
+    </genClasses>
+    <genClasses ecoreClass="smart_office.ecore#//Agent">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smart_office.ecore#//Agent/room"/>
+    </genClasses>
+    <genClasses ecoreClass="smart_office.ecore#//Heater">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute smart_office.ecore#//Heater/on"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smart_office.ecore#//Heater/room"/>
+    </genClasses>
+    <genClasses ecoreClass="smart_office.ecore#//Window">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute smart_office.ecore#//Window/on"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smart_office.ecore#//Window/room"/>
+    </genClasses>
+    <genClasses ecoreClass="smart_office.ecore#//Light">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute smart_office.ecore#//Light/on"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smart_office.ecore#//Light/room"/>
+    </genClasses>
+    <genClasses ecoreClass="smart_office.ecore#//Secretary">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smart_office.ecore#//Secretary/room"/>
+    </genClasses>
+    <genClasses ecoreClass="smart_office.ecore#//Roomba">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smart_office.ecore#//Roomba/room"/>
+    </genClasses>
+    <genClasses ecoreClass="smart_office.ecore#//Brightness">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute smart_office.ecore#//Brightness/value"/>
+    </genClasses>
+    <genClasses ecoreClass="smart_office.ecore#//Temperature">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute smart_office.ecore#//Temperature/value"/>
+    </genClasses>
+    <genClasses ecoreClass="smart_office.ecore#//Cleanness">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute smart_office.ecore#//Cleanness/value"/>
+    </genClasses>
+    <genClasses ecoreClass="smart_office.ecore#//Printer">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smart_office.ecore#//Printer/asset"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smart_office.ecore#//Printer/room"/>
+    </genClasses>
+    <genClasses ecoreClass="smart_office.ecore#//Asset"/>
+    <genClasses ecoreClass="smart_office.ecore#//Server">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference smart_office.ecore#//Server/room"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

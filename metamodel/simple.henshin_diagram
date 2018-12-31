@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_VvcUgQEeEeijMNUg2RDTKw" type="Henshin" name="simple.henshin_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_AW8QcAEfEeiuI8VjzrWZcg" type="2001" fontName="Microsoft YaHei UI" italic="true" lineColor="0">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CzOssAEfEeiuI8VjzrWZcg" source="defaultAction">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CzOssQEfEeiuI8VjzrWZcg" key="value" value="preserve"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_AXBI8AEfEeiuI8VjzrWZcg" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_AXBwAAEfEeiuI8VjzrWZcg" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_CzSXEAEfEeiuI8VjzrWZcg" type="3001" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_CzS-IAEfEeiuI8VjzrWZcg" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_CzS-IQEfEeiuI8VjzrWZcg" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_CzWBcAEfEeiuI8VjzrWZcg" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_IrQQAAEfEeiuI8VjzrWZcg" type="3002">
+            <element xmi:type="henshin:Attribute" href="simple.henshin#_IrNzwAEfEeiuI8VjzrWZcg"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_IrQQAQEfEeiuI8VjzrWZcg"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_CzWBcQEfEeiuI8VjzrWZcg"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_CzWBcgEfEeiuI8VjzrWZcg"/>
+        </children>
+        <element xmi:type="henshin:Node" href="simple.henshin#_Cy25QAEfEeiuI8VjzrWZcg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CzSXEQEfEeiuI8VjzrWZcg" x="45" y="43"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_RdSGUAEfEeiuI8VjzrWZcg" type="3001" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_RdSGUgEfEeiuI8VjzrWZcg" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_RdSGUwEfEeiuI8VjzrWZcg" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_RdSGVAEfEeiuI8VjzrWZcg" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_AcPxwAEgEeiuI8VjzrWZcg" type="3002">
+            <element xmi:type="henshin:Attribute" href="simple.henshin#_AcPKsAEgEeiuI8VjzrWZcg"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_AcPxwQEgEeiuI8VjzrWZcg"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_RdSGVQEfEeiuI8VjzrWZcg"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_RdSGVgEfEeiuI8VjzrWZcg"/>
+        </children>
+        <element xmi:type="henshin:Node" href="simple.henshin#_RdPqEAEfEeiuI8VjzrWZcg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RdSGUQEfEeiuI8VjzrWZcg" x="495" y="43"/>
+      </children>
+    </children>
+    <element xmi:type="henshin:Rule" href="simple.henshin#_AWdIQAEfEeiuI8VjzrWZcg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AW8QcQEfEeiuI8VjzrWZcg" x="198" y="93" width="834" height="205"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_Rjip4AEgEeiuI8VjzrWZcg" type="2001" fontName="Microsoft YaHei UI" italic="true" lineColor="0">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Rjip4QEgEeiuI8VjzrWZcg" source="defaultAction">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Rjip4gEgEeiuI8VjzrWZcg" key="value" value="preserve"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Rjip4wEgEeiuI8VjzrWZcg" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Rjip5AEgEeiuI8VjzrWZcg" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_Rjip5QEgEeiuI8VjzrWZcg" type="3001" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_Rjip5gEgEeiuI8VjzrWZcg" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_Rjip5wEgEeiuI8VjzrWZcg" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_Rjip6AEgEeiuI8VjzrWZcg" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_Rjip6QEgEeiuI8VjzrWZcg" type="3002">
+            <element xmi:type="henshin:Attribute" href="simple.henshin#_RjkfFAEgEeiuI8VjzrWZcg"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Rjip6gEgEeiuI8VjzrWZcg"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_Rjip6wEgEeiuI8VjzrWZcg"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_Rjip7AEgEeiuI8VjzrWZcg"/>
+        </children>
+        <element xmi:type="henshin:Node" href="simple.henshin#_RjkfEwEgEeiuI8VjzrWZcg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Rjip7QEgEeiuI8VjzrWZcg" x="34" y="43"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_Rjip7gEgEeiuI8VjzrWZcg" type="3001" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_Rjip7wEgEeiuI8VjzrWZcg" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_Rjip8AEgEeiuI8VjzrWZcg" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_Rjip8QEgEeiuI8VjzrWZcg" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_Rjip8gEgEeiuI8VjzrWZcg" type="3002">
+            <element xmi:type="henshin:Attribute" href="simple.henshin#_RjkfFgEgEeiuI8VjzrWZcg"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Rjip8wEgEeiuI8VjzrWZcg"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_Rjip9AEgEeiuI8VjzrWZcg"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_Rjip9QEgEeiuI8VjzrWZcg"/>
+        </children>
+        <element xmi:type="henshin:Node" href="simple.henshin#_RjkfFQEgEeiuI8VjzrWZcg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Rjip9gEgEeiuI8VjzrWZcg" x="319" y="43"/>
+      </children>
+    </children>
+    <element xmi:type="henshin:Rule" href="simple.henshin#_RjkfEAEgEeiuI8VjzrWZcg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Rjip9wEgEeiuI8VjzrWZcg" x="157" y="345" width="531" height="180"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_VvcUggEeEeijMNUg2RDTKw"/>
+  <element xmi:type="henshin:Module" href="simple.henshin#_VvcUgAEeEeijMNUg2RDTKw"/>
+  <edges xmi:type="notation:Connector" xmi:id="_RjveMAEgEeiuI8VjzrWZcg" type="4001" source="_RdSGUAEfEeiuI8VjzrWZcg" target="_CzSXEAEfEeiuI8VjzrWZcg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_RjveMwEgEeiuI8VjzrWZcg" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_RjveNAEgEeiuI8VjzrWZcg" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_RjveNQEgEeiuI8VjzrWZcg" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_RjveNgEgEeiuI8VjzrWZcg" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_RjveMQEgEeiuI8VjzrWZcg" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="henshin:Edge" href="simple.henshin#_agZFkAEfEeiuI8VjzrWZcg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_RjveMgEgEeiuI8VjzrWZcg" points="[-143, 0, 334, 0]$[-361, 0, 116, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_RjwFQAEgEeiuI8VjzrWZcg" type="4001" source="_Rjip7gEgEeiuI8VjzrWZcg" target="_Rjip5QEgEeiuI8VjzrWZcg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_RjwsUgEgEeiuI8VjzrWZcg" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_RjwsUwEgEeiuI8VjzrWZcg" y="19"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_RjwsVAEgEeiuI8VjzrWZcg" visible="false" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_RjwsVQEgEeiuI8VjzrWZcg" y="39"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_RjwsUAEgEeiuI8VjzrWZcg" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="henshin:Edge" href="simple.henshin#_RjkfFwEgEeiuI8VjzrWZcg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_RjwsUQEgEeiuI8VjzrWZcg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+</notation:Diagram>

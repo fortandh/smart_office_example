@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_VvcUgAEeEeijMNUg2RDTKw">
+  <imports href="simple.ecore#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_AWdIQAEfEeiuI8VjzrWZcg" name="turnOnLight">
+    <parameters xmi:id="_B3kVsAEfEeiuI8VjzrWZcg" name="room">
+      <type xsi:type="ecore:EClass" href="simple.ecore#//Room"/>
+    </parameters>
+    <lhs xmi:id="_AYyDgAEfEeiuI8VjzrWZcg" name="Lhs">
+      <nodes xmi:id="_Cy25QAEfEeiuI8VjzrWZcg" name="light" incoming="_agZFkAEfEeiuI8VjzrWZcg">
+        <type href="simple.ecore#//Light"/>
+        <attributes xmi:id="_IrNzwAEfEeiuI8VjzrWZcg" value="LightState.off">
+          <type href="simple.ecore#//Light/state"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_RdPqEAEfEeiuI8VjzrWZcg" name="room" outgoing="_agZFkAEfEeiuI8VjzrWZcg">
+        <type href="simple.ecore#//Room"/>
+        <attributes xmi:id="_AcPKsAEgEeiuI8VjzrWZcg" value="Brightness.low">
+          <type href="simple.ecore#//Room/brightness"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_agZFkAEfEeiuI8VjzrWZcg" source="_RdPqEAEfEeiuI8VjzrWZcg" target="_Cy25QAEfEeiuI8VjzrWZcg">
+        <type href="simple.ecore#//Room/device"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_AYyqkAEfEeiuI8VjzrWZcg" name="Rhs">
+      <nodes xmi:id="_Cy25QQEfEeiuI8VjzrWZcg" name="light" incoming="_agZFkQEfEeiuI8VjzrWZcg">
+        <type href="simple.ecore#//Light"/>
+        <attributes xmi:id="_IrOa0AEfEeiuI8VjzrWZcg" value="LightState.on">
+          <type href="simple.ecore#//Light/state"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_RdPqEQEfEeiuI8VjzrWZcg" name="room" outgoing="_agZFkQEfEeiuI8VjzrWZcg">
+        <type href="simple.ecore#//Room"/>
+        <attributes xmi:id="_AcPKsQEgEeiuI8VjzrWZcg" value="Brightness.high">
+          <type href="simple.ecore#//Room/brightness"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_agZFkQEfEeiuI8VjzrWZcg" source="_RdPqEQEfEeiuI8VjzrWZcg" target="_Cy25QQEfEeiuI8VjzrWZcg">
+        <type href="simple.ecore#//Room/device"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_CzMQcAEfEeiuI8VjzrWZcg" origin="_Cy25QAEfEeiuI8VjzrWZcg" image="_Cy25QQEfEeiuI8VjzrWZcg"/>
+    <mappings xmi:id="_RdPqEgEfEeiuI8VjzrWZcg" origin="_RdPqEAEfEeiuI8VjzrWZcg" image="_RdPqEQEfEeiuI8VjzrWZcg"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_RjkfEAEgEeiuI8VjzrWZcg" name="Copy_1_turnOnLight">
+    <parameters xmi:id="_RjkfEQEgEeiuI8VjzrWZcg" name="room">
+      <type xsi:type="ecore:EClass" href="simple.ecore#//Room"/>
+    </parameters>
+    <lhs xmi:id="_RjkfEgEgEeiuI8VjzrWZcg" name="Lhs">
+      <nodes xmi:id="_RjkfEwEgEeiuI8VjzrWZcg" name="light" incoming="_RjkfFwEgEeiuI8VjzrWZcg">
+        <type href="simple.ecore#//Light"/>
+        <attributes xmi:id="_RjkfFAEgEeiuI8VjzrWZcg" value="LightState.on">
+          <type href="simple.ecore#//Light/state"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_RjkfFQEgEeiuI8VjzrWZcg" name="room" outgoing="_RjkfFwEgEeiuI8VjzrWZcg">
+        <type href="simple.ecore#//Room"/>
+        <attributes xmi:id="_RjkfFgEgEeiuI8VjzrWZcg" value="Brightness.high">
+          <type href="simple.ecore#//Room/brightness"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_RjkfFwEgEeiuI8VjzrWZcg" source="_RjkfFQEgEeiuI8VjzrWZcg" target="_RjkfEwEgEeiuI8VjzrWZcg">
+        <type href="simple.ecore#//Room/device"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_RjkfGAEgEeiuI8VjzrWZcg" name="Rhs">
+      <nodes xmi:id="_RjkfGQEgEeiuI8VjzrWZcg" name="light" incoming="_RjkfHQEgEeiuI8VjzrWZcg">
+        <type href="simple.ecore#//Light"/>
+        <attributes xmi:id="_RjkfGgEgEeiuI8VjzrWZcg" value="LightState.on">
+          <type href="simple.ecore#//Light/state"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_RjkfGwEgEeiuI8VjzrWZcg" name="room" outgoing="_RjkfHQEgEeiuI8VjzrWZcg">
+        <type href="simple.ecore#//Room"/>
+        <attributes xmi:id="_RjkfHAEgEeiuI8VjzrWZcg" value="Brightness.high">
+          <type href="simple.ecore#//Room/brightness"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_RjkfHQEgEeiuI8VjzrWZcg" source="_RjkfGwEgEeiuI8VjzrWZcg" target="_RjkfGQEgEeiuI8VjzrWZcg">
+        <type href="simple.ecore#//Room/device"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_RjkfHgEgEeiuI8VjzrWZcg" origin="_RjkfEwEgEeiuI8VjzrWZcg" image="_RjkfGQEgEeiuI8VjzrWZcg"/>
+    <mappings xmi:id="_RjkfHwEgEeiuI8VjzrWZcg" origin="_RjkfFQEgEeiuI8VjzrWZcg" image="_RjkfGwEgEeiuI8VjzrWZcg"/>
+  </units>
+</henshin:Module>
