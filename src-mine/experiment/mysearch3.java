@@ -39,8 +39,10 @@ import java.util.List;
 
 import org.eclipse.emf.common.util.URI;
 import org.eclipse.emf.ecore.EObject;
+import org.eclipse.emf.henshin.interpreter.ApplicationMonitor;
 import org.eclipse.emf.henshin.interpreter.EGraph;
 import org.moeaframework.algorithm.NSGAII;
+import org.moeaframework.analysis.collector.Collector;
 import org.moeaframework.core.Algorithm;
 import org.moeaframework.core.Population;
 import org.moeaframework.core.Solution;
@@ -85,7 +87,8 @@ public class mysearch3 {
 		  final String initialGraph, 
 		  final int solutionLength, 
 		  final int populationSize,
-		  final String algorithmName) {
+		  final String algorithmName
+		  ) {
     TransformationSearchOrchestration orchestration = new TransformationSearchOrchestration();
     ModuleManager moduleManager = createModuleManager();
     EGraph graph = createInputGraph(initialGraph, moduleManager);
@@ -125,21 +128,6 @@ public class mysearch3 {
     	algorithmName.equals("RandomDescent") ? 
             local.createRandomDescent(new MutationNeighborhoodFunction(new TransformationVariableMutation(orchestration.getSearchHelper(), 1), populationSize),
             		new AggregatedFitnessComparator<TransformationSolution>()) :
-        algorithmName.equals("MyHC") ? 
-        		moea.createMyHC(new MutationNeighborhoodFunction(new TransformationVariableMutation(orchestration.getSearchHelper(), 1), 10),
-            		new AggregatedFitnessComparator<TransformationSolution>()) :
-		algorithmName.equals("MyHC2") ? 
-        		moea.createMyHC2(new MutationNeighborhoodFunction(new TransformationVariableMutation(orchestration.getSearchHelper(), 1), 10),
-            		new AggregatedFitnessComparator<TransformationSolution>(), new TournamentSelection(2),
-					new TwoPointCrossover(1.0),
-					new PlaceholderMutation(0.01), 
-					new TransformationVariableMutation(orchestration.getSearchHelper(), 0.09)) :
-		algorithmName.equals("MyHC3") ? 
-        		moea.createMyHC3(new MutationNeighborhoodFunction(new TransformationVariableMutation(orchestration.getSearchHelper(), 1), solutionLength * 10),
-            		new AggregatedFitnessComparator<TransformationSolution>(), new TournamentSelection(2),
-					new TwoPointCrossover(1.0),
-					new PlaceholderMutation(0.01), 
-					new TransformationVariableMutation(orchestration.getSearchHelper(), 0.09)) :
 			moea.createRandomSearch();
     orchestration.addAlgorithm(algorithm);
     
@@ -148,8 +136,8 @@ public class mysearch3 {
   
   protected SearchExperiment<TransformationSolution> createExperiment(
 		  final TransformationSearchOrchestration orchestration,
-		  final int maxEvaluations, final int maxPatternMatchings) {
-    SearchExperiment<TransformationSolution> experiment = new SearchExperiment<TransformationSolution>(orchestration, maxEvaluations, maxPatternMatchings);
+		  final int maxEvaluations) {
+    SearchExperiment<TransformationSolution> experiment = new SearchExperiment<TransformationSolution>(orchestration, maxEvaluations);
     experiment.setNumberOfRuns(1);
     return experiment;
   }
@@ -188,12 +176,12 @@ public class mysearch3 {
 		  final int solutionLength, 
 		  final int populationSize,
 		  final int maxEvaluations,
-		  final int maxPatternMatchings,
 		  final String algorithName
 		  ) {
 	  TransformationSearchOrchestration orchestration = createOrchestration(initialGraph, solutionLength, populationSize, algorithName);
 	  deriveBaseName(orchestration);
-	  SearchExperiment<TransformationSolution> experiment = createExperiment(orchestration, maxEvaluations, maxPatternMatchings);
+	  SearchExperiment<TransformationSolution> experiment = createExperiment(orchestration, maxEvaluations);
+	  experiment.addProgressListener(new CollectiveProgressListener());
 	  final long st = System.currentTimeMillis();
 	  experiment.run();
 	  System.out.println(solutionLength + " Total cost: " + (double) (System.currentTimeMillis() - st) / (double) 1000);
@@ -238,13 +226,13 @@ public class mysearch3 {
 					  String conf = (propagation ? "p_" : "np_") + level;
 					  System.out.println("start for conf " + conf);
 					  try {
-						  File file = new File(input + "/results/" + conf + "/" + i + ".csv");
+						  File file = new File(input + "/results6/" + conf + "/" + i + ".csv");
 						  file.getParentFile().mkdirs();
 						  MySearchContext.fw = new FileWriter(file, false);
 						  MySearchContext.init(propagation, propagationRate, level, goal);
 						  initialization();
 						  mysearch3 search = new mysearch3();
-						  search.performSearch(model, eb, population, 10 * pb, pb, algoName);
+						  search.performSearch(model, eb, population, pb / eb, algoName);
 						  finalization();
 						  MySearchContext.fw.close();
 					  } catch (IOException e) {

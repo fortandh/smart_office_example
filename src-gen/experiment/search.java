@@ -25,6 +25,7 @@ import java.util.Arrays;
 import org.eclipse.emf.common.util.URI;
 import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.henshin.interpreter.EGraph;
+import org.moeaframework.algorithm.NSGAII;
 import org.moeaframework.core.Population;
 import org.moeaframework.util.progress.ProgressListener;
 import smart_office.Smart_officePackage;
@@ -71,8 +72,8 @@ public class search {
     return function;
   }
   
-  protected IRegisteredAlgorithm<MyNSGAII> _createRegisteredAlgorithm_0(final TransformationSearchOrchestration orchestration, final EvolutionaryAlgorithmFactory<TransformationSolution> moea, final LocalSearchAlgorithmFactory<TransformationSolution> local) {
-    IRegisteredAlgorithm<MyNSGAII> _createNSGAIII = moea.createNSGAIII();
+  protected IRegisteredAlgorithm<NSGAII> _createRegisteredAlgorithm_0(final TransformationSearchOrchestration orchestration, final EvolutionaryAlgorithmFactory<TransformationSolution> moea, final LocalSearchAlgorithmFactory<TransformationSolution> local) {
+    IRegisteredAlgorithm<NSGAII> _createNSGAIII = moea.createNSGAIII();
     return _createNSGAIII;
   }
   

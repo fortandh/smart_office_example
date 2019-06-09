@@ -6,6 +6,5 @@
 	<classpathentry kind="src" path="src-gen"/>
 	<classpathentry kind="src" path="src-mine"/>
 	<classpathentry kind="lib" path="json-20180813.jar"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/MOEAFramework-2.12"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
