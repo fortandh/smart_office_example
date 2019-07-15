@@ -8,7 +8,6 @@ import at.ac.tuwien.big.moea.print.IPopulationWriter;
 import at.ac.tuwien.big.moea.print.ISolutionWriter;
 import at.ac.tuwien.big.moea.search.algorithm.EvolutionaryAlgorithmFactory;
 import at.ac.tuwien.big.moea.search.algorithm.LocalSearchAlgorithmFactory;
-import at.ac.tuwien.big.moea.search.algorithm.MyNSGAII;
 import at.ac.tuwien.big.moea.search.algorithm.provider.IRegisteredAlgorithm;
 import at.ac.tuwien.big.moea.search.fitness.dimension.IFitnessDimension;
 import at.ac.tuwien.big.momot.ModuleManager;
@@ -32,9 +31,9 @@ import smart_office.Smart_officePackage;
 
 @SuppressWarnings("all")
 public class search {
-  protected final static String INITIAL_MODEL = "input/new_case.xmi";
+  protected static final String INITIAL_MODEL = "input/new_case.xmi";
   
-  protected final static int SOLUTION_LENGTH = 100;
+  protected static final int SOLUTION_LENGTH = 100;
   
   protected final String[] modules = new String[] { "transformations/smart_office.henshin" };
   

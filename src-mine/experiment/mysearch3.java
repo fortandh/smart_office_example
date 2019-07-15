@@ -209,7 +209,7 @@ public class mysearch3 {
 	  int levels[] = {0, 1, 2, 3};
 	  
 	  System.out.println(System.getProperty("user.dir"));
-	  File folder = new File("E:/repos/CPS_experiment/state");
+	  File folder = new File("E:/work");
 	  File[] listOfFiles = folder.listFiles();
 	  for (int i1 = 0; i1 < listOfFiles.length; i1 ++) {
 		  if (! listOfFiles[i1].isDirectory()) continue;
