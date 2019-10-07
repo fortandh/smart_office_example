@@ -72,8 +72,25 @@ public class MySearchContext {
 		currentFitness = MySearchContext.satisfaction(propagation, level);
 	}
 	
-	public static final String my_evaluate(Solution []solutions) {
-		return evaluate(new Population(solutions));
+	public static final double my_evaluate(Solution solution) {
+		double tmp = 0;
+		
+		List<Requirement> reqs = levels.get(0);
+		for(Requirement req : reqs) {
+			IFitnessDimension<TransformationSolution> dimension = makeObjective(req, false);
+			tmp += dimension.doEvaluate(solution);
+		}
+		return tmp;
+	}
+	
+	public static List<IFitnessDimension<TransformationSolution>> getMyEvaluationFunction() {
+		List<Requirement> reqs = levels.get(0);
+		List<IFitnessDimension<TransformationSolution>> dimensions = new ArrayList<>();
+		for(Requirement req : reqs) {
+			IFitnessDimension<TransformationSolution> dimension = makeObjective(req, false);
+			dimensions.add(dimension);
+		}
+		return dimensions;
 	}
 	
 	public static final String evaluate(Population solutions) {
@@ -100,6 +117,7 @@ public class MySearchContext {
 	    List<Requirement> leafReqs = levels.get(3);
 	    List<Double> satisfactions = new ArrayList<>();
 	    List<IFitnessDimension<TransformationSolution>> dimensions = new ArrayList<>();
+	    List<String> res = new ArrayList<>();
 	    
 	    for (Requirement req : leafReqs) {
 	    		IFitnessDimension<TransformationSolution> dimension = makeObjective(req, false);
@@ -113,9 +131,8 @@ public class MySearchContext {
 	    		satisfactions.add(satisfaction);
 	    }
 	    
-	    List<String> res = new ArrayList<>();
 		for (Solution solution : solutions) {
-			List<String> ind = dimensions.stream().map(d -> String.format("%d", (int)(d.doEvaluate(solution)))).collect(Collectors.toList());
+			List<String> ind = dimensions.stream().map(d -> String.format("%.3f", d.doEvaluate(solution))).collect(Collectors.toList());
 			res.add(graphTransformationTimes + "," + String.join(",", ind));
 		}
 

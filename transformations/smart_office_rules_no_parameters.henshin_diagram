@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_KQVD8LXAEemBe4i_Fm_XMQ" type="Henshin" name="smart_office_rules_no_parameters.henshin_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_XW4DcbXAEemBe4i_Fm_XMQ" type="2001" fontName="Microsoft YaHei UI" italic="true" lineColor="0">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XW4DcrXAEemBe4i_Fm_XMQ" source="defaultAction">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XW4Dc7XAEemBe4i_Fm_XMQ" key="value" value="preserve"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_XW4DdLXAEemBe4i_Fm_XMQ" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_XW4DdbXAEemBe4i_Fm_XMQ" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_XW4DdrXAEemBe4i_Fm_XMQ" type="3001" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4Dd7XAEemBe4i_Fm_XMQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4DeLXAEemBe4i_Fm_XMQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4DebXAEemBe4i_Fm_XMQ" type="7002">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_XW4DerXAEemBe4i_Fm_XMQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_XW4De7XAEemBe4i_Fm_XMQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office_rules_no_parameters.henshin#_XW4ExrXAEemBe4i_Fm_XMQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XW4DfLXAEemBe4i_Fm_XMQ" x="375" y="36" width="188" height="80"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_XW4DfbXAEemBe4i_Fm_XMQ" type="3001" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4DfrXAEemBe4i_Fm_XMQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4Df7XAEemBe4i_Fm_XMQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4DgLXAEemBe4i_Fm_XMQ" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_XW4DgbXAEemBe4i_Fm_XMQ" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_office_rules_no_parameters.henshin#_XW4EyLXAEemBe4i_Fm_XMQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_XW4DgrXAEemBe4i_Fm_XMQ"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_XW4Dg7XAEemBe4i_Fm_XMQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_XW4DhLXAEemBe4i_Fm_XMQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office_rules_no_parameters.henshin#_XW4Ex7XAEemBe4i_Fm_XMQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XW4DhbXAEemBe4i_Fm_XMQ" x="753" y="36" width="204" height="80"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_XW4DhrXAEemBe4i_Fm_XMQ" type="3001" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4Dh7XAEemBe4i_Fm_XMQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4DiLXAEemBe4i_Fm_XMQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4DibXAEemBe4i_Fm_XMQ" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_XW4DirXAEemBe4i_Fm_XMQ" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_office_rules_no_parameters.henshin#_XW4EyrXAEemBe4i_Fm_XMQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_XW4Di7XAEemBe4i_Fm_XMQ"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_XW4DjLXAEemBe4i_Fm_XMQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_XW4DjbXAEemBe4i_Fm_XMQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office_rules_no_parameters.henshin#_XW4EybXAEemBe4i_Fm_XMQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XW4DjrXAEemBe4i_Fm_XMQ" x="50" y="36" width="131" height="80"/>
+      </children>
+    </children>
+    <element xmi:type="henshin:Rule" href="smart_office_rules_no_parameters.henshin#_XW4ExLXAEemBe4i_Fm_XMQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XW4Dj7XAEemBe4i_Fm_XMQ" x="103" y="52" width="1001"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_XW4DkLXAEemBe4i_Fm_XMQ" type="2001" fontName="Microsoft YaHei UI" italic="true" lineColor="0">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XW4DkbXAEemBe4i_Fm_XMQ" source="defaultAction">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XW4DkrXAEemBe4i_Fm_XMQ" key="value" value="preserve"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_XW4Dk7XAEemBe4i_Fm_XMQ" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_XW4DlLXAEemBe4i_Fm_XMQ" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_XW4DlbXAEemBe4i_Fm_XMQ" type="3001" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4DlrXAEemBe4i_Fm_XMQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4Dl7XAEemBe4i_Fm_XMQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4DmLXAEemBe4i_Fm_XMQ" type="7002">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_XW4DmbXAEemBe4i_Fm_XMQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_XW4DmrXAEemBe4i_Fm_XMQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office_rules_no_parameters.henshin#_XW4E2rXAEemBe4i_Fm_XMQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XW4Dm7XAEemBe4i_Fm_XMQ" x="369" y="31" width="187" height="67"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_XW4DnLXAEemBe4i_Fm_XMQ" type="3001" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4DnbXAEemBe4i_Fm_XMQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4DnrXAEemBe4i_Fm_XMQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4Dn7XAEemBe4i_Fm_XMQ" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_XW4DoLXAEemBe4i_Fm_XMQ" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_office_rules_no_parameters.henshin#_XW4E3LXAEemBe4i_Fm_XMQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_XW4DobXAEemBe4i_Fm_XMQ"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_XW4DorXAEemBe4i_Fm_XMQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_XW4Do7XAEemBe4i_Fm_XMQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office_rules_no_parameters.henshin#_XW4E27XAEemBe4i_Fm_XMQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XW4DpLXAEemBe4i_Fm_XMQ" x="723" y="31" width="178" height="67"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_XW4DpbXAEemBe4i_Fm_XMQ" type="3001" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4DprXAEemBe4i_Fm_XMQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4Dp7XAEemBe4i_Fm_XMQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4DqLXAEemBe4i_Fm_XMQ" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_XW4DqbXAEemBe4i_Fm_XMQ" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_office_rules_no_parameters.henshin#_XW4E3rXAEemBe4i_Fm_XMQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_XW4DqrXAEemBe4i_Fm_XMQ"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_XW4Dq7XAEemBe4i_Fm_XMQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_XW4DrLXAEemBe4i_Fm_XMQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office_rules_no_parameters.henshin#_XW4E3bXAEemBe4i_Fm_XMQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XW4DrbXAEemBe4i_Fm_XMQ" x="39" y="31" width="140" height="67"/>
+      </children>
+    </children>
+    <element xmi:type="henshin:Rule" href="smart_office_rules_no_parameters.henshin#_XW4E2LXAEemBe4i_Fm_XMQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XW4DrrXAEemBe4i_Fm_XMQ" x="104" y="289" width="997" height="184"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_XW4Dr7XAEemBe4i_Fm_XMQ" type="2001" fontName="Microsoft YaHei UI" italic="true" lineColor="0">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XW4DsLXAEemBe4i_Fm_XMQ" source="defaultAction">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XW4DsbXAEemBe4i_Fm_XMQ" key="value" value="preserve"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_XW4DsrXAEemBe4i_Fm_XMQ" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_XW4Ds7XAEemBe4i_Fm_XMQ" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_XW4DtLXAEemBe4i_Fm_XMQ" type="3001" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4DtbXAEemBe4i_Fm_XMQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4DtrXAEemBe4i_Fm_XMQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4Dt7XAEemBe4i_Fm_XMQ" type="7002">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_XW4DuLXAEemBe4i_Fm_XMQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_XW4DubXAEemBe4i_Fm_XMQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office_rules_no_parameters.henshin#_XW4E7rXAEemBe4i_Fm_XMQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XW4DurXAEemBe4i_Fm_XMQ" x="68" y="25" width="109" height="77"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_XW4Du7XAEemBe4i_Fm_XMQ" type="3001" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4DvLXAEemBe4i_Fm_XMQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4DvbXAEemBe4i_Fm_XMQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4DvrXAEemBe4i_Fm_XMQ" type="7002">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_XW4Dv7XAEemBe4i_Fm_XMQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_XW4DwLXAEemBe4i_Fm_XMQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office_rules_no_parameters.henshin#_XW4E77XAEemBe4i_Fm_XMQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XW4DwbXAEemBe4i_Fm_XMQ" x="382" y="25" width="173" height="77"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_XW4DwrXAEemBe4i_Fm_XMQ" type="3001" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4Dw7XAEemBe4i_Fm_XMQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4DxLXAEemBe4i_Fm_XMQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4DxbXAEemBe4i_Fm_XMQ" type="7002">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_XW4DxrXAEemBe4i_Fm_XMQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_XW4Dx7XAEemBe4i_Fm_XMQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office_rules_no_parameters.henshin#_XW4E8LXAEemBe4i_Fm_XMQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XW4DyLXAEemBe4i_Fm_XMQ" x="746" y="30" width="163" height="72"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_XW4DybXAEemBe4i_Fm_XMQ" type="3001" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4DyrXAEemBe4i_Fm_XMQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4Dy7XAEemBe4i_Fm_XMQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4DzLXAEemBe4i_Fm_XMQ" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_XW4DzbXAEemBe4i_Fm_XMQ" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_office_rules_no_parameters.henshin#_XW4E8rXAEemBe4i_Fm_XMQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_XW4DzrXAEemBe4i_Fm_XMQ"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_XW4Dz7XAEemBe4i_Fm_XMQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_XW4D0LXAEemBe4i_Fm_XMQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office_rules_no_parameters.henshin#_XW4E8bXAEemBe4i_Fm_XMQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XW4D0bXAEemBe4i_Fm_XMQ" x="394" y="151" width="128" height="66"/>
+      </children>
+    </children>
+    <element xmi:type="henshin:Rule" href="smart_office_rules_no_parameters.henshin#_XW4E7LXAEemBe4i_Fm_XMQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XW4D0rXAEemBe4i_Fm_XMQ" x="104" y="497" width="999" height="274"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_XW4D07XAEemBe4i_Fm_XMQ" type="2001" fontName="Microsoft YaHei UI" italic="true" lineColor="0">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XW4D1LXAEemBe4i_Fm_XMQ" source="defaultAction">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XW4D1bXAEemBe4i_Fm_XMQ" key="value" value="preserve"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_XW4D1rXAEemBe4i_Fm_XMQ" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_XW4D17XAEemBe4i_Fm_XMQ" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_XW4D2LXAEemBe4i_Fm_XMQ" type="3001" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4D2bXAEemBe4i_Fm_XMQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4D2rXAEemBe4i_Fm_XMQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4D27XAEemBe4i_Fm_XMQ" type="7002">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_XW4D3LXAEemBe4i_Fm_XMQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_XW4D3bXAEemBe4i_Fm_XMQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office_rules_no_parameters.henshin#_XW4FB7XAEemBe4i_Fm_XMQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XW4D3rXAEemBe4i_Fm_XMQ" x="379" y="53" width="160" height="62"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_XW4D37XAEemBe4i_Fm_XMQ" type="3001" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4D4LXAEemBe4i_Fm_XMQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4D4bXAEemBe4i_Fm_XMQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4D4rXAEemBe4i_Fm_XMQ" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_XW4D47XAEemBe4i_Fm_XMQ" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_office_rules_no_parameters.henshin#_XW4FCbXAEemBe4i_Fm_XMQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_XW4D5LXAEemBe4i_Fm_XMQ"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_XW4D5bXAEemBe4i_Fm_XMQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_XW4D5rXAEemBe4i_Fm_XMQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office_rules_no_parameters.henshin#_XW4FCLXAEemBe4i_Fm_XMQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XW4D57XAEemBe4i_Fm_XMQ" x="68" y="53" width="137" height="62"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_XW4D6LXAEemBe4i_Fm_XMQ" type="3001" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4D6bXAEemBe4i_Fm_XMQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4D6rXAEemBe4i_Fm_XMQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4D67XAEemBe4i_Fm_XMQ" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_XW4D7LXAEemBe4i_Fm_XMQ" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_office_rules_no_parameters.henshin#_XW4FC7XAEemBe4i_Fm_XMQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_XW4D7bXAEemBe4i_Fm_XMQ"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_XW4D7rXAEemBe4i_Fm_XMQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_XW4D77XAEemBe4i_Fm_XMQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office_rules_no_parameters.henshin#_XW4FCrXAEemBe4i_Fm_XMQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XW4D8LXAEemBe4i_Fm_XMQ" x="755" y="17" width="204" height="60"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_XW4D8bXAEemBe4i_Fm_XMQ" type="3001" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4D8rXAEemBe4i_Fm_XMQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4D87XAEemBe4i_Fm_XMQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4D9LXAEemBe4i_Fm_XMQ" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_XW4D9bXAEemBe4i_Fm_XMQ" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_office_rules_no_parameters.henshin#_XW4FDbXAEemBe4i_Fm_XMQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_XW4D9rXAEemBe4i_Fm_XMQ"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_XW4D97XAEemBe4i_Fm_XMQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_XW4D-LXAEemBe4i_Fm_XMQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office_rules_no_parameters.henshin#_XW4FDLXAEemBe4i_Fm_XMQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XW4D-bXAEemBe4i_Fm_XMQ" x="755" y="85" width="204" height="61"/>
+      </children>
+    </children>
+    <element xmi:type="henshin:Rule" href="smart_office_rules_no_parameters.henshin#_XW4FBbXAEemBe4i_Fm_XMQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XW4D-rXAEemBe4i_Fm_XMQ" x="102" y="810" width="1001"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_XW4D-7XAEemBe4i_Fm_XMQ" type="2001" fontName="Microsoft YaHei UI" italic="true" lineColor="0">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XW4D_LXAEemBe4i_Fm_XMQ" source="defaultAction">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XW4D_bXAEemBe4i_Fm_XMQ" key="value" value="preserve"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_XW4D_rXAEemBe4i_Fm_XMQ" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_XW4D_7XAEemBe4i_Fm_XMQ" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_XW4EALXAEemBe4i_Fm_XMQ" type="3001" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4EAbXAEemBe4i_Fm_XMQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4EArXAEemBe4i_Fm_XMQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4EA7XAEemBe4i_Fm_XMQ" type="7002">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_XW4EBLXAEemBe4i_Fm_XMQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_XW4EBbXAEemBe4i_Fm_XMQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office_rules_no_parameters.henshin#_XW4FIrXAEemBe4i_Fm_XMQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XW4EBrXAEemBe4i_Fm_XMQ" x="369" y="57" width="169" height="56"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_XW4EB7XAEemBe4i_Fm_XMQ" type="3001" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4ECLXAEemBe4i_Fm_XMQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4ECbXAEemBe4i_Fm_XMQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4ECrXAEemBe4i_Fm_XMQ" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_XW4EC7XAEemBe4i_Fm_XMQ" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_office_rules_no_parameters.henshin#_XW4FJLXAEemBe4i_Fm_XMQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_XW4EDLXAEemBe4i_Fm_XMQ"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_XW4EDbXAEemBe4i_Fm_XMQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_XW4EDrXAEemBe4i_Fm_XMQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office_rules_no_parameters.henshin#_XW4FI7XAEemBe4i_Fm_XMQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XW4ED7XAEemBe4i_Fm_XMQ" x="730" y="17" width="175" height="67"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_XW4EELXAEemBe4i_Fm_XMQ" type="3001" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4EEbXAEemBe4i_Fm_XMQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4EErXAEemBe4i_Fm_XMQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4EE7XAEemBe4i_Fm_XMQ" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_XW4EFLXAEemBe4i_Fm_XMQ" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_office_rules_no_parameters.henshin#_XW4FJrXAEemBe4i_Fm_XMQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_XW4EFbXAEemBe4i_Fm_XMQ"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_XW4EFrXAEemBe4i_Fm_XMQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_XW4EF7XAEemBe4i_Fm_XMQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office_rules_no_parameters.henshin#_XW4FJbXAEemBe4i_Fm_XMQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XW4EGLXAEemBe4i_Fm_XMQ" x="730" y="95" width="175" height="64"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_XW4EGbXAEemBe4i_Fm_XMQ" type="3001" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4EGrXAEemBe4i_Fm_XMQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4EG7XAEemBe4i_Fm_XMQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4EHLXAEemBe4i_Fm_XMQ" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_XW4EHbXAEemBe4i_Fm_XMQ" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_office_rules_no_parameters.henshin#_XW4FKLXAEemBe4i_Fm_XMQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_XW4EHrXAEemBe4i_Fm_XMQ"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_XW4EH7XAEemBe4i_Fm_XMQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_XW4EILXAEemBe4i_Fm_XMQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office_rules_no_parameters.henshin#_XW4FJ7XAEemBe4i_Fm_XMQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XW4EIbXAEemBe4i_Fm_XMQ" x="66" y="50" width="131" height="63"/>
+      </children>
+    </children>
+    <element xmi:type="henshin:Rule" href="smart_office_rules_no_parameters.henshin#_XW4FILXAEemBe4i_Fm_XMQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XW4EIrXAEemBe4i_Fm_XMQ" x="102" y="1030" width="1001"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_XW4EI7XAEemBe4i_Fm_XMQ" type="2001" fontName="Microsoft YaHei UI" italic="true" lineColor="0">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XW4EJLXAEemBe4i_Fm_XMQ" source="defaultAction">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XW4EJbXAEemBe4i_Fm_XMQ" key="value" value="preserve"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_XW4EJrXAEemBe4i_Fm_XMQ" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_XW4EJ7XAEemBe4i_Fm_XMQ" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_XW4EKLXAEemBe4i_Fm_XMQ" type="3001" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4EKbXAEemBe4i_Fm_XMQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4EKrXAEemBe4i_Fm_XMQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4EK7XAEemBe4i_Fm_XMQ" type="7002">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_XW4ELLXAEemBe4i_Fm_XMQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_XW4ELbXAEemBe4i_Fm_XMQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office_rules_no_parameters.henshin#_XW4FPbXAEemBe4i_Fm_XMQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XW4ELrXAEemBe4i_Fm_XMQ" x="306" y="42" width="88" height="67"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_XW4EL7XAEemBe4i_Fm_XMQ" type="3001" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4EMLXAEemBe4i_Fm_XMQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4EMbXAEemBe4i_Fm_XMQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4EMrXAEemBe4i_Fm_XMQ" type="7002">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_XW4EM7XAEemBe4i_Fm_XMQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_XW4ENLXAEemBe4i_Fm_XMQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office_rules_no_parameters.henshin#_XW4FPrXAEemBe4i_Fm_XMQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XW4ENbXAEemBe4i_Fm_XMQ" x="611" y="42" width="86" height="67"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_XW4ENrXAEemBe4i_Fm_XMQ" type="3001" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4EN7XAEemBe4i_Fm_XMQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4EOLXAEemBe4i_Fm_XMQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4EObXAEemBe4i_Fm_XMQ" type="7002">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_XW4EOrXAEemBe4i_Fm_XMQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_XW4EO7XAEemBe4i_Fm_XMQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office_rules_no_parameters.henshin#_XW4FP7XAEemBe4i_Fm_XMQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XW4EPLXAEemBe4i_Fm_XMQ" x="845" y="42" width="83" height="67"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_XW4EPbXAEemBe4i_Fm_XMQ" type="3001" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4EPrXAEemBe4i_Fm_XMQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4EP7XAEemBe4i_Fm_XMQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4EQLXAEemBe4i_Fm_XMQ" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_XW4EQbXAEemBe4i_Fm_XMQ" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_office_rules_no_parameters.henshin#_XW4FQbXAEemBe4i_Fm_XMQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_XW4EQrXAEemBe4i_Fm_XMQ"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_XW4EQ7XAEemBe4i_Fm_XMQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_XW4ERLXAEemBe4i_Fm_XMQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office_rules_no_parameters.henshin#_XW4FQLXAEemBe4i_Fm_XMQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XW4ERbXAEemBe4i_Fm_XMQ" x="48" y="42" width="135" height="67"/>
+      </children>
+    </children>
+    <element xmi:type="henshin:Rule" href="smart_office_rules_no_parameters.henshin#_XW4FO7XAEemBe4i_Fm_XMQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XW4ERrXAEemBe4i_Fm_XMQ" x="102" y="1245" width="1002"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_XW4ER7XAEemBe4i_Fm_XMQ" type="2001" fontName="Microsoft YaHei UI" italic="true" lineColor="0">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XW4ESLXAEemBe4i_Fm_XMQ" source="defaultAction">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XW4ESbXAEemBe4i_Fm_XMQ" key="value" value="preserve"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_XW4ESrXAEemBe4i_Fm_XMQ" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_XW4ES7XAEemBe4i_Fm_XMQ" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_XW4ETLXAEemBe4i_Fm_XMQ" type="3001" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4ETbXAEemBe4i_Fm_XMQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4ETrXAEemBe4i_Fm_XMQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4ET7XAEemBe4i_Fm_XMQ" type="7002">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_XW4EULXAEemBe4i_Fm_XMQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_XW4EUbXAEemBe4i_Fm_XMQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office_rules_no_parameters.henshin#_XXB0crXAEemBe4i_Fm_XMQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XW4EUrXAEemBe4i_Fm_XMQ" x="387" y="30" width="147" height="94"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_XW4EU7XAEemBe4i_Fm_XMQ" type="3001" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4EVLXAEemBe4i_Fm_XMQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4EVbXAEemBe4i_Fm_XMQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4EVrXAEemBe4i_Fm_XMQ" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_XW4EV7XAEemBe4i_Fm_XMQ" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_office_rules_no_parameters.henshin#_XXB0dLXAEemBe4i_Fm_XMQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_XW4EWLXAEemBe4i_Fm_XMQ"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_XW4EWbXAEemBe4i_Fm_XMQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_XW4EWrXAEemBe4i_Fm_XMQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office_rules_no_parameters.henshin#_XXB0c7XAEemBe4i_Fm_XMQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XW4EW7XAEemBe4i_Fm_XMQ" x="46" y="30" width="140" height="94"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_XW4EXLXAEemBe4i_Fm_XMQ" type="3001" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4EXbXAEemBe4i_Fm_XMQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4EXrXAEemBe4i_Fm_XMQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4EX7XAEemBe4i_Fm_XMQ" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_XW4EYLXAEemBe4i_Fm_XMQ" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_office_rules_no_parameters.henshin#_XXB0drXAEemBe4i_Fm_XMQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_XW4EYbXAEemBe4i_Fm_XMQ"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_XW4EYrXAEemBe4i_Fm_XMQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_XW4EY7XAEemBe4i_Fm_XMQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office_rules_no_parameters.henshin#_XXB0dbXAEemBe4i_Fm_XMQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XW4EZLXAEemBe4i_Fm_XMQ" x="723" y="30" width="172" height="94"/>
+      </children>
+    </children>
+    <element xmi:type="henshin:Rule" href="smart_office_rules_no_parameters.henshin#_XXB0cLXAEemBe4i_Fm_XMQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XW4EZbXAEemBe4i_Fm_XMQ" x="102" y="1465" width="1002"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_XW4EZrXAEemBe4i_Fm_XMQ" type="2001" fontName="Microsoft YaHei UI" italic="true" lineColor="0">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XW4EZ7XAEemBe4i_Fm_XMQ" source="defaultAction">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XW4EaLXAEemBe4i_Fm_XMQ" key="value" value="preserve"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_XW4EabXAEemBe4i_Fm_XMQ" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_XW4EarXAEemBe4i_Fm_XMQ" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_XW4Ea7XAEemBe4i_Fm_XMQ" type="3001" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4EbLXAEemBe4i_Fm_XMQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4EbbXAEemBe4i_Fm_XMQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4EbrXAEemBe4i_Fm_XMQ" type="7002">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_XW4Eb7XAEemBe4i_Fm_XMQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_XW4EcLXAEemBe4i_Fm_XMQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office_rules_no_parameters.henshin#_XXB0hrXAEemBe4i_Fm_XMQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XW4EcbXAEemBe4i_Fm_XMQ" x="390" y="35" width="144" height="71"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_XW4EcrXAEemBe4i_Fm_XMQ" type="3001" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4Ec7XAEemBe4i_Fm_XMQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4EdLXAEemBe4i_Fm_XMQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4EdbXAEemBe4i_Fm_XMQ" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_XW4EdrXAEemBe4i_Fm_XMQ" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_office_rules_no_parameters.henshin#_XXB0iLXAEemBe4i_Fm_XMQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_XW4Ed7XAEemBe4i_Fm_XMQ"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_XW4EeLXAEemBe4i_Fm_XMQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_XW4EebXAEemBe4i_Fm_XMQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office_rules_no_parameters.henshin#_XXB0h7XAEemBe4i_Fm_XMQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XW4EerXAEemBe4i_Fm_XMQ" x="47" y="35" width="139" height="71"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_XW4Ee7XAEemBe4i_Fm_XMQ" type="3001" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4EfLXAEemBe4i_Fm_XMQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4EfbXAEemBe4i_Fm_XMQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4EfrXAEemBe4i_Fm_XMQ" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_XW4Ef7XAEemBe4i_Fm_XMQ" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_office_rules_no_parameters.henshin#_XXB0irXAEemBe4i_Fm_XMQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_XW4EgLXAEemBe4i_Fm_XMQ"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_XW4EgbXAEemBe4i_Fm_XMQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_XW4EgrXAEemBe4i_Fm_XMQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office_rules_no_parameters.henshin#_XXB0ibXAEemBe4i_Fm_XMQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XW4Eg7XAEemBe4i_Fm_XMQ" x="718" y="35" width="174" height="71"/>
+      </children>
+    </children>
+    <element xmi:type="henshin:Rule" href="smart_office_rules_no_parameters.henshin#_XXB0hLXAEemBe4i_Fm_XMQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XW4EhLXAEemBe4i_Fm_XMQ" x="102" y="1677" width="1002"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_XW4EhbXAEemBe4i_Fm_XMQ" type="2001" fontName="Microsoft YaHei UI" italic="true" lineColor="0">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XW4EhrXAEemBe4i_Fm_XMQ" source="defaultAction">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XW4Eh7XAEemBe4i_Fm_XMQ" key="value" value="preserve"/>
+    </eAnnotations>
+    <children xmi:type="notation:DecorationNode" xmi:id="_XW4EiLXAEemBe4i_Fm_XMQ" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_XW4EibXAEemBe4i_Fm_XMQ" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_XW4EirXAEemBe4i_Fm_XMQ" type="3001" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4Ei7XAEemBe4i_Fm_XMQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4EjLXAEemBe4i_Fm_XMQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4EjbXAEemBe4i_Fm_XMQ" type="7002">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_XW4EjrXAEemBe4i_Fm_XMQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_XW4Ej7XAEemBe4i_Fm_XMQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office_rules_no_parameters.henshin#_XXB0mrXAEemBe4i_Fm_XMQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XW4EkLXAEemBe4i_Fm_XMQ" x="52" y="3" width="148" height="59"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_XW4EkbXAEemBe4i_Fm_XMQ" type="3001" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4EkrXAEemBe4i_Fm_XMQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4Ek7XAEemBe4i_Fm_XMQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4ElLXAEemBe4i_Fm_XMQ" type="7002">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_XW4ElbXAEemBe4i_Fm_XMQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_XW4ElrXAEemBe4i_Fm_XMQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office_rules_no_parameters.henshin#_XXB0m7XAEemBe4i_Fm_XMQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XW4El7XAEemBe4i_Fm_XMQ" x="724" y="3" width="169" height="59"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_XW4EmLXAEemBe4i_Fm_XMQ" type="3001" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4EmbXAEemBe4i_Fm_XMQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4EmrXAEemBe4i_Fm_XMQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4Em7XAEemBe4i_Fm_XMQ" type="7002">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_XW4EnLXAEemBe4i_Fm_XMQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_XW4EnbXAEemBe4i_Fm_XMQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office_rules_no_parameters.henshin#_XXB0nLXAEemBe4i_Fm_XMQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XW4EnrXAEemBe4i_Fm_XMQ" x="364" y="3" width="175" height="59"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_XW4En7XAEemBe4i_Fm_XMQ" type="3001" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4EoLXAEemBe4i_Fm_XMQ" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4EobXAEemBe4i_Fm_XMQ" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_XW4EorXAEemBe4i_Fm_XMQ" type="7002">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_XW4Eo7XAEemBe4i_Fm_XMQ"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_XW4EpLXAEemBe4i_Fm_XMQ"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office_rules_no_parameters.henshin#_XXB0nbXAEemBe4i_Fm_XMQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XW4EpbXAEemBe4i_Fm_XMQ" x="364" y="92" width="175" height="61"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_Ut9m0LXIEemZw8I_HWcRkg" type="3001" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_Ut9m0rXIEemZw8I_HWcRkg" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_Ut9m07XIEemZw8I_HWcRkg" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_Ut9m1LXIEemZw8I_HWcRkg" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_XNY2oLXIEemZw8I_HWcRkg" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_office_rules_no_parameters.henshin#_XNUlMLXIEemZw8I_HWcRkg"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_XNY2obXIEemZw8I_HWcRkg"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_Ut9m1bXIEemZw8I_HWcRkg"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_Ut9m1rXIEemZw8I_HWcRkg"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_office_rules_no_parameters.henshin#_Ut8YsLXIEemZw8I_HWcRkg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ut9m0bXIEemZw8I_HWcRkg" x="719" y="170" width="189" height="63"/>
+      </children>
+    </children>
+    <element xmi:type="henshin:Rule" href="smart_office_rules_no_parameters.henshin#_XXB0mLXAEemBe4i_Fm_XMQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XW4EprXAEemBe4i_Fm_XMQ" x="102" y="1903" width="1002" height="285"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_KQVD8bXAEemBe4i_Fm_XMQ"/>
+  <element xmi:type="henshin:Module" href="smart_office_rules_no_parameters.henshin#_KPbsELXAEemBe4i_Fm_XMQ"/>
+  <edges xmi:type="notation:Connector" xmi:id="_XXegfLXAEemBe4i_Fm_XMQ" type="4001" source="_XW4Du7XAEemBe4i_Fm_XMQ" target="_XW4DtLXAEemBe4i_Fm_XMQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_XXnqULXAEemBe4i_Fm_XMQ" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_XXnqUbXAEemBe4i_Fm_XMQ" x="-3" y="-18"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_XXnqUrXAEemBe4i_Fm_XMQ" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_XXnqU7XAEemBe4i_Fm_XMQ" x="2" y="25"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_XXegfbXAEemBe4i_Fm_XMQ" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="henshin:Edge" href="smart_office_rules_no_parameters.henshin#_XW4E87XAEemBe4i_Fm_XMQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XXegfrXAEemBe4i_Fm_XMQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_XYEWQLXAEemBe4i_Fm_XMQ" type="4001" source="_XW4EmLXAEemBe4i_Fm_XMQ" target="_XW4EirXAEemBe4i_Fm_XMQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_XYEWQ7XAEemBe4i_Fm_XMQ" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_XYEWRLXAEemBe4i_Fm_XMQ" x="-1" y="-21"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_XYEWRbXAEemBe4i_Fm_XMQ" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_XYEWRrXAEemBe4i_Fm_XMQ" x="-2" y="15"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_XYEWQbXAEemBe4i_Fm_XMQ" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="henshin:Edge" href="smart_office_rules_no_parameters.henshin#_XXB0nrXAEemBe4i_Fm_XMQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XYEWQrXAEemBe4i_Fm_XMQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_XYEWR7XAEemBe4i_Fm_XMQ" type="4001" source="_XW4EmLXAEemBe4i_Fm_XMQ" target="_XW4EkbXAEemBe4i_Fm_XMQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_XYEWSrXAEemBe4i_Fm_XMQ" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_XYEWS7XAEemBe4i_Fm_XMQ" x="2" y="14"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_XYEWTLXAEemBe4i_Fm_XMQ" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_XYEWTbXAEemBe4i_Fm_XMQ" x="-4" y="-13"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_XYEWSLXAEemBe4i_Fm_XMQ" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="henshin:Edge" href="smart_office_rules_no_parameters.henshin#_XXB0n7XAEemBe4i_Fm_XMQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XYEWSbXAEemBe4i_Fm_XMQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_XYEWTrXAEemBe4i_Fm_XMQ" type="4001" source="_XW4En7XAEemBe4i_Fm_XMQ" target="_XW4EirXAEemBe4i_Fm_XMQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_XYEWUbXAEemBe4i_Fm_XMQ" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_XYEWUrXAEemBe4i_Fm_XMQ" x="-87" y="15"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_XYEWU7XAEemBe4i_Fm_XMQ" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_XYEWVLXAEemBe4i_Fm_XMQ" x="-77" y="30"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_XYEWT7XAEemBe4i_Fm_XMQ" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="henshin:Edge" href="smart_office_rules_no_parameters.henshin#_XXB0oLXAEemBe4i_Fm_XMQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XYEWULXAEemBe4i_Fm_XMQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Nh-zMLXGEemZw8I_HWcRkg" id="(0.10857142857142857,0.7540983606557377)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_N90aoLXGEemZw8I_HWcRkg" id="(0.19594594594594594,0.7966101694915254)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_XYEWVbXAEemBe4i_Fm_XMQ" type="4001" source="_XW4EirXAEemBe4i_Fm_XMQ" target="_XW4En7XAEemBe4i_Fm_XMQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_XYEWWLXAEemBe4i_Fm_XMQ" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_XYEWWbXAEemBe4i_Fm_XMQ" x="-107" y="25"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_XYEWWrXAEemBe4i_Fm_XMQ" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_XYEWW7XAEemBe4i_Fm_XMQ" x="-100" y="42"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_XYEWVrXAEemBe4i_Fm_XMQ" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="henshin:Edge" href="smart_office_rules_no_parameters.henshin#_XXB0obXAEemBe4i_Fm_XMQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XYEWV7XAEemBe4i_Fm_XMQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MC17sLXGEemZw8I_HWcRkg" id="(0.02702702702702703,0.9152542372881356)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Lhp6MLXGEemZw8I_HWcRkg" id="(0.10285714285714286,0.9836065573770492)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_XYEWXLXAEemBe4i_Fm_XMQ" type="4001" source="_XW4EkbXAEemBe4i_Fm_XMQ" target="_XW4En7XAEemBe4i_Fm_XMQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_XYEWX7XAEemBe4i_Fm_XMQ" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_XYEWYLXAEemBe4i_Fm_XMQ" x="111" y="15"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_XYEWYbXAEemBe4i_Fm_XMQ" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_XYEWYrXAEemBe4i_Fm_XMQ" x="104" y="29"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_XYEWXbXAEemBe4i_Fm_XMQ" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="henshin:Edge" href="smart_office_rules_no_parameters.henshin#_XXB0qbXAEemBe4i_Fm_XMQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XYEWXrXAEemBe4i_Fm_XMQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_R3TNoLXGEemZw8I_HWcRkg" id="(0.7988165680473372,0.9322033898305084)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TbMCQLXGEemZw8I_HWcRkg" id="(0.96,0.7049180327868853)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_XYEWY7XAEemBe4i_Fm_XMQ" type="4001" source="_XW4En7XAEemBe4i_Fm_XMQ" target="_XW4EkbXAEemBe4i_Fm_XMQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_XYEWZrXAEemBe4i_Fm_XMQ" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_XYEWZ7XAEemBe4i_Fm_XMQ" x="144" y="16"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_XYEWaLXAEemBe4i_Fm_XMQ" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_XYEWabXAEemBe4i_Fm_XMQ" x="137" y="30"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_XYEWZLXAEemBe4i_Fm_XMQ" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="henshin:Edge" href="smart_office_rules_no_parameters.henshin#_XXB0qrXAEemBe4i_Fm_XMQ"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XYEWZbXAEemBe4i_Fm_XMQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Q1nHILXGEemZw8I_HWcRkg" id="(0.9142857142857143,0.9016393442622951)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_QYd4ILXGEemZw8I_HWcRkg" id="(0.9112426035502958,0.9661016949152542)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_YnrnMLXEEemZw8I_HWcRkg" type="4001" source="_XW4DdrXAEemBe4i_Fm_XMQ" target="_XW4DhrXAEemBe4i_Fm_XMQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_YnsOQLXEEemZw8I_HWcRkg" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_YnsOQbXEEemZw8I_HWcRkg" x="1" y="-21"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_YnsOQrXEEemZw8I_HWcRkg" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_YnsOQ7XEEemZw8I_HWcRkg" x="-2" y="22"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_YnrnMbXEEemZw8I_HWcRkg" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="henshin:Edge" href="smart_office_rules_no_parameters.henshin#_YnkScLXEEemZw8I_HWcRkg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_YnrnMrXEEemZw8I_HWcRkg" points="[-94, -2, 260, -2]$[-361, -40, -7, -40]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_Y0ZNgLXEEemZw8I_HWcRkg" type="4001" source="_XW4DdrXAEemBe4i_Fm_XMQ" target="_XW4DfbXAEemBe4i_Fm_XMQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Y0ZNg7XEEemZw8I_HWcRkg" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Y0ZNhLXEEemZw8I_HWcRkg" x="-1" y="23"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Y0ZNhbXEEemZw8I_HWcRkg" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Y0ZNhrXEEemZw8I_HWcRkg" x="2" y="-17"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Y0ZNgbXEEemZw8I_HWcRkg" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="henshin:Edge" href="smart_office_rules_no_parameters.henshin#_Y0X_YLXEEemZw8I_HWcRkg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Y0ZNgrXEEemZw8I_HWcRkg" points="[94, 3, -292, 3]$[381, 40, -5, 40]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_cACqILXEEemZw8I_HWcRkg" type="4001" source="_XW4DlbXAEemBe4i_Fm_XMQ" target="_XW4DpbXAEemBe4i_Fm_XMQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_cACqI7XEEemZw8I_HWcRkg" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_cACqJLXEEemZw8I_HWcRkg" y="-17"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_cACqJbXEEemZw8I_HWcRkg" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_cACqJrXEEemZw8I_HWcRkg" x="1" y="20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_cACqIbXEEemZw8I_HWcRkg" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="henshin:Edge" href="smart_office_rules_no_parameters.henshin#_cACDELXEEemZw8I_HWcRkg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_cACqIrXEEemZw8I_HWcRkg" points="[-20, -5, 260, -7]$[-350, -5, -70, -7]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cAFGYLXEEemZw8I_HWcRkg" id="(0.10695187165775401,0.4626865671641791)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_cKYR4LXEEemZw8I_HWcRkg" type="4001" source="_XW4DlbXAEemBe4i_Fm_XMQ" target="_XW4DnLXAEemBe4i_Fm_XMQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_cKY48LXEEemZw8I_HWcRkg" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_cKY48bXEEemZw8I_HWcRkg" y="19"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_cKY48rXEEemZw8I_HWcRkg" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_cKY487XEEemZw8I_HWcRkg" x="-2" y="-17"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_cKYR4bXEEemZw8I_HWcRkg" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="henshin:Edge" href="smart_office_rules_no_parameters.henshin#_cKXq0LXEEemZw8I_HWcRkg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_cKYR4rXEEemZw8I_HWcRkg" points="[94, 4, -256, 4]$[357, 34, 7, 34]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_fQgVUbXEEemZw8I_HWcRkg" type="4001" source="_XW4Du7XAEemBe4i_Fm_XMQ" target="_XW4DwrXAEemBe4i_Fm_XMQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_fQg8YLXEEemZw8I_HWcRkg" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_fQg8YbXEEemZw8I_HWcRkg" x="1" y="19"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_fQg8YrXEEemZw8I_HWcRkg" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_fQg8Y7XEEemZw8I_HWcRkg" x="3" y="-17"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_fQgVUrXEEemZw8I_HWcRkg" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="henshin:Edge" href="smart_office_rules_no_parameters.henshin#_fQfuQLXEEemZw8I_HWcRkg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_fQgVU7XEEemZw8I_HWcRkg" points="[42, -2, -272, 8]$[233, -2, -81, 8]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fQiKgLXEEemZw8I_HWcRkg" id="(0.9653179190751445,0.4805194805194805)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hv8MMLXEEemZw8I_HWcRkg" id="(0.03067484662576687,0.3472222222222222)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_kksy0LXEEemZw8I_HWcRkg" type="4001" source="_XW4DybXAEemBe4i_Fm_XMQ" target="_XW4DtLXAEemBe4i_Fm_XMQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_kktZ4LXEEemZw8I_HWcRkg" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_kktZ4bXEEemZw8I_HWcRkg" x="-89" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_kktZ4rXEEemZw8I_HWcRkg" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_kktZ47XEEemZw8I_HWcRkg" x="-81" y="35"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_kksy0bXEEemZw8I_HWcRkg" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="henshin:Edge" href="smart_office_rules_no_parameters.henshin#_kksLwLXEEemZw8I_HWcRkg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_kksy0rXEEemZw8I_HWcRkg" points="[-7, -3, 270, 80]$[-277, -74, 0, 9]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kkuA8LXEEemZw8I_HWcRkg" id="(0.0546875,0.3787878787878788)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kkuA8bXEEemZw8I_HWcRkg" id="(0.5137614678899083,0.8831168831168831)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_lC1gULXEEemZw8I_HWcRkg" type="4001" source="_XW4DtLXAEemBe4i_Fm_XMQ" target="_XW4DybXAEemBe4i_Fm_XMQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_lC1gU7XEEemZw8I_HWcRkg" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_lC1gVLXEEemZw8I_HWcRkg" x="-111" y="21"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_lC1gVbXEEemZw8I_HWcRkg" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_lC1gVrXEEemZw8I_HWcRkg" x="-105" y="43"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_lC1gUbXEEemZw8I_HWcRkg" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="henshin:Edge" href="smart_office_rules_no_parameters.henshin#_lC0SMLXEEemZw8I_HWcRkg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_lC1gUrXEEemZw8I_HWcRkg" points="[25, 9, -304, -107]$[320, 120, -9, 4]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lC2HYLXEEemZw8I_HWcRkg" id="(0.05504587155963303,0.8831168831168831)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lC2HYbXEEemZw8I_HWcRkg" id="(0.0703125,0.8787878787878788)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_ouB_sLXEEemZw8I_HWcRkg" type="4001" source="_XW4DybXAEemBe4i_Fm_XMQ" target="_XW4DwrXAEemBe4i_Fm_XMQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ouB_s7XEEemZw8I_HWcRkg" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ouB_tLXEEemZw8I_HWcRkg" x="-114" y="-16"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ouB_tbXEEemZw8I_HWcRkg" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ouB_trXEEemZw8I_HWcRkg" x="-101" y="-29"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_ouB_sbXEEemZw8I_HWcRkg" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="henshin:Edge" href="smart_office_rules_no_parameters.henshin#_ouBYoLXEEemZw8I_HWcRkg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ouB_srXEEemZw8I_HWcRkg" points="[10, -3, -326, 83]$[352, -70, 16, 16]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ouDN0LXEEemZw8I_HWcRkg" id="(0.9765625,0.5454545454545454)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ouDN0bXEEemZw8I_HWcRkg" id="(0.6073619631901841,0.875)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_pLQuQLXEEemZw8I_HWcRkg" type="4001" source="_XW4DwrXAEemBe4i_Fm_XMQ" target="_XW4DybXAEemBe4i_Fm_XMQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_pLQuQ7XEEemZw8I_HWcRkg" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_pLQuRLXEEemZw8I_HWcRkg" x="-182" y="-21"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_pLQuRbXEEemZw8I_HWcRkg" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_pLQuRrXEEemZw8I_HWcRkg" x="-175" y="-40"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_pLQuQbXEEemZw8I_HWcRkg" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="henshin:Edge" href="smart_office_rules_no_parameters.henshin#_pLQHMLXEEemZw8I_HWcRkg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_pLQuQrXEEemZw8I_HWcRkg" points="[-32, 9, 365, -105]$[-380, 122, 17, 8]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pLRVULXEEemZw8I_HWcRkg" id="(0.9570552147239264,0.875)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pLRVUbXEEemZw8I_HWcRkg" id="(0.8671875,0.8484848484848485)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_xnb-cLXGEemZw8I_HWcRkg" type="4001" source="_XW4D2LXAEemBe4i_Fm_XMQ" target="_XW4D37XAEemBe4i_Fm_XMQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_xnclgLXGEemZw8I_HWcRkg" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_xnclgbXGEemZw8I_HWcRkg" x="1" y="-22"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_xnclgrXGEemZw8I_HWcRkg" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_xnclg7XGEemZw8I_HWcRkg" x="-1" y="16"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_xnb-cbXGEemZw8I_HWcRkg" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="henshin:Edge" href="smart_office_rules_no_parameters.henshin#_xnbXYLXGEemZw8I_HWcRkg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_xnb-crXGEemZw8I_HWcRkg" points="[-80, 6, 243, 6]$[-254, 6, 69, 6]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_xyYqMLXGEemZw8I_HWcRkg" type="4001" source="_XW4D2LXAEemBe4i_Fm_XMQ" target="_XW4D6LXAEemBe4i_Fm_XMQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_xyYqM7XGEemZw8I_HWcRkg" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_xyYqNLXGEemZw8I_HWcRkg" x="2" y="-15"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_xyYqNbXGEemZw8I_HWcRkg" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_xyYqNrXGEemZw8I_HWcRkg" x="5" y="-28"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_xyYqMbXGEemZw8I_HWcRkg" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="henshin:Edge" href="smart_office_rules_no_parameters.henshin#_xyYDILXGEemZw8I_HWcRkg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_xyYqMrXGEemZw8I_HWcRkg" points="[80, -9, -265, 28]$[296, -37, -49, 0]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xyZ4ULXGEemZw8I_HWcRkg" id="(0.24019607843137256,0.5)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_x90eILXGEemZw8I_HWcRkg" type="4001" source="_XW4D2LXAEemBe4i_Fm_XMQ" target="_XW4D8bXAEemBe4i_Fm_XMQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_x90eI7XGEemZw8I_HWcRkg" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_x90eJLXGEemZw8I_HWcRkg" y="14"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_x90eJbXGEemZw8I_HWcRkg" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_x90eJrXGEemZw8I_HWcRkg" y="36"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_x90eIbXGEemZw8I_HWcRkg" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="henshin:Edge" href="smart_office_rules_no_parameters.henshin#_x9z3ELXGEemZw8I_HWcRkg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_x90eIrXGEemZw8I_HWcRkg" points="[38, 2, -318, -21]$[254, 16, -102, -7]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_x91FMLXGEemZw8I_HWcRkg" id="(0.7625,0.6290322580645161)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_eLlNQLXHEemZw8I_HWcRkg" type="4001" source="_XW4EALXAEemBe4i_Fm_XMQ" target="_XW4EGbXAEemBe4i_Fm_XMQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_eLlNQ7XHEemZw8I_HWcRkg" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_eLlNRLXHEemZw8I_HWcRkg" x="-1" y="-17"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_eLlNRbXHEemZw8I_HWcRkg" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_eLlNRrXHEemZw8I_HWcRkg" x="-5" y="16"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_eLlNQbXHEemZw8I_HWcRkg" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="henshin:Edge" href="smart_office_rules_no_parameters.henshin#_eLkmMLXHEemZw8I_HWcRkg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_eLlNQrXHEemZw8I_HWcRkg" points="[-84, -4, 238, 0]$[-256, -11, 66, -7]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_eZE2sLXHEemZw8I_HWcRkg" type="4001" source="_XW4EALXAEemBe4i_Fm_XMQ" target="_XW4EB7XAEemBe4i_Fm_XMQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_eZE2s7XHEemZw8I_HWcRkg" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_eZE2tLXHEemZw8I_HWcRkg" x="7" y="-14"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_eZE2tbXHEemZw8I_HWcRkg" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_eZE2trXHEemZw8I_HWcRkg" x="8" y="-30"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_eZE2sbXHEemZw8I_HWcRkg" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="henshin:Edge" href="smart_office_rules_no_parameters.henshin#_eZEPoLXHEemZw8I_HWcRkg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_eZE2srXHEemZw8I_HWcRkg" points="[40, -7, -279, 38]$[232, -49, -87, -4]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_eZGE0LXHEemZw8I_HWcRkg" id="(0.7633136094674556,0.6785714285714286)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_exLNorXHEemZw8I_HWcRkg" type="4001" source="_XW4EALXAEemBe4i_Fm_XMQ" target="_XW4EELXAEemBe4i_Fm_XMQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_exLNpbXHEemZw8I_HWcRkg" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_exLNprXHEemZw8I_HWcRkg" x="-4" y="17"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_exLNp7XHEemZw8I_HWcRkg" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_exLNqLXHEemZw8I_HWcRkg" x="1" y="33"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_exLNo7XHEemZw8I_HWcRkg" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="henshin:Edge" href="smart_office_rules_no_parameters.henshin#_exLNoLXHEemZw8I_HWcRkg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_exLNpLXHEemZw8I_HWcRkg" points="[22, 4, -233, -44]$[214, 40, -41, -8]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_exMbwLXHEemZw8I_HWcRkg" id="(0.8698224852071006,0.5535714285714286)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_exMbwbXHEemZw8I_HWcRkg" id="(0.2342857142857143,0.640625)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_jjH5srXHEemZw8I_HWcRkg" type="4001" source="_XW4EKLXAEemBe4i_Fm_XMQ" target="_XW4EPbXAEemBe4i_Fm_XMQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_jjIgwLXHEemZw8I_HWcRkg" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_jjIgwbXHEemZw8I_HWcRkg" x="2" y="-15"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_jjIgwrXHEemZw8I_HWcRkg" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_jjIgw7XHEemZw8I_HWcRkg" x="3" y="15"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_jjH5s7XHEemZw8I_HWcRkg" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="henshin:Edge" href="smart_office_rules_no_parameters.henshin#_jjH5sLXHEemZw8I_HWcRkg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_jjH5tLXHEemZw8I_HWcRkg" points="[-44, -3, 191, -3]$[-237, -33, -2, -33]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_jwtCsLXHEemZw8I_HWcRkg" type="4001" source="_XW4EKLXAEemBe4i_Fm_XMQ" target="_XW4EL7XAEemBe4i_Fm_XMQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_jwtCs7XHEemZw8I_HWcRkg" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_jwtCtLXHEemZw8I_HWcRkg" x="-2" y="16"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_jwtCtbXHEemZw8I_HWcRkg" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_jwtCtrXHEemZw8I_HWcRkg" x="2" y="-17"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_jwtCsbXHEemZw8I_HWcRkg" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="henshin:Edge" href="smart_office_rules_no_parameters.henshin#_jwsboLXHEemZw8I_HWcRkg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_jwtCsrXHEemZw8I_HWcRkg" points="[44, 6, -260, 6]$[347, 6, 43, 6]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_j_u9MbXHEemZw8I_HWcRkg" type="4001" source="_XW4EL7XAEemBe4i_Fm_XMQ" target="_XW4ENrXAEemBe4i_Fm_XMQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_j_vkQLXHEemZw8I_HWcRkg" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_j_vkQbXHEemZw8I_HWcRkg" x="2" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_j_vkQrXHEemZw8I_HWcRkg" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_j_vkQ7XHEemZw8I_HWcRkg" x="2" y="-15"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_j_u9MrXHEemZw8I_HWcRkg" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="henshin:Edge" href="smart_office_rules_no_parameters.henshin#_j_uWILXHEemZw8I_HWcRkg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_j_u9M7XHEemZw8I_HWcRkg" points="[43, 3, -189, 3]$[191, 3, -41, 3]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_nzMAsLXHEemZw8I_HWcRkg" type="4001" source="_XW4ETLXAEemBe4i_Fm_XMQ" target="_XW4EU7XAEemBe4i_Fm_XMQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_nzMAs7XHEemZw8I_HWcRkg" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_nzMAtLXHEemZw8I_HWcRkg" y="-19"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_nzMAtbXHEemZw8I_HWcRkg" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_nzMAtrXHEemZw8I_HWcRkg" y="21"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_nzMAsbXHEemZw8I_HWcRkg" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="henshin:Edge" href="smart_office_rules_no_parameters.henshin#_nzLZoLXHEemZw8I_HWcRkg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nzMAsrXHEemZw8I_HWcRkg" points="[-73, 8, 233, 0]$[-274, 14, 32, 6]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nzNO0LXHEemZw8I_HWcRkg" id="(0.7714285714285715,0.5851063829787234)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_n-kKQLXHEemZw8I_HWcRkg" type="4001" source="_XW4ETLXAEemBe4i_Fm_XMQ" target="_XW4EXLXAEemBe4i_Fm_XMQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_n-kKQ7XHEemZw8I_HWcRkg" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n-kKRLXHEemZw8I_HWcRkg" x="-2" y="21"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n-kKRbXHEemZw8I_HWcRkg" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n-kKRrXHEemZw8I_HWcRkg" x="-1" y="-19"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_n-kKQbXHEemZw8I_HWcRkg" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="henshin:Edge" href="smart_office_rules_no_parameters.henshin#_n-jjMLXHEemZw8I_HWcRkg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_n-kKQrXHEemZw8I_HWcRkg" points="[74, 2, -275, 2]$[348, 47, -1, 47]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_quG5srXHEemZw8I_HWcRkg" type="4001" source="_XW4Ea7XAEemBe4i_Fm_XMQ" target="_XW4EcrXAEemBe4i_Fm_XMQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_quG5tbXHEemZw8I_HWcRkg" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_quG5trXHEemZw8I_HWcRkg" x="2" y="-16"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_quHgwLXHEemZw8I_HWcRkg" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_quHgwbXHEemZw8I_HWcRkg" x="4" y="17"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_quG5s7XHEemZw8I_HWcRkg" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="henshin:Edge" href="smart_office_rules_no_parameters.henshin#_quG5sLXHEemZw8I_HWcRkg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_quG5tLXHEemZw8I_HWcRkg" points="[-72, 6, 229, 0]$[-276, 9, 25, 3]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_quIH0LXHEemZw8I_HWcRkg" id="(0.8201438848920863,0.5774647887323944)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_q5K6MLXHEemZw8I_HWcRkg" type="4001" source="_XW4Ea7XAEemBe4i_Fm_XMQ" target="_XW4Ee7XAEemBe4i_Fm_XMQ">
+    <children xmi:type="notation:DecorationNode" xmi:id="_q5K6M7XHEemZw8I_HWcRkg" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_q5K6NLXHEemZw8I_HWcRkg" y="17"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_q5K6NbXHEemZw8I_HWcRkg" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_q5K6NrXHEemZw8I_HWcRkg" y="-15"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_q5K6MbXHEemZw8I_HWcRkg" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="henshin:Edge" href="smart_office_rules_no_parameters.henshin#_q5KTILXHEemZw8I_HWcRkg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_q5K6MrXHEemZw8I_HWcRkg" points="[72, 6, -271, 6]$[256, 6, -87, 6]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_cpEcMLXIEemZw8I_HWcRkg" type="4001" source="_XW4EkbXAEemBe4i_Fm_XMQ" target="_Ut9m0LXIEemZw8I_HWcRkg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_cpFDQLXIEemZw8I_HWcRkg" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_cpFDQbXIEemZw8I_HWcRkg" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_cpFDQrXIEemZw8I_HWcRkg" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_cpFDQ7XIEemZw8I_HWcRkg" x="21" y="46"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_cpEcMbXIEemZw8I_HWcRkg" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="henshin:Edge" href="smart_office_rules_no_parameters.henshin#_cpD1ILXIEemZw8I_HWcRkg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_cpEcMrXIEemZw8I_HWcRkg" points="[-5, 30, -15, -113]$[-84, 145, -94, 2]"/>
+  </edges>
+</notation:Diagram>

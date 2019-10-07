@@ -3,6 +3,7 @@ package experiment;
 import at.ac.tuwien.big.moea.SearchAnalysis;
 import at.ac.tuwien.big.moea.SearchExperiment;
 import at.ac.tuwien.big.moea.experiment.analyzer.SearchAnalyzer;
+import at.ac.tuwien.big.moea.experiment.executor.SearchExecutor;
 import at.ac.tuwien.big.moea.experiment.executor.listener.CollectiveProgressListener;
 import at.ac.tuwien.big.moea.print.IPopulationWriter;
 import at.ac.tuwien.big.moea.print.ISolutionWriter;
@@ -36,6 +37,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
+import java.util.Map;
 
 import org.eclipse.emf.common.util.URI;
 import org.eclipse.emf.ecore.EObject;
@@ -46,6 +48,7 @@ import org.moeaframework.analysis.collector.Collector;
 import org.moeaframework.core.Algorithm;
 import org.moeaframework.core.Population;
 import org.moeaframework.core.Solution;
+import org.moeaframework.core.comparator.CrowdingComparator;
 import org.moeaframework.core.operator.OnePointCrossover;
 import org.moeaframework.core.operator.TournamentSelection;
 import org.moeaframework.core.operator.TwoPointCrossover;
@@ -101,12 +104,20 @@ public class mysearch3 {
     LocalSearchAlgorithmFactory<TransformationSolution> local = orchestration.createLocalSearchAlgorithmFactory();
     
     final IRegisteredAlgorithm<? extends Algorithm> algorithm = 
-    		algorithmName.equals("NSGAII") ? 
+    	algorithmName.equals("NSGAII") ? 
 			moea.createNSGAII(
 				new TournamentSelection(2),
 				new TwoPointCrossover(1.0),
 				new PlaceholderMutation(0.1), 
 				new TransformationVariableMutation(orchestration.getSearchHelper(), 0.2)) : 
+		algorithmName.equals("MyNSGAII") ?
+			moea.createMyNSGAII(
+				new TournamentSelection(2),
+				new TwoPointCrossover(1.0),
+				new PlaceholderMutation(0.1),
+				new TransformationVariableMutation(orchestration.getSearchHelper(), 0.2)) : 
+		algorithmName.equals("MyMOPSO") ?
+			moea.createMyMOPSO(new TransformationVariableMutation(orchestration.getSearchHelper(), 0.2)) :
 		algorithmName.equals("NSGAIII") ? 
 			moea.createNSGAIII(new TournamentSelection(2),
 					new TwoPointCrossover(1.0),
@@ -157,9 +168,9 @@ public class mysearch3 {
 	Population population;
 	population = 
 		TransformationResultManager.createApproximationSet(experiment, (String[])null);
-//	for (Solution solution : population) {
-//		System.out.println(Arrays.toString(solution.getObjectives()));
-//	}
+	for (Solution solution : population) {
+		System.out.println(Arrays.toString(solution.getObjectives()));
+	}
 //	String res = MySearchContext.my_evaluate(population);
 //	System.out.println(res);
 //	try {
@@ -170,6 +181,27 @@ public class mysearch3 {
 //  	}
 	return resultManager;
   }
+  int i = 0;
+  protected void analyseResultsNeeded(final Map<SearchExecutor, List<Population>> result) {
+	  for(final List<Population> entry : result.values())
+	  {
+		  for(final Population set : entry)
+		  {
+			  for(Solution solution : set)
+			  {
+				  String res = i + "," + String.format("%.3f", MySearchContext.my_evaluate(solution));
+				  System.out.println(res);
+				  i++;
+				  try {
+					  MySearchContext.fw.write(res + "\n");
+				  } catch(final IOException e) {
+					  e.printStackTrace();
+				  }
+			  }
+		  }
+	  }
+  }
+  
   
   public void performSearch(
 		  final String initialGraph, 
@@ -183,8 +215,10 @@ public class mysearch3 {
 	  SearchExperiment<TransformationSolution> experiment = createExperiment(orchestration, maxEvaluations);
 	  experiment.addProgressListener(new CollectiveProgressListener());
 	  final long st = System.currentTimeMillis();
+//	  Map<SearchExecutor, List<Population>> resultNeeded = experiment.run2();
 	  experiment.run();
 	  System.out.println(solutionLength + " Total cost: " + (double) (System.currentTimeMillis() - st) / (double) 1000);
+//	  analyseResultsNeeded(resultNeeded);
 	  handleResults(experiment);
   }
   
@@ -198,15 +232,18 @@ public class mysearch3 {
   }
   
   public static void main(final String... args) {
-	  String algoName = "NSGAII";
+//	  System.setProperty("java.util.Arrays.useLegacyMergeSort", "true");
 	  
-	  int repeatTimes = 1;
+	  String algoName = "MyMOPSO";
+	  
+	  int repeatTimes = 10;
 	  int population = 1000;
 	  int eb = 100;
 	  int pb = eb * population * 100;
 	  double propagationRate = 0.6;
 	  boolean propagations[] = {true, false};
 	  int levels[] = {0, 1, 2, 3};
+	  // int levels[] = {3};
 	  
 	  System.out.println(System.getProperty("user.dir"));
 	  File folder = new File("E:/work");
@@ -229,7 +266,8 @@ public class mysearch3 {
 						  File file = new File(input + "/results6/" + conf + "/" + i + ".csv");
 						  file.getParentFile().mkdirs();
 						  MySearchContext.fw = new FileWriter(file, false);
-						  MySearchContext.init(propagation, propagationRate, level, goal);
+						  // MySearchContext.init(propagation, propagationRate, level, goal);
+						  MySearchContext.init(propagation, level);
 						  initialization();
 						  mysearch3 search = new mysearch3();
 						  search.performSearch(model, eb, population, pb / eb, algoName);

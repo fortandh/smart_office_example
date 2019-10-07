@@ -478,7 +478,7 @@ public class RequirementFactory {
 		
 		CompositeRequirement security = new CompositeRequirement(
 			Arrays.asList(noRoomba, assetCollected, withSecretary), 
-			Arrays.asList(0.16, 0.2, 0.64)
+			Arrays.asList(0.5, 0.2, 0.3)
 		);
 		
 		CompositeRequirement energyEfficiency = new CompositeRequirement(
@@ -488,7 +488,7 @@ public class RequirementFactory {
 		
 		CompositeRequirement usability = new CompositeRequirement(
 			Arrays.asList(temperatureHigh, brightnessHigh, clean), 
-			Arrays.asList(0.4, 0.4, 0.2)
+			Arrays.asList(0.3, 0.3, 0.4)
 		);
 		
 		CompositeRequirement root = new CompositeRequirement(

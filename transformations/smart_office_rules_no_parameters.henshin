@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_KPbsELXAEemBe4i_Fm_XMQ">
+  <imports href="http://momot.big.tuwien.ac.at/smart_office/2.0#/"/>
+  <units xsi:type="henshin:Rule" xmi:id="_XW4ExLXAEemBe4i_Fm_XMQ" name="lightOn">
+    <lhs xmi:id="_XW4ExbXAEemBe4i_Fm_XMQ" name="Lhs">
+      <nodes xmi:id="_XW4ExrXAEemBe4i_Fm_XMQ" outgoing="_YnkScLXEEemZw8I_HWcRkg _Y0X_YLXEEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room"/>
+      </nodes>
+      <nodes xmi:id="_XW4Ex7XAEemBe4i_Fm_XMQ" incoming="_Y0X_YLXEEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Brightness"/>
+        <attributes xmi:id="_XW4EyLXAEemBe4i_Fm_XMQ" value="&quot;low&quot;">
+          <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Brightness/value"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_XW4EybXAEemBe4i_Fm_XMQ" incoming="_YnkScLXEEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Light"/>
+        <attributes xmi:id="_XW4EyrXAEemBe4i_Fm_XMQ" value="false">
+          <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Light/on"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_YnkScLXEEemZw8I_HWcRkg" source="_XW4ExrXAEemBe4i_Fm_XMQ" target="_XW4EybXAEemBe4i_Fm_XMQ">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room/light"/>
+      </edges>
+      <edges xmi:id="_Y0X_YLXEEemZw8I_HWcRkg" source="_XW4ExrXAEemBe4i_Fm_XMQ" target="_XW4Ex7XAEemBe4i_Fm_XMQ">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room/brightness"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_XW4EzbXAEemBe4i_Fm_XMQ" name="Rhs">
+      <nodes xmi:id="_XW4EzrXAEemBe4i_Fm_XMQ" outgoing="_Ynk5gLXEEemZw8I_HWcRkg _Y0YmcLXEEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room"/>
+      </nodes>
+      <nodes xmi:id="_XW4Ez7XAEemBe4i_Fm_XMQ" incoming="_Y0YmcLXEEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Brightness"/>
+        <attributes xmi:id="_XW4E0LXAEemBe4i_Fm_XMQ" value="&quot;high&quot;">
+          <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Brightness/value"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_XW4E0bXAEemBe4i_Fm_XMQ" incoming="_Ynk5gLXEEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Light"/>
+        <attributes xmi:id="_XW4E0rXAEemBe4i_Fm_XMQ" value="true">
+          <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Light/on"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_Ynk5gLXEEemZw8I_HWcRkg" source="_XW4EzrXAEemBe4i_Fm_XMQ" target="_XW4E0bXAEemBe4i_Fm_XMQ">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room/light"/>
+      </edges>
+      <edges xmi:id="_Y0YmcLXEEemZw8I_HWcRkg" source="_XW4EzrXAEemBe4i_Fm_XMQ" target="_XW4Ez7XAEemBe4i_Fm_XMQ">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room/brightness"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_XW4E1bXAEemBe4i_Fm_XMQ" origin="_XW4ExrXAEemBe4i_Fm_XMQ" image="_XW4EzrXAEemBe4i_Fm_XMQ"/>
+    <mappings xmi:id="_XW4E1rXAEemBe4i_Fm_XMQ" origin="_XW4Ex7XAEemBe4i_Fm_XMQ" image="_XW4Ez7XAEemBe4i_Fm_XMQ"/>
+    <mappings xmi:id="_XW4E17XAEemBe4i_Fm_XMQ" origin="_XW4EybXAEemBe4i_Fm_XMQ" image="_XW4E0bXAEemBe4i_Fm_XMQ"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_XW4E2LXAEemBe4i_Fm_XMQ" name="lightOff">
+    <lhs xmi:id="_XW4E2bXAEemBe4i_Fm_XMQ" name="Lhs">
+      <nodes xmi:id="_XW4E2rXAEemBe4i_Fm_XMQ" outgoing="_cACDELXEEemZw8I_HWcRkg _cKXq0LXEEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room"/>
+      </nodes>
+      <nodes xmi:id="_XW4E27XAEemBe4i_Fm_XMQ" incoming="_cKXq0LXEEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Brightness"/>
+        <attributes xmi:id="_XW4E3LXAEemBe4i_Fm_XMQ" value="&quot;high&quot;">
+          <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Brightness/value"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_XW4E3bXAEemBe4i_Fm_XMQ" incoming="_cACDELXEEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Light"/>
+        <attributes xmi:id="_XW4E3rXAEemBe4i_Fm_XMQ" value="true">
+          <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Light/on"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_cACDELXEEemZw8I_HWcRkg" source="_XW4E2rXAEemBe4i_Fm_XMQ" target="_XW4E3bXAEemBe4i_Fm_XMQ">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room/light"/>
+      </edges>
+      <edges xmi:id="_cKXq0LXEEemZw8I_HWcRkg" source="_XW4E2rXAEemBe4i_Fm_XMQ" target="_XW4E27XAEemBe4i_Fm_XMQ">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room/brightness"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_XW4E4bXAEemBe4i_Fm_XMQ" name="Rhs">
+      <nodes xmi:id="_XW4E4rXAEemBe4i_Fm_XMQ" outgoing="_cACDEbXEEemZw8I_HWcRkg _cKXq0bXEEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room"/>
+      </nodes>
+      <nodes xmi:id="_XW4E47XAEemBe4i_Fm_XMQ" incoming="_cKXq0bXEEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Brightness"/>
+        <attributes xmi:id="_XW4E5LXAEemBe4i_Fm_XMQ" value="&quot;low&quot;">
+          <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Brightness/value"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_XW4E5bXAEemBe4i_Fm_XMQ" incoming="_cACDEbXEEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Light"/>
+        <attributes xmi:id="_XW4E5rXAEemBe4i_Fm_XMQ" value="false">
+          <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Light/on"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_cACDEbXEEemZw8I_HWcRkg" source="_XW4E4rXAEemBe4i_Fm_XMQ" target="_XW4E5bXAEemBe4i_Fm_XMQ">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room/light"/>
+      </edges>
+      <edges xmi:id="_cKXq0bXEEemZw8I_HWcRkg" source="_XW4E4rXAEemBe4i_Fm_XMQ" target="_XW4E47XAEemBe4i_Fm_XMQ">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room/brightness"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_XW4E6bXAEemBe4i_Fm_XMQ" origin="_XW4E2rXAEemBe4i_Fm_XMQ" image="_XW4E4rXAEemBe4i_Fm_XMQ"/>
+    <mappings xmi:id="_XW4E6rXAEemBe4i_Fm_XMQ" origin="_XW4E27XAEemBe4i_Fm_XMQ" image="_XW4E47XAEemBe4i_Fm_XMQ"/>
+    <mappings xmi:id="_XW4E67XAEemBe4i_Fm_XMQ" origin="_XW4E3bXAEemBe4i_Fm_XMQ" image="_XW4E5bXAEemBe4i_Fm_XMQ"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_XW4E7LXAEemBe4i_Fm_XMQ" name="enterSecretary">
+    <lhs xmi:id="_XW4E7bXAEemBe4i_Fm_XMQ" name="Lhs">
+      <nodes xmi:id="_XW4E7rXAEemBe4i_Fm_XMQ" incoming="_XW4E87XAEemBe4i_Fm_XMQ _kksLwLXEEemZw8I_HWcRkg" outgoing="_lC0SMLXEEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room"/>
+      </nodes>
+      <nodes xmi:id="_XW4E77XAEemBe4i_Fm_XMQ" outgoing="_XW4E87XAEemBe4i_Fm_XMQ _fQfuQLXEEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Door"/>
+      </nodes>
+      <nodes xmi:id="_XW4E8LXAEemBe4i_Fm_XMQ" incoming="_fQfuQLXEEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room"/>
+      </nodes>
+      <nodes xmi:id="_XW4E8bXAEemBe4i_Fm_XMQ" incoming="_lC0SMLXEEemZw8I_HWcRkg" outgoing="_kksLwLXEEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Secretary"/>
+        <attributes xmi:id="_XW4E8rXAEemBe4i_Fm_XMQ" value="&quot;carmen&quot;">
+          <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Clazz/name"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_XW4E87XAEemBe4i_Fm_XMQ" source="_XW4E77XAEemBe4i_Fm_XMQ" target="_XW4E7rXAEemBe4i_Fm_XMQ">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Door/room"/>
+      </edges>
+      <edges xmi:id="_fQfuQLXEEemZw8I_HWcRkg" source="_XW4E77XAEemBe4i_Fm_XMQ" target="_XW4E8LXAEemBe4i_Fm_XMQ">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Door/room"/>
+      </edges>
+      <edges xmi:id="_kksLwLXEEemZw8I_HWcRkg" source="_XW4E8bXAEemBe4i_Fm_XMQ" target="_XW4E7rXAEemBe4i_Fm_XMQ">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Secretary/room"/>
+      </edges>
+      <edges xmi:id="_lC0SMLXEEemZw8I_HWcRkg" source="_XW4E7rXAEemBe4i_Fm_XMQ" target="_XW4E8bXAEemBe4i_Fm_XMQ">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room/secretary"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_XW4E97XAEemBe4i_Fm_XMQ" name="Rhs">
+      <nodes xmi:id="_XW4E-LXAEemBe4i_Fm_XMQ" incoming="_XW4E_bXAEemBe4i_Fm_XMQ">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room"/>
+      </nodes>
+      <nodes xmi:id="_XW4E-bXAEemBe4i_Fm_XMQ" outgoing="_XW4E_bXAEemBe4i_Fm_XMQ _fQgVULXEEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Door"/>
+      </nodes>
+      <nodes xmi:id="_XW4E-rXAEemBe4i_Fm_XMQ" incoming="_fQgVULXEEemZw8I_HWcRkg _ouBYoLXEEemZw8I_HWcRkg" outgoing="_pLQHMLXEEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room"/>
+      </nodes>
+      <nodes xmi:id="_XW4E-7XAEemBe4i_Fm_XMQ" incoming="_pLQHMLXEEemZw8I_HWcRkg" outgoing="_ouBYoLXEEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Secretary"/>
+        <attributes xmi:id="_XW4E_LXAEemBe4i_Fm_XMQ" value="&quot;carmen&quot;">
+          <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Clazz/name"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_XW4E_bXAEemBe4i_Fm_XMQ" source="_XW4E-bXAEemBe4i_Fm_XMQ" target="_XW4E-LXAEemBe4i_Fm_XMQ">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Door/room"/>
+      </edges>
+      <edges xmi:id="_fQgVULXEEemZw8I_HWcRkg" source="_XW4E-bXAEemBe4i_Fm_XMQ" target="_XW4E-rXAEemBe4i_Fm_XMQ">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Door/room"/>
+      </edges>
+      <edges xmi:id="_pLQHMLXEEemZw8I_HWcRkg" source="_XW4E-rXAEemBe4i_Fm_XMQ" target="_XW4E-7XAEemBe4i_Fm_XMQ">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room/secretary"/>
+      </edges>
+      <edges xmi:id="_ouBYoLXEEemZw8I_HWcRkg" source="_XW4E-7XAEemBe4i_Fm_XMQ" target="_XW4E-rXAEemBe4i_Fm_XMQ">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Secretary/room"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_XW4FAbXAEemBe4i_Fm_XMQ" origin="_XW4E7rXAEemBe4i_Fm_XMQ" image="_XW4E-LXAEemBe4i_Fm_XMQ"/>
+    <mappings xmi:id="_XW4FArXAEemBe4i_Fm_XMQ" origin="_XW4E77XAEemBe4i_Fm_XMQ" image="_XW4E-bXAEemBe4i_Fm_XMQ"/>
+    <mappings xmi:id="_XW4FA7XAEemBe4i_Fm_XMQ" origin="_XW4E8LXAEemBe4i_Fm_XMQ" image="_XW4E-rXAEemBe4i_Fm_XMQ"/>
+    <mappings xmi:id="_XW4FBLXAEemBe4i_Fm_XMQ" origin="_XW4E8bXAEemBe4i_Fm_XMQ" image="_XW4E-7XAEemBe4i_Fm_XMQ"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_XW4FBbXAEemBe4i_Fm_XMQ" name="windowOn">
+    <lhs xmi:id="_XW4FBrXAEemBe4i_Fm_XMQ" name="Lhs">
+      <nodes xmi:id="_XW4FB7XAEemBe4i_Fm_XMQ" outgoing="_xnbXYLXGEemZw8I_HWcRkg _xyYDILXGEemZw8I_HWcRkg _x9z3ELXGEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room"/>
+      </nodes>
+      <nodes xmi:id="_XW4FCLXAEemBe4i_Fm_XMQ" incoming="_xnbXYLXGEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Window"/>
+        <attributes xmi:id="_XW4FCbXAEemBe4i_Fm_XMQ" value="false">
+          <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Window/on"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_XW4FCrXAEemBe4i_Fm_XMQ" incoming="_xyYDILXGEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Brightness"/>
+        <attributes xmi:id="_XW4FC7XAEemBe4i_Fm_XMQ" value="&quot;low&quot;">
+          <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Brightness/value"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_XW4FDLXAEemBe4i_Fm_XMQ" incoming="_x9z3ELXGEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Temperature"/>
+        <attributes xmi:id="_XW4FDbXAEemBe4i_Fm_XMQ" value="&quot;high&quot;">
+          <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Temperature/value"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_xnbXYLXGEemZw8I_HWcRkg" source="_XW4FB7XAEemBe4i_Fm_XMQ" target="_XW4FCLXAEemBe4i_Fm_XMQ">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room/window"/>
+      </edges>
+      <edges xmi:id="_xyYDILXGEemZw8I_HWcRkg" source="_XW4FB7XAEemBe4i_Fm_XMQ" target="_XW4FCrXAEemBe4i_Fm_XMQ">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room/brightness"/>
+      </edges>
+      <edges xmi:id="_x9z3ELXGEemZw8I_HWcRkg" source="_XW4FB7XAEemBe4i_Fm_XMQ" target="_XW4FDLXAEemBe4i_Fm_XMQ">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room/temperature"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_XW4FEbXAEemBe4i_Fm_XMQ" name="Rhs">
+      <nodes xmi:id="_XW4FErXAEemBe4i_Fm_XMQ" outgoing="_xnbXYbXGEemZw8I_HWcRkg _xyYDIbXGEemZw8I_HWcRkg _x9z3EbXGEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room"/>
+      </nodes>
+      <nodes xmi:id="_XW4FE7XAEemBe4i_Fm_XMQ" incoming="_xnbXYbXGEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Window"/>
+        <attributes xmi:id="_XW4FFLXAEemBe4i_Fm_XMQ" value="true">
+          <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Window/on"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_XW4FFbXAEemBe4i_Fm_XMQ" incoming="_xyYDIbXGEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Brightness"/>
+        <attributes xmi:id="_XW4FFrXAEemBe4i_Fm_XMQ" value="&quot;high&quot;">
+          <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Brightness/value"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_XW4FF7XAEemBe4i_Fm_XMQ" incoming="_x9z3EbXGEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Temperature"/>
+        <attributes xmi:id="_XW4FGLXAEemBe4i_Fm_XMQ" value="&quot;low&quot;">
+          <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Temperature/value"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_xnbXYbXGEemZw8I_HWcRkg" source="_XW4FErXAEemBe4i_Fm_XMQ" target="_XW4FE7XAEemBe4i_Fm_XMQ">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room/window"/>
+      </edges>
+      <edges xmi:id="_xyYDIbXGEemZw8I_HWcRkg" source="_XW4FErXAEemBe4i_Fm_XMQ" target="_XW4FFbXAEemBe4i_Fm_XMQ">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room/brightness"/>
+      </edges>
+      <edges xmi:id="_x9z3EbXGEemZw8I_HWcRkg" source="_XW4FErXAEemBe4i_Fm_XMQ" target="_XW4FF7XAEemBe4i_Fm_XMQ">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room/temperature"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_XW4FHLXAEemBe4i_Fm_XMQ" origin="_XW4FB7XAEemBe4i_Fm_XMQ" image="_XW4FErXAEemBe4i_Fm_XMQ"/>
+    <mappings xmi:id="_XW4FHbXAEemBe4i_Fm_XMQ" origin="_XW4FCLXAEemBe4i_Fm_XMQ" image="_XW4FE7XAEemBe4i_Fm_XMQ"/>
+    <mappings xmi:id="_XW4FHrXAEemBe4i_Fm_XMQ" origin="_XW4FCrXAEemBe4i_Fm_XMQ" image="_XW4FFbXAEemBe4i_Fm_XMQ"/>
+    <mappings xmi:id="_XW4FH7XAEemBe4i_Fm_XMQ" origin="_XW4FDLXAEemBe4i_Fm_XMQ" image="_XW4FF7XAEemBe4i_Fm_XMQ"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_XW4FILXAEemBe4i_Fm_XMQ" name="windowOff">
+    <lhs xmi:id="_XW4FIbXAEemBe4i_Fm_XMQ" name="Lhs">
+      <nodes xmi:id="_XW4FIrXAEemBe4i_Fm_XMQ" outgoing="_eLkmMLXHEemZw8I_HWcRkg _eZEPoLXHEemZw8I_HWcRkg _exLNoLXHEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room"/>
+      </nodes>
+      <nodes xmi:id="_XW4FI7XAEemBe4i_Fm_XMQ" incoming="_eZEPoLXHEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Brightness"/>
+        <attributes xmi:id="_XW4FJLXAEemBe4i_Fm_XMQ" value="&quot;high&quot;">
+          <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Brightness/value"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_XW4FJbXAEemBe4i_Fm_XMQ" incoming="_exLNoLXHEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Temperature"/>
+        <attributes xmi:id="_XW4FJrXAEemBe4i_Fm_XMQ" value="&quot;low&quot;">
+          <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Temperature/value"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_XW4FJ7XAEemBe4i_Fm_XMQ" incoming="_eLkmMLXHEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Window"/>
+        <attributes xmi:id="_XW4FKLXAEemBe4i_Fm_XMQ" value="true">
+          <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Window/on"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_eLkmMLXHEemZw8I_HWcRkg" source="_XW4FIrXAEemBe4i_Fm_XMQ" target="_XW4FJ7XAEemBe4i_Fm_XMQ">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room/window"/>
+      </edges>
+      <edges xmi:id="_eZEPoLXHEemZw8I_HWcRkg" source="_XW4FIrXAEemBe4i_Fm_XMQ" target="_XW4FI7XAEemBe4i_Fm_XMQ">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room/brightness"/>
+      </edges>
+      <edges xmi:id="_exLNoLXHEemZw8I_HWcRkg" source="_XW4FIrXAEemBe4i_Fm_XMQ" target="_XW4FJbXAEemBe4i_Fm_XMQ">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room/temperature"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_XW4FLLXAEemBe4i_Fm_XMQ" name="Rhs">
+      <nodes xmi:id="_XW4FLbXAEemBe4i_Fm_XMQ" outgoing="_eLkmMbXHEemZw8I_HWcRkg _eZEPobXHEemZw8I_HWcRkg _exLNobXHEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room"/>
+      </nodes>
+      <nodes xmi:id="_XW4FLrXAEemBe4i_Fm_XMQ" incoming="_eZEPobXHEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Brightness"/>
+        <attributes xmi:id="_XW4FL7XAEemBe4i_Fm_XMQ" value="&quot;low&quot;">
+          <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Brightness/value"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_XW4FMLXAEemBe4i_Fm_XMQ" incoming="_exLNobXHEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Temperature"/>
+        <attributes xmi:id="_XW4FMbXAEemBe4i_Fm_XMQ" value="&quot;high&quot;">
+          <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Temperature/value"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_XW4FMrXAEemBe4i_Fm_XMQ" incoming="_eLkmMbXHEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Window"/>
+        <attributes xmi:id="_XW4FM7XAEemBe4i_Fm_XMQ" value="false">
+          <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Window/on"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_eLkmMbXHEemZw8I_HWcRkg" source="_XW4FLbXAEemBe4i_Fm_XMQ" target="_XW4FMrXAEemBe4i_Fm_XMQ">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room/window"/>
+      </edges>
+      <edges xmi:id="_eZEPobXHEemZw8I_HWcRkg" source="_XW4FLbXAEemBe4i_Fm_XMQ" target="_XW4FLrXAEemBe4i_Fm_XMQ">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room/brightness"/>
+      </edges>
+      <edges xmi:id="_exLNobXHEemZw8I_HWcRkg" source="_XW4FLbXAEemBe4i_Fm_XMQ" target="_XW4FMLXAEemBe4i_Fm_XMQ">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room/temperature"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_XW4FN7XAEemBe4i_Fm_XMQ" origin="_XW4FIrXAEemBe4i_Fm_XMQ" image="_XW4FLbXAEemBe4i_Fm_XMQ"/>
+    <mappings xmi:id="_XW4FOLXAEemBe4i_Fm_XMQ" origin="_XW4FI7XAEemBe4i_Fm_XMQ" image="_XW4FLrXAEemBe4i_Fm_XMQ"/>
+    <mappings xmi:id="_XW4FObXAEemBe4i_Fm_XMQ" origin="_XW4FJbXAEemBe4i_Fm_XMQ" image="_XW4FMLXAEemBe4i_Fm_XMQ"/>
+    <mappings xmi:id="_XW4FOrXAEemBe4i_Fm_XMQ" origin="_XW4FJ7XAEemBe4i_Fm_XMQ" image="_XW4FMrXAEemBe4i_Fm_XMQ"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_XW4FO7XAEemBe4i_Fm_XMQ" name="collectAsset">
+    <lhs xmi:id="_XW4FPLXAEemBe4i_Fm_XMQ" name="Lhs">
+      <nodes xmi:id="_XW4FPbXAEemBe4i_Fm_XMQ" outgoing="_jjH5sLXHEemZw8I_HWcRkg _jwsboLXHEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room"/>
+      </nodes>
+      <nodes xmi:id="_XW4FPrXAEemBe4i_Fm_XMQ" incoming="_jwsboLXHEemZw8I_HWcRkg" outgoing="_j_uWILXHEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Printer"/>
+      </nodes>
+      <nodes xmi:id="_XW4FP7XAEemBe4i_Fm_XMQ" incoming="_j_uWILXHEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Asset"/>
+      </nodes>
+      <nodes xmi:id="_XW4FQLXAEemBe4i_Fm_XMQ" incoming="_jjH5sLXHEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Secretary"/>
+        <attributes xmi:id="_XW4FQbXAEemBe4i_Fm_XMQ" value="&quot;carmen&quot;">
+          <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Clazz/name"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_jjH5sLXHEemZw8I_HWcRkg" source="_XW4FPbXAEemBe4i_Fm_XMQ" target="_XW4FQLXAEemBe4i_Fm_XMQ">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room/secretary"/>
+      </edges>
+      <edges xmi:id="_jwsboLXHEemZw8I_HWcRkg" source="_XW4FPbXAEemBe4i_Fm_XMQ" target="_XW4FPrXAEemBe4i_Fm_XMQ">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room/printer"/>
+      </edges>
+      <edges xmi:id="_j_uWILXHEemZw8I_HWcRkg" source="_XW4FPrXAEemBe4i_Fm_XMQ" target="_XW4FP7XAEemBe4i_Fm_XMQ">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Printer/asset"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_XW4FRbXAEemBe4i_Fm_XMQ" name="Rhs">
+      <nodes xmi:id="_XW4FRrXAEemBe4i_Fm_XMQ" outgoing="_jjH5sbXHEemZw8I_HWcRkg _jwsbobXHEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room"/>
+      </nodes>
+      <nodes xmi:id="_XW4FR7XAEemBe4i_Fm_XMQ" incoming="_jwsbobXHEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Printer"/>
+      </nodes>
+      <nodes xmi:id="_XW4FSLXAEemBe4i_Fm_XMQ">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Asset"/>
+      </nodes>
+      <nodes xmi:id="_XW4FSbXAEemBe4i_Fm_XMQ" incoming="_jjH5sbXHEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Secretary"/>
+        <attributes xmi:id="_XW4FSrXAEemBe4i_Fm_XMQ" value="&quot;carmen&quot;">
+          <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Clazz/name"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_jjH5sbXHEemZw8I_HWcRkg" source="_XW4FRrXAEemBe4i_Fm_XMQ" target="_XW4FSbXAEemBe4i_Fm_XMQ">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room/secretary"/>
+      </edges>
+      <edges xmi:id="_jwsbobXHEemZw8I_HWcRkg" source="_XW4FRrXAEemBe4i_Fm_XMQ" target="_XW4FR7XAEemBe4i_Fm_XMQ">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room/printer"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_XW4FTbXAEemBe4i_Fm_XMQ" origin="_XW4FPbXAEemBe4i_Fm_XMQ" image="_XW4FRrXAEemBe4i_Fm_XMQ"/>
+    <mappings xmi:id="_XW4FTrXAEemBe4i_Fm_XMQ" origin="_XW4FPrXAEemBe4i_Fm_XMQ" image="_XW4FR7XAEemBe4i_Fm_XMQ"/>
+    <mappings xmi:id="_XW4FT7XAEemBe4i_Fm_XMQ" origin="_XW4FP7XAEemBe4i_Fm_XMQ" image="_XW4FSLXAEemBe4i_Fm_XMQ"/>
+    <mappings xmi:id="_XW4FULXAEemBe4i_Fm_XMQ" origin="_XW4FQLXAEemBe4i_Fm_XMQ" image="_XW4FSbXAEemBe4i_Fm_XMQ"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_XXB0cLXAEemBe4i_Fm_XMQ" name="heaterOn">
+    <lhs xmi:id="_XXB0cbXAEemBe4i_Fm_XMQ" name="Lhs">
+      <nodes xmi:id="_XXB0crXAEemBe4i_Fm_XMQ" outgoing="_nzLZoLXHEemZw8I_HWcRkg _n-jjMLXHEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room"/>
+      </nodes>
+      <nodes xmi:id="_XXB0c7XAEemBe4i_Fm_XMQ" incoming="_nzLZoLXHEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Heater"/>
+        <attributes xmi:id="_XXB0dLXAEemBe4i_Fm_XMQ" value="false">
+          <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Heater/on"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_XXB0dbXAEemBe4i_Fm_XMQ" incoming="_n-jjMLXHEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Temperature"/>
+        <attributes xmi:id="_XXB0drXAEemBe4i_Fm_XMQ" value="&quot;low&quot;">
+          <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Temperature/value"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_nzLZoLXHEemZw8I_HWcRkg" source="_XXB0crXAEemBe4i_Fm_XMQ" target="_XXB0c7XAEemBe4i_Fm_XMQ">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room/heater"/>
+      </edges>
+      <edges xmi:id="_n-jjMLXHEemZw8I_HWcRkg" source="_XXB0crXAEemBe4i_Fm_XMQ" target="_XXB0dbXAEemBe4i_Fm_XMQ">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room/temperature"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_XXB0ebXAEemBe4i_Fm_XMQ" name="Rhs">
+      <nodes xmi:id="_XXB0erXAEemBe4i_Fm_XMQ" outgoing="_nzLZobXHEemZw8I_HWcRkg _n-jjMbXHEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room"/>
+      </nodes>
+      <nodes xmi:id="_XXB0e7XAEemBe4i_Fm_XMQ" incoming="_nzLZobXHEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Heater"/>
+        <attributes xmi:id="_XXB0fLXAEemBe4i_Fm_XMQ" value="true">
+          <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Heater/on"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_XXB0fbXAEemBe4i_Fm_XMQ" incoming="_n-jjMbXHEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Temperature"/>
+        <attributes xmi:id="_XXB0frXAEemBe4i_Fm_XMQ" value="&quot;high&quot;">
+          <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Temperature/value"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_nzLZobXHEemZw8I_HWcRkg" source="_XXB0erXAEemBe4i_Fm_XMQ" target="_XXB0e7XAEemBe4i_Fm_XMQ">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room/heater"/>
+      </edges>
+      <edges xmi:id="_n-jjMbXHEemZw8I_HWcRkg" source="_XXB0erXAEemBe4i_Fm_XMQ" target="_XXB0fbXAEemBe4i_Fm_XMQ">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room/temperature"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_XXB0gbXAEemBe4i_Fm_XMQ" origin="_XXB0crXAEemBe4i_Fm_XMQ" image="_XXB0erXAEemBe4i_Fm_XMQ"/>
+    <mappings xmi:id="_XXB0grXAEemBe4i_Fm_XMQ" origin="_XXB0c7XAEemBe4i_Fm_XMQ" image="_XXB0e7XAEemBe4i_Fm_XMQ"/>
+    <mappings xmi:id="_XXB0g7XAEemBe4i_Fm_XMQ" origin="_XXB0dbXAEemBe4i_Fm_XMQ" image="_XXB0fbXAEemBe4i_Fm_XMQ"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_XXB0hLXAEemBe4i_Fm_XMQ" name="heaterOff">
+    <lhs xmi:id="_XXB0hbXAEemBe4i_Fm_XMQ" name="Lhs">
+      <nodes xmi:id="_XXB0hrXAEemBe4i_Fm_XMQ" outgoing="_quG5sLXHEemZw8I_HWcRkg _q5KTILXHEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room"/>
+      </nodes>
+      <nodes xmi:id="_XXB0h7XAEemBe4i_Fm_XMQ" incoming="_quG5sLXHEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Heater"/>
+        <attributes xmi:id="_XXB0iLXAEemBe4i_Fm_XMQ" value="true">
+          <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Heater/on"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_XXB0ibXAEemBe4i_Fm_XMQ" incoming="_q5KTILXHEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Temperature"/>
+        <attributes xmi:id="_XXB0irXAEemBe4i_Fm_XMQ" value="&quot;high&quot;">
+          <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Temperature/value"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_quG5sLXHEemZw8I_HWcRkg" source="_XXB0hrXAEemBe4i_Fm_XMQ" target="_XXB0h7XAEemBe4i_Fm_XMQ">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room/heater"/>
+      </edges>
+      <edges xmi:id="_q5KTILXHEemZw8I_HWcRkg" source="_XXB0hrXAEemBe4i_Fm_XMQ" target="_XXB0ibXAEemBe4i_Fm_XMQ">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room/temperature"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_XXB0jbXAEemBe4i_Fm_XMQ" name="Rhs">
+      <nodes xmi:id="_XXB0jrXAEemBe4i_Fm_XMQ" outgoing="_quG5sbXHEemZw8I_HWcRkg _q5KTIbXHEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room"/>
+      </nodes>
+      <nodes xmi:id="_XXB0j7XAEemBe4i_Fm_XMQ" incoming="_quG5sbXHEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Heater"/>
+        <attributes xmi:id="_XXB0kLXAEemBe4i_Fm_XMQ" value="false">
+          <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Heater/on"/>
+        </attributes>
+      </nodes>
+      <nodes xmi:id="_XXB0kbXAEemBe4i_Fm_XMQ" incoming="_q5KTIbXHEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Temperature"/>
+        <attributes xmi:id="_XXB0krXAEemBe4i_Fm_XMQ" value="&quot;low&quot;">
+          <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Temperature/value"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_quG5sbXHEemZw8I_HWcRkg" source="_XXB0jrXAEemBe4i_Fm_XMQ" target="_XXB0j7XAEemBe4i_Fm_XMQ">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room/heater"/>
+      </edges>
+      <edges xmi:id="_q5KTIbXHEemZw8I_HWcRkg" source="_XXB0jrXAEemBe4i_Fm_XMQ" target="_XXB0kbXAEemBe4i_Fm_XMQ">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room/temperature"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_XXB0lbXAEemBe4i_Fm_XMQ" origin="_XXB0hrXAEemBe4i_Fm_XMQ" image="_XXB0jrXAEemBe4i_Fm_XMQ"/>
+    <mappings xmi:id="_XXB0lrXAEemBe4i_Fm_XMQ" origin="_XXB0h7XAEemBe4i_Fm_XMQ" image="_XXB0j7XAEemBe4i_Fm_XMQ"/>
+    <mappings xmi:id="_XXB0l7XAEemBe4i_Fm_XMQ" origin="_XXB0ibXAEemBe4i_Fm_XMQ" image="_XXB0kbXAEemBe4i_Fm_XMQ"/>
+  </units>
+  <units xsi:type="henshin:Rule" xmi:id="_XXB0mLXAEemBe4i_Fm_XMQ" name="enterRoomba">
+    <parameters xmi:id="_bZu7QLXIEemZw8I_HWcRkg" name="cleanness" kind="VAR">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </parameters>
+    <lhs xmi:id="_XXB0mbXAEemBe4i_Fm_XMQ" name="Lhs">
+      <nodes xmi:id="_XXB0mrXAEemBe4i_Fm_XMQ" incoming="_XXB0nrXAEemBe4i_Fm_XMQ _XXB0oLXAEemBe4i_Fm_XMQ" outgoing="_XXB0obXAEemBe4i_Fm_XMQ">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room"/>
+      </nodes>
+      <nodes xmi:id="_XXB0m7XAEemBe4i_Fm_XMQ" incoming="_XXB0n7XAEemBe4i_Fm_XMQ" outgoing="_cpD1ILXIEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room"/>
+      </nodes>
+      <nodes xmi:id="_XXB0nLXAEemBe4i_Fm_XMQ" outgoing="_XXB0nrXAEemBe4i_Fm_XMQ _XXB0n7XAEemBe4i_Fm_XMQ">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Door"/>
+      </nodes>
+      <nodes xmi:id="_XXB0nbXAEemBe4i_Fm_XMQ" incoming="_XXB0obXAEemBe4i_Fm_XMQ" outgoing="_XXB0oLXAEemBe4i_Fm_XMQ">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Roomba"/>
+      </nodes>
+      <nodes xmi:id="_Ut8YsLXIEemZw8I_HWcRkg" incoming="_cpD1ILXIEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Cleanness"/>
+        <attributes xmi:id="_XNUlMLXIEemZw8I_HWcRkg" value="cleanness">
+          <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Cleanness/value"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_XXB0nrXAEemBe4i_Fm_XMQ" source="_XXB0nLXAEemBe4i_Fm_XMQ" target="_XXB0mrXAEemBe4i_Fm_XMQ">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Door/room"/>
+      </edges>
+      <edges xmi:id="_XXB0n7XAEemBe4i_Fm_XMQ" source="_XXB0nLXAEemBe4i_Fm_XMQ" target="_XXB0m7XAEemBe4i_Fm_XMQ">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Door/room"/>
+      </edges>
+      <edges xmi:id="_XXB0oLXAEemBe4i_Fm_XMQ" source="_XXB0nbXAEemBe4i_Fm_XMQ" target="_XXB0mrXAEemBe4i_Fm_XMQ">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Roomba/room"/>
+      </edges>
+      <edges xmi:id="_XXB0obXAEemBe4i_Fm_XMQ" source="_XXB0mrXAEemBe4i_Fm_XMQ" target="_XXB0nbXAEemBe4i_Fm_XMQ">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room/roomba"/>
+      </edges>
+      <edges xmi:id="_cpD1ILXIEemZw8I_HWcRkg" source="_XXB0m7XAEemBe4i_Fm_XMQ" target="_Ut8YsLXIEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room/cleanness"/>
+      </edges>
+    </lhs>
+    <rhs xmi:id="_XXB0orXAEemBe4i_Fm_XMQ" name="Rhs">
+      <nodes xmi:id="_XXB0o7XAEemBe4i_Fm_XMQ" incoming="_XXB0p7XAEemBe4i_Fm_XMQ">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room"/>
+      </nodes>
+      <nodes xmi:id="_XXB0pLXAEemBe4i_Fm_XMQ" incoming="_XXB0qLXAEemBe4i_Fm_XMQ _XXB0qrXAEemBe4i_Fm_XMQ" outgoing="_XXB0qbXAEemBe4i_Fm_XMQ _cpD1IbXIEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room"/>
+      </nodes>
+      <nodes xmi:id="_XXB0pbXAEemBe4i_Fm_XMQ" outgoing="_XXB0p7XAEemBe4i_Fm_XMQ _XXB0qLXAEemBe4i_Fm_XMQ">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Door"/>
+      </nodes>
+      <nodes xmi:id="_XXB0prXAEemBe4i_Fm_XMQ" incoming="_XXB0qbXAEemBe4i_Fm_XMQ" outgoing="_XXB0qrXAEemBe4i_Fm_XMQ">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Roomba"/>
+      </nodes>
+      <nodes xmi:id="_Ut8YsbXIEemZw8I_HWcRkg" incoming="_cpD1IbXIEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Cleanness"/>
+        <attributes xmi:id="_XNUlMbXIEemZw8I_HWcRkg" value="&quot;clean&quot;">
+          <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Cleanness/value"/>
+        </attributes>
+      </nodes>
+      <edges xmi:id="_XXB0p7XAEemBe4i_Fm_XMQ" source="_XXB0pbXAEemBe4i_Fm_XMQ" target="_XXB0o7XAEemBe4i_Fm_XMQ">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Door/room"/>
+      </edges>
+      <edges xmi:id="_XXB0qLXAEemBe4i_Fm_XMQ" source="_XXB0pbXAEemBe4i_Fm_XMQ" target="_XXB0pLXAEemBe4i_Fm_XMQ">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Door/room"/>
+      </edges>
+      <edges xmi:id="_XXB0qbXAEemBe4i_Fm_XMQ" source="_XXB0pLXAEemBe4i_Fm_XMQ" target="_XXB0prXAEemBe4i_Fm_XMQ">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room/roomba"/>
+      </edges>
+      <edges xmi:id="_XXB0qrXAEemBe4i_Fm_XMQ" source="_XXB0prXAEemBe4i_Fm_XMQ" target="_XXB0pLXAEemBe4i_Fm_XMQ">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Roomba/room"/>
+      </edges>
+      <edges xmi:id="_cpD1IbXIEemZw8I_HWcRkg" source="_XXB0pLXAEemBe4i_Fm_XMQ" target="_Ut8YsbXIEemZw8I_HWcRkg">
+        <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room/cleanness"/>
+      </edges>
+    </rhs>
+    <mappings xmi:id="_XXB0q7XAEemBe4i_Fm_XMQ" origin="_XXB0mrXAEemBe4i_Fm_XMQ" image="_XXB0o7XAEemBe4i_Fm_XMQ"/>
+    <mappings xmi:id="_XXB0rLXAEemBe4i_Fm_XMQ" origin="_XXB0m7XAEemBe4i_Fm_XMQ" image="_XXB0pLXAEemBe4i_Fm_XMQ"/>
+    <mappings xmi:id="_XXB0rbXAEemBe4i_Fm_XMQ" origin="_XXB0nLXAEemBe4i_Fm_XMQ" image="_XXB0pbXAEemBe4i_Fm_XMQ"/>
+    <mappings xmi:id="_XXB0rrXAEemBe4i_Fm_XMQ" origin="_XXB0nbXAEemBe4i_Fm_XMQ" image="_XXB0prXAEemBe4i_Fm_XMQ"/>
+    <mappings xmi:id="_Ut8YsrXIEemZw8I_HWcRkg" origin="_Ut8YsLXIEemZw8I_HWcRkg" image="_Ut8YsbXIEemZw8I_HWcRkg"/>
+  </units>
+</henshin:Module>
