@@ -116,6 +116,10 @@ public class mysearch3 {
 				new TwoPointCrossover(1.0),
 				new PlaceholderMutation(0.1),
 				new TransformationVariableMutation(orchestration.getSearchHelper(), 0.2)) : 
+		algorithmName.equals("MyNSGAIItest") ?
+			moea.createMyNSGAII(
+				new TournamentSelection(2),
+				new TwoPointCrossover(1.0)) : 
 		algorithmName.equals("MyMOPSO") ?
 			moea.createMyMOPSO(new TransformationVariableMutation(orchestration.getSearchHelper(), 0.2)) :
 		algorithmName.equals("NSGAIII") ? 
@@ -127,6 +131,12 @@ public class mysearch3 {
 			moea.createPAES(8, 100000, 
 				new PlaceholderMutation(0.1), 
 				new TransformationVariableMutation(orchestration.getSearchHelper(), 0.9)) :
+		algorithmName.equals("MyEMOEA") ?
+			moea.createMyEMOEA(0.01, 
+					new TournamentSelection(2), 
+					new TwoPointCrossover(1.0),
+					new PlaceholderMutation(0.01),
+					new TransformationVariableMutation(orchestration.getSearchHelper(), 0.09)) :
 		algorithmName.equals("eMOEA") ? 
 			moea.createEpsilonMOEA(0.01, 
 					new TournamentSelection(2), 
@@ -238,15 +248,17 @@ public class mysearch3 {
 	  
 	  int repeatTimes = 10;
 	  int population = 1000;
-	  int eb = 100;
-	  int pb = eb * population * 100;
+	  int eb = 70;
+	  int pb = eb * population * 500;
 	  double propagationRate = 0.6;
 	  boolean propagations[] = {true, false};
 	  int levels[] = {0, 1, 2, 3};
+	  // boolean propagations[] = {false};
 	  // int levels[] = {3};
 	  
 	  System.out.println(System.getProperty("user.dir"));
-	  File folder = new File("E:/work");
+	  String homePath = System.getProperty("user.home");
+	  File folder = new File(homePath + "/workspace/work");
 	  File[] listOfFiles = folder.listFiles();
 	  for (int i1 = 0; i1 < listOfFiles.length; i1 ++) {
 		  if (! listOfFiles[i1].isDirectory()) continue;

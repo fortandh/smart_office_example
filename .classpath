@@ -5,12 +5,9 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="src-gen"/>
 	<classpathentry kind="src" path="src-mine"/>
-	<classpathentry kind="lib" path="D:/etc/json-20180813.jar"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/at.ac.tuwien.big.moea"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/at.ac.tuwien.big.momot.branding"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/at.ac.tuwien.big.momot.core"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/at.ac.tuwien.big.momot.core.tests"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/at.ac.tuwien.big.momot.ui.popup"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/MOEAFramework-2.12"/>
+	<classpathentry kind="lib" path="/Users/qiaoxiaohe/repos/etc/json-20180813.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
