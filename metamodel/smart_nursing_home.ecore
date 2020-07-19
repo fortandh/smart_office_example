@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="smart_nursing_home" nsURI="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0"
+    nsPrefix="smart_nursing_home">
+  <eClassifiers xsi:type="ecore:EClass" name="SmartNursingHome">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="clazz" upperBound="-1"
+        eType="#//Clazz" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Clazz" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Room" eSuperTypes="#//Clazz">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="window" eType="#//Window"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="light" eType="#//Light"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="humidifier" eType="#//Humidifier"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="heater" eType="#//Heater"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="brightness" eType="#//Brightness"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="humidity" eType="#//Humidity"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="temperature" eType="#//Temperature"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="door" upperBound="-1" eType="#//Door"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="person" upperBound="-1"
+        eType="#//Person" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Door" eSuperTypes="#//Clazz">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="room" upperBound="-1" eType="#//Room"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Window" eSuperTypes="#//Clazz">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="on" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Heater" eSuperTypes="#//Clazz">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="on" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Light" eSuperTypes="#//Clazz">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="on" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Humidifier" eSuperTypes="#//Clazz">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="on" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Brightness" eSuperTypes="#//Clazz">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Humidity" eSuperTypes="#//Clazz">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Temperature" eSuperTypes="#//Clazz">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Person" abstract="true" eSuperTypes="#//Clazz">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="medicine" upperBound="-1"
+        eType="#//Medicine" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CareWorker" eSuperTypes="#//Person"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Elder" eSuperTypes="#//Person">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="bySelf" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="tidy" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="temperatureCheck" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="bloodOxygenCheck" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="disease" upperBound="-1"
+        eType="#//Disease" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Disease" abstract="true" eSuperTypes="#//Clazz"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Diabetes" eSuperTypes="#//Disease">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="glucoseMeasured" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="insulinInjected" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="HeartAttack" eSuperTypes="#//Disease">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="heartRateCheck" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="aspirinTaken" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Medicine" eSuperTypes="#//Clazz"/>
+  <eClassifiers xsi:type="ecore:EClass" name="CheckingRoom" eSuperTypes="#//Room"/>
+  <eClassifiers xsi:type="ecore:EClass" name="BathingRoom" eSuperTypes="#//Room"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Pharmacy" eSuperTypes="#//Room"/>
+</ecore:EPackage>

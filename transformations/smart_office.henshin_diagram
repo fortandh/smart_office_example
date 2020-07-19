@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_th404LcCEee8W6YHtXWaIQ" type="Henshin" name="smart_office.henshin_diagram" measurementUnit="Pixel">
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmi:id="_th404LcCEee8W6YHtXWaIQ" type="Henshin" name="smart_office.henshin_diagram" measurementUnit="Pixel">
   <children xmi:type="notation:Shape" xmi:id="_ufmaULcCEee8W6YHtXWaIQ" type="2001" fontName=".AppleSystemUIFont" italic="true" lineColor="0">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5kGCgLcCEee8W6YHtXWaIQ" source="defaultAction">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5kGCgbcCEee8W6YHtXWaIQ" key="value" value="preserve"/>
@@ -50,7 +50,7 @@
       </children>
     </children>
     <element xmi:type="henshin:Rule" href="smart_office.henshin#_ufj-ELcCEee8W6YHtXWaIQ"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ufmaUbcCEee8W6YHtXWaIQ" x="21" y="20" width="603" height="170"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ufmaUbcCEee8W6YHtXWaIQ" x="21" y="20" width="792" height="180"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_nPsBkLcDEee8W6YHtXWaIQ" type="2001" fontName=".AppleSystemUIFont" italic="true" lineColor="0">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rvEhg7cEEee8W6YHtXWaIQ" source="defaultAction">
