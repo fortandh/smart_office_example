@@ -1,7 +1,8 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: %pluginName
-Bundle-SymbolicName: smart_office_2;singleton:=true
+Bundle-SymbolicName: smart_office_example;singleton:=true
+Automatic-Module-Name: smart_office_example
 Bundle-Version: 1.0.0.qualifier
 Bundle-ClassPath: .
 Bundle-Vendor: %providerName
@@ -10,7 +11,10 @@ Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Export-Package: experiment,
  smart_office,
  smart_office.impl,
- smart_office.util
+ smart_office.util,
+ smart_nursing_home,
+ smart_nursing_home.impl,
+ smart_nursing_home.util
 Require-Bundle: org.eclipse.core.runtime,
  org.eclipse.emf.ecore;visibility:=reexport,
  org.eclipse.emf.ecore.xmi;bundle-version="2.13.0",

@@ -14,4 +14,12 @@
             genModel="metamodel/smart_office.genmodel"/>
    </extension>
 
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated smart_nursing_home -->
+      <package
+            uri="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0"
+            class="smart_nursing_home.Smart_nursing_homePackage"
+            genModel="metamodel/smart_nursing_home.genmodel"/>
+   </extension>
+
 </plugin>

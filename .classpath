@@ -5,9 +5,6 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="src-gen"/>
 	<classpathentry kind="src" path="src-mine"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/at.ac.tuwien.big.moea"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/at.ac.tuwien.big.momot.core"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/MOEAFramework"/>
 	<classpathentry kind="lib" path="lib/json-20200518.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
