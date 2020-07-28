@@ -1,60 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_R_I0kMpjEeqJp7bn7HcLGA">
-  <imports href="../metamodel/smart_nursing_home.ecore#/"/>
+  <imports href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#/"/>
   <units xsi:type="henshin:Rule" xmi:id="_rsuNEMpjEeqJp7bn7HcLGA" name="lightOn">
     <parameters xmi:id="_vus0wMpjEeqJp7bn7HcLGA" name="roomName">
       <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     </parameters>
     <lhs xmi:id="_rtXtUMpjEeqJp7bn7HcLGA" name="Lhs">
       <nodes xmi:id="_xT7GIMpjEeqJp7bn7HcLGA" incoming="__NbMkMpjEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Light"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Light"/>
         <attributes xmi:id="_DD5H0MpkEeqJp7bn7HcLGA" value="false">
-          <type href="../metamodel/smart_nursing_home.ecore#//Light/on"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Light/on"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_1_SCAMpjEeqJp7bn7HcLGA" outgoing="_-9odEMpjEeqJp7bn7HcLGA __NbMkMpjEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room"/>
         <attributes xmi:id="_8sgvAMpjEeqJp7bn7HcLGA" value="roomName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_2neqcMpjEeqJp7bn7HcLGA" incoming="_-9odEMpjEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Brightness"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Brightness"/>
         <attributes xmi:id="_E1DjcMpkEeqJp7bn7HcLGA" value="&quot;low&quot;">
-          <type href="../metamodel/smart_nursing_home.ecore#//Brightness/value"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Brightness/value"/>
         </attributes>
       </nodes>
       <edges xmi:id="_-9odEMpjEeqJp7bn7HcLGA" source="_1_SCAMpjEeqJp7bn7HcLGA" target="_2neqcMpjEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/brightness"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/brightness"/>
       </edges>
       <edges xmi:id="__NbMkMpjEeqJp7bn7HcLGA" source="_1_SCAMpjEeqJp7bn7HcLGA" target="_xT7GIMpjEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/light"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/light"/>
       </edges>
     </lhs>
     <rhs xmi:id="_rtYUYMpjEeqJp7bn7HcLGA" name="Rhs">
       <nodes xmi:id="_xT7GIcpjEeqJp7bn7HcLGA" incoming="__NbMkcpjEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Light"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Light"/>
         <attributes xmi:id="_DD5H0cpkEeqJp7bn7HcLGA" value="true">
-          <type href="../metamodel/smart_nursing_home.ecore#//Light/on"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Light/on"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_1_SpEMpjEeqJp7bn7HcLGA" outgoing="_-9odEcpjEeqJp7bn7HcLGA __NbMkcpjEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room"/>
         <attributes xmi:id="_8shWEMpjEeqJp7bn7HcLGA" value="roomName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_2neqccpjEeqJp7bn7HcLGA" incoming="_-9odEcpjEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Brightness"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Brightness"/>
         <attributes xmi:id="_E1DjccpkEeqJp7bn7HcLGA" value="&quot;high&quot;">
-          <type href="../metamodel/smart_nursing_home.ecore#//Brightness/value"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Brightness/value"/>
         </attributes>
       </nodes>
       <edges xmi:id="_-9odEcpjEeqJp7bn7HcLGA" source="_1_SpEMpjEeqJp7bn7HcLGA" target="_2neqccpjEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/brightness"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/brightness"/>
       </edges>
       <edges xmi:id="__NbMkcpjEeqJp7bn7HcLGA" source="_1_SpEMpjEeqJp7bn7HcLGA" target="_xT7GIcpjEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/light"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/light"/>
       </edges>
     </rhs>
     <mappings xmi:id="_xT8UQMpjEeqJp7bn7HcLGA" origin="_xT7GIMpjEeqJp7bn7HcLGA" image="_xT7GIcpjEeqJp7bn7HcLGA"/>
@@ -67,54 +67,54 @@
     </parameters>
     <lhs xmi:id="_MZygMMpkEeqJp7bn7HcLGA" name="Lhs">
       <nodes xmi:id="_VBc5kMpkEeqJp7bn7HcLGA" incoming="_WwUPIMpkEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Light"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Light"/>
         <attributes xmi:id="_eJuFoMpkEeqJp7bn7HcLGA" value="true">
-          <type href="../metamodel/smart_nursing_home.ecore#//Light/on"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Light/on"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_VjQmIMpkEeqJp7bn7HcLGA" outgoing="_WfasYMpkEeqJp7bn7HcLGA _WwUPIMpkEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room"/>
         <attributes xmi:id="_aL5lMMpkEeqJp7bn7HcLGA" value="roomName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_V-wPUMpkEeqJp7bn7HcLGA" incoming="_WfasYMpkEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Brightness"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Brightness"/>
         <attributes xmi:id="_f636MMpkEeqJp7bn7HcLGA" value="&quot;high&quot;">
-          <type href="../metamodel/smart_nursing_home.ecore#//Brightness/value"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Brightness/value"/>
         </attributes>
       </nodes>
       <edges xmi:id="_WfasYMpkEeqJp7bn7HcLGA" source="_VjQmIMpkEeqJp7bn7HcLGA" target="_V-wPUMpkEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/brightness"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/brightness"/>
       </edges>
       <edges xmi:id="_WwUPIMpkEeqJp7bn7HcLGA" source="_VjQmIMpkEeqJp7bn7HcLGA" target="_VBc5kMpkEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/light"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/light"/>
       </edges>
     </lhs>
     <rhs xmi:id="_MZygMcpkEeqJp7bn7HcLGA" name="Rhs">
       <nodes xmi:id="_VBc5kcpkEeqJp7bn7HcLGA" incoming="_WwU2MMpkEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Light"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Light"/>
         <attributes xmi:id="_eJuFocpkEeqJp7bn7HcLGA" value="false">
-          <type href="../metamodel/smart_nursing_home.ecore#//Light/on"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Light/on"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_VjQmIcpkEeqJp7bn7HcLGA" outgoing="_WfasYcpkEeqJp7bn7HcLGA _WwU2MMpkEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room"/>
         <attributes xmi:id="_aL6MQMpkEeqJp7bn7HcLGA" value="roomName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_V-wPUcpkEeqJp7bn7HcLGA" incoming="_WfasYcpkEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Brightness"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Brightness"/>
         <attributes xmi:id="_f636McpkEeqJp7bn7HcLGA" value="&quot;low&quot;">
-          <type href="../metamodel/smart_nursing_home.ecore#//Brightness/value"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Brightness/value"/>
         </attributes>
       </nodes>
       <edges xmi:id="_WfasYcpkEeqJp7bn7HcLGA" source="_VjQmIcpkEeqJp7bn7HcLGA" target="_V-wPUcpkEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/brightness"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/brightness"/>
       </edges>
       <edges xmi:id="_WwU2MMpkEeqJp7bn7HcLGA" source="_VjQmIcpkEeqJp7bn7HcLGA" target="_VBc5kcpkEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/light"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/light"/>
       </edges>
     </rhs>
     <mappings xmi:id="_VBc5kspkEeqJp7bn7HcLGA" origin="_VBc5kMpkEeqJp7bn7HcLGA" image="_VBc5kcpkEeqJp7bn7HcLGA"/>
@@ -127,90 +127,90 @@
     </parameters>
     <lhs xmi:id="_nkKm0MpkEeqJp7bn7HcLGA" name="Lhs">
       <nodes xmi:id="_wjvJ4MpkEeqJp7bn7HcLGA" incoming="_MbsIMMplEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Window"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Window"/>
         <attributes xmi:id="_5JjJIMpkEeqJp7bn7HcLGA" value="false">
-          <type href="../metamodel/smart_nursing_home.ecore#//Window/on"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Window/on"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_xUHd8MpkEeqJp7bn7HcLGA" outgoing="_MbsIMMplEeqJp7bn7HcLGA _Mqc88MplEeqJp7bn7HcLGA _M6VMAMplEeqJp7bn7HcLGA _NHuHwMplEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room"/>
         <attributes xmi:id="_2DaeoMpkEeqJp7bn7HcLGA" value="roomName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_yPSFsMpkEeqJp7bn7HcLGA" incoming="_Mqc88MplEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Brightness"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Brightness"/>
         <attributes xmi:id="_A4BQsMplEeqJp7bn7HcLGA" value="&quot;low&quot;">
-          <type href="../metamodel/smart_nursing_home.ecore#//Brightness/value"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Brightness/value"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_zCg5cMpkEeqJp7bn7HcLGA" incoming="_M6VMAMplEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Humidity"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Humidity"/>
         <attributes xmi:id="_E-_GEMplEeqJp7bn7HcLGA" value="&quot;high&quot;">
-          <type href="../metamodel/smart_nursing_home.ecore#//Humidity/value"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Humidity/value"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_z5UloMpkEeqJp7bn7HcLGA" incoming="_NHuHwMplEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Temperature"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Temperature"/>
         <attributes xmi:id="_IWM5gMplEeqJp7bn7HcLGA" value="&quot;high&quot;">
-          <type href="../metamodel/smart_nursing_home.ecore#//Temperature/value"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Temperature/value"/>
         </attributes>
       </nodes>
       <edges xmi:id="_MbsIMMplEeqJp7bn7HcLGA" source="_xUHd8MpkEeqJp7bn7HcLGA" target="_wjvJ4MpkEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/window"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/window"/>
       </edges>
       <edges xmi:id="_Mqc88MplEeqJp7bn7HcLGA" source="_xUHd8MpkEeqJp7bn7HcLGA" target="_yPSFsMpkEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/brightness"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/brightness"/>
       </edges>
       <edges xmi:id="_M6VMAMplEeqJp7bn7HcLGA" source="_xUHd8MpkEeqJp7bn7HcLGA" target="_zCg5cMpkEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/humidity"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/humidity"/>
       </edges>
       <edges xmi:id="_NHuHwMplEeqJp7bn7HcLGA" source="_xUHd8MpkEeqJp7bn7HcLGA" target="_z5UloMpkEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/temperature"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/temperature"/>
       </edges>
     </lhs>
     <rhs xmi:id="_nkKm0cpkEeqJp7bn7HcLGA" name="Rhs">
       <nodes xmi:id="_wjvJ4cpkEeqJp7bn7HcLGA" incoming="_MbsvQMplEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Window"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Window"/>
         <attributes xmi:id="_5JjJIcpkEeqJp7bn7HcLGA" value="true">
-          <type href="../metamodel/smart_nursing_home.ecore#//Window/on"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Window/on"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_xUHd8cpkEeqJp7bn7HcLGA" outgoing="_MbsvQMplEeqJp7bn7HcLGA _MqdkAMplEeqJp7bn7HcLGA _M6VMAcplEeqJp7bn7HcLGA _NHuHwcplEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room"/>
         <attributes xmi:id="_2DaeocpkEeqJp7bn7HcLGA" value="roomName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_yPSFscpkEeqJp7bn7HcLGA" incoming="_MqdkAMplEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Brightness"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Brightness"/>
         <attributes xmi:id="_A4BQscplEeqJp7bn7HcLGA" value="&quot;high&quot;">
-          <type href="../metamodel/smart_nursing_home.ecore#//Brightness/value"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Brightness/value"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_zCg5ccpkEeqJp7bn7HcLGA" incoming="_M6VMAcplEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Humidity"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Humidity"/>
         <attributes xmi:id="_E-_GEcplEeqJp7bn7HcLGA" value="&quot;low&quot;">
-          <type href="../metamodel/smart_nursing_home.ecore#//Humidity/value"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Humidity/value"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_z5UlocpkEeqJp7bn7HcLGA" incoming="_NHuHwcplEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Temperature"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Temperature"/>
         <attributes xmi:id="_IWM5gcplEeqJp7bn7HcLGA" value="&quot;low&quot;">
-          <type href="../metamodel/smart_nursing_home.ecore#//Temperature/value"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Temperature/value"/>
         </attributes>
       </nodes>
       <edges xmi:id="_MbsvQMplEeqJp7bn7HcLGA" source="_xUHd8cpkEeqJp7bn7HcLGA" target="_wjvJ4cpkEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/window"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/window"/>
       </edges>
       <edges xmi:id="_MqdkAMplEeqJp7bn7HcLGA" source="_xUHd8cpkEeqJp7bn7HcLGA" target="_yPSFscpkEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/brightness"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/brightness"/>
       </edges>
       <edges xmi:id="_M6VMAcplEeqJp7bn7HcLGA" source="_xUHd8cpkEeqJp7bn7HcLGA" target="_zCg5ccpkEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/humidity"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/humidity"/>
       </edges>
       <edges xmi:id="_NHuHwcplEeqJp7bn7HcLGA" source="_xUHd8cpkEeqJp7bn7HcLGA" target="_z5UlocpkEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/temperature"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/temperature"/>
       </edges>
     </rhs>
     <mappings xmi:id="_wjvJ4spkEeqJp7bn7HcLGA" origin="_wjvJ4MpkEeqJp7bn7HcLGA" image="_wjvJ4cpkEeqJp7bn7HcLGA"/>
@@ -225,90 +225,90 @@
     </parameters>
     <lhs xmi:id="_WBuOUMplEeqJp7bn7HcLGA" name="Lhs">
       <nodes xmi:id="_XjimYMplEeqJp7bn7HcLGA" incoming="_KdWWwMpmEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Window"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Window"/>
         <attributes xmi:id="_HrnO8MpmEeqJp7bn7HcLGA" value="true">
-          <type href="../metamodel/smart_nursing_home.ecore#//Window/on"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Window/on"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_X-L7AMplEeqJp7bn7HcLGA" outgoing="_KdWWwMpmEeqJp7bn7HcLGA _K5b10MpmEeqJp7bn7HcLGA _LJsfYMpmEeqJp7bn7HcLGA _LbwfwMpmEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room"/>
         <attributes xmi:id="_bjkGQMplEeqJp7bn7HcLGA" value="roomName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_YZZ3YMplEeqJp7bn7HcLGA" incoming="_K5b10MpmEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Brightness"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Brightness"/>
         <attributes xmi:id="_-Izb8MplEeqJp7bn7HcLGA" value="&quot;high&quot;">
-          <type href="../metamodel/smart_nursing_home.ecore#//Brightness/value"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Brightness/value"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_Y98u4MplEeqJp7bn7HcLGA" incoming="_LJsfYMpmEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Humidity"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Humidity"/>
         <attributes xmi:id="_CAe4IMpmEeqJp7bn7HcLGA" value="&quot;low&quot;">
-          <type href="../metamodel/smart_nursing_home.ecore#//Humidity/value"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Humidity/value"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_Zh-B8MplEeqJp7bn7HcLGA" incoming="_LbwfwMpmEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Temperature"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Temperature"/>
         <attributes xmi:id="_FrS9AMpmEeqJp7bn7HcLGA" value="&quot;low&quot;">
-          <type href="../metamodel/smart_nursing_home.ecore#//Temperature/value"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Temperature/value"/>
         </attributes>
       </nodes>
       <edges xmi:id="_KdWWwMpmEeqJp7bn7HcLGA" source="_X-L7AMplEeqJp7bn7HcLGA" target="_XjimYMplEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/window"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/window"/>
       </edges>
       <edges xmi:id="_K5b10MpmEeqJp7bn7HcLGA" source="_X-L7AMplEeqJp7bn7HcLGA" target="_YZZ3YMplEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/brightness"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/brightness"/>
       </edges>
       <edges xmi:id="_LJsfYMpmEeqJp7bn7HcLGA" source="_X-L7AMplEeqJp7bn7HcLGA" target="_Y98u4MplEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/humidity"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/humidity"/>
       </edges>
       <edges xmi:id="_LbwfwMpmEeqJp7bn7HcLGA" source="_X-L7AMplEeqJp7bn7HcLGA" target="_Zh-B8MplEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/temperature"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/temperature"/>
       </edges>
     </lhs>
     <rhs xmi:id="_WBuOUcplEeqJp7bn7HcLGA" name="Rhs">
       <nodes xmi:id="_XjjNcMplEeqJp7bn7HcLGA" incoming="_KdWWwcpmEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Window"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Window"/>
         <attributes xmi:id="_HrnO8cpmEeqJp7bn7HcLGA" value="false">
-          <type href="../metamodel/smart_nursing_home.ecore#//Window/on"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Window/on"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_X-L7AcplEeqJp7bn7HcLGA" outgoing="_KdWWwcpmEeqJp7bn7HcLGA _K5b10cpmEeqJp7bn7HcLGA _LJsfYcpmEeqJp7bn7HcLGA _LbwfwcpmEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room"/>
         <attributes xmi:id="_bjkGQcplEeqJp7bn7HcLGA" value="roomName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_YZZ3YcplEeqJp7bn7HcLGA" incoming="_K5b10cpmEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Brightness"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Brightness"/>
         <attributes xmi:id="_-Izb8cplEeqJp7bn7HcLGA" value="&quot;low&quot;">
-          <type href="../metamodel/smart_nursing_home.ecore#//Brightness/value"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Brightness/value"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_Y98u4cplEeqJp7bn7HcLGA" incoming="_LJsfYcpmEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Humidity"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Humidity"/>
         <attributes xmi:id="_CAe4IcpmEeqJp7bn7HcLGA" value="&quot;high&quot;">
-          <type href="../metamodel/smart_nursing_home.ecore#//Humidity/value"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Humidity/value"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_Zh-B8cplEeqJp7bn7HcLGA" incoming="_LbwfwcpmEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Temperature"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Temperature"/>
         <attributes xmi:id="_FrS9AcpmEeqJp7bn7HcLGA" value="&quot;high&quot;">
-          <type href="../metamodel/smart_nursing_home.ecore#//Temperature/value"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Temperature/value"/>
         </attributes>
       </nodes>
       <edges xmi:id="_KdWWwcpmEeqJp7bn7HcLGA" source="_X-L7AcplEeqJp7bn7HcLGA" target="_XjjNcMplEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/window"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/window"/>
       </edges>
       <edges xmi:id="_K5b10cpmEeqJp7bn7HcLGA" source="_X-L7AcplEeqJp7bn7HcLGA" target="_YZZ3YcplEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/brightness"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/brightness"/>
       </edges>
       <edges xmi:id="_LJsfYcpmEeqJp7bn7HcLGA" source="_X-L7AcplEeqJp7bn7HcLGA" target="_Y98u4cplEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/humidity"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/humidity"/>
       </edges>
       <edges xmi:id="_LbwfwcpmEeqJp7bn7HcLGA" source="_X-L7AcplEeqJp7bn7HcLGA" target="_Zh-B8cplEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/temperature"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/temperature"/>
       </edges>
     </rhs>
     <mappings xmi:id="_XjjNccplEeqJp7bn7HcLGA" origin="_XjimYMplEeqJp7bn7HcLGA" image="_XjjNcMplEeqJp7bn7HcLGA"/>
@@ -323,54 +323,54 @@
     </parameters>
     <lhs xmi:id="_UDQhEMpmEeqJp7bn7HcLGA" name="Lhs">
       <nodes xmi:id="_svH94MpmEeqJp7bn7HcLGA" outgoing="_4dC9kMpmEeqJp7bn7HcLGA _4p5GwMpmEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room"/>
         <attributes xmi:id="_vhhNAMpmEeqJp7bn7HcLGA" value="roomName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_teUmMMpmEeqJp7bn7HcLGA" incoming="_4dC9kMpmEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Heater"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Heater"/>
         <attributes xmi:id="_vRt2cMpmEeqJp7bn7HcLGA" value="false">
-          <type href="../metamodel/smart_nursing_home.ecore#//Heater/on"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Heater/on"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_uSOIUMpmEeqJp7bn7HcLGA" incoming="_4p5GwMpmEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Temperature"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Temperature"/>
         <attributes xmi:id="_v0-UgMpmEeqJp7bn7HcLGA" value="&quot;low&quot;">
-          <type href="../metamodel/smart_nursing_home.ecore#//Temperature/value"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Temperature/value"/>
         </attributes>
       </nodes>
       <edges xmi:id="_4dC9kMpmEeqJp7bn7HcLGA" source="_svH94MpmEeqJp7bn7HcLGA" target="_teUmMMpmEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/heater"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/heater"/>
       </edges>
       <edges xmi:id="_4p5GwMpmEeqJp7bn7HcLGA" source="_svH94MpmEeqJp7bn7HcLGA" target="_uSOIUMpmEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/temperature"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/temperature"/>
       </edges>
     </lhs>
     <rhs xmi:id="_UDQhEcpmEeqJp7bn7HcLGA" name="Rhs">
       <nodes xmi:id="_svH94cpmEeqJp7bn7HcLGA" outgoing="_4dC9kcpmEeqJp7bn7HcLGA _4p5t0MpmEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room"/>
         <attributes xmi:id="_vhhNAcpmEeqJp7bn7HcLGA" value="roomName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_teUmMcpmEeqJp7bn7HcLGA" incoming="_4dC9kcpmEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Heater"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Heater"/>
         <attributes xmi:id="_vRt2ccpmEeqJp7bn7HcLGA" value="true">
-          <type href="../metamodel/smart_nursing_home.ecore#//Heater/on"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Heater/on"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_uSOIUcpmEeqJp7bn7HcLGA" incoming="_4p5t0MpmEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Temperature"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Temperature"/>
         <attributes xmi:id="_v0-UgcpmEeqJp7bn7HcLGA" value="&quot;high&quot;">
-          <type href="../metamodel/smart_nursing_home.ecore#//Temperature/value"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Temperature/value"/>
         </attributes>
       </nodes>
       <edges xmi:id="_4dC9kcpmEeqJp7bn7HcLGA" source="_svH94cpmEeqJp7bn7HcLGA" target="_teUmMcpmEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/heater"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/heater"/>
       </edges>
       <edges xmi:id="_4p5t0MpmEeqJp7bn7HcLGA" source="_svH94cpmEeqJp7bn7HcLGA" target="_uSOIUcpmEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/temperature"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/temperature"/>
       </edges>
     </rhs>
     <mappings xmi:id="_svH94spmEeqJp7bn7HcLGA" origin="_svH94MpmEeqJp7bn7HcLGA" image="_svH94cpmEeqJp7bn7HcLGA"/>
@@ -383,54 +383,54 @@
     </parameters>
     <lhs xmi:id="_7ca4wMpmEeqJp7bn7HcLGA" name="Lhs">
       <nodes xmi:id="_RVjSwMpoEeqJp7bn7HcLGA" incoming="_oMPWoMpoEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Heater"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Heater"/>
         <attributes xmi:id="_Ym6AgMpoEeqJp7bn7HcLGA" value="true">
-          <type href="../metamodel/smart_nursing_home.ecore#//Heater/on"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Heater/on"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_Ry7LQMpoEeqJp7bn7HcLGA" outgoing="_noUxQMpoEeqJp7bn7HcLGA _oMPWoMpoEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room"/>
         <attributes xmi:id="_XVO9QMpoEeqJp7bn7HcLGA" value="roomName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_SNjRwMpoEeqJp7bn7HcLGA" incoming="_noUxQMpoEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Temperature"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Temperature"/>
         <attributes xmi:id="_VD8QEMpoEeqJp7bn7HcLGA" value="&quot;high&quot;">
-          <type href="../metamodel/smart_nursing_home.ecore#//Temperature/value"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Temperature/value"/>
         </attributes>
       </nodes>
       <edges xmi:id="_noUxQMpoEeqJp7bn7HcLGA" source="_Ry7LQMpoEeqJp7bn7HcLGA" target="_SNjRwMpoEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/temperature"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/temperature"/>
       </edges>
       <edges xmi:id="_oMPWoMpoEeqJp7bn7HcLGA" source="_Ry7LQMpoEeqJp7bn7HcLGA" target="_RVjSwMpoEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/heater"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/heater"/>
       </edges>
     </lhs>
     <rhs xmi:id="_7ca4wcpmEeqJp7bn7HcLGA" name="Rhs">
       <nodes xmi:id="_RVjSwcpoEeqJp7bn7HcLGA" incoming="_oMPWocpoEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Heater"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Heater"/>
         <attributes xmi:id="_Ym6AgcpoEeqJp7bn7HcLGA" value="false">
-          <type href="../metamodel/smart_nursing_home.ecore#//Heater/on"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Heater/on"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_Ry7LQcpoEeqJp7bn7HcLGA" outgoing="_noUxQcpoEeqJp7bn7HcLGA _oMPWocpoEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room"/>
         <attributes xmi:id="_XVO9QcpoEeqJp7bn7HcLGA" value="roomName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_SNjRwcpoEeqJp7bn7HcLGA" incoming="_noUxQcpoEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Temperature"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Temperature"/>
         <attributes xmi:id="_VD8QEcpoEeqJp7bn7HcLGA" value="&quot;low&quot;">
-          <type href="../metamodel/smart_nursing_home.ecore#//Temperature/value"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Temperature/value"/>
         </attributes>
       </nodes>
       <edges xmi:id="_noUxQcpoEeqJp7bn7HcLGA" source="_Ry7LQcpoEeqJp7bn7HcLGA" target="_SNjRwcpoEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/temperature"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/temperature"/>
       </edges>
       <edges xmi:id="_oMPWocpoEeqJp7bn7HcLGA" source="_Ry7LQcpoEeqJp7bn7HcLGA" target="_RVjSwcpoEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/heater"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/heater"/>
       </edges>
     </rhs>
     <mappings xmi:id="_RVjSwspoEeqJp7bn7HcLGA" origin="_RVjSwMpoEeqJp7bn7HcLGA" image="_RVjSwcpoEeqJp7bn7HcLGA"/>
@@ -443,54 +443,54 @@
     </parameters>
     <lhs xmi:id="_r7tSAMpoEeqJp7bn7HcLGA" name="Lhs">
       <nodes xmi:id="_FeuZQMppEeqJp7bn7HcLGA" incoming="_MuRwMMppEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Humidifier"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Humidifier"/>
         <attributes xmi:id="_H9ED8MppEeqJp7bn7HcLGA" value="false">
-          <type href="../metamodel/smart_nursing_home.ecore#//Humidifier/on"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Humidifier/on"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_F8ViUMppEeqJp7bn7HcLGA" outgoing="_MuRwMMppEeqJp7bn7HcLGA _M8vqAMppEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room"/>
         <attributes xmi:id="_HpYS8MppEeqJp7bn7HcLGA" value="roomName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_Ga9YAMppEeqJp7bn7HcLGA" incoming="_M8vqAMppEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Humidity"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Humidity"/>
         <attributes xmi:id="_G-4kcMppEeqJp7bn7HcLGA" value="&quot;low&quot;">
-          <type href="../metamodel/smart_nursing_home.ecore#//Humidity/value"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Humidity/value"/>
         </attributes>
       </nodes>
       <edges xmi:id="_MuRwMMppEeqJp7bn7HcLGA" source="_F8ViUMppEeqJp7bn7HcLGA" target="_FeuZQMppEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/humidifier"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/humidifier"/>
       </edges>
       <edges xmi:id="_M8vqAMppEeqJp7bn7HcLGA" source="_F8ViUMppEeqJp7bn7HcLGA" target="_Ga9YAMppEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/humidity"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/humidity"/>
       </edges>
     </lhs>
     <rhs xmi:id="_r7tSAcpoEeqJp7bn7HcLGA" name="Rhs">
       <nodes xmi:id="_FeuZQcppEeqJp7bn7HcLGA" incoming="_MuSXQMppEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Humidifier"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Humidifier"/>
         <attributes xmi:id="_H9ED8cppEeqJp7bn7HcLGA" value="true">
-          <type href="../metamodel/smart_nursing_home.ecore#//Humidifier/on"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Humidifier/on"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_F8ViUcppEeqJp7bn7HcLGA" outgoing="_MuSXQMppEeqJp7bn7HcLGA _M8wREMppEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room"/>
         <attributes xmi:id="_HpYS8cppEeqJp7bn7HcLGA" value="roomName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_Ga9_EMppEeqJp7bn7HcLGA" incoming="_M8wREMppEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Humidity"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Humidity"/>
         <attributes xmi:id="_G-4kccppEeqJp7bn7HcLGA" value="&quot;high&quot;">
-          <type href="../metamodel/smart_nursing_home.ecore#//Humidity/value"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Humidity/value"/>
         </attributes>
       </nodes>
       <edges xmi:id="_MuSXQMppEeqJp7bn7HcLGA" source="_F8ViUcppEeqJp7bn7HcLGA" target="_FeuZQcppEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/humidifier"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/humidifier"/>
       </edges>
       <edges xmi:id="_M8wREMppEeqJp7bn7HcLGA" source="_F8ViUcppEeqJp7bn7HcLGA" target="_Ga9_EMppEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/humidity"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/humidity"/>
       </edges>
     </rhs>
     <mappings xmi:id="_FeuZQsppEeqJp7bn7HcLGA" origin="_FeuZQMppEeqJp7bn7HcLGA" image="_FeuZQcppEeqJp7bn7HcLGA"/>
@@ -503,54 +503,54 @@
     </parameters>
     <lhs xmi:id="_QVyCYMppEeqJp7bn7HcLGA" name="Lhs">
       <nodes xmi:id="_Zz3GYMppEeqJp7bn7HcLGA" incoming="_f_p6QMppEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Humidifier"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Humidifier"/>
         <attributes xmi:id="_dk9ZcMppEeqJp7bn7HcLGA" value="true">
-          <type href="../metamodel/smart_nursing_home.ecore#//Humidifier/on"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Humidifier/on"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_aVAEkMppEeqJp7bn7HcLGA" outgoing="_f_p6QMppEeqJp7bn7HcLGA _gYR1oMppEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room"/>
         <attributes xmi:id="_dSXNkMppEeqJp7bn7HcLGA" value="roomName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_aqFjwMppEeqJp7bn7HcLGA" incoming="_gYR1oMppEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Humidity"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Humidity"/>
         <attributes xmi:id="_bmzqsMppEeqJp7bn7HcLGA" value="&quot;high&quot;">
-          <type href="../metamodel/smart_nursing_home.ecore#//Humidity/value"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Humidity/value"/>
         </attributes>
       </nodes>
       <edges xmi:id="_f_p6QMppEeqJp7bn7HcLGA" source="_aVAEkMppEeqJp7bn7HcLGA" target="_Zz3GYMppEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/humidifier"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/humidifier"/>
       </edges>
       <edges xmi:id="_gYR1oMppEeqJp7bn7HcLGA" source="_aVAEkMppEeqJp7bn7HcLGA" target="_aqFjwMppEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/humidity"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/humidity"/>
       </edges>
     </lhs>
     <rhs xmi:id="_QVyCYcppEeqJp7bn7HcLGA" name="Rhs">
       <nodes xmi:id="_Zz3GYcppEeqJp7bn7HcLGA" incoming="_f_p6QcppEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Humidifier"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Humidifier"/>
         <attributes xmi:id="_dk9ZccppEeqJp7bn7HcLGA" value="false">
-          <type href="../metamodel/smart_nursing_home.ecore#//Humidifier/on"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Humidifier/on"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_aVAEkcppEeqJp7bn7HcLGA" outgoing="_f_p6QcppEeqJp7bn7HcLGA _gYR1ocppEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room"/>
         <attributes xmi:id="_dSXNkcppEeqJp7bn7HcLGA" value="roomName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_aqFjwcppEeqJp7bn7HcLGA" incoming="_gYR1ocppEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Humidity"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Humidity"/>
         <attributes xmi:id="_bmzqscppEeqJp7bn7HcLGA" value="&quot;low&quot;">
-          <type href="../metamodel/smart_nursing_home.ecore#//Humidity/value"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Humidity/value"/>
         </attributes>
       </nodes>
       <edges xmi:id="_f_p6QcppEeqJp7bn7HcLGA" source="_aVAEkcppEeqJp7bn7HcLGA" target="_Zz3GYcppEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/humidifier"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/humidifier"/>
       </edges>
       <edges xmi:id="_gYR1ocppEeqJp7bn7HcLGA" source="_aVAEkcppEeqJp7bn7HcLGA" target="_aqFjwcppEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/humidity"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/humidity"/>
       </edges>
     </rhs>
     <mappings xmi:id="_Zz3GYsppEeqJp7bn7HcLGA" origin="_Zz3GYMppEeqJp7bn7HcLGA" image="_Zz3GYcppEeqJp7bn7HcLGA"/>
@@ -572,84 +572,84 @@
     </parameters>
     <lhs xmi:id="_WrfKwMpqEeqJp7bn7HcLGA" name="Lhs">
       <nodes xmi:id="_l0a4wMpqEeqJp7bn7HcLGA" outgoing="_TKsSkMswEeqH3az1UnZNFw _TZDesMswEeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Door"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Door"/>
         <attributes xmi:id="_ProKsMswEeqH3az1UnZNFw" value="doorName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_oDW1gMpqEeqJp7bn7HcLGA" incoming="_TKsSkMswEeqH3az1UnZNFw _vhnasMvGEeqbuIgWThS39A" outgoing="_cAS94MvLEeqbuIgWThS39A">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room"/>
         <attributes xmi:id="_Qz4zQMswEeqH3az1UnZNFw" value="fromRoomName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_oQq4wMpqEeqJp7bn7HcLGA" incoming="_TZDesMswEeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room"/>
         <attributes xmi:id="_QM_LUMswEeqH3az1UnZNFw" value="toRoomName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_owBHMMpqEeqJp7bn7HcLGA" incoming="_cAS94MvLEeqbuIgWThS39A" outgoing="_vhnasMvGEeqbuIgWThS39A">
-        <type href="../metamodel/smart_nursing_home.ecore#//Elder"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder"/>
         <attributes xmi:id="_QmlXEMswEeqH3az1UnZNFw" value="elderName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
         <attributes xmi:id="_RRy3QMswEeqH3az1UnZNFw" value="true">
-          <type href="../metamodel/smart_nursing_home.ecore#//Elder/bySelf"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/bySelf"/>
         </attributes>
       </nodes>
       <edges xmi:id="_TKsSkMswEeqH3az1UnZNFw" source="_l0a4wMpqEeqJp7bn7HcLGA" target="_oDW1gMpqEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Door/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Door/room"/>
       </edges>
       <edges xmi:id="_TZDesMswEeqH3az1UnZNFw" source="_l0a4wMpqEeqJp7bn7HcLGA" target="_oQq4wMpqEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Door/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Door/room"/>
       </edges>
       <edges xmi:id="_vhnasMvGEeqbuIgWThS39A" source="_owBHMMpqEeqJp7bn7HcLGA" target="_oDW1gMpqEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Person/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/room"/>
       </edges>
       <edges xmi:id="_cAS94MvLEeqbuIgWThS39A" source="_oDW1gMpqEeqJp7bn7HcLGA" target="_owBHMMpqEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/person"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/person"/>
       </edges>
     </lhs>
     <rhs xmi:id="_WrfKwcpqEeqJp7bn7HcLGA" name="Rhs">
       <nodes xmi:id="_l0bf0MpqEeqJp7bn7HcLGA" outgoing="_TKsSkcswEeqH3az1UnZNFw _TZDescswEeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Door"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Door"/>
         <attributes xmi:id="_PrtqQMswEeqH3az1UnZNFw" value="doorName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_oDW1gcpqEeqJp7bn7HcLGA" incoming="_TKsSkcswEeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room"/>
         <attributes xmi:id="_Qz4zQcswEeqH3az1UnZNFw" value="fromRoomName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_oQq4wcpqEeqJp7bn7HcLGA" incoming="_TZDescswEeqH3az1UnZNFw _cjRIEMvLEeqbuIgWThS39A" outgoing="_-xLmUMswEeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room"/>
         <attributes xmi:id="_QM_LUcswEeqH3az1UnZNFw" value="toRoomName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_owBHMcpqEeqJp7bn7HcLGA" incoming="_-xLmUMswEeqH3az1UnZNFw" outgoing="_cjRIEMvLEeqbuIgWThS39A">
-        <type href="../metamodel/smart_nursing_home.ecore#//Elder"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder"/>
         <attributes xmi:id="_Qml-IMswEeqH3az1UnZNFw" value="elderName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
         <attributes xmi:id="_RRy3QcswEeqH3az1UnZNFw" value="true">
-          <type href="../metamodel/smart_nursing_home.ecore#//Elder/bySelf"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/bySelf"/>
         </attributes>
       </nodes>
       <edges xmi:id="_TKsSkcswEeqH3az1UnZNFw" source="_l0bf0MpqEeqJp7bn7HcLGA" target="_oDW1gcpqEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Door/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Door/room"/>
       </edges>
       <edges xmi:id="_TZDescswEeqH3az1UnZNFw" source="_l0bf0MpqEeqJp7bn7HcLGA" target="_oQq4wcpqEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Door/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Door/room"/>
       </edges>
       <edges xmi:id="_-xLmUMswEeqH3az1UnZNFw" source="_oQq4wcpqEeqJp7bn7HcLGA" target="_owBHMcpqEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/person"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/person"/>
       </edges>
       <edges xmi:id="_cjRIEMvLEeqbuIgWThS39A" source="_owBHMcpqEeqJp7bn7HcLGA" target="_oQq4wcpqEeqJp7bn7HcLGA">
-        <type href="../metamodel/smart_nursing_home.ecore#//Person/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/room"/>
       </edges>
     </rhs>
     <mappings xmi:id="_l0bf0cpqEeqJp7bn7HcLGA" origin="_l0a4wMpqEeqJp7bn7HcLGA" image="_l0bf0MpqEeqJp7bn7HcLGA"/>
@@ -672,78 +672,78 @@
     </parameters>
     <lhs xmi:id="_IIfT8MsxEeqH3az1UnZNFw" name="Lhs">
       <nodes xmi:id="_USWBsMsxEeqH3az1UnZNFw" incoming="_qN89YMsxEeqH3az1UnZNFw _sjR2AMsxEeqH3az1UnZNFw" outgoing="_tbKgQMsxEeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room"/>
         <attributes xmi:id="_bfT-sMsxEeqH3az1UnZNFw" value="fromRoomName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_UbmrYMsxEeqH3az1UnZNFw" incoming="_qc28EMsxEeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room"/>
         <attributes xmi:id="_bxLx0MsxEeqH3az1UnZNFw" value="toRoomName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_f4dwQMsxEeqH3az1UnZNFw" outgoing="_qN89YMsxEeqH3az1UnZNFw _qc28EMsxEeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Door"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Door"/>
         <attributes xmi:id="_iU7ysMsxEeqH3az1UnZNFw" value="doorName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_kv1H0MsxEeqH3az1UnZNFw" incoming="_tbKgQMsxEeqH3az1UnZNFw" outgoing="_sjR2AMsxEeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//CareWorker"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//CareWorker"/>
         <attributes xmi:id="_lj9TcMsxEeqH3az1UnZNFw" value="careWorkerName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <edges xmi:id="_qN89YMsxEeqH3az1UnZNFw" source="_f4dwQMsxEeqH3az1UnZNFw" target="_USWBsMsxEeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Door/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Door/room"/>
       </edges>
       <edges xmi:id="_qc28EMsxEeqH3az1UnZNFw" source="_f4dwQMsxEeqH3az1UnZNFw" target="_UbmrYMsxEeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Door/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Door/room"/>
       </edges>
       <edges xmi:id="_sjR2AMsxEeqH3az1UnZNFw" source="_kv1H0MsxEeqH3az1UnZNFw" target="_USWBsMsxEeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Person/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/room"/>
       </edges>
       <edges xmi:id="_tbKgQMsxEeqH3az1UnZNFw" source="_USWBsMsxEeqH3az1UnZNFw" target="_kv1H0MsxEeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/person"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/person"/>
       </edges>
     </lhs>
     <rhs xmi:id="_IIf7AMsxEeqH3az1UnZNFw" name="Rhs">
       <nodes xmi:id="_USWBscsxEeqH3az1UnZNFw" incoming="_qN9kcMsxEeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room"/>
         <attributes xmi:id="_bfUlwMsxEeqH3az1UnZNFw" value="fromRoomName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_UbmrYcsxEeqH3az1UnZNFw" incoming="_qc28EcsxEeqH3az1UnZNFw _yfvNYMsxEeqH3az1UnZNFw" outgoing="_y6AukMsxEeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room"/>
         <attributes xmi:id="_bxLx0csxEeqH3az1UnZNFw" value="toRoomName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_f4dwQcsxEeqH3az1UnZNFw" outgoing="_qN9kcMsxEeqH3az1UnZNFw _qc28EcsxEeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Door"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Door"/>
         <attributes xmi:id="_iU7yscsxEeqH3az1UnZNFw" value="doorName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_kv1H0csxEeqH3az1UnZNFw" incoming="_y6AukMsxEeqH3az1UnZNFw" outgoing="_yfvNYMsxEeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//CareWorker"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//CareWorker"/>
         <attributes xmi:id="_lj9TccsxEeqH3az1UnZNFw" value="careWorkerName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <edges xmi:id="_qN9kcMsxEeqH3az1UnZNFw" source="_f4dwQcsxEeqH3az1UnZNFw" target="_USWBscsxEeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Door/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Door/room"/>
       </edges>
       <edges xmi:id="_qc28EcsxEeqH3az1UnZNFw" source="_f4dwQcsxEeqH3az1UnZNFw" target="_UbmrYcsxEeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Door/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Door/room"/>
       </edges>
       <edges xmi:id="_y6AukMsxEeqH3az1UnZNFw" source="_UbmrYcsxEeqH3az1UnZNFw" target="_kv1H0csxEeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/person"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/person"/>
       </edges>
       <edges xmi:id="_yfvNYMsxEeqH3az1UnZNFw" source="_kv1H0csxEeqH3az1UnZNFw" target="_UbmrYcsxEeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Person/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/room"/>
       </edges>
     </rhs>
     <mappings xmi:id="_USWBsssxEeqH3az1UnZNFw" origin="_USWBsMsxEeqH3az1UnZNFw" image="_USWBscsxEeqH3az1UnZNFw"/>
@@ -769,102 +769,102 @@
     </parameters>
     <lhs xmi:id="_7YQGMMsxEeqH3az1UnZNFw" name="Lhs">
       <nodes xmi:id="_Il4lIMsyEeqH3az1UnZNFw" incoming="_Q0SxAMsyEeqH3az1UnZNFw _TobskMsyEeqH3az1UnZNFw _cTGWoMsyEeqH3az1UnZNFw" outgoing="_UC4M4MsyEeqH3az1UnZNFw _c2afEMsyEeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room"/>
         <attributes xmi:id="_Mmgh8MsyEeqH3az1UnZNFw" value="fromRoomName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_I5bMMMsyEeqH3az1UnZNFw" outgoing="_Q0SxAMsyEeqH3az1UnZNFw _RA1YMMsyEeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Door"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Door"/>
         <attributes xmi:id="_MzoX8MsyEeqH3az1UnZNFw" value="doorName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_JcfdAMsyEeqH3az1UnZNFw" incoming="_RA1YMMsyEeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room"/>
         <attributes xmi:id="_M-9eMMsyEeqH3az1UnZNFw" value="toRoomName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_J-TwoMsyEeqH3az1UnZNFw" incoming="_UC4M4MsyEeqH3az1UnZNFw" outgoing="_TobskMsyEeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Elder"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder"/>
         <attributes xmi:id="_NUjTsMsyEeqH3az1UnZNFw" value="elderName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_LvcXEMsyEeqH3az1UnZNFw" incoming="_c2afEMsyEeqH3az1UnZNFw" outgoing="_cTGWoMsyEeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//CareWorker"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//CareWorker"/>
         <attributes xmi:id="_NfqXgMsyEeqH3az1UnZNFw" value="careWorkerName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <edges xmi:id="_Q0SxAMsyEeqH3az1UnZNFw" source="_I5bMMMsyEeqH3az1UnZNFw" target="_Il4lIMsyEeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Door/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Door/room"/>
       </edges>
       <edges xmi:id="_RA1YMMsyEeqH3az1UnZNFw" source="_I5bMMMsyEeqH3az1UnZNFw" target="_JcfdAMsyEeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Door/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Door/room"/>
       </edges>
       <edges xmi:id="_TobskMsyEeqH3az1UnZNFw" source="_J-TwoMsyEeqH3az1UnZNFw" target="_Il4lIMsyEeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Person/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/room"/>
       </edges>
       <edges xmi:id="_UC4M4MsyEeqH3az1UnZNFw" source="_Il4lIMsyEeqH3az1UnZNFw" target="_J-TwoMsyEeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/person"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/person"/>
       </edges>
       <edges xmi:id="_cTGWoMsyEeqH3az1UnZNFw" source="_LvcXEMsyEeqH3az1UnZNFw" target="_Il4lIMsyEeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Person/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/room"/>
       </edges>
       <edges xmi:id="_c2afEMsyEeqH3az1UnZNFw" source="_Il4lIMsyEeqH3az1UnZNFw" target="_LvcXEMsyEeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/person"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/person"/>
       </edges>
     </lhs>
     <rhs xmi:id="_7YQGMcsxEeqH3az1UnZNFw" name="Rhs">
       <nodes xmi:id="_Il4lIcsyEeqH3az1UnZNFw" incoming="_Q0SxAcsyEeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room"/>
         <attributes xmi:id="_Mmgh8csyEeqH3az1UnZNFw" value="fromRoomName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_I5bMMcsyEeqH3az1UnZNFw" outgoing="_Q0SxAcsyEeqH3az1UnZNFw _RA1YMcsyEeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Door"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Door"/>
         <attributes xmi:id="_MzoX8csyEeqH3az1UnZNFw" value="doorName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_JcfdAcsyEeqH3az1UnZNFw" incoming="_RA1YMcsyEeqH3az1UnZNFw _k18hcMsyEeqH3az1UnZNFw _yVnyoMsyEeqH3az1UnZNFw" outgoing="_lXPQoMsyEeqH3az1UnZNFw _yuZfAMsyEeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room"/>
         <attributes xmi:id="_M-9eMcsyEeqH3az1UnZNFw" value="toRoomName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_J-TwocsyEeqH3az1UnZNFw" incoming="_lXPQoMsyEeqH3az1UnZNFw" outgoing="_k18hcMsyEeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Elder"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder"/>
         <attributes xmi:id="_NUjTscsyEeqH3az1UnZNFw" value="elderName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_Lvc-IMsyEeqH3az1UnZNFw" incoming="_yuZfAMsyEeqH3az1UnZNFw" outgoing="_yVnyoMsyEeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//CareWorker"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//CareWorker"/>
         <attributes xmi:id="_Nfq-kMsyEeqH3az1UnZNFw" value="careWorkerName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <edges xmi:id="_Q0SxAcsyEeqH3az1UnZNFw" source="_I5bMMcsyEeqH3az1UnZNFw" target="_Il4lIcsyEeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Door/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Door/room"/>
       </edges>
       <edges xmi:id="_RA1YMcsyEeqH3az1UnZNFw" source="_I5bMMcsyEeqH3az1UnZNFw" target="_JcfdAcsyEeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Door/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Door/room"/>
       </edges>
       <edges xmi:id="_lXPQoMsyEeqH3az1UnZNFw" source="_JcfdAcsyEeqH3az1UnZNFw" target="_J-TwocsyEeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/person"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/person"/>
       </edges>
       <edges xmi:id="_k18hcMsyEeqH3az1UnZNFw" source="_J-TwocsyEeqH3az1UnZNFw" target="_JcfdAcsyEeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Person/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/room"/>
       </edges>
       <edges xmi:id="_yuZfAMsyEeqH3az1UnZNFw" source="_JcfdAcsyEeqH3az1UnZNFw" target="_Lvc-IMsyEeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/person"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/person"/>
       </edges>
       <edges xmi:id="_yVnyoMsyEeqH3az1UnZNFw" source="_Lvc-IMsyEeqH3az1UnZNFw" target="_JcfdAcsyEeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Person/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/room"/>
       </edges>
     </rhs>
     <mappings xmi:id="_Il4lIssyEeqH3az1UnZNFw" origin="_Il4lIMsyEeqH3az1UnZNFw" image="_Il4lIcsyEeqH3az1UnZNFw"/>
@@ -882,72 +882,72 @@
     </parameters>
     <lhs xmi:id="_WsfeAMszEeqH3az1UnZNFw" name="Lhs">
       <nodes xmi:id="_stl9sMszEeqH3az1UnZNFw" incoming="_uoSIwMszEeqH3az1UnZNFw" outgoing="_u1QNwMszEeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Elder"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder"/>
         <attributes xmi:id="_wEm80MszEeqH3az1UnZNFw" value="elderName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
         <attributes xmi:id="_4N4xEMszEeqH3az1UnZNFw" value="true">
-          <type href="../metamodel/smart_nursing_home.ecore#//Elder/bySelf"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/bySelf"/>
         </attributes>
         <attributes xmi:id="_5t-DwMszEeqH3az1UnZNFw" value="false">
-          <type href="../metamodel/smart_nursing_home.ecore#//Elder/tidy"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/tidy"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_tT5vwMszEeqH3az1UnZNFw" incoming="_u1QNwMszEeqH3az1UnZNFw" outgoing="_uoSIwMszEeqH3az1UnZNFw _u_r8IMszEeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//BathingRoom"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//BathingRoom"/>
         <attributes xmi:id="_vsILYMszEeqH3az1UnZNFw" value="bathingRoomName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_t2SEEMszEeqH3az1UnZNFw" incoming="_u_r8IMszEeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Brightness"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Brightness"/>
         <attributes xmi:id="_ve0IIMszEeqH3az1UnZNFw" value="&quot;high&quot;">
-          <type href="../metamodel/smart_nursing_home.ecore#//Brightness/value"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Brightness/value"/>
         </attributes>
       </nodes>
       <edges xmi:id="_uoSIwMszEeqH3az1UnZNFw" source="_tT5vwMszEeqH3az1UnZNFw" target="_stl9sMszEeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/person"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/person"/>
       </edges>
       <edges xmi:id="_u1QNwMszEeqH3az1UnZNFw" source="_stl9sMszEeqH3az1UnZNFw" target="_tT5vwMszEeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Person/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/room"/>
       </edges>
       <edges xmi:id="_u_r8IMszEeqH3az1UnZNFw" source="_tT5vwMszEeqH3az1UnZNFw" target="_t2SEEMszEeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/brightness"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/brightness"/>
       </edges>
     </lhs>
     <rhs xmi:id="_WsfeAcszEeqH3az1UnZNFw" name="Rhs">
       <nodes xmi:id="_stl9scszEeqH3az1UnZNFw" incoming="_uoSIwcszEeqH3az1UnZNFw" outgoing="_u1QNwcszEeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Elder"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder"/>
         <attributes xmi:id="_wEm80cszEeqH3az1UnZNFw" value="elderName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
         <attributes xmi:id="_4N4xEcszEeqH3az1UnZNFw" value="true">
-          <type href="../metamodel/smart_nursing_home.ecore#//Elder/bySelf"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/bySelf"/>
         </attributes>
         <attributes xmi:id="_5t-q0MszEeqH3az1UnZNFw" value="true">
-          <type href="../metamodel/smart_nursing_home.ecore#//Elder/tidy"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/tidy"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_tT5vwcszEeqH3az1UnZNFw" incoming="_u1QNwcszEeqH3az1UnZNFw" outgoing="_uoSIwcszEeqH3az1UnZNFw _u_sjMMszEeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//BathingRoom"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//BathingRoom"/>
         <attributes xmi:id="_vsILYcszEeqH3az1UnZNFw" value="bathingRoomName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_t2SEEcszEeqH3az1UnZNFw" incoming="_u_sjMMszEeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Brightness"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Brightness"/>
         <attributes xmi:id="_ve0IIcszEeqH3az1UnZNFw" value="&quot;high&quot;">
-          <type href="../metamodel/smart_nursing_home.ecore#//Brightness/value"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Brightness/value"/>
         </attributes>
       </nodes>
       <edges xmi:id="_uoSIwcszEeqH3az1UnZNFw" source="_tT5vwcszEeqH3az1UnZNFw" target="_stl9scszEeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/person"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/person"/>
       </edges>
       <edges xmi:id="_u1QNwcszEeqH3az1UnZNFw" source="_stl9scszEeqH3az1UnZNFw" target="_tT5vwcszEeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Person/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/room"/>
       </edges>
       <edges xmi:id="_u_sjMMszEeqH3az1UnZNFw" source="_tT5vwcszEeqH3az1UnZNFw" target="_t2SEEcszEeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/brightness"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/brightness"/>
       </edges>
     </rhs>
     <mappings xmi:id="_stl9ssszEeqH3az1UnZNFw" origin="_stl9sMszEeqH3az1UnZNFw" image="_stl9scszEeqH3az1UnZNFw"/>
@@ -963,54 +963,54 @@
     </parameters>
     <lhs xmi:id="_9yawoMszEeqH3az1UnZNFw" name="Lhs">
       <nodes xmi:id="_DJrJMMs0EeqH3az1UnZNFw" incoming="_JINkMMs0EeqH3az1UnZNFw" outgoing="_IHHTkMs0EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Elder"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder"/>
         <attributes xmi:id="_FCtHYMs0EeqH3az1UnZNFw" value="elderName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
         <attributes xmi:id="_FYvBwMs0EeqH3az1UnZNFw" value="true">
-          <type href="../metamodel/smart_nursing_home.ecore#//Elder/bySelf"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/bySelf"/>
         </attributes>
         <attributes xmi:id="_GI23IMs0EeqH3az1UnZNFw" value="false">
-          <type href="../metamodel/smart_nursing_home.ecore#//Elder/temperatureCheck"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/temperatureCheck"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_Dv1xUMs0EeqH3az1UnZNFw" incoming="_IHHTkMs0EeqH3az1UnZNFw" outgoing="_JINkMMs0EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//CheckingRoom"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//CheckingRoom"/>
         <attributes xmi:id="_Eto2UMs0EeqH3az1UnZNFw" value="checkingRoomName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <edges xmi:id="_IHHTkMs0EeqH3az1UnZNFw" source="_DJrJMMs0EeqH3az1UnZNFw" target="_Dv1xUMs0EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Person/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/room"/>
       </edges>
       <edges xmi:id="_JINkMMs0EeqH3az1UnZNFw" source="_Dv1xUMs0EeqH3az1UnZNFw" target="_DJrJMMs0EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/person"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/person"/>
       </edges>
     </lhs>
     <rhs xmi:id="_9yawocszEeqH3az1UnZNFw" name="Rhs">
       <nodes xmi:id="_DJrJMcs0EeqH3az1UnZNFw" incoming="_JINkMcs0EeqH3az1UnZNFw" outgoing="_IHH6oMs0EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Elder"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder"/>
         <attributes xmi:id="_FCtHYcs0EeqH3az1UnZNFw" value="elderName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
         <attributes xmi:id="_FYvo0Ms0EeqH3az1UnZNFw" value="true">
-          <type href="../metamodel/smart_nursing_home.ecore#//Elder/bySelf"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/bySelf"/>
         </attributes>
         <attributes xmi:id="_GI23Ics0EeqH3az1UnZNFw" value="true">
-          <type href="../metamodel/smart_nursing_home.ecore#//Elder/temperatureCheck"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/temperatureCheck"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_Dv1xUcs0EeqH3az1UnZNFw" incoming="_IHH6oMs0EeqH3az1UnZNFw" outgoing="_JINkMcs0EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//CheckingRoom"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//CheckingRoom"/>
         <attributes xmi:id="_Eto2Ucs0EeqH3az1UnZNFw" value="checkingRoomName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <edges xmi:id="_IHH6oMs0EeqH3az1UnZNFw" source="_DJrJMcs0EeqH3az1UnZNFw" target="_Dv1xUcs0EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Person/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/room"/>
       </edges>
       <edges xmi:id="_JINkMcs0EeqH3az1UnZNFw" source="_Dv1xUcs0EeqH3az1UnZNFw" target="_DJrJMcs0EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/person"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/person"/>
       </edges>
     </rhs>
     <mappings xmi:id="_DJrJMss0EeqH3az1UnZNFw" origin="_DJrJMMs0EeqH3az1UnZNFw" image="_DJrJMcs0EeqH3az1UnZNFw"/>
@@ -1025,54 +1025,54 @@
     </parameters>
     <lhs xmi:id="_SVqyQMs0EeqH3az1UnZNFw" name="Lhs">
       <nodes xmi:id="_fzLgQMs0EeqH3az1UnZNFw" incoming="_qa_zgMs0EeqH3az1UnZNFw" outgoing="_qIQdsMs0EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Elder"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder"/>
         <attributes xmi:id="_hBDooMs0EeqH3az1UnZNFw" value="elderName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
         <attributes xmi:id="_hoe1AMs0EeqH3az1UnZNFw" value="true">
-          <type href="../metamodel/smart_nursing_home.ecore#//Elder/bySelf"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/bySelf"/>
         </attributes>
         <attributes xmi:id="_iMVI8Ms0EeqH3az1UnZNFw" value="false">
-          <type href="../metamodel/smart_nursing_home.ecore#//Elder/bloodOxygenCheck"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/bloodOxygenCheck"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_gYAEkMs0EeqH3az1UnZNFw" incoming="_qIQdsMs0EeqH3az1UnZNFw" outgoing="_qa_zgMs0EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//CheckingRoom"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//CheckingRoom"/>
         <attributes xmi:id="_ijJtgMs0EeqH3az1UnZNFw" value="checkingRoomName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <edges xmi:id="_qIQdsMs0EeqH3az1UnZNFw" source="_fzLgQMs0EeqH3az1UnZNFw" target="_gYAEkMs0EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Person/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/room"/>
       </edges>
       <edges xmi:id="_qa_zgMs0EeqH3az1UnZNFw" source="_gYAEkMs0EeqH3az1UnZNFw" target="_fzLgQMs0EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/person"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/person"/>
       </edges>
     </lhs>
     <rhs xmi:id="_SVqyQcs0EeqH3az1UnZNFw" name="Rhs">
       <nodes xmi:id="_fzLgQcs0EeqH3az1UnZNFw" incoming="_qa_zgcs0EeqH3az1UnZNFw" outgoing="_qIREwMs0EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Elder"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder"/>
         <attributes xmi:id="_hBDoocs0EeqH3az1UnZNFw" value="elderName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
         <attributes xmi:id="_hoe1Acs0EeqH3az1UnZNFw" value="true">
-          <type href="../metamodel/smart_nursing_home.ecore#//Elder/bySelf"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/bySelf"/>
         </attributes>
         <attributes xmi:id="_iMVI8cs0EeqH3az1UnZNFw" value="true">
-          <type href="../metamodel/smart_nursing_home.ecore#//Elder/bloodOxygenCheck"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/bloodOxygenCheck"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_gYAEkcs0EeqH3az1UnZNFw" incoming="_qIREwMs0EeqH3az1UnZNFw" outgoing="_qa_zgcs0EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//CheckingRoom"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//CheckingRoom"/>
         <attributes xmi:id="_ijKUkMs0EeqH3az1UnZNFw" value="checkingRoomName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <edges xmi:id="_qIREwMs0EeqH3az1UnZNFw" source="_fzLgQcs0EeqH3az1UnZNFw" target="_gYAEkcs0EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Person/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/room"/>
       </edges>
       <edges xmi:id="_qa_zgcs0EeqH3az1UnZNFw" source="_gYAEkcs0EeqH3az1UnZNFw" target="_fzLgQcs0EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/person"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/person"/>
       </edges>
     </rhs>
     <mappings xmi:id="_fzLgQss0EeqH3az1UnZNFw" origin="_fzLgQMs0EeqH3az1UnZNFw" image="_fzLgQcs0EeqH3az1UnZNFw"/>
@@ -1087,66 +1087,66 @@
     </parameters>
     <lhs xmi:id="_3um-oMs0EeqH3az1UnZNFw" name="Lhs">
       <nodes xmi:id="__khyAMs0EeqH3az1UnZNFw" incoming="_Kd2E8Ms1EeqH3az1UnZNFw" outgoing="_KsN4IMs1EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//CheckingRoom"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//CheckingRoom"/>
         <attributes xmi:id="_ER2cwMs1EeqH3az1UnZNFw" value="checkingRoomName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_BeRh4Ms1EeqH3az1UnZNFw" incoming="_KsN4IMs1EeqH3az1UnZNFw" outgoing="_Kd2E8Ms1EeqH3az1UnZNFw _lZz1gMvMEeqbuIgWThS39A">
-        <type href="../metamodel/smart_nursing_home.ecore#//Elder"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder"/>
         <attributes xmi:id="_D02-wMs1EeqH3az1UnZNFw" value="elderName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
         <attributes xmi:id="_EHLd0Ms1EeqH3az1UnZNFw" value="true">
-          <type href="../metamodel/smart_nursing_home.ecore#//Elder/bySelf"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/bySelf"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_CEEWkMs1EeqH3az1UnZNFw" incoming="_lZz1gMvMEeqbuIgWThS39A">
-        <type href="../metamodel/smart_nursing_home.ecore#//Diabetes"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Diabetes"/>
         <attributes xmi:id="_DcpTEMs1EeqH3az1UnZNFw" value="false">
-          <type href="../metamodel/smart_nursing_home.ecore#//Diabetes/glucoseMeasured"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Diabetes/glucoseMeasured"/>
         </attributes>
       </nodes>
       <edges xmi:id="_Kd2E8Ms1EeqH3az1UnZNFw" source="_BeRh4Ms1EeqH3az1UnZNFw" target="__khyAMs0EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Person/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/room"/>
       </edges>
       <edges xmi:id="_KsN4IMs1EeqH3az1UnZNFw" source="__khyAMs0EeqH3az1UnZNFw" target="_BeRh4Ms1EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/person"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/person"/>
       </edges>
       <edges xmi:id="_lZz1gMvMEeqbuIgWThS39A" source="_BeRh4Ms1EeqH3az1UnZNFw" target="_CEEWkMs1EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Elder/disease"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/disease"/>
       </edges>
     </lhs>
     <rhs xmi:id="_3um-ocs0EeqH3az1UnZNFw" name="Rhs">
       <nodes xmi:id="__khyAcs0EeqH3az1UnZNFw" incoming="_Kd2E8cs1EeqH3az1UnZNFw" outgoing="_KsN4Ics1EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//CheckingRoom"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//CheckingRoom"/>
         <attributes xmi:id="_ER2cwcs1EeqH3az1UnZNFw" value="checkingRoomName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_BeRh4cs1EeqH3az1UnZNFw" incoming="_KsN4Ics1EeqH3az1UnZNFw" outgoing="_Kd2E8cs1EeqH3az1UnZNFw _lZz1gcvMEeqbuIgWThS39A">
-        <type href="../metamodel/smart_nursing_home.ecore#//Elder"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder"/>
         <attributes xmi:id="_D02-wcs1EeqH3az1UnZNFw" value="elderName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
         <attributes xmi:id="_EHLd0cs1EeqH3az1UnZNFw" value="true">
-          <type href="../metamodel/smart_nursing_home.ecore#//Elder/bySelf"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/bySelf"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_CEEWkcs1EeqH3az1UnZNFw" incoming="_lZz1gcvMEeqbuIgWThS39A">
-        <type href="../metamodel/smart_nursing_home.ecore#//Diabetes"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Diabetes"/>
         <attributes xmi:id="_DcpTEcs1EeqH3az1UnZNFw" value="true">
-          <type href="../metamodel/smart_nursing_home.ecore#//Diabetes/glucoseMeasured"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Diabetes/glucoseMeasured"/>
         </attributes>
       </nodes>
       <edges xmi:id="_Kd2E8cs1EeqH3az1UnZNFw" source="_BeRh4cs1EeqH3az1UnZNFw" target="__khyAcs0EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Person/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/room"/>
       </edges>
       <edges xmi:id="_KsN4Ics1EeqH3az1UnZNFw" source="__khyAcs0EeqH3az1UnZNFw" target="_BeRh4cs1EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/person"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/person"/>
       </edges>
       <edges xmi:id="_lZz1gcvMEeqbuIgWThS39A" source="_BeRh4cs1EeqH3az1UnZNFw" target="_CEEWkcs1EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Elder/disease"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/disease"/>
       </edges>
     </rhs>
     <mappings xmi:id="__khyAss0EeqH3az1UnZNFw" origin="__khyAMs0EeqH3az1UnZNFw" image="__khyAcs0EeqH3az1UnZNFw"/>
@@ -1162,66 +1162,66 @@
     </parameters>
     <lhs xmi:id="_SMrY4Ms1EeqH3az1UnZNFw" name="Lhs">
       <nodes xmi:id="_i5bDAMs1EeqH3az1UnZNFw" incoming="_m_ARsMvMEeqbuIgWThS39A">
-        <type href="../metamodel/smart_nursing_home.ecore#//HeartAttack"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//HeartAttack"/>
         <attributes xmi:id="_lOxJwMs1EeqH3az1UnZNFw" value="false">
-          <type href="../metamodel/smart_nursing_home.ecore#//HeartAttack/heartRateCheck"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//HeartAttack/heartRateCheck"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_jUqNgMs1EeqH3az1UnZNFw" incoming="_rfuKcMs1EeqH3az1UnZNFw" outgoing="_pBhpsMs1EeqH3az1UnZNFw _m_ARsMvMEeqbuIgWThS39A">
-        <type href="../metamodel/smart_nursing_home.ecore#//Elder"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder"/>
         <attributes xmi:id="_kcKBEMs1EeqH3az1UnZNFw" value="elderName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
         <attributes xmi:id="_kxFIMMs1EeqH3az1UnZNFw" value="true">
-          <type href="../metamodel/smart_nursing_home.ecore#//Elder/bySelf"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/bySelf"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_jugQ4Ms1EeqH3az1UnZNFw" incoming="_pBhpsMs1EeqH3az1UnZNFw" outgoing="_rfuKcMs1EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//CheckingRoom"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//CheckingRoom"/>
         <attributes xmi:id="_kGbBoMs1EeqH3az1UnZNFw" value="checkingRoomName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <edges xmi:id="_pBhpsMs1EeqH3az1UnZNFw" source="_jUqNgMs1EeqH3az1UnZNFw" target="_jugQ4Ms1EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Person/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/room"/>
       </edges>
       <edges xmi:id="_rfuKcMs1EeqH3az1UnZNFw" source="_jugQ4Ms1EeqH3az1UnZNFw" target="_jUqNgMs1EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/person"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/person"/>
       </edges>
       <edges xmi:id="_m_ARsMvMEeqbuIgWThS39A" source="_jUqNgMs1EeqH3az1UnZNFw" target="_i5bDAMs1EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Elder/disease"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/disease"/>
       </edges>
     </lhs>
     <rhs xmi:id="_SMrY4cs1EeqH3az1UnZNFw" name="Rhs">
       <nodes xmi:id="_i5bDAcs1EeqH3az1UnZNFw" incoming="_m_ARscvMEeqbuIgWThS39A">
-        <type href="../metamodel/smart_nursing_home.ecore#//HeartAttack"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//HeartAttack"/>
         <attributes xmi:id="_lOxJwcs1EeqH3az1UnZNFw" value="true">
-          <type href="../metamodel/smart_nursing_home.ecore#//HeartAttack/heartRateCheck"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//HeartAttack/heartRateCheck"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_jUqNgcs1EeqH3az1UnZNFw" incoming="_rfuKccs1EeqH3az1UnZNFw" outgoing="_pBhpscs1EeqH3az1UnZNFw _m_ARscvMEeqbuIgWThS39A">
-        <type href="../metamodel/smart_nursing_home.ecore#//Elder"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder"/>
         <attributes xmi:id="_kcKBEcs1EeqH3az1UnZNFw" value="elderName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
         <attributes xmi:id="_kxFIMcs1EeqH3az1UnZNFw" value="true">
-          <type href="../metamodel/smart_nursing_home.ecore#//Elder/bySelf"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/bySelf"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_jugQ4cs1EeqH3az1UnZNFw" incoming="_pBhpscs1EeqH3az1UnZNFw" outgoing="_rfuKccs1EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//CheckingRoom"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//CheckingRoom"/>
         <attributes xmi:id="_kGbBocs1EeqH3az1UnZNFw" value="checkingRoomName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <edges xmi:id="_pBhpscs1EeqH3az1UnZNFw" source="_jUqNgcs1EeqH3az1UnZNFw" target="_jugQ4cs1EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Person/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/room"/>
       </edges>
       <edges xmi:id="_rfuKccs1EeqH3az1UnZNFw" source="_jugQ4cs1EeqH3az1UnZNFw" target="_jUqNgcs1EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/person"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/person"/>
       </edges>
       <edges xmi:id="_m_ARscvMEeqbuIgWThS39A" source="_jUqNgcs1EeqH3az1UnZNFw" target="_i5bDAcs1EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Elder/disease"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/disease"/>
       </edges>
     </rhs>
     <mappings xmi:id="_i5bDAss1EeqH3az1UnZNFw" origin="_i5bDAMs1EeqH3az1UnZNFw" image="_i5bDAcs1EeqH3az1UnZNFw"/>
@@ -1237,66 +1237,66 @@
     </parameters>
     <lhs xmi:id="_1GR1AMs1EeqH3az1UnZNFw" name="Lhs">
       <nodes xmi:id="_E7v44Ms2EeqH3az1UnZNFw" incoming="_pbHu0MvMEeqbuIgWThS39A">
-        <type href="../metamodel/smart_nursing_home.ecore#//Diabetes"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Diabetes"/>
         <attributes xmi:id="_JUKDkMs2EeqH3az1UnZNFw" value="false">
-          <type href="../metamodel/smart_nursing_home.ecore#//Diabetes/insulinInjected"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Diabetes/insulinInjected"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_FYNycMs2EeqH3az1UnZNFw" incoming="_QiZy8Ms2EeqH3az1UnZNFw" outgoing="_QIca0Ms2EeqH3az1UnZNFw _pbHu0MvMEeqbuIgWThS39A">
-        <type href="../metamodel/smart_nursing_home.ecore#//Elder"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder"/>
         <attributes xmi:id="_IHDXQMs2EeqH3az1UnZNFw" value="elderName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
         <attributes xmi:id="_IYhhwMs2EeqH3az1UnZNFw" value="true">
-          <type href="../metamodel/smart_nursing_home.ecore#//Elder/bySelf"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/bySelf"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_F_MS4Ms2EeqH3az1UnZNFw" incoming="_QIca0Ms2EeqH3az1UnZNFw" outgoing="_QiZy8Ms2EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Pharmacy"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Pharmacy"/>
         <attributes xmi:id="_HxFuUMs2EeqH3az1UnZNFw" value="pharmacyName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <edges xmi:id="_QIca0Ms2EeqH3az1UnZNFw" source="_FYNycMs2EeqH3az1UnZNFw" target="_F_MS4Ms2EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Person/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/room"/>
       </edges>
       <edges xmi:id="_QiZy8Ms2EeqH3az1UnZNFw" source="_F_MS4Ms2EeqH3az1UnZNFw" target="_FYNycMs2EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/person"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/person"/>
       </edges>
       <edges xmi:id="_pbHu0MvMEeqbuIgWThS39A" source="_FYNycMs2EeqH3az1UnZNFw" target="_E7v44Ms2EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Elder/disease"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/disease"/>
       </edges>
     </lhs>
     <rhs xmi:id="_1GR1Acs1EeqH3az1UnZNFw" name="Rhs">
       <nodes xmi:id="_E7v44cs2EeqH3az1UnZNFw" incoming="_pbIV4MvMEeqbuIgWThS39A">
-        <type href="../metamodel/smart_nursing_home.ecore#//Diabetes"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Diabetes"/>
         <attributes xmi:id="_JUKDkcs2EeqH3az1UnZNFw" value="true">
-          <type href="../metamodel/smart_nursing_home.ecore#//Diabetes/insulinInjected"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Diabetes/insulinInjected"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_FYNyccs2EeqH3az1UnZNFw" incoming="_QiZy8cs2EeqH3az1UnZNFw" outgoing="_QIca0cs2EeqH3az1UnZNFw _pbIV4MvMEeqbuIgWThS39A">
-        <type href="../metamodel/smart_nursing_home.ecore#//Elder"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder"/>
         <attributes xmi:id="_IHDXQcs2EeqH3az1UnZNFw" value="elderName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
         <attributes xmi:id="_IYhhwcs2EeqH3az1UnZNFw" value="true">
-          <type href="../metamodel/smart_nursing_home.ecore#//Elder/bySelf"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/bySelf"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_F_MS4cs2EeqH3az1UnZNFw" incoming="_QIca0cs2EeqH3az1UnZNFw" outgoing="_QiZy8cs2EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Pharmacy"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Pharmacy"/>
         <attributes xmi:id="_HxGVYMs2EeqH3az1UnZNFw" value="pharmacyName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <edges xmi:id="_QIca0cs2EeqH3az1UnZNFw" source="_FYNyccs2EeqH3az1UnZNFw" target="_F_MS4cs2EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Person/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/room"/>
       </edges>
       <edges xmi:id="_QiZy8cs2EeqH3az1UnZNFw" source="_F_MS4cs2EeqH3az1UnZNFw" target="_FYNyccs2EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/person"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/person"/>
       </edges>
       <edges xmi:id="_pbIV4MvMEeqbuIgWThS39A" source="_FYNyccs2EeqH3az1UnZNFw" target="_E7v44cs2EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Elder/disease"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/disease"/>
       </edges>
     </rhs>
     <mappings xmi:id="_E7v44ss2EeqH3az1UnZNFw" origin="_E7v44Ms2EeqH3az1UnZNFw" image="_E7v44cs2EeqH3az1UnZNFw"/>
@@ -1312,66 +1312,66 @@
     </parameters>
     <lhs xmi:id="_Y2H8oMs2EeqH3az1UnZNFw" name="Lhs">
       <nodes xmi:id="_aot7oMs2EeqH3az1UnZNFw" incoming="_sTi-oMs2EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//HeartAttack"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//HeartAttack"/>
         <attributes xmi:id="_oAOvUMs2EeqH3az1UnZNFw" value="false">
-          <type href="../metamodel/smart_nursing_home.ecore#//HeartAttack/aspirinTaken"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//HeartAttack/aspirinTaken"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_mRxCYMs2EeqH3az1UnZNFw" incoming="_suGMoMs2EeqH3az1UnZNFw" outgoing="_sTi-oMs2EeqH3az1UnZNFw _sjPAcMs2EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Elder"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder"/>
         <attributes xmi:id="_nQmCIMs2EeqH3az1UnZNFw" value="elderName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
         <attributes xmi:id="_nlYmYMs2EeqH3az1UnZNFw" value="true">
-          <type href="../metamodel/smart_nursing_home.ecore#//Elder/bySelf"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/bySelf"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_mwj3MMs2EeqH3az1UnZNFw" incoming="_sjPAcMs2EeqH3az1UnZNFw" outgoing="_suGMoMs2EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Pharmacy"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Pharmacy"/>
         <attributes xmi:id="_oZBp0Ms2EeqH3az1UnZNFw" value="pharmacyName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <edges xmi:id="_sTi-oMs2EeqH3az1UnZNFw" source="_mRxCYMs2EeqH3az1UnZNFw" target="_aot7oMs2EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Elder/disease"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/disease"/>
       </edges>
       <edges xmi:id="_sjPAcMs2EeqH3az1UnZNFw" source="_mRxCYMs2EeqH3az1UnZNFw" target="_mwj3MMs2EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Person/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/room"/>
       </edges>
       <edges xmi:id="_suGMoMs2EeqH3az1UnZNFw" source="_mwj3MMs2EeqH3az1UnZNFw" target="_mRxCYMs2EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/person"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/person"/>
       </edges>
     </lhs>
     <rhs xmi:id="_Y2H8ocs2EeqH3az1UnZNFw" name="Rhs">
       <nodes xmi:id="_aot7ocs2EeqH3az1UnZNFw" incoming="_sTi-ocs2EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//HeartAttack"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//HeartAttack"/>
         <attributes xmi:id="_oAOvUcs2EeqH3az1UnZNFw" value="true">
-          <type href="../metamodel/smart_nursing_home.ecore#//HeartAttack/aspirinTaken"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//HeartAttack/aspirinTaken"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_mRxCYcs2EeqH3az1UnZNFw" incoming="_suGMocs2EeqH3az1UnZNFw" outgoing="_sTi-ocs2EeqH3az1UnZNFw _sjPAccs2EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Elder"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder"/>
         <attributes xmi:id="_nQmCIcs2EeqH3az1UnZNFw" value="elderName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
         <attributes xmi:id="_nlYmYcs2EeqH3az1UnZNFw" value="true">
-          <type href="../metamodel/smart_nursing_home.ecore#//Elder/bySelf"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/bySelf"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_mwkeQMs2EeqH3az1UnZNFw" incoming="_sjPAccs2EeqH3az1UnZNFw" outgoing="_suGMocs2EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Pharmacy"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Pharmacy"/>
         <attributes xmi:id="_oZBp0cs2EeqH3az1UnZNFw" value="pharmacyName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <edges xmi:id="_sTi-ocs2EeqH3az1UnZNFw" source="_mRxCYcs2EeqH3az1UnZNFw" target="_aot7ocs2EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Elder/disease"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/disease"/>
       </edges>
       <edges xmi:id="_sjPAccs2EeqH3az1UnZNFw" source="_mRxCYcs2EeqH3az1UnZNFw" target="_mwkeQMs2EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Person/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/room"/>
       </edges>
       <edges xmi:id="_suGMocs2EeqH3az1UnZNFw" source="_mwkeQMs2EeqH3az1UnZNFw" target="_mRxCYcs2EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/person"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/person"/>
       </edges>
     </rhs>
     <mappings xmi:id="_aot7oss2EeqH3az1UnZNFw" origin="_aot7oMs2EeqH3az1UnZNFw" image="_aot7ocs2EeqH3az1UnZNFw"/>
@@ -1390,90 +1390,90 @@
     </parameters>
     <lhs xmi:id="_1JxYcMs2EeqH3az1UnZNFw" name="Lhs">
       <nodes xmi:id="_7z7jUMs2EeqH3az1UnZNFw" incoming="_FOvQ4Ms3EeqH3az1UnZNFw" outgoing="_FnquQMs3EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Elder"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder"/>
         <attributes xmi:id="__5iGwMs2EeqH3az1UnZNFw" value="elderName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
         <attributes xmi:id="_AyE4UMs3EeqH3az1UnZNFw" value="false">
-          <type href="../metamodel/smart_nursing_home.ecore#//Elder/tidy"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/tidy"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_8kgrsMs2EeqH3az1UnZNFw" incoming="_FnquQMs3EeqH3az1UnZNFw _Vszl0Ms3EeqH3az1UnZNFw" outgoing="_FOvQ4Ms3EeqH3az1UnZNFw _IanXAMs3EeqH3az1UnZNFw _WC4jgMs3EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//BathingRoom"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//BathingRoom"/>
         <attributes xmi:id="_A9VtIMs3EeqH3az1UnZNFw" value="bathingRoomName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_9LAD8Ms2EeqH3az1UnZNFw" incoming="_IanXAMs3EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Brightness"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Brightness"/>
         <attributes xmi:id="_BTAbIMs3EeqH3az1UnZNFw" value="&quot;high&quot;">
-          <type href="../metamodel/smart_nursing_home.ecore#//Brightness/value"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Brightness/value"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_9vkJkMs2EeqH3az1UnZNFw" incoming="_WC4jgMs3EeqH3az1UnZNFw" outgoing="_Vszl0Ms3EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//CareWorker"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//CareWorker"/>
         <attributes xmi:id="_BcypQMs3EeqH3az1UnZNFw" value="careWorkerName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <edges xmi:id="_FOvQ4Ms3EeqH3az1UnZNFw" source="_8kgrsMs2EeqH3az1UnZNFw" target="_7z7jUMs2EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/person"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/person"/>
       </edges>
       <edges xmi:id="_FnquQMs3EeqH3az1UnZNFw" source="_7z7jUMs2EeqH3az1UnZNFw" target="_8kgrsMs2EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Person/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/room"/>
       </edges>
       <edges xmi:id="_IanXAMs3EeqH3az1UnZNFw" source="_8kgrsMs2EeqH3az1UnZNFw" target="_9LAD8Ms2EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/brightness"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/brightness"/>
       </edges>
       <edges xmi:id="_Vszl0Ms3EeqH3az1UnZNFw" source="_9vkJkMs2EeqH3az1UnZNFw" target="_8kgrsMs2EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Person/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/room"/>
       </edges>
       <edges xmi:id="_WC4jgMs3EeqH3az1UnZNFw" source="_8kgrsMs2EeqH3az1UnZNFw" target="_9vkJkMs2EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/person"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/person"/>
       </edges>
     </lhs>
     <rhs xmi:id="_1JxYccs2EeqH3az1UnZNFw" name="Rhs">
       <nodes xmi:id="_7z7jUcs2EeqH3az1UnZNFw" incoming="_FOvQ4cs3EeqH3az1UnZNFw" outgoing="_FnquQcs3EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Elder"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder"/>
         <attributes xmi:id="__5iGwcs2EeqH3az1UnZNFw" value="elderName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
         <attributes xmi:id="_AyE4Ucs3EeqH3az1UnZNFw" value="true">
-          <type href="../metamodel/smart_nursing_home.ecore#//Elder/tidy"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/tidy"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_8kgrscs2EeqH3az1UnZNFw" incoming="_FnquQcs3EeqH3az1UnZNFw _Vszl0cs3EeqH3az1UnZNFw" outgoing="_FOvQ4cs3EeqH3az1UnZNFw _IanXAcs3EeqH3az1UnZNFw _WC4jgcs3EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//BathingRoom"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//BathingRoom"/>
         <attributes xmi:id="_A9VtIcs3EeqH3az1UnZNFw" value="bathingRoomName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_9LAD8cs2EeqH3az1UnZNFw" incoming="_IanXAcs3EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Brightness"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Brightness"/>
         <attributes xmi:id="_BTAbIcs3EeqH3az1UnZNFw" value="&quot;high&quot;">
-          <type href="../metamodel/smart_nursing_home.ecore#//Brightness/value"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Brightness/value"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_9vkJkcs2EeqH3az1UnZNFw" incoming="_WC4jgcs3EeqH3az1UnZNFw" outgoing="_Vszl0cs3EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//CareWorker"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//CareWorker"/>
         <attributes xmi:id="_BcypQcs3EeqH3az1UnZNFw" value="careWorkerName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <edges xmi:id="_FOvQ4cs3EeqH3az1UnZNFw" source="_8kgrscs2EeqH3az1UnZNFw" target="_7z7jUcs2EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/person"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/person"/>
       </edges>
       <edges xmi:id="_FnquQcs3EeqH3az1UnZNFw" source="_7z7jUcs2EeqH3az1UnZNFw" target="_8kgrscs2EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Person/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/room"/>
       </edges>
       <edges xmi:id="_IanXAcs3EeqH3az1UnZNFw" source="_8kgrscs2EeqH3az1UnZNFw" target="_9LAD8cs2EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/brightness"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/brightness"/>
       </edges>
       <edges xmi:id="_Vszl0cs3EeqH3az1UnZNFw" source="_9vkJkcs2EeqH3az1UnZNFw" target="_8kgrscs2EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Person/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/room"/>
       </edges>
       <edges xmi:id="_WC4jgcs3EeqH3az1UnZNFw" source="_8kgrscs2EeqH3az1UnZNFw" target="_9vkJkcs2EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/person"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/person"/>
       </edges>
     </rhs>
     <mappings xmi:id="_7z7jUss2EeqH3az1UnZNFw" origin="_7z7jUMs2EeqH3az1UnZNFw" image="_7z7jUcs2EeqH3az1UnZNFw"/>
@@ -1493,72 +1493,72 @@
     </parameters>
     <lhs xmi:id="_g_eM4Ms3EeqH3az1UnZNFw" name="Lhs">
       <nodes xmi:id="_v4eogMs3EeqH3az1UnZNFw" incoming="_-LD9UMs3EeqH3az1UnZNFw" outgoing="_-ZjsUMs3EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Elder"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder"/>
         <attributes xmi:id="_042LEMs3EeqH3az1UnZNFw" value="elderName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
         <attributes xmi:id="_29T9MMs3EeqH3az1UnZNFw" value="false">
-          <type href="../metamodel/smart_nursing_home.ecore#//Elder/temperatureCheck"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/temperatureCheck"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_wloCYMs3EeqH3az1UnZNFw" incoming="_-ZjsUMs3EeqH3az1UnZNFw __BkHgMs3EeqH3az1UnZNFw" outgoing="_-LD9UMs3EeqH3az1UnZNFw _-ycGYMs3EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//CheckingRoom"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//CheckingRoom"/>
         <attributes xmi:id="_0f_mMMs3EeqH3az1UnZNFw" value="checkingRoomName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_xr8xQMs3EeqH3az1UnZNFw" incoming="_-ycGYMs3EeqH3az1UnZNFw" outgoing="__BkHgMs3EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//CareWorker"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//CareWorker"/>
         <attributes xmi:id="_yK260Ms3EeqH3az1UnZNFw" value="careWorkerName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <edges xmi:id="_-LD9UMs3EeqH3az1UnZNFw" source="_wloCYMs3EeqH3az1UnZNFw" target="_v4eogMs3EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/person"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/person"/>
       </edges>
       <edges xmi:id="_-ZjsUMs3EeqH3az1UnZNFw" source="_v4eogMs3EeqH3az1UnZNFw" target="_wloCYMs3EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Person/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/room"/>
       </edges>
       <edges xmi:id="_-ycGYMs3EeqH3az1UnZNFw" source="_wloCYMs3EeqH3az1UnZNFw" target="_xr8xQMs3EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/person"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/person"/>
       </edges>
       <edges xmi:id="__BkHgMs3EeqH3az1UnZNFw" source="_xr8xQMs3EeqH3az1UnZNFw" target="_wloCYMs3EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Person/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/room"/>
       </edges>
     </lhs>
     <rhs xmi:id="_g_eM4cs3EeqH3az1UnZNFw" name="Rhs">
       <nodes xmi:id="_v4eogcs3EeqH3az1UnZNFw" incoming="_-LD9Ucs3EeqH3az1UnZNFw" outgoing="_-ZjsUcs3EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Elder"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder"/>
         <attributes xmi:id="_042LEcs3EeqH3az1UnZNFw" value="elderName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
         <attributes xmi:id="_29T9Mcs3EeqH3az1UnZNFw" value="true">
-          <type href="../metamodel/smart_nursing_home.ecore#//Elder/temperatureCheck"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/temperatureCheck"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_wloCYcs3EeqH3az1UnZNFw" incoming="_-ZjsUcs3EeqH3az1UnZNFw __BkHgcs3EeqH3az1UnZNFw" outgoing="_-LD9Ucs3EeqH3az1UnZNFw _-ycGYcs3EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//CheckingRoom"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//CheckingRoom"/>
         <attributes xmi:id="_0f_mMcs3EeqH3az1UnZNFw" value="checkingRoomName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_xr8xQcs3EeqH3az1UnZNFw" incoming="_-ycGYcs3EeqH3az1UnZNFw" outgoing="__BkHgcs3EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//CareWorker"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//CareWorker"/>
         <attributes xmi:id="_yK260cs3EeqH3az1UnZNFw" value="careWorkerName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <edges xmi:id="_-LD9Ucs3EeqH3az1UnZNFw" source="_wloCYcs3EeqH3az1UnZNFw" target="_v4eogcs3EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/person"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/person"/>
       </edges>
       <edges xmi:id="_-ZjsUcs3EeqH3az1UnZNFw" source="_v4eogcs3EeqH3az1UnZNFw" target="_wloCYcs3EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Person/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/room"/>
       </edges>
       <edges xmi:id="_-ycGYcs3EeqH3az1UnZNFw" source="_wloCYcs3EeqH3az1UnZNFw" target="_xr8xQcs3EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/person"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/person"/>
       </edges>
       <edges xmi:id="__BkHgcs3EeqH3az1UnZNFw" source="_xr8xQcs3EeqH3az1UnZNFw" target="_wloCYcs3EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Person/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/room"/>
       </edges>
     </rhs>
     <mappings xmi:id="_v4eogss3EeqH3az1UnZNFw" origin="_v4eogMs3EeqH3az1UnZNFw" image="_v4eogcs3EeqH3az1UnZNFw"/>
@@ -1577,72 +1577,72 @@
     </parameters>
     <lhs xmi:id="_LxMb0Ms4EeqH3az1UnZNFw" name="Lhs">
       <nodes xmi:id="_WCTfQMs4EeqH3az1UnZNFw" incoming="_i9Rg4Ms4EeqH3az1UnZNFw" outgoing="_jIeEQMs4EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Elder"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder"/>
         <attributes xmi:id="_YACXQMs4EeqH3az1UnZNFw" value="elderName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
         <attributes xmi:id="_g7LGQMs4EeqH3az1UnZNFw" value="false">
-          <type href="../metamodel/smart_nursing_home.ecore#//Elder/bloodOxygenCheck"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/bloodOxygenCheck"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_WmDskMs4EeqH3az1UnZNFw" incoming="_jIeEQMs4EeqH3az1UnZNFw _joMtMMs4EeqH3az1UnZNFw" outgoing="_i9Rg4Ms4EeqH3az1UnZNFw _jbg8EMs4EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//CheckingRoom"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//CheckingRoom"/>
         <attributes xmi:id="_Yyfu8Ms4EeqH3az1UnZNFw" value="checkingRoomName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_W-YtAMs4EeqH3az1UnZNFw" incoming="_jbg8EMs4EeqH3az1UnZNFw" outgoing="_joMtMMs4EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//CareWorker"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//CareWorker"/>
         <attributes xmi:id="_Y_qBMMs4EeqH3az1UnZNFw" value="careWorkerName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <edges xmi:id="_i9Rg4Ms4EeqH3az1UnZNFw" source="_WmDskMs4EeqH3az1UnZNFw" target="_WCTfQMs4EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/person"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/person"/>
       </edges>
       <edges xmi:id="_jIeEQMs4EeqH3az1UnZNFw" source="_WCTfQMs4EeqH3az1UnZNFw" target="_WmDskMs4EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Person/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/room"/>
       </edges>
       <edges xmi:id="_jbg8EMs4EeqH3az1UnZNFw" source="_WmDskMs4EeqH3az1UnZNFw" target="_W-YtAMs4EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/person"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/person"/>
       </edges>
       <edges xmi:id="_joMtMMs4EeqH3az1UnZNFw" source="_W-YtAMs4EeqH3az1UnZNFw" target="_WmDskMs4EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Person/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/room"/>
       </edges>
     </lhs>
     <rhs xmi:id="_LxMb0cs4EeqH3az1UnZNFw" name="Rhs">
       <nodes xmi:id="_WCTfQcs4EeqH3az1UnZNFw" incoming="_i9Rg4cs4EeqH3az1UnZNFw" outgoing="_jIeEQcs4EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Elder"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder"/>
         <attributes xmi:id="_YACXQcs4EeqH3az1UnZNFw" value="elderName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
         <attributes xmi:id="_g7LGQcs4EeqH3az1UnZNFw" value="true">
-          <type href="../metamodel/smart_nursing_home.ecore#//Elder/bloodOxygenCheck"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/bloodOxygenCheck"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_WmDskcs4EeqH3az1UnZNFw" incoming="_jIeEQcs4EeqH3az1UnZNFw _joMtMcs4EeqH3az1UnZNFw" outgoing="_i9Rg4cs4EeqH3az1UnZNFw _jbg8Ecs4EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//CheckingRoom"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//CheckingRoom"/>
         <attributes xmi:id="_Yyfu8cs4EeqH3az1UnZNFw" value="checkingRoomName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_W-YtAcs4EeqH3az1UnZNFw" incoming="_jbg8Ecs4EeqH3az1UnZNFw" outgoing="_joMtMcs4EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//CareWorker"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//CareWorker"/>
         <attributes xmi:id="_Y_qBMcs4EeqH3az1UnZNFw" value="careWorkerName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <edges xmi:id="_i9Rg4cs4EeqH3az1UnZNFw" source="_WmDskcs4EeqH3az1UnZNFw" target="_WCTfQcs4EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/person"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/person"/>
       </edges>
       <edges xmi:id="_jIeEQcs4EeqH3az1UnZNFw" source="_WCTfQcs4EeqH3az1UnZNFw" target="_WmDskcs4EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Person/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/room"/>
       </edges>
       <edges xmi:id="_jbg8Ecs4EeqH3az1UnZNFw" source="_WmDskcs4EeqH3az1UnZNFw" target="_W-YtAcs4EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/person"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/person"/>
       </edges>
       <edges xmi:id="_joMtMcs4EeqH3az1UnZNFw" source="_W-YtAcs4EeqH3az1UnZNFw" target="_WmDskcs4EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Person/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/room"/>
       </edges>
     </rhs>
     <mappings xmi:id="_WCTfQss4EeqH3az1UnZNFw" origin="_WCTfQMs4EeqH3az1UnZNFw" image="_WCTfQcs4EeqH3az1UnZNFw"/>
@@ -1661,84 +1661,84 @@
     </parameters>
     <lhs xmi:id="_D3GdoMs5EeqH3az1UnZNFw" name="Lhs">
       <nodes xmi:id="_v9bIAMs5EeqH3az1UnZNFw" incoming="_XQ_1EMs6EeqH3az1UnZNFw" outgoing="_XA91AMs6EeqH3az1UnZNFw _cSPhYMs6EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Elder"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder"/>
         <attributes xmi:id="_zajWMMs5EeqH3az1UnZNFw" value="elderName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_w83y0Ms5EeqH3az1UnZNFw" incoming="_XA91AMs6EeqH3az1UnZNFw _d2DdgMs6EeqH3az1UnZNFw" outgoing="_XQ_1EMs6EeqH3az1UnZNFw _doUjgMs6EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//CheckingRoom"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//CheckingRoom"/>
         <attributes xmi:id="_zFAkAMs5EeqH3az1UnZNFw" value="checkingRoomName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_xmO44Ms5EeqH3az1UnZNFw" incoming="_doUjgMs6EeqH3az1UnZNFw" outgoing="_d2DdgMs6EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//CareWorker"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//CareWorker"/>
         <attributes xmi:id="_0alP0Ms5EeqH3az1UnZNFw" value="careWorkerName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_ycHYAMs5EeqH3az1UnZNFw" incoming="_cSPhYMs6EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Diabetes"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Diabetes"/>
         <attributes xmi:id="_2FkK8Ms5EeqH3az1UnZNFw" value="false">
-          <type href="../metamodel/smart_nursing_home.ecore#//Diabetes/glucoseMeasured"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Diabetes/glucoseMeasured"/>
         </attributes>
       </nodes>
       <edges xmi:id="_XA91AMs6EeqH3az1UnZNFw" source="_v9bIAMs5EeqH3az1UnZNFw" target="_w83y0Ms5EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Person/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/room"/>
       </edges>
       <edges xmi:id="_XQ_1EMs6EeqH3az1UnZNFw" source="_w83y0Ms5EeqH3az1UnZNFw" target="_v9bIAMs5EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/person"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/person"/>
       </edges>
       <edges xmi:id="_cSPhYMs6EeqH3az1UnZNFw" source="_v9bIAMs5EeqH3az1UnZNFw" target="_ycHYAMs5EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Elder/disease"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/disease"/>
       </edges>
       <edges xmi:id="_doUjgMs6EeqH3az1UnZNFw" source="_w83y0Ms5EeqH3az1UnZNFw" target="_xmO44Ms5EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/person"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/person"/>
       </edges>
       <edges xmi:id="_d2DdgMs6EeqH3az1UnZNFw" source="_xmO44Ms5EeqH3az1UnZNFw" target="_w83y0Ms5EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Person/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/room"/>
       </edges>
     </lhs>
     <rhs xmi:id="_D3Gdocs5EeqH3az1UnZNFw" name="Rhs">
       <nodes xmi:id="_v9bIAcs5EeqH3az1UnZNFw" incoming="_XQ_1Ecs6EeqH3az1UnZNFw" outgoing="_XA91Acs6EeqH3az1UnZNFw _cSPhYcs6EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Elder"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder"/>
         <attributes xmi:id="_zajWMcs5EeqH3az1UnZNFw" value="elderName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_w83y0cs5EeqH3az1UnZNFw" incoming="_XA91Acs6EeqH3az1UnZNFw _d2Ddgcs6EeqH3az1UnZNFw" outgoing="_XQ_1Ecs6EeqH3az1UnZNFw _doUjgcs6EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//CheckingRoom"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//CheckingRoom"/>
         <attributes xmi:id="_zFAkAcs5EeqH3az1UnZNFw" value="checkingRoomName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_xmO44cs5EeqH3az1UnZNFw" incoming="_doUjgcs6EeqH3az1UnZNFw" outgoing="_d2Ddgcs6EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//CareWorker"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//CareWorker"/>
         <attributes xmi:id="_0alP0cs5EeqH3az1UnZNFw" value="careWorkerName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_ycHYAcs5EeqH3az1UnZNFw" incoming="_cSPhYcs6EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Diabetes"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Diabetes"/>
         <attributes xmi:id="_2FkK8cs5EeqH3az1UnZNFw" value="true">
-          <type href="../metamodel/smart_nursing_home.ecore#//Diabetes/glucoseMeasured"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Diabetes/glucoseMeasured"/>
         </attributes>
       </nodes>
       <edges xmi:id="_XA91Acs6EeqH3az1UnZNFw" source="_v9bIAcs5EeqH3az1UnZNFw" target="_w83y0cs5EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Person/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/room"/>
       </edges>
       <edges xmi:id="_XQ_1Ecs6EeqH3az1UnZNFw" source="_w83y0cs5EeqH3az1UnZNFw" target="_v9bIAcs5EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/person"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/person"/>
       </edges>
       <edges xmi:id="_cSPhYcs6EeqH3az1UnZNFw" source="_v9bIAcs5EeqH3az1UnZNFw" target="_ycHYAcs5EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Elder/disease"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/disease"/>
       </edges>
       <edges xmi:id="_doUjgcs6EeqH3az1UnZNFw" source="_w83y0cs5EeqH3az1UnZNFw" target="_xmO44cs5EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/person"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/person"/>
       </edges>
       <edges xmi:id="_d2Ddgcs6EeqH3az1UnZNFw" source="_xmO44cs5EeqH3az1UnZNFw" target="_w83y0cs5EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Person/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/room"/>
       </edges>
     </rhs>
     <mappings xmi:id="_v9bIAss5EeqH3az1UnZNFw" origin="_v9bIAMs5EeqH3az1UnZNFw" image="_v9bIAcs5EeqH3az1UnZNFw"/>
@@ -1758,84 +1758,84 @@
     </parameters>
     <lhs xmi:id="_wTHOsMs6EeqH3az1UnZNFw" name="Lhs">
       <nodes xmi:id="_ENtfcMs8EeqH3az1UnZNFw" incoming="_PqTekMs8EeqH3az1UnZNFw" outgoing="_PbeYYMs8EeqH3az1UnZNFw _b-VcAMs8EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Elder"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder"/>
         <attributes xmi:id="_IPmnkMs8EeqH3az1UnZNFw" value="elderName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_E8U48Ms8EeqH3az1UnZNFw" incoming="_PbeYYMs8EeqH3az1UnZNFw _QMgzwMs8EeqH3az1UnZNFw" outgoing="_PqTekMs8EeqH3az1UnZNFw _QBoZcMs8EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//CheckingRoom"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//CheckingRoom"/>
         <attributes xmi:id="_IcDvMMs8EeqH3az1UnZNFw" value="checkingRoomName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_Fd24sMs8EeqH3az1UnZNFw" incoming="_QBoZcMs8EeqH3az1UnZNFw" outgoing="_QMgzwMs8EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//CareWorker"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//CareWorker"/>
         <attributes xmi:id="_Iohd4Ms8EeqH3az1UnZNFw" value="careWorkerName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_GLKDkMs8EeqH3az1UnZNFw" incoming="_b-VcAMs8EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//HeartAttack"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//HeartAttack"/>
         <attributes xmi:id="_aRMkwMs8EeqH3az1UnZNFw" value="false">
-          <type href="../metamodel/smart_nursing_home.ecore#//HeartAttack/heartRateCheck"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//HeartAttack/heartRateCheck"/>
         </attributes>
       </nodes>
       <edges xmi:id="_PbeYYMs8EeqH3az1UnZNFw" source="_ENtfcMs8EeqH3az1UnZNFw" target="_E8U48Ms8EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Person/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/room"/>
       </edges>
       <edges xmi:id="_PqTekMs8EeqH3az1UnZNFw" source="_E8U48Ms8EeqH3az1UnZNFw" target="_ENtfcMs8EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/person"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/person"/>
       </edges>
       <edges xmi:id="_QBoZcMs8EeqH3az1UnZNFw" source="_E8U48Ms8EeqH3az1UnZNFw" target="_Fd24sMs8EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/person"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/person"/>
       </edges>
       <edges xmi:id="_QMgzwMs8EeqH3az1UnZNFw" source="_Fd24sMs8EeqH3az1UnZNFw" target="_E8U48Ms8EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Person/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/room"/>
       </edges>
       <edges xmi:id="_b-VcAMs8EeqH3az1UnZNFw" source="_ENtfcMs8EeqH3az1UnZNFw" target="_GLKDkMs8EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Elder/disease"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/disease"/>
       </edges>
     </lhs>
     <rhs xmi:id="_wTHOscs6EeqH3az1UnZNFw" name="Rhs">
       <nodes xmi:id="_ENtfccs8EeqH3az1UnZNFw" incoming="_PqTekcs8EeqH3az1UnZNFw" outgoing="_PbeYYcs8EeqH3az1UnZNFw _b-VcAcs8EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Elder"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder"/>
         <attributes xmi:id="_IPnOoMs8EeqH3az1UnZNFw" value="elderName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_E8U48cs8EeqH3az1UnZNFw" incoming="_PbeYYcs8EeqH3az1UnZNFw _QMgzwcs8EeqH3az1UnZNFw" outgoing="_PqTekcs8EeqH3az1UnZNFw _QBoZccs8EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//CheckingRoom"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//CheckingRoom"/>
         <attributes xmi:id="_IcDvMcs8EeqH3az1UnZNFw" value="checkingRoomName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_Fd24scs8EeqH3az1UnZNFw" incoming="_QBoZccs8EeqH3az1UnZNFw" outgoing="_QMgzwcs8EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//CareWorker"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//CareWorker"/>
         <attributes xmi:id="_Iohd4cs8EeqH3az1UnZNFw" value="careWorkerName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_GLKDkcs8EeqH3az1UnZNFw" incoming="_b-VcAcs8EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//HeartAttack"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//HeartAttack"/>
         <attributes xmi:id="_aRMkwcs8EeqH3az1UnZNFw" value="true">
-          <type href="../metamodel/smart_nursing_home.ecore#//HeartAttack/heartRateCheck"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//HeartAttack/heartRateCheck"/>
         </attributes>
       </nodes>
       <edges xmi:id="_PbeYYcs8EeqH3az1UnZNFw" source="_ENtfccs8EeqH3az1UnZNFw" target="_E8U48cs8EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Person/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/room"/>
       </edges>
       <edges xmi:id="_PqTekcs8EeqH3az1UnZNFw" source="_E8U48cs8EeqH3az1UnZNFw" target="_ENtfccs8EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/person"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/person"/>
       </edges>
       <edges xmi:id="_QBoZccs8EeqH3az1UnZNFw" source="_E8U48cs8EeqH3az1UnZNFw" target="_Fd24scs8EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/person"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/person"/>
       </edges>
       <edges xmi:id="_QMgzwcs8EeqH3az1UnZNFw" source="_Fd24scs8EeqH3az1UnZNFw" target="_E8U48cs8EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Person/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/room"/>
       </edges>
       <edges xmi:id="_b-VcAcs8EeqH3az1UnZNFw" source="_ENtfccs8EeqH3az1UnZNFw" target="_GLKDkcs8EeqH3az1UnZNFw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Elder/disease"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/disease"/>
       </edges>
     </rhs>
     <mappings xmi:id="_ENtfcss8EeqH3az1UnZNFw" origin="_ENtfcMs8EeqH3az1UnZNFw" image="_ENtfccs8EeqH3az1UnZNFw"/>
@@ -1852,51 +1852,51 @@
     </parameters>
     <lhs xmi:id="_svKAgMvOEeqF6IBbhjEO0g" name="Lhs">
       <nodes xmi:id="_1LfToMvOEeqF6IBbhjEO0g" incoming="_6kXc0MvOEeqF6IBbhjEO0g" outgoing="_6VONkMvOEeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//CareWorker"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//CareWorker"/>
         <attributes xmi:id="_19KoMMvOEeqF6IBbhjEO0g" value="careWorkerName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_1g4U0MvOEeqF6IBbhjEO0g" incoming="_6VONkMvOEeqF6IBbhjEO0g" outgoing="_6kXc0MvOEeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//Pharmacy"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Pharmacy"/>
         <attributes xmi:id="_1ym-AMvOEeqF6IBbhjEO0g" value="pharmacyName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <edges xmi:id="_6VONkMvOEeqF6IBbhjEO0g" source="_1LfToMvOEeqF6IBbhjEO0g" target="_1g4U0MvOEeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//Person/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/room"/>
       </edges>
       <edges xmi:id="_6kXc0MvOEeqF6IBbhjEO0g" source="_1g4U0MvOEeqF6IBbhjEO0g" target="_1LfToMvOEeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/person"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/person"/>
       </edges>
     </lhs>
     <rhs xmi:id="_svKAgcvOEeqF6IBbhjEO0g" name="Rhs">
       <nodes xmi:id="_0WY3oMvOEeqF6IBbhjEO0g" incoming="_9m_gUMvOEeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//Medicine"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Medicine"/>
         <attributes xmi:id="_2FsSEMvOEeqF6IBbhjEO0g" value="&quot;insulin&quot;">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_1LfTocvOEeqF6IBbhjEO0g" incoming="_6kXc0cvOEeqF6IBbhjEO0g" outgoing="_6VO0oMvOEeqF6IBbhjEO0g _9m_gUMvOEeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//CareWorker"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//CareWorker"/>
         <attributes xmi:id="_19KoMcvOEeqF6IBbhjEO0g" value="careWorkerName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_1g4U0cvOEeqF6IBbhjEO0g" incoming="_6VO0oMvOEeqF6IBbhjEO0g" outgoing="_6kXc0cvOEeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//Pharmacy"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Pharmacy"/>
         <attributes xmi:id="_1ym-AcvOEeqF6IBbhjEO0g" value="pharmacyName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <edges xmi:id="_6VO0oMvOEeqF6IBbhjEO0g" source="_1LfTocvOEeqF6IBbhjEO0g" target="_1g4U0cvOEeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//Person/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/room"/>
       </edges>
       <edges xmi:id="_6kXc0cvOEeqF6IBbhjEO0g" source="_1g4U0cvOEeqF6IBbhjEO0g" target="_1LfTocvOEeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/person"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/person"/>
       </edges>
       <edges xmi:id="_9m_gUMvOEeqF6IBbhjEO0g" source="_1LfTocvOEeqF6IBbhjEO0g" target="_0WY3oMvOEeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//Person/medicine"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/medicine"/>
       </edges>
     </rhs>
     <mappings xmi:id="_1LfTosvOEeqF6IBbhjEO0g" origin="_1LfToMvOEeqF6IBbhjEO0g" image="_1LfTocvOEeqF6IBbhjEO0g"/>
@@ -1911,51 +1911,51 @@
     </parameters>
     <lhs xmi:id="_BbeekMvPEeqF6IBbhjEO0g" name="Lhs">
       <nodes xmi:id="_HOC6IMvPEeqF6IBbhjEO0g" incoming="_NwM_kMvPEeqF6IBbhjEO0g" outgoing="_NhaVoMvPEeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//CareWorker"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//CareWorker"/>
         <attributes xmi:id="_H-LWkMvPEeqF6IBbhjEO0g" value="careWorkerName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_HdmZEMvPEeqF6IBbhjEO0g" incoming="_NhaVoMvPEeqF6IBbhjEO0g" outgoing="_NwM_kMvPEeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//Pharmacy"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Pharmacy"/>
         <attributes xmi:id="_Hy2QUMvPEeqF6IBbhjEO0g" value="pharmacyName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <edges xmi:id="_NhaVoMvPEeqF6IBbhjEO0g" source="_HOC6IMvPEeqF6IBbhjEO0g" target="_HdmZEMvPEeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//Person/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/room"/>
       </edges>
       <edges xmi:id="_NwM_kMvPEeqF6IBbhjEO0g" source="_HdmZEMvPEeqF6IBbhjEO0g" target="_HOC6IMvPEeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/person"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/person"/>
       </edges>
     </lhs>
     <rhs xmi:id="_BbeekcvPEeqF6IBbhjEO0g" name="Rhs">
       <nodes xmi:id="_GsnBAMvPEeqF6IBbhjEO0g" incoming="_R_iGwMvPEeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//Medicine"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Medicine"/>
         <attributes xmi:id="_IKBaMMvPEeqF6IBbhjEO0g" value="&quot;aspirin&quot;">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_HOC6IcvPEeqF6IBbhjEO0g" incoming="_NwM_kcvPEeqF6IBbhjEO0g" outgoing="_NhaVocvPEeqF6IBbhjEO0g _R_iGwMvPEeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//CareWorker"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//CareWorker"/>
         <attributes xmi:id="_H-LWkcvPEeqF6IBbhjEO0g" value="careWorkerName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_HdmZEcvPEeqF6IBbhjEO0g" incoming="_NhaVocvPEeqF6IBbhjEO0g" outgoing="_NwM_kcvPEeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//Pharmacy"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Pharmacy"/>
         <attributes xmi:id="_Hy2QUcvPEeqF6IBbhjEO0g" value="pharmacyName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <edges xmi:id="_NhaVocvPEeqF6IBbhjEO0g" source="_HOC6IcvPEeqF6IBbhjEO0g" target="_HdmZEcvPEeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//Person/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/room"/>
       </edges>
       <edges xmi:id="_NwM_kcvPEeqF6IBbhjEO0g" source="_HdmZEcvPEeqF6IBbhjEO0g" target="_HOC6IcvPEeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/person"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/person"/>
       </edges>
       <edges xmi:id="_R_iGwMvPEeqF6IBbhjEO0g" source="_HOC6IcvPEeqF6IBbhjEO0g" target="_GsnBAMvPEeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//Person/medicine"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/medicine"/>
       </edges>
     </rhs>
     <mappings xmi:id="_HOC6IsvPEeqF6IBbhjEO0g" origin="_HOC6IMvPEeqF6IBbhjEO0g" image="_HOC6IcvPEeqF6IBbhjEO0g"/>
@@ -1973,93 +1973,93 @@
     </parameters>
     <lhs xmi:id="_XP_60MvPEeqF6IBbhjEO0g" name="Lhs">
       <nodes xmi:id="_uYdrMMvPEeqF6IBbhjEO0g" incoming="_Dkp8IMvQEeqF6IBbhjEO0g" outgoing="_DIe9gMvQEeqF6IBbhjEO0g _L1nswMvQEeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//Elder"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder"/>
         <attributes xmi:id="_3dNpMMvPEeqF6IBbhjEO0g" value="elderName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_1p4qYMvPEeqF6IBbhjEO0g" incoming="__pOoYMvPEeqF6IBbhjEO0g _DIe9gMvQEeqF6IBbhjEO0g" outgoing="__ZwpAMvPEeqF6IBbhjEO0g _Dkp8IMvQEeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room"/>
         <attributes xmi:id="_3phm4MvPEeqF6IBbhjEO0g" value="roomName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_2EHIQMvPEeqF6IBbhjEO0g" incoming="__ZwpAMvPEeqF6IBbhjEO0g" outgoing="__pOoYMvPEeqF6IBbhjEO0g _QXeHUMvQEeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//CareWorker"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//CareWorker"/>
         <attributes xmi:id="_33wQIMvPEeqF6IBbhjEO0g" value="careWorkerName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_InsYMMvQEeqF6IBbhjEO0g" incoming="_L1nswMvQEeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//Diabetes"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Diabetes"/>
         <attributes xmi:id="_KaOs0MvQEeqF6IBbhjEO0g" value="false">
-          <type href="../metamodel/smart_nursing_home.ecore#//Diabetes/insulinInjected"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Diabetes/insulinInjected"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_N2uo4MvQEeqF6IBbhjEO0g" incoming="_QXeHUMvQEeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//Medicine"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Medicine"/>
         <attributes xmi:id="_OZ19AMvQEeqF6IBbhjEO0g" value="&quot;insulin&quot;">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <edges xmi:id="__ZwpAMvPEeqF6IBbhjEO0g" source="_1p4qYMvPEeqF6IBbhjEO0g" target="_2EHIQMvPEeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/person"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/person"/>
       </edges>
       <edges xmi:id="__pOoYMvPEeqF6IBbhjEO0g" source="_2EHIQMvPEeqF6IBbhjEO0g" target="_1p4qYMvPEeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//Person/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/room"/>
       </edges>
       <edges xmi:id="_DIe9gMvQEeqF6IBbhjEO0g" source="_uYdrMMvPEeqF6IBbhjEO0g" target="_1p4qYMvPEeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//Person/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/room"/>
       </edges>
       <edges xmi:id="_Dkp8IMvQEeqF6IBbhjEO0g" source="_1p4qYMvPEeqF6IBbhjEO0g" target="_uYdrMMvPEeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/person"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/person"/>
       </edges>
       <edges xmi:id="_L1nswMvQEeqF6IBbhjEO0g" source="_uYdrMMvPEeqF6IBbhjEO0g" target="_InsYMMvQEeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//Elder/disease"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/disease"/>
       </edges>
       <edges xmi:id="_QXeHUMvQEeqF6IBbhjEO0g" source="_2EHIQMvPEeqF6IBbhjEO0g" target="_N2uo4MvQEeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//Person/medicine"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/medicine"/>
       </edges>
     </lhs>
     <rhs xmi:id="_XP_60cvPEeqF6IBbhjEO0g" name="Rhs">
       <nodes xmi:id="_uYdrMcvPEeqF6IBbhjEO0g" incoming="_Dkp8IcvQEeqF6IBbhjEO0g" outgoing="_DIe9gcvQEeqF6IBbhjEO0g _L1nswcvQEeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//Elder"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder"/>
         <attributes xmi:id="_3dNpMcvPEeqF6IBbhjEO0g" value="elderName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_1p4qYcvPEeqF6IBbhjEO0g" incoming="__pOoYcvPEeqF6IBbhjEO0g _DIe9gcvQEeqF6IBbhjEO0g" outgoing="__ZwpAcvPEeqF6IBbhjEO0g _Dkp8IcvQEeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room"/>
         <attributes xmi:id="_3phm4cvPEeqF6IBbhjEO0g" value="roomName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_2EHIQcvPEeqF6IBbhjEO0g" incoming="__ZwpAcvPEeqF6IBbhjEO0g" outgoing="__pOoYcvPEeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//CareWorker"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//CareWorker"/>
         <attributes xmi:id="_33wQIcvPEeqF6IBbhjEO0g" value="careWorkerName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_InsYMcvQEeqF6IBbhjEO0g" incoming="_L1nswcvQEeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//Diabetes"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Diabetes"/>
         <attributes xmi:id="_KaOs0cvQEeqF6IBbhjEO0g" value="true">
-          <type href="../metamodel/smart_nursing_home.ecore#//Diabetes/insulinInjected"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Diabetes/insulinInjected"/>
         </attributes>
       </nodes>
       <edges xmi:id="__ZwpAcvPEeqF6IBbhjEO0g" source="_1p4qYcvPEeqF6IBbhjEO0g" target="_2EHIQcvPEeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/person"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/person"/>
       </edges>
       <edges xmi:id="__pOoYcvPEeqF6IBbhjEO0g" source="_2EHIQcvPEeqF6IBbhjEO0g" target="_1p4qYcvPEeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//Person/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/room"/>
       </edges>
       <edges xmi:id="_DIe9gcvQEeqF6IBbhjEO0g" source="_uYdrMcvPEeqF6IBbhjEO0g" target="_1p4qYcvPEeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//Person/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/room"/>
       </edges>
       <edges xmi:id="_Dkp8IcvQEeqF6IBbhjEO0g" source="_1p4qYcvPEeqF6IBbhjEO0g" target="_uYdrMcvPEeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/person"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/person"/>
       </edges>
       <edges xmi:id="_L1nswcvQEeqF6IBbhjEO0g" source="_uYdrMcvPEeqF6IBbhjEO0g" target="_InsYMcvQEeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//Elder/disease"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/disease"/>
       </edges>
     </rhs>
     <mappings xmi:id="_uYdrMsvPEeqF6IBbhjEO0g" origin="_uYdrMMvPEeqF6IBbhjEO0g" image="_uYdrMcvPEeqF6IBbhjEO0g"/>
@@ -2079,93 +2079,93 @@
     </parameters>
     <lhs xmi:id="_czJk4MvQEeqF6IBbhjEO0g" name="Lhs">
       <nodes xmi:id="_i1pdYMvREeqF6IBbhjEO0g" incoming="_o2MqkMvREeqF6IBbhjEO0g" outgoing="_pPEdkMvREeqF6IBbhjEO0g _07wuMMvREeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//Elder"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder"/>
         <attributes xmi:id="_k1wT8MvREeqF6IBbhjEO0g" value="elderName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_jZ72MMvREeqF6IBbhjEO0g" incoming="_pPEdkMvREeqF6IBbhjEO0g _wuh4wMvREeqF6IBbhjEO0g" outgoing="_o2MqkMvREeqF6IBbhjEO0g _wYqWcMvREeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room"/>
         <attributes xmi:id="_kjFPkMvREeqF6IBbhjEO0g" value="roomName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_kB2x0MvREeqF6IBbhjEO0g" incoming="_wYqWcMvREeqF6IBbhjEO0g" outgoing="_wuh4wMvREeqF6IBbhjEO0g _5WyvEMvREeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//CareWorker"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//CareWorker"/>
         <attributes xmi:id="_kZ3pMMvREeqF6IBbhjEO0g" value="careWorkerName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_lUh6oMvREeqF6IBbhjEO0g" incoming="_07wuMMvREeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//HeartAttack"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//HeartAttack"/>
         <attributes xmi:id="_mrDosMvREeqF6IBbhjEO0g" value="false">
-          <type href="../metamodel/smart_nursing_home.ecore#//HeartAttack/aspirinTaken"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//HeartAttack/aspirinTaken"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_l5xVsMvREeqF6IBbhjEO0g" incoming="_5WyvEMvREeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//Medicine"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Medicine"/>
         <attributes xmi:id="_mSCEsMvREeqF6IBbhjEO0g" value="&quot;aspirin&quot;">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <edges xmi:id="_o2MqkMvREeqF6IBbhjEO0g" source="_jZ72MMvREeqF6IBbhjEO0g" target="_i1pdYMvREeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/person"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/person"/>
       </edges>
       <edges xmi:id="_pPEdkMvREeqF6IBbhjEO0g" source="_i1pdYMvREeqF6IBbhjEO0g" target="_jZ72MMvREeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//Person/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/room"/>
       </edges>
       <edges xmi:id="_wYqWcMvREeqF6IBbhjEO0g" source="_jZ72MMvREeqF6IBbhjEO0g" target="_kB2x0MvREeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/person"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/person"/>
       </edges>
       <edges xmi:id="_wuh4wMvREeqF6IBbhjEO0g" source="_kB2x0MvREeqF6IBbhjEO0g" target="_jZ72MMvREeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//Person/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/room"/>
       </edges>
       <edges xmi:id="_07wuMMvREeqF6IBbhjEO0g" source="_i1pdYMvREeqF6IBbhjEO0g" target="_lUh6oMvREeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//Elder/disease"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/disease"/>
       </edges>
       <edges xmi:id="_5WyvEMvREeqF6IBbhjEO0g" source="_kB2x0MvREeqF6IBbhjEO0g" target="_l5xVsMvREeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//Person/medicine"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/medicine"/>
       </edges>
     </lhs>
     <rhs xmi:id="_czJk4cvQEeqF6IBbhjEO0g" name="Rhs">
       <nodes xmi:id="_i1pdYcvREeqF6IBbhjEO0g" incoming="_o2NRoMvREeqF6IBbhjEO0g" outgoing="_pPEdkcvREeqF6IBbhjEO0g _07wuMcvREeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//Elder"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder"/>
         <attributes xmi:id="_k1wT8cvREeqF6IBbhjEO0g" value="elderName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_jZ72McvREeqF6IBbhjEO0g" incoming="_pPEdkcvREeqF6IBbhjEO0g _wuh4wcvREeqF6IBbhjEO0g" outgoing="_o2NRoMvREeqF6IBbhjEO0g _wYqWccvREeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room"/>
         <attributes xmi:id="_kjF2oMvREeqF6IBbhjEO0g" value="roomName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_kB2x0cvREeqF6IBbhjEO0g" incoming="_wYqWccvREeqF6IBbhjEO0g" outgoing="_wuh4wcvREeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//CareWorker"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//CareWorker"/>
         <attributes xmi:id="_kZ3pMcvREeqF6IBbhjEO0g" value="careWorkerName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_lUh6ocvREeqF6IBbhjEO0g" incoming="_07wuMcvREeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//HeartAttack"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//HeartAttack"/>
         <attributes xmi:id="_mrEPwMvREeqF6IBbhjEO0g" value="true">
-          <type href="../metamodel/smart_nursing_home.ecore#//HeartAttack/aspirinTaken"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//HeartAttack/aspirinTaken"/>
         </attributes>
       </nodes>
       <edges xmi:id="_o2NRoMvREeqF6IBbhjEO0g" source="_jZ72McvREeqF6IBbhjEO0g" target="_i1pdYcvREeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/person"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/person"/>
       </edges>
       <edges xmi:id="_pPEdkcvREeqF6IBbhjEO0g" source="_i1pdYcvREeqF6IBbhjEO0g" target="_jZ72McvREeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//Person/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/room"/>
       </edges>
       <edges xmi:id="_wYqWccvREeqF6IBbhjEO0g" source="_jZ72McvREeqF6IBbhjEO0g" target="_kB2x0cvREeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/person"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/person"/>
       </edges>
       <edges xmi:id="_wuh4wcvREeqF6IBbhjEO0g" source="_kB2x0cvREeqF6IBbhjEO0g" target="_jZ72McvREeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//Person/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/room"/>
       </edges>
       <edges xmi:id="_07wuMcvREeqF6IBbhjEO0g" source="_i1pdYcvREeqF6IBbhjEO0g" target="_lUh6ocvREeqF6IBbhjEO0g">
-        <type href="../metamodel/smart_nursing_home.ecore#//Elder/disease"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/disease"/>
       </edges>
     </rhs>
     <mappings xmi:id="_i1pdYsvREeqF6IBbhjEO0g" origin="_i1pdYMvREeqF6IBbhjEO0g" image="_i1pdYcvREeqF6IBbhjEO0g"/>
@@ -2191,96 +2191,96 @@
     </parameters>
     <lhs xmi:id="_AENCQMvSEeqF6IBbhjEO0g" name="Lhs">
       <nodes xmi:id="_TqfIsMv7EeqHhrssw4HeDw" incoming="_bRv1AMv7EeqHhrssw4HeDw _hvzdkMv7EeqHhrssw4HeDw" outgoing="_hLnLYMv7EeqHhrssw4HeDw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room"/>
         <attributes xmi:id="_XZd74Mv7EeqHhrssw4HeDw" value="fromRoomName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_T7UaAMv7EeqHhrssw4HeDw" incoming="_bCFoYMv7EeqHhrssw4HeDw" outgoing="_ctyfwMv8EeqHhrssw4HeDw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room"/>
         <attributes xmi:id="_Xkh8YMv7EeqHhrssw4HeDw" value="toRoomName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_WrjtAMv7EeqHhrssw4HeDw" outgoing="_bCFoYMv7EeqHhrssw4HeDw _bRv1AMv7EeqHhrssw4HeDw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Door"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Door"/>
         <attributes xmi:id="_XLVZQMv7EeqHhrssw4HeDw" value="doorName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_egJDoMv7EeqHhrssw4HeDw" incoming="_hLnLYMv7EeqHhrssw4HeDw" outgoing="_hvzdkMv7EeqHhrssw4HeDw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Roomba"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Roomba"/>
         <attributes xmi:id="_fFaT4Mv7EeqHhrssw4HeDw" value="roombaName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_aapYcMv8EeqHhrssw4HeDw" incoming="_ctyfwMv8EeqHhrssw4HeDw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Cleanness"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Cleanness"/>
         <attributes xmi:id="_bIKlwMv8EeqHhrssw4HeDw" value="cleanness">
-          <type href="../metamodel/smart_nursing_home.ecore#//Cleanness/value"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Cleanness/value"/>
         </attributes>
       </nodes>
       <edges xmi:id="_bCFoYMv7EeqHhrssw4HeDw" source="_WrjtAMv7EeqHhrssw4HeDw" target="_T7UaAMv7EeqHhrssw4HeDw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Door/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Door/room"/>
       </edges>
       <edges xmi:id="_bRv1AMv7EeqHhrssw4HeDw" source="_WrjtAMv7EeqHhrssw4HeDw" target="_TqfIsMv7EeqHhrssw4HeDw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Door/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Door/room"/>
       </edges>
       <edges xmi:id="_hLnLYMv7EeqHhrssw4HeDw" source="_TqfIsMv7EeqHhrssw4HeDw" target="_egJDoMv7EeqHhrssw4HeDw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/roomba"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/roomba"/>
       </edges>
       <edges xmi:id="_hvzdkMv7EeqHhrssw4HeDw" source="_egJDoMv7EeqHhrssw4HeDw" target="_TqfIsMv7EeqHhrssw4HeDw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Roomba/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Roomba/room"/>
       </edges>
       <edges xmi:id="_ctyfwMv8EeqHhrssw4HeDw" source="_T7UaAMv7EeqHhrssw4HeDw" target="_aapYcMv8EeqHhrssw4HeDw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/cleanness"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/cleanness"/>
       </edges>
     </lhs>
     <rhs xmi:id="_AENCQcvSEeqF6IBbhjEO0g" name="Rhs">
       <nodes xmi:id="_Tqg94Mv7EeqHhrssw4HeDw" incoming="_bRv1Acv7EeqHhrssw4HeDw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room"/>
         <attributes xmi:id="_XZd74cv7EeqHhrssw4HeDw" value="fromRoomName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_T7UaAcv7EeqHhrssw4HeDw" incoming="_bCFoYcv7EeqHhrssw4HeDw _iKgckMv7EeqHhrssw4HeDw" outgoing="_ie8bgMv7EeqHhrssw4HeDw _ctyfwcv8EeqHhrssw4HeDw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room"/>
         <attributes xmi:id="_XkijcMv7EeqHhrssw4HeDw" value="toRoomName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_WrkUEMv7EeqHhrssw4HeDw" outgoing="_bCFoYcv7EeqHhrssw4HeDw _bRv1Acv7EeqHhrssw4HeDw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Door"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Door"/>
         <attributes xmi:id="_XLWAUMv7EeqHhrssw4HeDw" value="doorName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_egJqsMv7EeqHhrssw4HeDw" incoming="_ie8bgMv7EeqHhrssw4HeDw" outgoing="_iKgckMv7EeqHhrssw4HeDw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Roomba"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Roomba"/>
         <attributes xmi:id="_fFaT4cv7EeqHhrssw4HeDw" value="roombaName">
-          <type href="../metamodel/smart_nursing_home.ecore#//Clazz/name"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_aarNoMv8EeqHhrssw4HeDw" incoming="_ctyfwcv8EeqHhrssw4HeDw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Cleanness"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Cleanness"/>
         <attributes xmi:id="_bIKlwcv8EeqHhrssw4HeDw" value="&quot;clean&quot;">
-          <type href="../metamodel/smart_nursing_home.ecore#//Cleanness/value"/>
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Cleanness/value"/>
         </attributes>
       </nodes>
       <edges xmi:id="_bCFoYcv7EeqHhrssw4HeDw" source="_WrkUEMv7EeqHhrssw4HeDw" target="_T7UaAcv7EeqHhrssw4HeDw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Door/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Door/room"/>
       </edges>
       <edges xmi:id="_bRv1Acv7EeqHhrssw4HeDw" source="_WrkUEMv7EeqHhrssw4HeDw" target="_Tqg94Mv7EeqHhrssw4HeDw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Door/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Door/room"/>
       </edges>
       <edges xmi:id="_iKgckMv7EeqHhrssw4HeDw" source="_egJqsMv7EeqHhrssw4HeDw" target="_T7UaAcv7EeqHhrssw4HeDw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Roomba/room"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Roomba/room"/>
       </edges>
       <edges xmi:id="_ie8bgMv7EeqHhrssw4HeDw" source="_T7UaAcv7EeqHhrssw4HeDw" target="_egJqsMv7EeqHhrssw4HeDw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/roomba"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/roomba"/>
       </edges>
       <edges xmi:id="_ctyfwcv8EeqHhrssw4HeDw" source="_T7UaAcv7EeqHhrssw4HeDw" target="_aarNoMv8EeqHhrssw4HeDw">
-        <type href="../metamodel/smart_nursing_home.ecore#//Room/cleanness"/>
+        <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/cleanness"/>
       </edges>
     </rhs>
     <mappings xmi:id="_Tqg94cv7EeqHhrssw4HeDw" origin="_TqfIsMv7EeqHhrssw4HeDw" image="_Tqg94Mv7EeqHhrssw4HeDw"/>
