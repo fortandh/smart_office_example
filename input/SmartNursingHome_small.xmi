@@ -292,7 +292,6 @@
   <clazz xsi:type="smart_nursing_home:Elder"
       name="elder_D"
       room="//@clazz.71"
-      bySelf="true"
       disease="//@clazz.82"/>
   <clazz xsi:type="smart_nursing_home:HeartAttack"
       name="heart_attack_D"/>
