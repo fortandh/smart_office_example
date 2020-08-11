@@ -231,10 +231,10 @@ public class mysearch4 {
 
 		String algoName = "MyNSGAII";
 
-		int repeatTimes = 1;
+		int repeatTimes = 10;
 		int population = 1000;
 		int eb = 200;
-		int pb = eb * population * 100;
+		int pb = eb * population * 300;
 		double propagationRate = 0.6;
 		boolean propagations[] = { true, false };
 		int levels[] = { 0, 1, 2, 3 };

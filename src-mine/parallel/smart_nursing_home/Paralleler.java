@@ -69,19 +69,19 @@ public class Paralleler {
 		// from the xmi file
 		// hall
 		systemState.add(new HaveFact("hall", "light_hall"));
-		systemState.add(new IsFact("light_hall", "off"));
+		systemState.add(new IsFact("light_hall", "on"));
 		systemState.add(new HaveFact("hall", "brightness_hall"));
 		systemState.add(new IsFact("brightness_hall", "high"));
 		systemState.add(new HaveFact("hall", "humidifier_hall"));
 		systemState.add(new IsFact("humidifier_hall", "off"));
 		systemState.add(new HaveFact("hall","humidity_hall"));
-		systemState.add(new IsFact("humidity_hall", "low"));
+		systemState.add(new IsFact("humidity_hall", "high"));
 		systemState.add(new HaveFact("hall", "heater_hall"));
 		systemState.add(new IsFact("heater_hall", "off"));
 		systemState.add(new HaveFact("hall", "temperature_hall"));
-		systemState.add(new IsFact("temperature_hall", "low"));
+		systemState.add(new IsFact("temperature_hall", "high"));
 		systemState.add(new HaveFact("hall", "window_hall"));
-		systemState.add(new IsFact("window_hall", "on"));
+		systemState.add(new IsFact("window_hall", "off"));
 		systemState.add(new HaveFact("hall", "cleanness_hall"));
 		systemState.add(new IsFact("cleanness_hall", "dirty"));
 		
@@ -109,19 +109,19 @@ public class Paralleler {
 		
 		// c1
 		systemState.add(new HaveFact("c1", "light_c1"));
-		systemState.add(new IsFact("light_c1", "off"));
+		systemState.add(new IsFact("light_c1", "on"));
 		systemState.add(new HaveFact("c1", "brightness_c1"));
 		systemState.add(new IsFact("brightness_c1", "high"));
 		systemState.add(new HaveFact("c1", "humidifier_c1"));
 		systemState.add(new IsFact("humidifier_c1", "off"));
 		systemState.add(new HaveFact("c1","humidity_c1"));
-		systemState.add(new IsFact("humidity_c1", "low"));
+		systemState.add(new IsFact("humidity_c1", "high"));
 		systemState.add(new HaveFact("c1", "heater_c1"));
 		systemState.add(new IsFact("heater_c1", "off"));
 		systemState.add(new HaveFact("c1", "temperature_c1"));
-		systemState.add(new IsFact("temperature_c1", "low"));
+		systemState.add(new IsFact("temperature_c1", "high"));
 		systemState.add(new HaveFact("c1", "window_c1"));
-		systemState.add(new IsFact("window_c1", "on"));
+		systemState.add(new IsFact("window_c1", "off"));
 		systemState.add(new HaveFact("c1", "cleanness_c1"));
 		systemState.add(new IsFact("cleanness_c1", "dirty"));
 		
