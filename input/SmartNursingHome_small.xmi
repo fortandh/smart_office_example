@@ -303,7 +303,8 @@
   <clazz xsi:type="smart_nursing_home:Light"
       name="light_b1"/>
   <clazz xsi:type="smart_nursing_home:Brightness"
-      name="brightness_b1"/>
+      name="brightness_b1"
+      value="low"/>
   <clazz xsi:type="smart_nursing_home:Door"
       name="door_b1_pass2"
       room="//@clazz.83 //@clazz.87"/>

@@ -11,12 +11,17 @@ import java.util.Set;
 import at.ac.tuwien.big.momot.problem.solution.TransformationSolution;
 import at.ac.tuwien.big.momot.problem.solution.variable.ITransformationVariable;
 import smart_nursing_home.SmartNursingHome;
+import smart_nursing_home.BathingRoom;
+import smart_nursing_home.CareWorker;
+import smart_nursing_home.CheckingRoom;
 import smart_nursing_home.Clazz;
 import smart_nursing_home.Diabetes;
 import smart_nursing_home.Disease;
 import smart_nursing_home.Door;
 import smart_nursing_home.Elder;
 import smart_nursing_home.HeartAttack;
+import smart_nursing_home.Person;
+import smart_nursing_home.Pharmacy;
 import smart_nursing_home.Room;
 
 public class DemandFactory {
@@ -316,6 +321,93 @@ public class DemandFactory {
 		boolean func(Elder elder) {
 			return elder.isTidy();
 		}
+		
+		@Override
+		int propagationDistance(SmartNursingHome smartNursingHome) throws Exception {
+			List<Elder> elders = new ArrayList<Elder>();
+			for (Clazz clazz : smartNursingHome.getClazz()) {
+				if (clazz instanceof Elder) {
+					elders.add((Elder) clazz);
+				}
+			}
+			
+			Elder aimElder = null;
+			for (Elder elder : elders) {
+				if (elder.getName().equals(elderName)) {
+					aimElder = elder;
+					break;
+				}
+			}
+			if(aimElder == null)
+				throw new Exception(String.format("Elder not found: %s", elderName));
+			if(func(aimElder))
+				return 0;
+			
+			Set<String> names = new HashSet<String>();
+			Queue<Pair<Room, Integer>> queue = new LinkedList<Pair<Room, Integer>>();
+			names.add(aimElder.getRoom().getName());
+			queue.offer(new Pair<Room, Integer>(aimElder.getRoom(), 0));
+			// if aimElder cannot do anything bySelf
+			int cWdis = 0;
+			if(aimElder.isBySelf() == false) {
+				cWdis = -1;
+			
+				while (!queue.isEmpty()) {
+					Pair<Room, Integer> pair = queue.remove();
+					Room cur = pair.getLeft();
+					int dis = pair.getRight();
+					// 房间有护工
+					for(Person p : cur.getPerson()) {
+						if(p instanceof CareWorker)
+							cWdis = dis;
+					}
+					if(cWdis != -1)
+						break;
+					
+					names.add(cur.getName());
+					
+					List<Door> doors = cur.getDoor();
+					if (doors.size() > 0) {
+						for (Door door : doors) {
+							List<Room> rs = door.getRoom();
+							for (Room r : rs) {
+								if (names.contains(r.getName()))
+									continue;
+								queue.offer(new Pair<Room, Integer>(r, dis + 1));
+							}
+						}
+					}
+				}
+				if(cWdis == -1) cWdis = 0;
+			}
+			
+			names.clear();
+			queue.clear();
+			names.add(aimElder.getRoom().getName());
+			queue.offer(new Pair<Room, Integer>(aimElder.getRoom(), 0));
+			
+			while (!queue.isEmpty()) {
+				Pair<Room, Integer> pair = queue.remove();
+				Room cur = pair.getLeft();
+				int dis = pair.getRight();
+				if (cur instanceof BathingRoom) return cWdis+(dis == 0 ? 2 : dis);
+				
+				names.add(cur.getName());
+				
+				List<Door> doors = cur.getDoor();
+				if (doors.size() > 0) {
+					for (Door door : doors) {
+						List<Room> rs = door.getRoom();
+						for (Room r : rs) {
+							if (names.contains(r.getName()))
+								continue;
+							queue.offer(new Pair<Room, Integer>(r, dis + 1));
+						}
+					}
+				}
+			}
+			return -1;
+		}
 	}
 	
 	public static class TemperatureChecked extends ElderDemand {
@@ -328,6 +420,94 @@ public class DemandFactory {
 		boolean func(Elder elder) {
 			return elder.isTemperatureCheck();
 		}
+		
+		@Override
+		int propagationDistance(SmartNursingHome smartNursingHome) throws Exception {
+			List<Elder> elders = new ArrayList<Elder>();
+			for (Clazz clazz : smartNursingHome.getClazz()) {
+				if (clazz instanceof Elder) {
+					elders.add((Elder) clazz);
+				}
+			}
+			
+			Elder aimElder = null;
+			for (Elder elder : elders) {
+				if (elder.getName().equals(elderName)) {
+					aimElder = elder;
+					break;
+				}
+			}
+			if(aimElder == null)
+				throw new Exception(String.format("Elder not found: %s", elderName));
+			if(func(aimElder))
+				return 0;
+			
+			Set<String> names = new HashSet<String>();
+			Queue<Pair<Room, Integer>> queue = new LinkedList<Pair<Room, Integer>>();
+			
+			// if aimElder cannot do anything bySelf
+			int cWdis = 0;
+			if(aimElder.isBySelf() == false) {
+				cWdis = -1;
+				
+				names.add(aimElder.getRoom().getName());
+				queue.offer(new Pair<Room, Integer>(aimElder.getRoom(), 0));
+				while (!queue.isEmpty()) {
+					Pair<Room, Integer> pair = queue.remove();
+					Room cur = pair.getLeft();
+					int dis = pair.getRight();
+					// 房间有护工
+					for(Person p : cur.getPerson()) {
+						if(p instanceof CareWorker)
+							cWdis = dis;
+					}
+					if(cWdis != -1)
+						break;
+					
+					names.add(cur.getName());
+					
+					List<Door> doors = cur.getDoor();
+					if (doors.size() > 0) {
+						for (Door door : doors) {
+							List<Room> rs = door.getRoom();
+							for (Room r : rs) {
+								if (names.contains(r.getName()))
+									continue;
+								queue.offer(new Pair<Room, Integer>(r, dis + 1));
+							}
+						}
+					}
+				}
+				if(cWdis == -1) cWdis = 0;
+			}
+			
+			names.clear();
+			queue.clear();
+			names.add(aimElder.getRoom().getName());
+			queue.offer(new Pair<Room, Integer>(aimElder.getRoom(), 0));
+			
+			while (!queue.isEmpty()) {
+				Pair<Room, Integer> pair = queue.remove();
+				Room cur = pair.getLeft();
+				int dis = pair.getRight();
+				if (cur instanceof CheckingRoom) return cWdis+(dis == 0 ? 2 : dis);
+				
+				names.add(cur.getName());
+				
+				List<Door> doors = cur.getDoor();
+				if (doors.size() > 0) {
+					for (Door door : doors) {
+						List<Room> rs = door.getRoom();
+						for (Room r : rs) {
+							if (names.contains(r.getName()))
+								continue;
+							queue.offer(new Pair<Room, Integer>(r, dis + 1));
+						}
+					}
+				}
+			}
+			return -1;
+		}
 	}
 	
 	public static class BloodOxygenChecked extends ElderDemand {
@@ -339,6 +519,94 @@ public class DemandFactory {
 		@Override
 		boolean func(Elder elder) {
 			return elder.isBloodOxygenCheck();
+		}
+		
+		@Override
+		int propagationDistance(SmartNursingHome smartNursingHome) throws Exception {
+			List<Elder> elders = new ArrayList<Elder>();
+			for (Clazz clazz : smartNursingHome.getClazz()) {
+				if (clazz instanceof Elder) {
+					elders.add((Elder) clazz);
+				}
+			}
+			
+			Elder aimElder = null;
+			for (Elder elder : elders) {
+				if (elder.getName().equals(elderName)) {
+					aimElder = elder;
+					break;
+				}
+			}
+			if(aimElder == null)
+				throw new Exception(String.format("Elder not found: %s", elderName));
+			if(func(aimElder))
+				return 0;
+			
+			Set<String> names = new HashSet<String>();
+			Queue<Pair<Room, Integer>> queue = new LinkedList<Pair<Room, Integer>>();
+			
+			// if aimElder cannot do anything bySelf
+			int cWdis = 0;
+			if(aimElder.isBySelf() == false) {
+				cWdis = -1;
+				
+				names.add(aimElder.getRoom().getName());
+				queue.offer(new Pair<Room, Integer>(aimElder.getRoom(), 0));
+				while (!queue.isEmpty()) {
+					Pair<Room, Integer> pair = queue.remove();
+					Room cur = pair.getLeft();
+					int dis = pair.getRight();
+					// 房间有护工
+					for(Person p : cur.getPerson()) {
+						if(p instanceof CareWorker)
+							cWdis = dis;
+					}
+					if(cWdis != -1)
+						break;
+					
+					names.add(cur.getName());
+					
+					List<Door> doors = cur.getDoor();
+					if (doors.size() > 0) {
+						for (Door door : doors) {
+							List<Room> rs = door.getRoom();
+							for (Room r : rs) {
+								if (names.contains(r.getName()))
+									continue;
+								queue.offer(new Pair<Room, Integer>(r, dis + 1));
+							}
+						}
+					}
+				}
+				if(cWdis == -1) cWdis = 0;
+			}
+			
+			names.clear();
+			queue.clear();
+			names.add(aimElder.getRoom().getName());
+			queue.offer(new Pair<Room, Integer>(aimElder.getRoom(), 0));
+			
+			while (!queue.isEmpty()) {
+				Pair<Room, Integer> pair = queue.remove();
+				Room cur = pair.getLeft();
+				int dis = pair.getRight();
+				if (cur instanceof CheckingRoom) return cWdis+(dis == 0 ? 2 : dis);
+				
+				names.add(cur.getName());
+				
+				List<Door> doors = cur.getDoor();
+				if (doors.size() > 0) {
+					for (Door door : doors) {
+						List<Room> rs = door.getRoom();
+						for (Room r : rs) {
+							if (names.contains(r.getName()))
+								continue;
+							queue.offer(new Pair<Room, Integer>(r, dis + 1));
+						}
+					}
+				}
+			}
+			return -1;
 		}
 	}
 	
@@ -383,6 +651,99 @@ public class DemandFactory {
 				return ((Diabetes) disease).isGlucoseMeasured();
 			return false;
 		}
+		
+		@Override
+		int propagationDistance(SmartNursingHome smartNursingHome) throws Exception {
+			List<Elder> elders = new ArrayList<Elder>();
+			for (Clazz clazz : smartNursingHome.getClazz()) {
+				if (clazz instanceof Elder) {
+					elders.add((Elder) clazz);
+				}
+			}
+			
+			Elder aimElder = null;
+			Disease aimDisease = null;
+			for (Elder elder : elders) {
+				for(Disease disease : elder.getDisease()) {
+					if(disease.getName().equals(diseaseName)) {
+						aimElder = elder;
+						aimDisease = disease;
+						break;
+					}
+				}
+				if(aimElder != null) break;
+			}
+			if(aimDisease == null)
+				throw new Exception(String.format("Disease not found: %s", diseaseName));
+			if(func(aimDisease))
+				return 0;
+			
+			Set<String> names = new HashSet<String>();
+			Queue<Pair<Room, Integer>> queue = new LinkedList<Pair<Room, Integer>>();
+			
+			// if aimElder cannot do anything bySelf
+			int cWdis = 0;
+			if(aimElder.isBySelf() == false) {
+				cWdis = -1;
+				
+				names.add(aimElder.getRoom().getName());
+				queue.offer(new Pair<Room, Integer>(aimElder.getRoom(), 0));
+				while (!queue.isEmpty()) {
+					Pair<Room, Integer> pair = queue.remove();
+					Room cur = pair.getLeft();
+					int dis = pair.getRight();
+					// 房间有护工
+					for(Person p : cur.getPerson()) {
+						if(p instanceof CareWorker)
+							cWdis = dis;
+					}
+					if(cWdis != -1)
+						break;
+					
+					names.add(cur.getName());
+					
+					List<Door> doors = cur.getDoor();
+					if (doors.size() > 0) {
+						for (Door door : doors) {
+							List<Room> rs = door.getRoom();
+							for (Room r : rs) {
+								if (names.contains(r.getName()))
+									continue;
+								queue.offer(new Pair<Room, Integer>(r, dis + 1));
+							}
+						}
+					}
+				}
+				if(cWdis == -1) cWdis = 0;
+			}
+			
+			names.clear();
+			queue.clear();
+			names.add(aimElder.getRoom().getName());
+			queue.offer(new Pair<Room, Integer>(aimElder.getRoom(), 0));
+			
+			while (!queue.isEmpty()) {
+				Pair<Room, Integer> pair = queue.remove();
+				Room cur = pair.getLeft();
+				int dis = pair.getRight();
+				if (cur instanceof CheckingRoom) return cWdis+(dis == 0 ? 2 : dis);
+				
+				names.add(cur.getName());
+				
+				List<Door> doors = cur.getDoor();
+				if (doors.size() > 0) {
+					for (Door door : doors) {
+						List<Room> rs = door.getRoom();
+						for (Room r : rs) {
+							if (names.contains(r.getName()))
+								continue;
+							queue.offer(new Pair<Room, Integer>(r, dis + 1));
+						}
+					}
+				}
+			}
+			return -1;
+		}
 	}
 	
 	public static class HeartRateChecked extends DiseaseDemand {
@@ -396,6 +757,99 @@ public class DemandFactory {
 			if(disease instanceof HeartAttack)
 				return ((HeartAttack) disease).isHeartRateCheck();
 			return false;
+		}
+		
+		@Override
+		int propagationDistance(SmartNursingHome smartNursingHome) throws Exception {
+			List<Elder> elders = new ArrayList<Elder>();
+			for (Clazz clazz : smartNursingHome.getClazz()) {
+				if (clazz instanceof Elder) {
+					elders.add((Elder) clazz);
+				}
+			}
+			
+			Elder aimElder = null;
+			Disease aimDisease = null;
+			for (Elder elder : elders) {
+				for(Disease disease : elder.getDisease()) {
+					if(disease.getName().equals(diseaseName)) {
+						aimElder = elder;
+						aimDisease = disease;
+						break;
+					}
+				}
+				if(aimElder != null) break;
+			}
+			if(aimDisease == null)
+				throw new Exception(String.format("Disease not found: %s", diseaseName));
+			if(func(aimDisease))
+				return 0;
+			
+			Set<String> names = new HashSet<String>();
+			Queue<Pair<Room, Integer>> queue = new LinkedList<Pair<Room, Integer>>();
+			
+			// if aimElder cannot do anything bySelf
+			int cWdis = 0;
+			if(aimElder.isBySelf() == false) {
+				cWdis = -1;
+				
+				names.add(aimElder.getRoom().getName());
+				queue.offer(new Pair<Room, Integer>(aimElder.getRoom(), 0));
+				while (!queue.isEmpty()) {
+					Pair<Room, Integer> pair = queue.remove();
+					Room cur = pair.getLeft();
+					int dis = pair.getRight();
+					// 房间有护工
+					for(Person p : cur.getPerson()) {
+						if(p instanceof CareWorker)
+							cWdis = dis;
+					}
+					if(cWdis != -1)
+						break;
+					
+					names.add(cur.getName());
+					
+					List<Door> doors = cur.getDoor();
+					if (doors.size() > 0) {
+						for (Door door : doors) {
+							List<Room> rs = door.getRoom();
+							for (Room r : rs) {
+								if (names.contains(r.getName()))
+									continue;
+								queue.offer(new Pair<Room, Integer>(r, dis + 1));
+							}
+						}
+					}
+				}
+				if(cWdis == -1) cWdis = 0;
+			}
+			
+			names.clear();
+			queue.clear();
+			names.add(aimElder.getRoom().getName());
+			queue.offer(new Pair<Room, Integer>(aimElder.getRoom(), 0));
+			
+			while (!queue.isEmpty()) {
+				Pair<Room, Integer> pair = queue.remove();
+				Room cur = pair.getLeft();
+				int dis = pair.getRight();
+				if (cur instanceof CheckingRoom) return cWdis+(dis == 0 ? 2 : dis);
+				
+				names.add(cur.getName());
+				
+				List<Door> doors = cur.getDoor();
+				if (doors.size() > 0) {
+					for (Door door : doors) {
+						List<Room> rs = door.getRoom();
+						for (Room r : rs) {
+							if (names.contains(r.getName()))
+								continue;
+							queue.offer(new Pair<Room, Integer>(r, dis + 1));
+						}
+					}
+				}
+			}
+			return -1;
 		}
 	}
 	
@@ -411,6 +865,99 @@ public class DemandFactory {
 				return ((Diabetes) disease).isInsulinInjected();
 			return false;
 		}
+		
+		@Override
+		int propagationDistance(SmartNursingHome smartNursingHome) throws Exception {
+			List<Elder> elders = new ArrayList<Elder>();
+			for (Clazz clazz : smartNursingHome.getClazz()) {
+				if (clazz instanceof Elder) {
+					elders.add((Elder) clazz);
+				}
+			}
+			
+			Elder aimElder = null;
+			Disease aimDisease = null;
+			for (Elder elder : elders) {
+				for(Disease disease : elder.getDisease()) {
+					if(disease.getName().equals(diseaseName)) {
+						aimElder = elder;
+						aimDisease = disease;
+						break;
+					}
+				}
+				if(aimElder != null) break;
+			}
+			if(aimDisease == null)
+				throw new Exception(String.format("Disease not found: %s", diseaseName));
+			if(func(aimDisease))
+				return 0;
+			
+			Set<String> names = new HashSet<String>();
+			Queue<Pair<Room, Integer>> queue = new LinkedList<Pair<Room, Integer>>();
+			
+			// if aimElder cannot do anything bySelf
+			int cWdis = 0;
+			if(aimElder.isBySelf() == false) {
+				cWdis = -1;
+				
+				names.add(aimElder.getRoom().getName());
+				queue.offer(new Pair<Room, Integer>(aimElder.getRoom(), 0));
+				while (!queue.isEmpty()) {
+					Pair<Room, Integer> pair = queue.remove();
+					Room cur = pair.getLeft();
+					int dis = pair.getRight();
+					// 房间有护工
+					for(Person p : cur.getPerson()) {
+						if(p instanceof CareWorker)
+							cWdis = dis;
+					}
+					if(cWdis != -1)
+						break;
+					
+					names.add(cur.getName());
+					
+					List<Door> doors = cur.getDoor();
+					if (doors.size() > 0) {
+						for (Door door : doors) {
+							List<Room> rs = door.getRoom();
+							for (Room r : rs) {
+								if (names.contains(r.getName()))
+									continue;
+								queue.offer(new Pair<Room, Integer>(r, dis + 1));
+							}
+						}
+					}
+				}
+				if(cWdis == -1) cWdis = 0;
+			}
+			
+			names.clear();
+			queue.clear();
+			names.add(aimElder.getRoom().getName());
+			queue.offer(new Pair<Room, Integer>(aimElder.getRoom(), 0));
+			
+			while (!queue.isEmpty()) {
+				Pair<Room, Integer> pair = queue.remove();
+				Room cur = pair.getLeft();
+				int dis = pair.getRight();
+				if (cur instanceof Pharmacy) return cWdis+(dis == 0 ? 2 : dis);
+				
+				names.add(cur.getName());
+				
+				List<Door> doors = cur.getDoor();
+				if (doors.size() > 0) {
+					for (Door door : doors) {
+						List<Room> rs = door.getRoom();
+						for (Room r : rs) {
+							if (names.contains(r.getName()))
+								continue;
+							queue.offer(new Pair<Room, Integer>(r, dis + 1));
+						}
+					}
+				}
+			}
+			return -1;
+		}
 	}
 	
 	public static class AspirinTaken extends DiseaseDemand {
@@ -425,6 +972,99 @@ public class DemandFactory {
 				return ((HeartAttack) disease).isAspirinTaken();
 			return false;
 		}
+		
+		@Override
+		int propagationDistance(SmartNursingHome smartNursingHome) throws Exception {
+			List<Elder> elders = new ArrayList<Elder>();
+			for (Clazz clazz : smartNursingHome.getClazz()) {
+				if (clazz instanceof Elder) {
+					elders.add((Elder) clazz);
+				}
+			}
+			
+			Elder aimElder = null;
+			Disease aimDisease = null;
+			for (Elder elder : elders) {
+				for(Disease disease : elder.getDisease()) {
+					if(disease.getName().equals(diseaseName)) {
+						aimElder = elder;
+						aimDisease = disease;
+						break;
+					}
+				}
+				if(aimElder != null) break;
+			}
+			if(aimDisease == null)
+				throw new Exception(String.format("Disease not found: %s", diseaseName));
+			if(func(aimDisease))
+				return 0;
+			
+			Set<String> names = new HashSet<String>();
+			Queue<Pair<Room, Integer>> queue = new LinkedList<Pair<Room, Integer>>();
+			
+			// if aimElder cannot do anything bySelf
+			int cWdis = 0;
+			if(aimElder.isBySelf() == false) {
+				cWdis = -1;
+				
+				names.add(aimElder.getRoom().getName());
+				queue.offer(new Pair<Room, Integer>(aimElder.getRoom(), 0));
+				while (!queue.isEmpty()) {
+					Pair<Room, Integer> pair = queue.remove();
+					Room cur = pair.getLeft();
+					int dis = pair.getRight();
+					// 房间有护工
+					for(Person p : cur.getPerson()) {
+						if(p instanceof CareWorker)
+							cWdis = dis;
+					}
+					if(cWdis != -1)
+						break;
+					
+					names.add(cur.getName());
+					
+					List<Door> doors = cur.getDoor();
+					if (doors.size() > 0) {
+						for (Door door : doors) {
+							List<Room> rs = door.getRoom();
+							for (Room r : rs) {
+								if (names.contains(r.getName()))
+									continue;
+								queue.offer(new Pair<Room, Integer>(r, dis + 1));
+							}
+						}
+					}
+				}
+				if(cWdis == -1) cWdis = 0;
+			}
+			
+			names.clear();
+			queue.clear();
+			names.add(aimElder.getRoom().getName());
+			queue.offer(new Pair<Room, Integer>(aimElder.getRoom(), 0));
+			
+			while (!queue.isEmpty()) {
+				Pair<Room, Integer> pair = queue.remove();
+				Room cur = pair.getLeft();
+				int dis = pair.getRight();
+				if (cur instanceof Pharmacy) return cWdis+(dis == 0 ? 2 : dis);
+				
+				names.add(cur.getName());
+				
+				List<Door> doors = cur.getDoor();
+				if (doors.size() > 0) {
+					for (Door door : doors) {
+						List<Room> rs = door.getRoom();
+						for (Room r : rs) {
+							if (names.contains(r.getName()))
+								continue;
+							queue.offer(new Pair<Room, Integer>(r, dis + 1));
+						}
+					}
+				}
+			}
+			return -1;
+		}
 	}
 	
 	public static class CareWorkerLoad extends Demand {
@@ -436,8 +1076,9 @@ public class DemandFactory {
 			for(ITransformationVariable variable : variables) {
 				if(variable.getUnit()!= null) {
 					String ruleName = variable.getUnit().getName();
-					if(ruleName.contains("Help"))
+					if(ruleName.contains("help")) {
 						count++;
+					}
 				}
 			}
 			
@@ -548,7 +1189,8 @@ public class DemandFactory {
 		CompositeDemand comfort = new CompositeDemand(comforts, comfortWeights);
 		
 		List<Demand> temperatureChecks = Arrays.asList(
-				new IsTidy("elder_A"), new IsTidy("elder_B"), new IsTidy("elder_C"), new IsTidy("elder_D"));
+				new TemperatureChecked("elder_A"), new TemperatureChecked("elder_B"), 
+				new TemperatureChecked("elder_C"), new TemperatureChecked("elder_D"));
 		
 		List<Double> temperatureCheckWeights = Arrays.asList(0.25, 0.25, 0.25, 0.25);
 		
@@ -606,6 +1248,6 @@ public class DemandFactory {
 		List<Double> rootWeights = Arrays.asList(0.15, 0.75, 0.1);
 		CompositeDemand root = new CompositeDemand(roots, rootWeights);
 		
-		return bfs(root);
+		return bfs(elderSatisfaction);
 	}
 }
