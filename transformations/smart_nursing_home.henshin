@@ -791,6 +791,9 @@
         <attributes xmi:id="_NUjTsMsyEeqH3az1UnZNFw" value="elderName">
           <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
+        <attributes xmi:id="_ShkWEOjJEeqrhJfttWu4_w" value="false">
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/bySelf"/>
+        </attributes>
       </nodes>
       <nodes xmi:id="_LvcXEMsyEeqH3az1UnZNFw" incoming="_c2afEMsyEeqH3az1UnZNFw" outgoing="_cTGWoMsyEeqH3az1UnZNFw">
         <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//CareWorker"/>
@@ -840,6 +843,9 @@
         <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder"/>
         <attributes xmi:id="_NUjTscsyEeqH3az1UnZNFw" value="elderName">
           <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
+        </attributes>
+        <attributes xmi:id="_ShkWEejJEeqrhJfttWu4_w" value="false">
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/bySelf"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_Lvc-IMsyEeqH3az1UnZNFw" incoming="_yuZfAMsyEeqH3az1UnZNFw" outgoing="_yVnyoMsyEeqH3az1UnZNFw">
@@ -1394,7 +1400,10 @@
         <attributes xmi:id="__5iGwMs2EeqH3az1UnZNFw" value="elderName">
           <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
-        <attributes xmi:id="_AyE4UMs3EeqH3az1UnZNFw" value="false">
+        <attributes xmi:id="_NSm94OjJEeqrhJfttWu4_w" value="false">
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/bySelf"/>
+        </attributes>
+        <attributes xmi:id="_PAajgOjJEeqrhJfttWu4_w" value="false">
           <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/tidy"/>
         </attributes>
       </nodes>
@@ -1438,7 +1447,10 @@
         <attributes xmi:id="__5iGwcs2EeqH3az1UnZNFw" value="elderName">
           <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
-        <attributes xmi:id="_AyE4Ucs3EeqH3az1UnZNFw" value="true">
+        <attributes xmi:id="_NSm94ejJEeqrhJfttWu4_w" value="false">
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/bySelf"/>
+        </attributes>
+        <attributes xmi:id="_PAajgejJEeqrhJfttWu4_w" value="true">
           <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/tidy"/>
         </attributes>
       </nodes>
@@ -1497,7 +1509,10 @@
         <attributes xmi:id="_042LEMs3EeqH3az1UnZNFw" value="elderName">
           <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
-        <attributes xmi:id="_29T9MMs3EeqH3az1UnZNFw" value="false">
+        <attributes xmi:id="_WAG5gOjJEeqrhJfttWu4_w" value="false">
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/bySelf"/>
+        </attributes>
+        <attributes xmi:id="_ZJhhgOjJEeqrhJfttWu4_w" value="false">
           <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/temperatureCheck"/>
         </attributes>
       </nodes>
@@ -1532,7 +1547,10 @@
         <attributes xmi:id="_042LEcs3EeqH3az1UnZNFw" value="elderName">
           <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
-        <attributes xmi:id="_29T9Mcs3EeqH3az1UnZNFw" value="true">
+        <attributes xmi:id="_WAG5gejJEeqrhJfttWu4_w" value="false">
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/bySelf"/>
+        </attributes>
+        <attributes xmi:id="_ZJhhgejJEeqrhJfttWu4_w" value="true">
           <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/temperatureCheck"/>
         </attributes>
       </nodes>
@@ -1581,7 +1599,10 @@
         <attributes xmi:id="_YACXQMs4EeqH3az1UnZNFw" value="elderName">
           <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
-        <attributes xmi:id="_g7LGQMs4EeqH3az1UnZNFw" value="false">
+        <attributes xmi:id="_bqwvMOjJEeqrhJfttWu4_w" value="false">
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/bySelf"/>
+        </attributes>
+        <attributes xmi:id="_dR2o0OjJEeqrhJfttWu4_w" value="false">
           <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/bloodOxygenCheck"/>
         </attributes>
       </nodes>
@@ -1616,7 +1637,10 @@
         <attributes xmi:id="_YACXQcs4EeqH3az1UnZNFw" value="elderName">
           <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
-        <attributes xmi:id="_g7LGQcs4EeqH3az1UnZNFw" value="true">
+        <attributes xmi:id="_bqwvMejJEeqrhJfttWu4_w" value="false">
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/bySelf"/>
+        </attributes>
+        <attributes xmi:id="_dR2o0ejJEeqrhJfttWu4_w" value="true">
           <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/bloodOxygenCheck"/>
         </attributes>
       </nodes>
@@ -1665,6 +1689,9 @@
         <attributes xmi:id="_zajWMMs5EeqH3az1UnZNFw" value="elderName">
           <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
+        <attributes xmi:id="_gqqXsOjJEeqrhJfttWu4_w" value="false">
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/bySelf"/>
+        </attributes>
       </nodes>
       <nodes xmi:id="_w83y0Ms5EeqH3az1UnZNFw" incoming="_XA91AMs6EeqH3az1UnZNFw _d2DdgMs6EeqH3az1UnZNFw" outgoing="_XQ_1EMs6EeqH3az1UnZNFw _doUjgMs6EeqH3az1UnZNFw">
         <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//CheckingRoom"/>
@@ -1705,6 +1732,9 @@
         <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder"/>
         <attributes xmi:id="_zajWMcs5EeqH3az1UnZNFw" value="elderName">
           <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
+        </attributes>
+        <attributes xmi:id="_gqqXsejJEeqrhJfttWu4_w" value="false">
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/bySelf"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_w83y0cs5EeqH3az1UnZNFw" incoming="_XA91Acs6EeqH3az1UnZNFw _d2Ddgcs6EeqH3az1UnZNFw" outgoing="_XQ_1Ecs6EeqH3az1UnZNFw _doUjgcs6EeqH3az1UnZNFw">
@@ -1762,6 +1792,9 @@
         <attributes xmi:id="_IPmnkMs8EeqH3az1UnZNFw" value="elderName">
           <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
         </attributes>
+        <attributes xmi:id="_hh8lAOjJEeqrhJfttWu4_w" value="false">
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/bySelf"/>
+        </attributes>
       </nodes>
       <nodes xmi:id="_E8U48Ms8EeqH3az1UnZNFw" incoming="_PbeYYMs8EeqH3az1UnZNFw _QMgzwMs8EeqH3az1UnZNFw" outgoing="_PqTekMs8EeqH3az1UnZNFw _QBoZcMs8EeqH3az1UnZNFw">
         <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//CheckingRoom"/>
@@ -1802,6 +1835,9 @@
         <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder"/>
         <attributes xmi:id="_IPnOoMs8EeqH3az1UnZNFw" value="elderName">
           <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
+        </attributes>
+        <attributes xmi:id="_hh8lAejJEeqrhJfttWu4_w" value="false">
+          <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Elder/bySelf"/>
         </attributes>
       </nodes>
       <nodes xmi:id="_E8U48cs8EeqH3az1UnZNFw" incoming="_PbeYYcs8EeqH3az1UnZNFw _QMgzwcs8EeqH3az1UnZNFw" outgoing="_PqTekcs8EeqH3az1UnZNFw _QBoZccs8EeqH3az1UnZNFw">

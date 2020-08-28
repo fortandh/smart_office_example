@@ -664,6 +664,10 @@
             <element xmi:type="henshin:Attribute" href="smart_nursing_home.henshin#_NUjTsMsyEeqH3az1UnZNFw"/>
             <layoutConstraint xmi:type="notation:Location" xmi:id="_NUlv8csyEeqH3az1UnZNFw"/>
           </children>
+          <children xmi:type="notation:Node" xmi:id="_Sim34OjJEeqrhJfttWu4_w" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_nursing_home.henshin#_ShkWEOjJEeqrhJfttWu4_w"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_Sim34ejJEeqrhJfttWu4_w"/>
+          </children>
           <styles xmi:type="notation:SortingStyle" xmi:id="_J-UXtcsyEeqH3az1UnZNFw"/>
           <styles xmi:type="notation:FilteringStyle" xmi:id="_J-UXtssyEeqH3az1UnZNFw"/>
         </children>
@@ -1078,9 +1082,13 @@
             <element xmi:type="henshin:Attribute" href="smart_nursing_home.henshin#__5iGwMs2EeqH3az1UnZNFw"/>
             <layoutConstraint xmi:type="notation:Location" xmi:id="__5lxIcs2EeqH3az1UnZNFw"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_AyH7oMs3EeqH3az1UnZNFw" type="3002">
-            <element xmi:type="henshin:Attribute" href="smart_nursing_home.henshin#_AyE4UMs3EeqH3az1UnZNFw"/>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_AyH7ocs3EeqH3az1UnZNFw"/>
+          <children xmi:type="notation:Node" xmi:id="_NUi3kOjJEeqrhJfttWu4_w" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_nursing_home.henshin#_NSm94OjJEeqrhJfttWu4_w"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_NUi3kejJEeqrhJfttWu4_w"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_PBdFUOjJEeqrhJfttWu4_w" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_nursing_home.henshin#_PAajgOjJEeqrhJfttWu4_w"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_PBdFUejJEeqrhJfttWu4_w"/>
           </children>
           <styles xmi:type="notation:SortingStyle" xmi:id="_7z8KZcs2EeqH3az1UnZNFw"/>
           <styles xmi:type="notation:FilteringStyle" xmi:id="_7z8KZss2EeqH3az1UnZNFw"/>
@@ -1148,9 +1156,13 @@
             <element xmi:type="henshin:Attribute" href="smart_nursing_home.henshin#_042LEMs3EeqH3az1UnZNFw"/>
             <layoutConstraint xmi:type="notation:Location" xmi:id="_045OYcs3EeqH3az1UnZNFw"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_29Y1sMs3EeqH3az1UnZNFw" type="3002">
-            <element xmi:type="henshin:Attribute" href="smart_nursing_home.henshin#_29T9MMs3EeqH3az1UnZNFw"/>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_29Y1scs3EeqH3az1UnZNFw"/>
+          <children xmi:type="notation:Node" xmi:id="_WBARYOjJEeqrhJfttWu4_w" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_nursing_home.henshin#_WAG5gOjJEeqrhJfttWu4_w"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_WBARYejJEeqrhJfttWu4_w"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_ZKaSUOjJEeqrhJfttWu4_w" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_nursing_home.henshin#_ZJhhgOjJEeqrhJfttWu4_w"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ZKaSUejJEeqrhJfttWu4_w"/>
           </children>
           <styles xmi:type="notation:SortingStyle" xmi:id="_v4eoiss3EeqH3az1UnZNFw"/>
           <styles xmi:type="notation:FilteringStyle" xmi:id="_v4eoi8s3EeqH3az1UnZNFw"/>
@@ -1204,9 +1216,13 @@
             <element xmi:type="henshin:Attribute" href="smart_nursing_home.henshin#_YACXQMs4EeqH3az1UnZNFw"/>
             <layoutConstraint xmi:type="notation:Location" xmi:id="_YAFakcs4EeqH3az1UnZNFw"/>
           </children>
-          <children xmi:type="notation:Node" xmi:id="_g7OJkMs4EeqH3az1UnZNFw" type="3002">
-            <element xmi:type="henshin:Attribute" href="smart_nursing_home.henshin#_g7LGQMs4EeqH3az1UnZNFw"/>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_g7OJkcs4EeqH3az1UnZNFw"/>
+          <children xmi:type="notation:Node" xmi:id="_brXMIOjJEeqrhJfttWu4_w" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_nursing_home.henshin#_bqwvMOjJEeqrhJfttWu4_w"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_brXMIejJEeqrhJfttWu4_w"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_dScesOjJEeqrhJfttWu4_w" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_nursing_home.henshin#_dR2o0OjJEeqrhJfttWu4_w"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_dScesejJEeqrhJfttWu4_w"/>
           </children>
           <styles xmi:type="notation:SortingStyle" xmi:id="_WCTfSss4EeqH3az1UnZNFw"/>
           <styles xmi:type="notation:FilteringStyle" xmi:id="_WCTfS8s4EeqH3az1UnZNFw"/>
@@ -1259,6 +1275,10 @@
           <children xmi:type="notation:Node" xmi:id="_zanAkMs5EeqH3az1UnZNFw" type="3002">
             <element xmi:type="henshin:Attribute" href="smart_nursing_home.henshin#_zajWMMs5EeqH3az1UnZNFw"/>
             <layoutConstraint xmi:type="notation:Location" xmi:id="_zanAkcs5EeqH3az1UnZNFw"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_gscgYOjJEeqrhJfttWu4_w" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_nursing_home.henshin#_gqqXsOjJEeqrhJfttWu4_w"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_gscgYejJEeqrhJfttWu4_w"/>
           </children>
           <styles xmi:type="notation:SortingStyle" xmi:id="_v9bvF8s5EeqH3az1UnZNFw"/>
           <styles xmi:type="notation:FilteringStyle" xmi:id="_v9bvGMs5EeqH3az1UnZNFw"/>
@@ -1325,6 +1345,10 @@
           <children xmi:type="notation:Node" xmi:id="_IPsHIMs8EeqH3az1UnZNFw" type="3002">
             <element xmi:type="henshin:Attribute" href="smart_nursing_home.henshin#_IPmnkMs8EeqH3az1UnZNFw"/>
             <layoutConstraint xmi:type="notation:Location" xmi:id="_IPsHIcs8EeqH3az1UnZNFw"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_hisL4OjJEeqrhJfttWu4_w" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_nursing_home.henshin#_hh8lAOjJEeqrhJfttWu4_w"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_hisL4ejJEeqrhJfttWu4_w"/>
           </children>
           <styles xmi:type="notation:SortingStyle" xmi:id="_ENtfess8EeqH3az1UnZNFw"/>
           <styles xmi:type="notation:FilteringStyle" xmi:id="_ENtfe8s8EeqH3az1UnZNFw"/>

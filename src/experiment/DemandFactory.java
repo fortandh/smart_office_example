@@ -261,7 +261,7 @@ public class DemandFactory {
 				Pair<Room, Integer> pair = queue.remove();
 				Room cur = pair.getLeft();
 				int dis = pair.getRight();
-				if (cur.getRoomba().size() > 0) return dis == 0 ? 2 : dis;
+				if (cur.getRoomba().size() > 0) return 1+dis;
 				
 				names.add(cur.getName());
 				
@@ -390,7 +390,7 @@ public class DemandFactory {
 				Pair<Room, Integer> pair = queue.remove();
 				Room cur = pair.getLeft();
 				int dis = pair.getRight();
-				if (cur instanceof BathingRoom) return cWdis+(dis == 0 ? 2 : dis);
+				if (cur instanceof BathingRoom) return cWdis+1+dis;
 				
 				names.add(cur.getName());
 				
@@ -490,7 +490,7 @@ public class DemandFactory {
 				Pair<Room, Integer> pair = queue.remove();
 				Room cur = pair.getLeft();
 				int dis = pair.getRight();
-				if (cur instanceof CheckingRoom) return cWdis+(dis == 0 ? 2 : dis);
+				if (cur instanceof CheckingRoom) return cWdis+1+dis;
 				
 				names.add(cur.getName());
 				
@@ -590,7 +590,7 @@ public class DemandFactory {
 				Pair<Room, Integer> pair = queue.remove();
 				Room cur = pair.getLeft();
 				int dis = pair.getRight();
-				if (cur instanceof CheckingRoom) return cWdis+(dis == 0 ? 2 : dis);
+				if (cur instanceof CheckingRoom) return cWdis+1+dis;
 				
 				names.add(cur.getName());
 				
@@ -726,7 +726,7 @@ public class DemandFactory {
 				Pair<Room, Integer> pair = queue.remove();
 				Room cur = pair.getLeft();
 				int dis = pair.getRight();
-				if (cur instanceof CheckingRoom) return cWdis+(dis == 0 ? 2 : dis);
+				if (cur instanceof CheckingRoom) return cWdis+1+dis;
 				
 				names.add(cur.getName());
 				
@@ -833,7 +833,7 @@ public class DemandFactory {
 				Pair<Room, Integer> pair = queue.remove();
 				Room cur = pair.getLeft();
 				int dis = pair.getRight();
-				if (cur instanceof CheckingRoom) return cWdis+(dis == 0 ? 2 : dis);
+				if (cur instanceof CheckingRoom) return cWdis+1+dis;
 				
 				names.add(cur.getName());
 				
@@ -940,7 +940,7 @@ public class DemandFactory {
 				Pair<Room, Integer> pair = queue.remove();
 				Room cur = pair.getLeft();
 				int dis = pair.getRight();
-				if (cur instanceof Pharmacy) return cWdis+(dis == 0 ? 2 : dis);
+				if (cur instanceof Pharmacy) return cWdis+1+dis;
 				
 				names.add(cur.getName());
 				
@@ -1047,7 +1047,7 @@ public class DemandFactory {
 				Pair<Room, Integer> pair = queue.remove();
 				Room cur = pair.getLeft();
 				int dis = pair.getRight();
-				if (cur instanceof Pharmacy) return cWdis+(dis == 0 ? 2 : dis);
+				if (cur instanceof Pharmacy) return cWdis+1+dis;
 				
 				names.add(cur.getName());
 				
