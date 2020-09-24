@@ -87,7 +87,7 @@ public class mysearch4 {
 	    orchestration.setModuleManager(moduleManager);
 	    orchestration.setProblemGraph(graph);
 	    orchestration.setSolutionLength(solutionLength);
-	    orchestration.setFitnessFunction(MySearchContext.getCurrentFitness());
+	    orchestration.setFitnessFunction(MySNHContext.getCurrentFitness());
 	    
 	    EvolutionaryAlgorithmFactory<TransformationSolution> moea = orchestration.createEvolutionaryAlgorithmFactory(populationSize);
 	    LocalSearchAlgorithmFactory<TransformationSolution> local = orchestration.createLocalSearchAlgorithmFactory();
@@ -214,7 +214,7 @@ public class mysearch4 {
 		System.out
 				.println(solutionLength + " Total cost: " + (double) (System.currentTimeMillis() - st) / (double) 1000);
 		// analyseResultsNeeded(resultNeeded);
-		handleResults(experiment);
+		// handleResults(experiment);
 	}
 
 	public static void initialization() {
@@ -231,15 +231,15 @@ public class mysearch4 {
 
 		String algoName = "MyNSGAII";
 
-		int repeatTimes = 1;
+		int repeatTimes = 10;
 		int population = 1000;
 		int eb = 200;
-		int pb = eb * population * 300;
+		int pb = eb * population * 600;
 		double propagationRate = 0.6;
 		boolean propagations[] = { true, false };
 		int levels[] = { 0, 1, 2, 3 };
-//		boolean propagations[] = {true, false};
-//		int levels[] = {3};
+//		boolean propagations[] = {false};
+//		int levels[] = {2};
 
 		System.out.println(System.getProperty("user.dir"));
 		String homePath = System.getProperty("user.home");

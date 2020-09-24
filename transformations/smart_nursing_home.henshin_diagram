@@ -1404,7 +1404,7 @@
   </children>
   <children xmi:type="notation:Shape" xmi:id="_svILUMvOEeqF6IBbhjEO0g" type="2001" fontName="Microsoft YaHei UI" italic="true" lineColor="0">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0WY3o8vOEeqF6IBbhjEO0g" source="defaultAction">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0WY3pMvOEeqF6IBbhjEO0g" key="value" value="create"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0WY3pMvOEeqF6IBbhjEO0g" key="value" value="forbid"/>
     </eAnnotations>
     <children xmi:type="notation:DecorationNode" xmi:id="_svILUsvOEeqF6IBbhjEO0g" type="5001"/>
     <children xmi:type="notation:DecorationNode" xmi:id="_svILU8vOEeqF6IBbhjEO0g" type="7001">
@@ -1420,7 +1420,7 @@
           <styles xmi:type="notation:FilteringStyle" xmi:id="_0WaFwsvOEeqF6IBbhjEO0g"/>
         </children>
         <element xmi:type="henshin:Node" href="smart_nursing_home.henshin#_0WY3oMvOEeqF6IBbhjEO0g"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0WZescvOEeqF6IBbhjEO0g" x="32" y="52"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0WZescvOEeqF6IBbhjEO0g" x="30" y="9"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_1Lf6sMvOEeqF6IBbhjEO0g" type="3001" fontName="Microsoft YaHei UI">
         <children xmi:type="notation:DecorationNode" xmi:id="_1Lf6ssvOEeqF6IBbhjEO0g" type="5002"/>
@@ -1450,13 +1450,27 @@
         <element xmi:type="henshin:Node" href="smart_nursing_home.henshin#_1g4U0MvOEeqF6IBbhjEO0g"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1g474cvOEeqF6IBbhjEO0g" x="753" y="52"/>
       </children>
+      <children xmi:type="notation:Shape" xmi:id="_iGH7MOtdEeqWUK8NK7d3Lg" type="3001" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_iGH7MutdEeqWUK8NK7d3Lg" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_iGH7M-tdEeqWUK8NK7d3Lg" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_iGH7NOtdEeqWUK8NK7d3Lg" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_kXF4QOtdEeqWUK8NK7d3Lg" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_nursing_home.henshin#_kXFRMOtdEeqWUK8NK7d3Lg"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_kXF4QetdEeqWUK8NK7d3Lg"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_iGH7NetdEeqWUK8NK7d3Lg"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_iGH7NutdEeqWUK8NK7d3Lg"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_nursing_home.henshin#_iF4DkOtdEeqWUK8NK7d3Lg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iGH7MetdEeqWUK8NK7d3Lg" x="30" y="95" width="130" height="57"/>
+      </children>
     </children>
     <element xmi:type="henshin:Rule" href="smart_nursing_home.henshin#_svFvEMvOEeqF6IBbhjEO0g"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_svILUcvOEeqF6IBbhjEO0g" x="104" y="5718" width="969"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_BbdQcMvPEeqF6IBbhjEO0g" type="2001" fontName="Microsoft YaHei UI" italic="true" lineColor="0">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GsnoEsvPEeqF6IBbhjEO0g" source="defaultAction">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GsnoE8vPEeqF6IBbhjEO0g" key="value" value="create"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GsnoE8vPEeqF6IBbhjEO0g" key="value" value="forbid"/>
     </eAnnotations>
     <children xmi:type="notation:DecorationNode" xmi:id="_Bbd3gMvPEeqF6IBbhjEO0g" type="5001"/>
     <children xmi:type="notation:DecorationNode" xmi:id="_Bbd3gcvPEeqF6IBbhjEO0g" type="7001">
@@ -1472,7 +1486,7 @@
           <styles xmi:type="notation:FilteringStyle" xmi:id="_GsoPIcvPEeqF6IBbhjEO0g"/>
         </children>
         <element xmi:type="henshin:Node" href="smart_nursing_home.henshin#_GsnBAMvPEeqF6IBbhjEO0g"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GsnoFcvPEeqF6IBbhjEO0g" x="55" y="51"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GsnoFcvPEeqF6IBbhjEO0g" x="37" y="7"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_HODhMMvPEeqF6IBbhjEO0g" type="3001" fontName="Microsoft YaHei UI">
         <children xmi:type="notation:DecorationNode" xmi:id="_HODhMsvPEeqF6IBbhjEO0g" type="5002"/>
@@ -1501,6 +1515,20 @@
         </children>
         <element xmi:type="henshin:Node" href="smart_nursing_home.henshin#_HdmZEMvPEeqF6IBbhjEO0g"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HdnAIcvPEeqF6IBbhjEO0g" x="763" y="51"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_rSXoUOtdEeqWUK8NK7d3Lg" type="3001" fontName="Microsoft YaHei UI">
+        <children xmi:type="notation:DecorationNode" xmi:id="_rSXoUutdEeqWUK8NK7d3Lg" type="5002"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_rSXoU-tdEeqWUK8NK7d3Lg" type="5003"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_rSXoVOtdEeqWUK8NK7d3Lg" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_t_pG4etdEeqWUK8NK7d3Lg" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_nursing_home.henshin#_t_pG4OtdEeqWUK8NK7d3Lg"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_t_pG4utdEeqWUK8NK7d3Lg"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_rSXoVetdEeqWUK8NK7d3Lg"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_rSXoVutdEeqWUK8NK7d3Lg"/>
+        </children>
+        <element xmi:type="henshin:Node" href="smart_nursing_home.henshin#_rSWaMOtdEeqWUK8NK7d3Lg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rSXoUetdEeqWUK8NK7d3Lg" x="37" y="84" width="120" height="63"/>
       </children>
     </children>
     <element xmi:type="henshin:Rule" href="smart_nursing_home.henshin#_BbbbQMvPEeqF6IBbhjEO0g"/>
@@ -2834,7 +2862,7 @@
   </edges>
   <edges xmi:type="notation:Connector" xmi:id="_9nAHYMvOEeqF6IBbhjEO0g" type="4001" source="_1Lf6sMvOEeqF6IBbhjEO0g" target="_0WZesMvOEeqF6IBbhjEO0g">
     <children xmi:type="notation:DecorationNode" xmi:id="_9nAucMvOEeqF6IBbhjEO0g" type="6001">
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_9nAuccvOEeqF6IBbhjEO0g" y="-22"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_9nAuccvOEeqF6IBbhjEO0g" x="-1" y="-11"/>
     </children>
     <children xmi:type="notation:DecorationNode" xmi:id="_9nAucsvOEeqF6IBbhjEO0g" type="6002">
       <layoutConstraint xmi:type="notation:Location" xmi:id="_9nAuc8vOEeqF6IBbhjEO0g" x="3" y="16"/>
@@ -3117,5 +3145,30 @@
     <styles xmi:type="notation:FontStyle" xmi:id="_ctzG0cv8EeqHhrssw4HeDw" fontName="Microsoft YaHei UI"/>
     <element xmi:type="henshin:Edge" href="smart_nursing_home.henshin#_ctyfwMv8EeqHhrssw4HeDw"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ctzG0sv8EeqHhrssw4HeDw" points="[-7, 32, 39, -111]$[54, 142, 100, -1]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_nhrk8OtdEeqWUK8NK7d3Lg" type="4001" source="_1Lf6sMvOEeqF6IBbhjEO0g" target="_iGH7MOtdEeqWUK8NK7d3Lg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_nhrk8-tdEeqWUK8NK7d3Lg" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_nhrk9OtdEeqWUK8NK7d3Lg" y="-19"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_nhrk9etdEeqWUK8NK7d3Lg" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_nhrk9utdEeqWUK8NK7d3Lg" x="32" y="11"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_nhrk8etdEeqWUK8NK7d3Lg" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="henshin:Edge" href="smart_nursing_home.henshin#_nhqW0OtdEeqWUK8NK7d3Lg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nhrk8utdEeqWUK8NK7d3Lg" points="[-32, 5, 219, -40]$[-225, 47, 26, 2]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nhtaIOtdEeqWUK8NK7d3Lg" id="(0.1839080459770115,0.46296296296296297)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nhtaIetdEeqWUK8NK7d3Lg" id="(0.8,0.5614035087719298)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_xFIRIOtdEeqWUK8NK7d3Lg" type="4001" source="_HODhMMvPEeqF6IBbhjEO0g" target="_rSXoUOtdEeqWUK8NK7d3Lg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_xFI4MOtdEeqWUK8NK7d3Lg" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_xFI4MetdEeqWUK8NK7d3Lg" x="14" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_xFI4MutdEeqWUK8NK7d3Lg" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_xFI4M-tdEeqWUK8NK7d3Lg" x="25" y="12"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_xFIRIetdEeqWUK8NK7d3Lg" fontName="Microsoft YaHei UI"/>
+    <element xmi:type="henshin:Edge" href="smart_nursing_home.henshin#_xFHqEOtdEeqWUK8NK7d3Lg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_xFIRIutdEeqWUK8NK7d3Lg" points="[-87, 11, 221, -30]$[-281, 43, 27, 2]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xFJfQOtdEeqWUK8NK7d3Lg" id="(0.775,0.5555555555555556)"/>
   </edges>
 </notation:Diagram>

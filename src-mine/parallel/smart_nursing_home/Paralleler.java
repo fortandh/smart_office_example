@@ -73,11 +73,11 @@ public class Paralleler {
 		systemState.add(new HaveFact("hall", "brightness_hall"));
 		systemState.add(new IsFact("brightness_hall", "high"));
 		systemState.add(new HaveFact("hall", "humidifier_hall"));
-		systemState.add(new IsFact("humidifier_hall", "off"));
+		systemState.add(new IsFact("humidifier_hall", "on"));
 		systemState.add(new HaveFact("hall","humidity_hall"));
 		systemState.add(new IsFact("humidity_hall", "high"));
 		systemState.add(new HaveFact("hall", "heater_hall"));
-		systemState.add(new IsFact("heater_hall", "off"));
+		systemState.add(new IsFact("heater_hall", "on"));
 		systemState.add(new HaveFact("hall", "temperature_hall"));
 		systemState.add(new IsFact("temperature_hall", "high"));
 		systemState.add(new HaveFact("hall", "window_hall"));
@@ -113,11 +113,11 @@ public class Paralleler {
 		systemState.add(new HaveFact("c1", "brightness_c1"));
 		systemState.add(new IsFact("brightness_c1", "high"));
 		systemState.add(new HaveFact("c1", "humidifier_c1"));
-		systemState.add(new IsFact("humidifier_c1", "off"));
+		systemState.add(new IsFact("humidifier_c1", "on"));
 		systemState.add(new HaveFact("c1","humidity_c1"));
 		systemState.add(new IsFact("humidity_c1", "high"));
 		systemState.add(new HaveFact("c1", "heater_c1"));
-		systemState.add(new IsFact("heater_c1", "off"));
+		systemState.add(new IsFact("heater_c1", "on"));
 		systemState.add(new HaveFact("c1", "temperature_c1"));
 		systemState.add(new IsFact("temperature_c1", "high"));
 		systemState.add(new HaveFact("c1", "window_c1"));
@@ -135,7 +135,7 @@ public class Paralleler {
 		systemState.add(new HaveFact("p1", "light_p1"));
 		systemState.add(new IsFact("light_p1", "off"));
 		systemState.add(new HaveFact("p1", "brightness_p1"));
-		systemState.add(new IsFact("brightness_p1", "high"));
+		systemState.add(new IsFact("brightness_p1", "low"));
 		systemState.add(new HaveFact("p1", "cleanness_p1"));
 		systemState.add(new IsFact("cleanness_p1", "dirty"));
 		
@@ -165,17 +165,17 @@ public class Paralleler {
 		systemState.add(new HaveFact("rA", "light_rA"));
 		systemState.add(new IsFact("light_rA", "off"));
 		systemState.add(new HaveFact("rA", "brightness_rA"));
-		systemState.add(new IsFact("brightness_rA", "high"));
+		systemState.add(new IsFact("brightness_rA", "low"));
 		systemState.add(new HaveFact("rA", "humidifier_rA"));
 		systemState.add(new IsFact("humidifier_rA", "off"));
 		systemState.add(new HaveFact("rA","humidity_rA"));
-		systemState.add(new IsFact("humidity_rA", "low"));
+		systemState.add(new IsFact("humidity_rA", "high"));
 		systemState.add(new HaveFact("rA", "heater_rA"));
 		systemState.add(new IsFact("heater_rA", "off"));
 		systemState.add(new HaveFact("rA", "temperature_rA"));
-		systemState.add(new IsFact("temperature_rA", "low"));
+		systemState.add(new IsFact("temperature_rA", "high"));
 		systemState.add(new HaveFact("rA", "window_rA"));
-		systemState.add(new IsFact("window_rA", "on"));
+		systemState.add(new IsFact("window_rA", "off"));
 		systemState.add(new HaveFact("rA", "cleanness_rA"));
 		systemState.add(new IsFact("cleanness_rA", "dirty"));
 		
@@ -206,17 +206,17 @@ public class Paralleler {
 		systemState.add(new HaveFact("rB", "light_rB"));
 		systemState.add(new IsFact("light_rB", "off"));
 		systemState.add(new HaveFact("rB", "brightness_rB"));
-		systemState.add(new IsFact("brightness_rB", "high"));
+		systemState.add(new IsFact("brightness_rB", "low"));
 		systemState.add(new HaveFact("rB", "humidifier_rB"));
 		systemState.add(new IsFact("humidifier_rB", "off"));
 		systemState.add(new HaveFact("rB","humidity_rB"));
-		systemState.add(new IsFact("humidity_rB", "low"));
+		systemState.add(new IsFact("humidity_rB", "high"));
 		systemState.add(new HaveFact("rB", "heater_rB"));
 		systemState.add(new IsFact("heater_rB", "off"));
 		systemState.add(new HaveFact("rB", "temperature_rB"));
-		systemState.add(new IsFact("temperature_rB", "low"));
+		systemState.add(new IsFact("temperature_rB", "high"));
 		systemState.add(new HaveFact("rB", "window_rB"));
-		systemState.add(new IsFact("window_rB", "on"));
+		systemState.add(new IsFact("window_rB", "off"));
 		systemState.add(new HaveFact("rB", "cleanness_rB"));
 		systemState.add(new IsFact("cleanness_rB", "dirty"));
 		
@@ -329,7 +329,7 @@ public class Paralleler {
 		systemState.add(new HaveFact("b1", "light_b1"));
 		systemState.add(new IsFact("light_b1", "off"));
 		systemState.add(new HaveFact("b1", "brightness_b1"));
-		systemState.add(new IsFact("brightness_b1", "high"));
+		systemState.add(new IsFact("brightness_b1", "low"));
 		
 		// door_b1_pass2
 		systemState.add(new HaveFact("b1", "door_b1_pass2"));
@@ -1116,6 +1116,7 @@ public class Paralleler {
 			if(duration < pairItem.getRight())
 				duration = pairItem.getRight();
 		}
+		System.out.printf("The duration of this solution is %d.\n", duration);
 		return duration;
 	}
 	

@@ -11,6 +11,7 @@ import org.moeaframework.core.Solution;
 
 import at.ac.tuwien.big.moea.search.fitness.dimension.IFitnessDimension;
 import at.ac.tuwien.big.momot.problem.solution.TransformationSolution;
+import at.ac.tuwien.big.momot.problem.solution.variable.ITransformationVariable;
 import at.ac.tuwien.big.momot.search.fitness.EGraphMultiDimensionalFitnessFunction;
 import at.ac.tuwien.big.momot.search.fitness.IEGraphMultiDimensionalFitnessFunction;
 import at.ac.tuwien.big.momot.search.fitness.dimension.AbstractEGraphFitnessDimension;
@@ -41,7 +42,7 @@ public class MySNHContext {
 	    
 	    List<Demand> reqs = levels.get(level);
 	    for (Demand req : reqs) {
-	    		function.addObjective(makeObjective(req, propagation));
+	    	function.addObjective(makeObjective(req, propagation));
 	    }
 	    return function;
 	}
@@ -112,6 +113,24 @@ public class MySNHContext {
 			double value = dimension.doEvaluate(bestSolution);
 			res += String.format(",%.3f", value);
 		}
+		
+//		if(bestSolution instanceof TransformationSolution) {
+//			TransformationSolution tSolution = (TransformationSolution) bestSolution;
+//			ITransformationVariable[] variables =  tSolution.getVariables();
+//			for(ITransformationVariable variable : variables) {
+//				if(variable.getUnit()!= null) {
+//					String ruleName = variable.getUnit().getName();
+////					if(ruleName.equals("helpEnter")) {
+////						System.out.println("helpEnter catched!");
+////						System.out.println(variable);
+////					} 
+//					if(ruleName.equals("helpTemperatureCheck")) {
+//						System.out.println("helpTemperatureCheck catched!");
+//						System.out.println(variable);
+//					}
+//				}
+//			}
+//		}
 
 		return res;
 	}

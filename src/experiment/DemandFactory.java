@@ -1078,6 +1078,7 @@ public class DemandFactory {
 					String ruleName = variable.getUnit().getName();
 					if(ruleName.contains("help")) {
 						count++;
+//						System.out.println(ruleName);
 					}
 				}
 			}
@@ -1116,18 +1117,18 @@ public class DemandFactory {
 	public static List<List<Demand>> defaultDemands() {
 		
 		List<Demand> heaterOffs = Arrays.asList(
-				new HeaterOff("rA"), new HeaterOff("rB"), new HeaterOff("rC"), new HeaterOff("rD"));
+				new HeaterOff("hall"), new HeaterOff("c1"));
 		
 		List<Double> heaterOffWeights = Arrays.asList(
-				0.25, 0.25, 0.25, 0.25);
+				0.5, 0.5);
 		
 		CompositeDemand heaterOff = new CompositeDemand(heaterOffs, heaterOffWeights);
 		
 		List<Demand> humidifierOffs = Arrays.asList(
-				new HumidifierOff("rA"), new HumidifierOff("rB"), new HumidifierOff("rC"), new HumidifierOff("rD"));
+				new HeaterOff("hall"), new HeaterOff("c1"));
 		
 		List<Double> humidifierOffWeights = Arrays.asList(
-				0.25, 0.25, 0.25, 0.25);
+				0.5, 0.5);
 		
 		CompositeDemand humidifierOff = new CompositeDemand(humidifierOffs, humidifierOffWeights);
 		
@@ -1144,36 +1145,36 @@ public class DemandFactory {
 		CompositeDemand energyEfficiency = new CompositeDemand(energyEfficiencies, energyEfficiencyWeights);
 		
 		List<Demand> temperatureHighs = Arrays.asList(
-				new TemperatureHigh("rA"), new TemperatureHigh("rB"), new TemperatureHigh("rC"), new TemperatureHigh("rD"));
+				new TemperatureHigh("rC"), new TemperatureHigh("rD"));
 		
 		List<Double> temperatureHighWeights = Arrays.asList(
-				0.25, 0.25, 0.25, 0.25);
+				0.5, 0.5);
 		
 		CompositeDemand temperatureHigh = new CompositeDemand(temperatureHighs, temperatureHighWeights);
 		
 		List<Demand> humidityHighs = Arrays.asList(
-				new HumidityHigh("rA"), new HumidityHigh("rB"), new HumidityHigh("rC"), new HumidityHigh("rD"));
+				new HumidityHigh("rC"), new HumidityHigh("rD"));
 		
 		List<Double> humidityHighWeights = Arrays.asList(
-				0.25, 0.25, 0.25, 0.25);
+				0.5, 0.5);
 		
 		CompositeDemand humidityHigh = new CompositeDemand(humidityHighs, humidityHighWeights);
 		
 		List<Demand> brightnessHighs = Arrays.asList(
-				new BrightnessHigh("hall"), new BrightnessHigh("c1"), new BrightnessHigh("rA"),
-				new BrightnessHigh("rB"), new BrightnessHigh("rC"), new BrightnessHigh("rD"));
+				new BrightnessHigh("rA"), new BrightnessHigh("rB"), 
+				new BrightnessHigh("p1"), new BrightnessHigh("b1"));
 		
 		List<Double> brightnessHighWeights = Arrays.asList(
-				0.1, 0.1, 0.2, 0.2, 0.2, 0.2);
+				0.3, 0.3, 0.2, 0.2);
 		
 		CompositeDemand brightnessHigh = new CompositeDemand(brightnessHighs, brightnessHighWeights);
 		
 		List<Demand> cleans = Arrays.asList(
-				new Clean("hall"), new Clean("c1"), new Clean("p1"), new Clean("rA"), new Clean("rB"),
+				new Clean("hall"), new Clean("c1"), new Clean("rA"), new Clean("rB"),
 				new Clean("rC"), new Clean("rD"));
 		
 		List<Double> cleanWeights = Arrays.asList(
-				0.1, 0.1, 0.1, 0.175, 0.175, 0.175, 0.175);
+				0.1, 0.1, 0.2, 0.2, 0.2, 0.2);
 		
 		CompositeDemand clean = new CompositeDemand(cleans, cleanWeights);
 		
@@ -1237,7 +1238,7 @@ public class DemandFactory {
 		CompositeDemand healthCare = new CompositeDemand(healthCares, healthCareWeights);
 		
 		List<Demand> elderSatisfactions = Arrays.asList(comfort, healthCare);
-		List<Double> elderSatisfactionWeights = Arrays.asList(0.45, 0.55);
+		List<Double> elderSatisfactionWeights = Arrays.asList(0.8, 0.2);
 		CompositeDemand elderSatisfaction = new CompositeDemand(elderSatisfactions, elderSatisfactionWeights);
 		
 		List<Demand> careWorkerSatisfactions = Arrays.asList(new CareWorkerLoad());
@@ -1248,6 +1249,6 @@ public class DemandFactory {
 		List<Double> rootWeights = Arrays.asList(0.15, 0.75, 0.1);
 		CompositeDemand root = new CompositeDemand(roots, rootWeights);
 		
-		return bfs(elderSatisfaction);
+		return bfs(root);
 	}
 }

@@ -1905,6 +1905,41 @@
       <edges xmi:id="_6kXc0MvOEeqF6IBbhjEO0g" source="_1g4U0MvOEeqF6IBbhjEO0g" target="_1LfToMvOEeqF6IBbhjEO0g">
         <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/person"/>
       </edges>
+      <formula xsi:type="henshin:Not" xmi:id="_mtFfQOtdEeqWUK8NK7d3Lg">
+        <child xsi:type="henshin:NestedCondition" xmi:id="_mtFfQetdEeqWUK8NK7d3Lg">
+          <conclusion xmi:id="_mtFfQutdEeqWUK8NK7d3Lg">
+            <nodes xmi:id="_mtGGUOtdEeqWUK8NK7d3Lg" incoming="_mtGGVutdEeqWUK8NK7d3Lg" outgoing="_mtGGV-tdEeqWUK8NK7d3Lg _nhqW0OtdEeqWUK8NK7d3Lg">
+              <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//CareWorker"/>
+              <attributes xmi:id="_mtGGUetdEeqWUK8NK7d3Lg" value="careWorkerName">
+                <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
+              </attributes>
+            </nodes>
+            <nodes xmi:id="_mtGGU-tdEeqWUK8NK7d3Lg" incoming="_mtGGV-tdEeqWUK8NK7d3Lg" outgoing="_mtGGVutdEeqWUK8NK7d3Lg">
+              <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Pharmacy"/>
+              <attributes xmi:id="_mtGGVOtdEeqWUK8NK7d3Lg" value="pharmacyName">
+                <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
+              </attributes>
+            </nodes>
+            <nodes xmi:id="_iF4DkOtdEeqWUK8NK7d3Lg" incoming="_nhqW0OtdEeqWUK8NK7d3Lg">
+              <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Medicine"/>
+              <attributes xmi:id="_kXFRMOtdEeqWUK8NK7d3Lg" value="&quot;insulin&quot;">
+                <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
+              </attributes>
+            </nodes>
+            <edges xmi:id="_mtGGVutdEeqWUK8NK7d3Lg" source="_mtGGU-tdEeqWUK8NK7d3Lg" target="_mtGGUOtdEeqWUK8NK7d3Lg">
+              <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/person"/>
+            </edges>
+            <edges xmi:id="_mtGGV-tdEeqWUK8NK7d3Lg" source="_mtGGUOtdEeqWUK8NK7d3Lg" target="_mtGGU-tdEeqWUK8NK7d3Lg">
+              <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/room"/>
+            </edges>
+            <edges xmi:id="_nhqW0OtdEeqWUK8NK7d3Lg" source="_mtGGUOtdEeqWUK8NK7d3Lg" target="_iF4DkOtdEeqWUK8NK7d3Lg">
+              <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/medicine"/>
+            </edges>
+          </conclusion>
+          <mappings xmi:id="_mtGGUutdEeqWUK8NK7d3Lg" origin="_1LfToMvOEeqF6IBbhjEO0g" image="_mtGGUOtdEeqWUK8NK7d3Lg"/>
+          <mappings xmi:id="_mtGGVetdEeqWUK8NK7d3Lg" origin="_1g4U0MvOEeqF6IBbhjEO0g" image="_mtGGU-tdEeqWUK8NK7d3Lg"/>
+        </child>
+      </formula>
     </lhs>
     <rhs xmi:id="_svKAgcvOEeqF6IBbhjEO0g" name="Rhs">
       <nodes xmi:id="_0WY3oMvOEeqF6IBbhjEO0g" incoming="_9m_gUMvOEeqF6IBbhjEO0g">
@@ -1964,6 +1999,41 @@
       <edges xmi:id="_NwM_kMvPEeqF6IBbhjEO0g" source="_HdmZEMvPEeqF6IBbhjEO0g" target="_HOC6IMvPEeqF6IBbhjEO0g">
         <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/person"/>
       </edges>
+      <formula xsi:type="henshin:Not" xmi:id="_waGXIOtdEeqWUK8NK7d3Lg">
+        <child xsi:type="henshin:NestedCondition" xmi:id="_waGXIetdEeqWUK8NK7d3Lg">
+          <conclusion xmi:id="_waGXIutdEeqWUK8NK7d3Lg">
+            <nodes xmi:id="_waGXI-tdEeqWUK8NK7d3Lg" incoming="_waG-NOtdEeqWUK8NK7d3Lg" outgoing="_waG-NetdEeqWUK8NK7d3Lg _xFHqEOtdEeqWUK8NK7d3Lg">
+              <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//CareWorker"/>
+              <attributes xmi:id="_waGXJOtdEeqWUK8NK7d3Lg" value="careWorkerName">
+                <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
+              </attributes>
+            </nodes>
+            <nodes xmi:id="_waG-MetdEeqWUK8NK7d3Lg" incoming="_waG-NetdEeqWUK8NK7d3Lg" outgoing="_waG-NOtdEeqWUK8NK7d3Lg">
+              <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Pharmacy"/>
+              <attributes xmi:id="_waG-MutdEeqWUK8NK7d3Lg" value="pharmacyName">
+                <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
+              </attributes>
+            </nodes>
+            <nodes xmi:id="_rSWaMOtdEeqWUK8NK7d3Lg" incoming="_xFHqEOtdEeqWUK8NK7d3Lg">
+              <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Medicine"/>
+              <attributes xmi:id="_t_pG4OtdEeqWUK8NK7d3Lg" value="&quot;aspirin&quot;">
+                <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Clazz/name"/>
+              </attributes>
+            </nodes>
+            <edges xmi:id="_waG-NOtdEeqWUK8NK7d3Lg" source="_waG-MetdEeqWUK8NK7d3Lg" target="_waGXI-tdEeqWUK8NK7d3Lg">
+              <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Room/person"/>
+            </edges>
+            <edges xmi:id="_waG-NetdEeqWUK8NK7d3Lg" source="_waGXI-tdEeqWUK8NK7d3Lg" target="_waG-MetdEeqWUK8NK7d3Lg">
+              <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/room"/>
+            </edges>
+            <edges xmi:id="_xFHqEOtdEeqWUK8NK7d3Lg" source="_waGXI-tdEeqWUK8NK7d3Lg" target="_rSWaMOtdEeqWUK8NK7d3Lg">
+              <type href="http://momot.big.tuwien.ac.at/smart_nursing_home/1.0#//Person/medicine"/>
+            </edges>
+          </conclusion>
+          <mappings xmi:id="_waG-MOtdEeqWUK8NK7d3Lg" origin="_HOC6IMvPEeqF6IBbhjEO0g" image="_waGXI-tdEeqWUK8NK7d3Lg"/>
+          <mappings xmi:id="_waG-M-tdEeqWUK8NK7d3Lg" origin="_HdmZEMvPEeqF6IBbhjEO0g" image="_waG-MetdEeqWUK8NK7d3Lg"/>
+        </child>
+      </formula>
     </lhs>
     <rhs xmi:id="_BbeekcvPEeqF6IBbhjEO0g" name="Rhs">
       <nodes xmi:id="_GsnBAMvPEeqF6IBbhjEO0g" incoming="_R_iGwMvPEeqF6IBbhjEO0g">

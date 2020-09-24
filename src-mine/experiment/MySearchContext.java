@@ -112,6 +112,39 @@ public class MySearchContext {
 		return res;
 	}
 	
+	public static final String evaluate(Population solutions, int level) {
+		double tmp = 0;
+		Solution bestSolution = null;
+	    
+	    List<Requirement> reqs = levels.get(0);
+	    List<IFitnessDimension<TransformationSolution>> dimensions = new ArrayList<>();
+	    for (Requirement req : reqs) {
+	    		dimensions.add(makeObjective(req, false));
+	    }
+		
+		for (Solution solution : solutions) {
+			double cur = dimensions.stream().mapToDouble(d -> d.doEvaluate(solution)).sum();
+			if (cur > tmp) {
+				tmp = cur;
+				bestSolution = solution;
+			}
+		}
+		
+		// 获取权值
+		reqs = levels.get(level);
+		dimensions.clear();
+		for(Requirement req : reqs) {
+			dimensions.add(makeObjective(req, false));
+		}
+		String res = String.format("%d", graphTransformationTimes);
+		for(IFitnessDimension<TransformationSolution> dimension : dimensions) {
+			double value = dimension.doEvaluate(bestSolution);
+			res += String.format(",%.3f", value);
+		}
+
+		return res;
+	}
+	
 	public static final String log(Population solutions) {
 	    
 	    List<Requirement> leafReqs = levels.get(3);

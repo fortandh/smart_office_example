@@ -229,7 +229,7 @@ public class mysearch3 {
 	  experiment.run();
 	  System.out.println(solutionLength + " Total cost: " + (double) (System.currentTimeMillis() - st) / (double) 1000);
 //	  analyseResultsNeeded(resultNeeded);
-	  handleResults(experiment);
+//	  handleResults(experiment);
   }
   
   public static void initialization() {
@@ -244,51 +244,45 @@ public class mysearch3 {
   public static void main(final String... args) {
 //	  System.setProperty("java.util.Arrays.useLegacyMergeSort", "true");
 	  
-	  String algoName = "MyMOPSO";
+	  String algoName = "MyNSGAII";
 	  
-	  int repeatTimes = 10;
+	  int repeatTimes = 1;
 	  int population = 1000;
-	  int eb = 70;
-	  int pb = eb * population * 500;
+	  int eb = 100;
+	  int pb = eb * population * 100;
 	  double propagationRate = 0.6;
 	  boolean propagations[] = {true, false};
-	  int levels[] = {0, 1, 2, 3};
+	  int levels[] = {2, 1, 0, 3};
 	  // boolean propagations[] = {false};
 	  // int levels[] = {3};
 	  
 	  System.out.println(System.getProperty("user.dir"));
 	  String homePath = System.getProperty("user.home");
-	  File folder = new File(homePath + "/workspace/work");
-	  File[] listOfFiles = folder.listFiles();
-	  for (int i1 = 0; i1 < listOfFiles.length; i1 ++) {
-		  if (! listOfFiles[i1].isDirectory()) continue;
-		  String caseName = listOfFiles[i1].getName();
-		  String input = listOfFiles[i1].getAbsolutePath();
-		  String model = input + "/instance.xmi";
-		  String goal = input + "/goal.json";
-		  System.out.println("start for case " + caseName);
-		  for (int level : levels) {
-			  for (boolean propagation : propagations) {
-				  // TODO mkdir named by levels & propagations
-				  for (int i = 0; i < repeatTimes; i ++) {
+	  String dataPath = homePath + "/workspace/SO";
+      String caseName = "Smart Office";
+	  String model = "input/instance.xmi";
+	  System.out.println("start for case " + caseName);
+	  for (int level : levels) {
+		  for (boolean propagation : propagations) {
+			  // TODO mkdir named by levels & propagations
+			  for (int i = 0; i < repeatTimes; i ++) {
 //					  String n = new SimpleDateFormat("MM-dd-HH-mm").format(new Date()) + "_" + algoName + "_prop_" + propagationRate + "_eb_" + eb + "_population_" + population + "_";
-					  String conf = (propagation ? "p_" : "np_") + level;
-					  System.out.println("start for conf " + conf);
-					  try {
-						  File file = new File(input + "/results6/" + conf + "/" + i + ".csv");
-						  file.getParentFile().mkdirs();
-						  MySearchContext.fw = new FileWriter(file, false);
-						  // MySearchContext.init(propagation, propagationRate, level, goal);
-						  MySearchContext.init(propagation, level);
-						  initialization();
-						  mysearch3 search = new mysearch3();
-						  search.performSearch(model, eb, population, pb / eb, algoName);
-						  finalization();
-						  MySearchContext.fw.close();
-					  } catch (IOException e) {
-						  // TODO Auto-generated catch block
-						  e.printStackTrace();
-					  }
+				  String conf = (propagation ? "p_" : "np_") + level;
+				  System.out.println("start for conf " + conf);
+				  try {
+					  File file = new File(dataPath + "/results6/" + conf + "/" + i + ".csv");
+					  file.getParentFile().mkdirs();
+					  MySearchContext.fw = new FileWriter(file, false);
+					  // MySearchContext.init(propagation, propagationRate, level, goal);
+					  MySearchContext.init(propagation, level);
+					  initialization();
+					  mysearch3 search = new mysearch3();
+					  search.performSearch(model, eb, population, pb / eb, algoName);
+					  finalization();
+					  MySearchContext.fw.close();
+				  } catch (IOException e) {
+					  // TODO Auto-generated catch block
+					  e.printStackTrace();
 				  }
 			  }
 		  }
