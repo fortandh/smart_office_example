@@ -12,7 +12,7 @@ public class TemperatureCheckAction extends Action {
 	private String checkingRoomName;
 	
 	public TemperatureCheckAction(String elderName, String checkingRoomName) {
-		super();
+		super("TemperatureCheck");
 		this.elderName = elderName;
 		this.bySelfName = "bySelf_"+elderName.charAt(elderName.length()-1);
 		this.temperatureCheckName = "temperatureCheck_"+elderName.charAt(elderName.length()-1);
@@ -38,6 +38,23 @@ public class TemperatureCheckAction extends Action {
 	
 	public String getCheckingRoomName() {
 		return this.checkingRoomName;
+	}
+	
+	public String toString() {		
+		StringBuilder stringGen = new StringBuilder();
+		stringGen.append("ActionName: ");
+		stringGen.append(this.getActionName());
+		stringGen.append("\n");
+		
+		stringGen.append("elderName: ");
+		stringGen.append(this.elderName);
+		stringGen.append("\n");
+		
+		stringGen.append("checkingRoomName: ");
+		stringGen.append(this.checkingRoomName);
+		stringGen.append("\n");
+		
+		return stringGen.toString();
 	}
 	
 	public boolean equals(Object obj) {

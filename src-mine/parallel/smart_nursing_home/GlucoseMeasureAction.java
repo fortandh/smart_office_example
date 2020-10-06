@@ -13,7 +13,7 @@ public class GlucoseMeasureAction extends Action {
 	private String checkingRoomName;
 	
 	public GlucoseMeasureAction(String elderName, String checkingRoomName) {
-		super();
+		super("GlucoseMeasure");
 		this.elderName = elderName;
 		this.bySelfName = "bySelf_"+elderName.charAt(elderName.length()-1);
 		this.diabetesName = "diabetes_"+elderName.charAt(elderName.length()-1);
@@ -41,6 +41,23 @@ public class GlucoseMeasureAction extends Action {
 	
 	public String getCheckingRoomName() {
 		return this.checkingRoomName;
+	}
+	
+	public String toString() {		
+		StringBuilder stringGen = new StringBuilder();
+		stringGen.append("ActionName: ");
+		stringGen.append(this.getActionName());
+		stringGen.append("\n");
+		
+		stringGen.append("elderName: ");
+		stringGen.append(this.elderName);
+		stringGen.append("\n");
+		
+		stringGen.append("checkingRoomName: ");
+		stringGen.append(this.checkingRoomName);
+		stringGen.append("\n");
+		
+		return stringGen.toString();
 	}
 	
 	public boolean equals(Object obj) {

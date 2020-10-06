@@ -27,5 +27,9 @@ public abstract class Fact {
 		return this.context;
 	}
 	
+	public String toString() {
+		return this.context;
+	}
+	
 	public abstract int hashCode();
 }

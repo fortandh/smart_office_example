@@ -14,7 +14,7 @@ public class RoombaEnterAction extends Action {
 	private String cleannessStatus;
 	
 	public RoombaEnterAction(String fromRoomName, String doorName, String toRoomName, String roombaName, String cleannessStatus) {
-		super();
+		super("RoombaEnter");
 		this.fromRoomName = fromRoomName;
 		this.doorName = doorName;
 		this.toRoomName = toRoomName;
@@ -56,6 +56,35 @@ public class RoombaEnterAction extends Action {
 	
 	public String getCleannessStatus() {
 		return this.cleannessStatus;
+	}
+	
+	public String toString() {		
+		StringBuilder stringGen = new StringBuilder();
+		stringGen.append("ActionName: ");
+		stringGen.append(this.getActionName());
+		stringGen.append("\n");
+		
+		stringGen.append("fromRoomName: ");
+		stringGen.append(this.fromRoomName);
+		stringGen.append("\n");
+		
+		stringGen.append("doorName: ");
+		stringGen.append(this.doorName);
+		stringGen.append("\n");
+		
+		stringGen.append("toRoomName: ");
+		stringGen.append(this.toRoomName);
+		stringGen.append("\n");
+		
+		stringGen.append("roombaName: ");
+		stringGen.append(this.roombaName);
+		stringGen.append("\n");
+		
+		stringGen.append("cleannessStatus: ");
+		stringGen.append(this.cleannessStatus);
+		stringGen.append("\n");
+		
+		return stringGen.toString();
 	}
 	
 	public boolean equals(Object obj) {

@@ -17,6 +17,7 @@ import at.ac.tuwien.big.momot.search.fitness.IEGraphMultiDimensionalFitnessFunct
 import at.ac.tuwien.big.momot.search.fitness.dimension.AbstractEGraphFitnessDimension;
 import at.ac.tuwien.big.momot.util.MomotUtil;
 import experiment.DemandFactory.Demand;
+import parallel.smart_nursing_home.Paralleler;
 import smart_nursing_home.SmartNursingHome;
 
 public class MySNHContext {
@@ -113,24 +114,6 @@ public class MySNHContext {
 			double value = dimension.doEvaluate(bestSolution);
 			res += String.format(",%.3f", value);
 		}
-		
-//		if(bestSolution instanceof TransformationSolution) {
-//			TransformationSolution tSolution = (TransformationSolution) bestSolution;
-//			ITransformationVariable[] variables =  tSolution.getVariables();
-//			for(ITransformationVariable variable : variables) {
-//				if(variable.getUnit()!= null) {
-//					String ruleName = variable.getUnit().getName();
-////					if(ruleName.equals("helpEnter")) {
-////						System.out.println("helpEnter catched!");
-////						System.out.println(variable);
-////					} 
-//					if(ruleName.equals("helpTemperatureCheck")) {
-//						System.out.println("helpTemperatureCheck catched!");
-//						System.out.println(variable);
-//					}
-//				}
-//			}
-//		}
 
 		return res;
 	}

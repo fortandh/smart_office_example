@@ -51,7 +51,7 @@ public class Paralleler {
 	private ArrayList<Fact> initialState;
 	private ArrayList<Action> actionsList;
 	private HashSet<Pair<Action, Action>> mutexFactsList;
-	private int executionTime = 20;
+	private int executionTime = 15;
 	private static final Paralleler pl = new Paralleler();
 	
 	
@@ -190,6 +190,8 @@ public class Paralleler {
 		systemState.add(new HaveFact("rA", "elder_A"));
 		systemState.add(new HaveFact("elder_A", "bySelf_A"));
 		systemState.add(new IsFact("bySelf_A", "true"));
+		systemState.add(new HaveFact("elder_A", "tidy_A"));
+		systemState.add(new IsFact("tidy_A", "false"));
 		systemState.add(new HaveFact("elder_A", "temperatureCheck_A"));
 		systemState.add(new IsFact("temperatureCheck_A", "false"));
 		systemState.add(new HaveFact("elder_A", "bloodOxygenCheck_A"));
@@ -231,6 +233,8 @@ public class Paralleler {
 		systemState.add(new HaveFact("rB", "elder_B"));
 		systemState.add(new HaveFact("elder_B", "bySelf_B"));
 		systemState.add(new IsFact("bySelf_B", "false"));
+		systemState.add(new HaveFact("elder_B", "tidy_B"));
+		systemState.add(new IsFact("tidy_B", "false"));
 		systemState.add(new HaveFact("elder_B", "temperatureCheck_B"));
 		systemState.add(new IsFact("temperatureCheck_B", "false"));
 		systemState.add(new HaveFact("elder_B", "bloodOxygenCheck_B"));
@@ -272,6 +276,8 @@ public class Paralleler {
 		systemState.add(new HaveFact("rC", "elder_C"));
 		systemState.add(new HaveFact("elder_C", "bySelf_C"));
 		systemState.add(new IsFact("bySelf_C", "true"));
+		systemState.add(new HaveFact("elder_C", "tidy_C"));
+		systemState.add(new IsFact("tidy_C", "false"));
 		systemState.add(new HaveFact("elder_C", "temperatureCheck_C"));
 		systemState.add(new IsFact("temperatureCheck_C", "false"));
 		systemState.add(new HaveFact("elder_C", "bloodOxygenCheck_C"));
@@ -313,6 +319,8 @@ public class Paralleler {
 		systemState.add(new HaveFact("rD", "elder_D"));
 		systemState.add(new HaveFact("elder_D", "bySelf_D"));
 		systemState.add(new IsFact("bySelf_D", "false"));
+		systemState.add(new HaveFact("elder_D", "tidy_D"));
+		systemState.add(new IsFact("tidy_D", "false"));
 		systemState.add(new HaveFact("elder_D", "temperatureCheck_D"));
 		systemState.add(new IsFact("temperatureCheck_D", "false"));
 		systemState.add(new HaveFact("elder_D", "bloodOxygenCheck_D"));
@@ -1085,14 +1093,29 @@ public class Paralleler {
 				
 				// compute start point
 				int startPoint = 0;
+				boolean executable = true;
 				for(Fact factItem : currentAction.getPreFactsList()) {
+					if(!systemState.containsKey(factItem)) {
+						executable = false;
+						break;
+					}
 					if(startPoint < systemState.get(factItem))
 						startPoint = systemState.get(factItem);
 				}
+				if(!executable)
+					continue;
+				
 				for(Fact factItem : currentAction.getDelFactsList()) {
+					if(!systemState.containsKey(factItem)) {
+						executable = false;
+						break;
+					}
 					if(startPoint < systemState.get(factItem))
 						startPoint = systemState.get(factItem);
 				}
+				if(!executable)
+					continue;
+				
 				for(Pair<Action, Integer> pairItem : executionList) {
 					if(mutexActionsList.contains(new Pair<Action, Action>(currentAction, pairItem.getLeft())) && startPoint<pairItem.getRight())
 						startPoint = pairItem.getRight();
@@ -1116,8 +1139,13 @@ public class Paralleler {
 			if(duration < pairItem.getRight())
 				duration = pairItem.getRight();
 		}
-		System.out.printf("The duration of this solution is %d.\n", duration);
 		return duration;
+	}
+	
+	public static void durationCal(Solution solution) {
+		if(solution instanceof TransformationSolution)
+			System.out.printf("The duration of the best solution is %d.\n", 
+					pl.computeDuration(pl.initialState, (TransformationSolution)solution, pl.mutexFactsList));
 	}
 	
 	public static boolean durationValidate(Solution solution) {

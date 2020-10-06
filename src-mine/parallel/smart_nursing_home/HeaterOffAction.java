@@ -11,7 +11,7 @@ public class HeaterOffAction extends Action {
 	private String temperatureName;
 
 	public HeaterOffAction(String roomName, String heaterName, String temperatureName) {
-		super();
+		super("HeaterOff");
 		this.roomName = roomName;
 		this.heaterName = heaterName;
 		this.temperatureName = temperatureName;
@@ -39,6 +39,27 @@ public class HeaterOffAction extends Action {
 	
 	public String getTemperatureName() {
 		return this.temperatureName;
+	}
+	
+	public String toString() {		
+		StringBuilder stringGen = new StringBuilder();
+		stringGen.append("ActionName: ");
+		stringGen.append(this.getActionName());
+		stringGen.append("\n");
+		
+		stringGen.append("roomName: ");
+		stringGen.append(this.roomName);
+		stringGen.append("\n");
+		
+		stringGen.append("heaterName: ");
+		stringGen.append(this.heaterName);
+		stringGen.append("\n");
+		
+		stringGen.append("temperatureName: ");
+		stringGen.append(this.temperatureName);
+		stringGen.append("\n");
+		
+		return stringGen.toString();
 	}
 	
 	public boolean equals(Object obj) {

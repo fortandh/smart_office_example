@@ -13,7 +13,7 @@ public class WindowOffAction extends Action {
 	private String temperatureName;
 	
 	public WindowOffAction (String roomName, String windowName, String brightnessName, String humidityName, String temperatureName) {
-		super();
+		super("WindowOff");
 		this.roomName = roomName;
 		this.windowName = windowName;
 		this.brightnessName = brightnessName;
@@ -57,6 +57,35 @@ public class WindowOffAction extends Action {
 	
 	public String getTemperatureName() {
 		return this.temperatureName;
+	}
+	
+	public String toString() {		
+		StringBuilder stringGen = new StringBuilder();
+		stringGen.append("ActionName: ");
+		stringGen.append(this.getActionName());
+		stringGen.append("\n");
+		
+		stringGen.append("roomName: ");
+		stringGen.append(this.roomName);
+		stringGen.append("\n");
+		
+		stringGen.append("windowName: ");
+		stringGen.append(this.windowName);
+		stringGen.append("\n");
+		
+		stringGen.append("brightnessName: ");
+		stringGen.append(this.brightnessName);
+		stringGen.append("\n");
+		
+		stringGen.append("humidityName: ");
+		stringGen.append(this.humidityName);
+		stringGen.append("\n");
+		
+		stringGen.append("temperatureName: ");
+		stringGen.append(this.temperatureName);
+		stringGen.append("\n");
+		
+		return stringGen.toString();
 	}
 	
 	public boolean equals(Object obj) {

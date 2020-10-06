@@ -9,7 +9,7 @@ public class HelpGetInsulinAction extends Action {
 	private String pharmacyName;
 	
 	public HelpGetInsulinAction(String careWorkerName, String pharmacyName) {
-		super();
+		super("HelpGetInsulin");
 		this.careWorkerName = careWorkerName;
 		this.pharmacyName = pharmacyName;
 		
@@ -29,6 +29,23 @@ public class HelpGetInsulinAction extends Action {
 	
 	public String getPharmacyName() {
 		return this.pharmacyName;
+	}
+	
+	public String toString() {		
+		StringBuilder stringGen = new StringBuilder();
+		stringGen.append("ActionName: ");
+		stringGen.append(this.getActionName());
+		stringGen.append("\n");
+		
+		stringGen.append("careWorkerName: ");
+		stringGen.append(this.careWorkerName);
+		stringGen.append("\n");
+		
+		stringGen.append("pharmacyName: ");
+		stringGen.append(this.pharmacyName);
+		stringGen.append("\n");
+		
+		return stringGen.toString();
 	}
 	
 	public boolean equals(Object obj) {

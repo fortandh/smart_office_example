@@ -12,7 +12,7 @@ public class ElderEnterAction extends Action {
 	private String elderName;
 	
 	public ElderEnterAction(String fromRoomName, String doorName, String toRoomName, String elderName) {
-		super();
+		super("ElderEnter");
 		this.fromRoomName = fromRoomName;
 		this.doorName = doorName;
 		this.toRoomName = toRoomName;
@@ -45,6 +45,31 @@ public class ElderEnterAction extends Action {
 	
 	public String getElderName() {
 		return this.elderName;
+	}
+	
+	public String toString() {		
+		StringBuilder stringGen = new StringBuilder();
+		stringGen.append("ActionName: ");
+		stringGen.append(this.getActionName());
+		stringGen.append("\n");
+		
+		stringGen.append("fromRoomName: ");
+		stringGen.append(this.fromRoomName);
+		stringGen.append("\n");
+		
+		stringGen.append("doorName: ");
+		stringGen.append(this.doorName);
+		stringGen.append("\n");
+		
+		stringGen.append("toRoomName: ");
+		stringGen.append(this.toRoomName);
+		stringGen.append("\n");
+		
+		stringGen.append("elderName: ");
+		stringGen.append(this.elderName);
+		stringGen.append("\n");
+		
+		return stringGen.toString();
 	}
 	
 	public boolean equals(Object obj) {

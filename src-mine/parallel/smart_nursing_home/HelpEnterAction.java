@@ -2,6 +2,7 @@ package parallel.smart_nursing_home;
 
 import parallel.util.Action;
 import parallel.util.HaveFact;
+import parallel.util.IsFact;
 
 public class HelpEnterAction extends Action {
 
@@ -9,19 +10,23 @@ public class HelpEnterAction extends Action {
 	private String doorName;
 	private String toRoomName;
 	private String elderName;
+	private String bySelfName;
 	private String careWorkerName;
 	
 	public HelpEnterAction(String fromRoomName, String doorName, String toRoomName, String elderName, String careWorkerName) {
-		super();
+		super("HelpEnter");
 		this.fromRoomName = fromRoomName;
 		this.doorName = doorName;
 		this.toRoomName = toRoomName;
 		this.elderName = elderName;
+		this.bySelfName = "bySelf_"+elderName.charAt(elderName.length()-1);
 		this.careWorkerName = careWorkerName;
 		
 		// pre
 		this.putPreFact(new HaveFact(doorName, fromRoomName));
 		this.putPreFact(new HaveFact(doorName, toRoomName));
+		this.putPreFact(new HaveFact(elderName, bySelfName));
+		this.putPreFact(new IsFact(bySelfName, "false"));
 		
 		// del
 		this.putDelFact(new HaveFact(elderName, fromRoomName));
@@ -54,6 +59,35 @@ public class HelpEnterAction extends Action {
 	
 	public String getCareWorkerName() {
 		return this.careWorkerName;
+	}
+	
+	public String toString() {
+		StringBuilder stringGen = new StringBuilder();
+		stringGen.append("ActionName: ");
+		stringGen.append(this.getActionName());
+		stringGen.append("\n");
+		
+		stringGen.append("fromRoomName: ");
+		stringGen.append(this.fromRoomName);
+		stringGen.append("\n");
+		
+		stringGen.append("doorName: ");
+		stringGen.append(this.doorName);
+		stringGen.append("\n");
+		
+		stringGen.append("toRoomName: ");
+		stringGen.append(this.toRoomName);
+		stringGen.append("\n");
+		
+		stringGen.append("elderName: ");
+		stringGen.append(this.elderName);
+		stringGen.append("\n");
+		
+		stringGen.append("careWorkerName: ");
+		stringGen.append(this.careWorkerName);
+		stringGen.append("\n");
+		
+		return stringGen.toString();
 	}
 	
 	public boolean equals(Object obj) {

@@ -13,7 +13,7 @@ public class TakeAspirinAction extends Action {
 	private String pharmacyName;
 	
 	public TakeAspirinAction(String elderName, String pharmacyName) {
-		super();
+		super("TakeAspirin");
 		this.elderName = elderName;
 		this.bySelfName = "bySelf_"+elderName.charAt(elderName.length()-1);
 		this.heartAttackName = "heart_attack_"+elderName.charAt(elderName.length()-1);
@@ -41,6 +41,23 @@ public class TakeAspirinAction extends Action {
 	
 	public String getPharmacyName() {
 		return this.pharmacyName;
+	}
+	
+	public String toString() {		
+		StringBuilder stringGen = new StringBuilder();
+		stringGen.append("ActionName: ");
+		stringGen.append(this.getActionName());
+		stringGen.append("\n");
+		
+		stringGen.append("elderName: ");
+		stringGen.append(this.elderName);
+		stringGen.append("\n");
+		
+		stringGen.append("pharmacyName: ");
+		stringGen.append(this.pharmacyName);
+		stringGen.append("\n");
+		
+		return stringGen.toString();
 	}
 	
 	public boolean equals(Object obj) {

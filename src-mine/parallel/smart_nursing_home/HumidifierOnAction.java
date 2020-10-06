@@ -11,7 +11,7 @@ public class HumidifierOnAction extends Action {
 	private String humidityName;
 
 	public HumidifierOnAction(String roomName, String humidifierName, String humidityName) {
-		super();
+		super("HumidifierOn");
 		this.roomName = roomName;
 		this.humidifierName = humidifierName;
 		this.humidityName = humidityName;
@@ -39,6 +39,27 @@ public class HumidifierOnAction extends Action {
 	
 	public String getHumidityName() {
 		return this.humidityName;
+	}
+	
+	public String toString() {		
+		StringBuilder stringGen = new StringBuilder();
+		stringGen.append("ActionName: ");
+		stringGen.append(this.getActionName());
+		stringGen.append("\n");
+		
+		stringGen.append("roomName: ");
+		stringGen.append(this.roomName);
+		stringGen.append("\n");
+		
+		stringGen.append("humidifierName: ");
+		stringGen.append(this.humidifierName);
+		stringGen.append("\n");
+		
+		stringGen.append("humidityName: ");
+		stringGen.append(this.humidityName);
+		stringGen.append("\n");
+		
+		return stringGen.toString();
 	}
 	
 	public boolean equals(Object obj) {

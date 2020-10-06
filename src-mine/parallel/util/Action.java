@@ -4,11 +4,13 @@ import java.util.ArrayList;
 
 public class Action {
 	
+	private String actionName;
 	private ArrayList<Fact> preFactsList;
 	private ArrayList<Fact> delFactsList;
 	private ArrayList<Fact> addFactsList;
 	
-	public Action() {
+	public Action(String actionName) {
+		this.actionName = actionName;
 		preFactsList = new ArrayList<Fact>();
 		delFactsList = new ArrayList<Fact>();
 		addFactsList = new ArrayList<Fact>();
@@ -26,6 +28,10 @@ public class Action {
 		addFactsList.add(fact);
 	}
 	
+	public String getActionName() {
+		return this.actionName;
+	}
+	
 	public ArrayList<Fact> getPreFactsList() {
 		return this.preFactsList;
 	}
@@ -36,6 +42,10 @@ public class Action {
 	
 	public ArrayList<Fact> getAddFactsList() {
 		return this.addFactsList;
+	}
+	
+	public String toString() {
+		return this.actionName;
 	}
 	
 	public int hashCode() {

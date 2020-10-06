@@ -11,7 +11,7 @@ public class LightOnAction extends Action {
 	private String brightnessName;
 
 	public LightOnAction(String roomName, String lightName, String brightnessName) {
-		super();
+		super("LightOn");
 		this.roomName = roomName;
 		this.lightName = lightName;
 		this.brightnessName = brightnessName;
@@ -39,6 +39,27 @@ public class LightOnAction extends Action {
 	
 	public String getBrightnessName() {
 		return this.brightnessName;
+	}
+	
+	public String toString() {		
+		StringBuilder stringGen = new StringBuilder();
+		stringGen.append("ActionName: ");
+		stringGen.append(this.getActionName());
+		stringGen.append("\n");
+		
+		stringGen.append("roomName: ");
+		stringGen.append(this.roomName);
+		stringGen.append("\n");
+		
+		stringGen.append("lightName: ");
+		stringGen.append(this.lightName);
+		stringGen.append("\n");
+		
+		stringGen.append("brightnessName: ");
+		stringGen.append(this.brightnessName);
+		stringGen.append("\n");
+		
+		return stringGen.toString();
 	}
 	
 	public boolean equals(Object obj) {

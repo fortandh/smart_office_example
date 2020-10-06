@@ -13,7 +13,7 @@ public class TakeShowerAction extends Action {
 	private String brightnessName;
 	
 	public TakeShowerAction(String elderName, String bathingRoomName) {
-		super();
+		super("TakeShower");
 		this.elderName = elderName;
 		this.bySelfName = "bySelf_"+elderName.charAt(elderName.length()-1);
 		this.tidyName = "tidy_"+elderName.charAt(elderName.length()-1);
@@ -42,6 +42,23 @@ public class TakeShowerAction extends Action {
 	
 	public String getBathingRoomName() {
 		return this.bathingRoomName;
+	}
+	
+	public String toString() {		
+		StringBuilder stringGen = new StringBuilder();
+		stringGen.append("ActionName: ");
+		stringGen.append(this.getActionName());
+		stringGen.append("\n");
+		
+		stringGen.append("elderName: ");
+		stringGen.append(this.elderName);
+		stringGen.append("\n");
+		
+		stringGen.append("bathingRoomName: ");
+		stringGen.append(this.bathingRoomName);
+		stringGen.append("\n");
+		
+		return stringGen.toString();
 	}
 	
 	public boolean equals(Object obj) {
