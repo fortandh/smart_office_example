@@ -1124,7 +1124,7 @@ public HashSet<Pair<Fact, Fact>> computeMutexFacts(ArrayList<Fact> systemState, 
 				boolean conflictFlag = false;
 				for(Fact p : actionInstance.getPreFactsList()) {
 					for(Fact q : actionInstance.getPreFactsList()) {
-						if(tmpFactsList.contains(new Pair<Fact, Fact>(p, q))) {
+						if(tmpMutexFactsList.contains(new Pair<Fact, Fact>(p, q))) {
 							conflictFlag = true;
 							break;
 						}
