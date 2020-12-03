@@ -2,7 +2,7 @@
 <henshin:Module xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:henshin="http://www.eclipse.org/emf/2011/Henshin" xmi:id="_th4N0LcCEee8W6YHtXWaIQ">
   <imports href="http://momot.big.tuwien.ac.at/smart_office/2.0#/"/>
   <units xsi:type="henshin:Rule" xmi:id="_ufj-ELcCEee8W6YHtXWaIQ" name="lightOn">
-    <parameters xmi:id="_-gRooLcCEee8W6YHtXWaIQ" name="fromRoomName">
+    <parameters xmi:id="_-VtusDShEeu485s8X6W3Ng" name="roomName">
       <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     </parameters>
     <lhs xmi:id="_ufoPgLcCEee8W6YHtXWaIQ" name="Lhs">
@@ -14,7 +14,7 @@
       </nodes>
       <nodes xmi:id="_CPRp8LcDEee8W6YHtXWaIQ" outgoing="_Xq6sILcDEee8W6YHtXWaIQ _oM_h4LcEEee8W6YHtXWaIQ">
         <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room"/>
-        <attributes xmi:id="_lPgdELcEEee8W6YHtXWaIQ" value="fromRoomName">
+        <attributes xmi:id="_lPgdELcEEee8W6YHtXWaIQ" value="roomName">
           <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Clazz/name"/>
         </attributes>
       </nodes>
@@ -40,7 +40,7 @@
       </nodes>
       <nodes xmi:id="_CPRp8bcDEee8W6YHtXWaIQ" outgoing="_Xq6sIbcDEee8W6YHtXWaIQ _oM_h4bcEEee8W6YHtXWaIQ">
         <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room"/>
-        <attributes xmi:id="_lPgdEbcEEee8W6YHtXWaIQ" value="fromRoomName">
+        <attributes xmi:id="_lPgdEbcEEee8W6YHtXWaIQ" value="roomName">
           <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Clazz/name"/>
         </attributes>
       </nodes>
@@ -62,13 +62,13 @@
     <mappings xmi:id="_NHCdsrcDEee8W6YHtXWaIQ" origin="_NHCdsLcDEee8W6YHtXWaIQ" image="_NHCdsbcDEee8W6YHtXWaIQ"/>
   </units>
   <units xsi:type="henshin:Rule" xmi:id="_nPplULcDEee8W6YHtXWaIQ" name="lightOff">
-    <parameters xmi:id="_pgoJcLcDEee8W6YHtXWaIQ" name="fromRoomName">
+    <parameters xmi:id="_AFC-UDSiEeu485s8X6W3Ng" name="roomName">
       <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     </parameters>
     <lhs xmi:id="_nPtPsLcDEee8W6YHtXWaIQ" name="Lhs">
       <nodes xmi:id="_rvEhgLcEEee8W6YHtXWaIQ" outgoing="_RqaQULcFEee8W6YHtXWaIQ _T0wA8LcFEee8W6YHtXWaIQ">
         <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room"/>
-        <attributes xmi:id="_sgkP4LcEEee8W6YHtXWaIQ" value="fromRoomName">
+        <attributes xmi:id="_sgkP4LcEEee8W6YHtXWaIQ" value="roomName">
           <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Clazz/name"/>
         </attributes>
       </nodes>
@@ -94,7 +94,7 @@
     <rhs xmi:id="_nPt2wLcDEee8W6YHtXWaIQ" name="Rhs">
       <nodes xmi:id="_rvEhgbcEEee8W6YHtXWaIQ" outgoing="_RqaQUbcFEee8W6YHtXWaIQ _T0wA8bcFEee8W6YHtXWaIQ">
         <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Room"/>
-        <attributes xmi:id="_sgkP4bcEEee8W6YHtXWaIQ" value="fromRoomName">
+        <attributes xmi:id="_sgkP4bcEEee8W6YHtXWaIQ" value="roomName">
           <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Clazz/name"/>
         </attributes>
       </nodes>
@@ -564,6 +564,9 @@
     <parameters xmi:id="_ZA6DILcNEee8W6YHtXWaIQ" name="door">
       <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     </parameters>
+    <parameters xmi:id="_4HMmkDOnEeuV7JJ5iM0KkQ" name="roombaName">
+      <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    </parameters>
     <parameters xmi:id="_uEw3cLcNEee8W6YHtXWaIQ" name="cleanness">
       <type xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     </parameters>
@@ -588,6 +591,9 @@
       </nodes>
       <nodes xmi:id="_0iGuULcNEee8W6YHtXWaIQ" incoming="_O1YN0LcOEee8W6YHtXWaIQ" outgoing="_A28HkLcPEee8W6YHtXWaIQ">
         <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Roomba"/>
+        <attributes xmi:id="_6HUrQDOnEeuV7JJ5iM0KkQ" value="roombaName">
+          <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Clazz/name"/>
+        </attributes>
       </nodes>
       <nodes xmi:id="_1hoRoLcNEee8W6YHtXWaIQ" incoming="_KfekkLcOEee8W6YHtXWaIQ">
         <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Cleanness"/>
@@ -632,6 +638,9 @@
       </nodes>
       <nodes xmi:id="_0iGuUbcNEee8W6YHtXWaIQ" incoming="_CJvzQLcPEee8W6YHtXWaIQ" outgoing="_BZCIALcPEee8W6YHtXWaIQ">
         <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Roomba"/>
+        <attributes xmi:id="_6HVSUDOnEeuV7JJ5iM0KkQ" value="roombaName">
+          <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Clazz/name"/>
+        </attributes>
       </nodes>
       <nodes xmi:id="_1hoRobcNEee8W6YHtXWaIQ" incoming="_KfekkbcOEee8W6YHtXWaIQ">
         <type href="http://momot.big.tuwien.ac.at/smart_office/2.0#//Cleanness"/>

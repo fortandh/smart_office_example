@@ -252,7 +252,7 @@ public class mysearch3 {
 	  int pb = eb * population * 100;
 	  double propagationRate = 0.6;
 	  boolean propagations[] = {true, false};
-	  int levels[] = {2, 1, 0, 3};
+	  int levels[] = {0, 1, 2, 3};
 	  // boolean propagations[] = {false};
 	  // int levels[] = {3};
 	  

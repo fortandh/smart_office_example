@@ -18,6 +18,8 @@ import at.ac.tuwien.big.momot.util.MomotUtil;
 import experiment.RequirementFactory.Requirement;
 import smart_office.SmartOffice;
 
+import parallel.smart_office.Paralleler;
+
 public class MySearchContext {
 	
 	private static final IFitnessDimension<TransformationSolution> makeObjective(Requirement req, boolean propagation) {
@@ -137,6 +139,10 @@ public class MySearchContext {
 			dimensions.add(makeObjective(req, false));
 		}
 		String res = String.format("%d", graphTransformationTimes);
+		
+		// 计算执行时间
+		// res += String.format(",%d", Paralleler.durationCal(bestSolution));
+		
 		for(IFitnessDimension<TransformationSolution> dimension : dimensions) {
 			double value = dimension.doEvaluate(bestSolution);
 			res += String.format(",%.3f", value);

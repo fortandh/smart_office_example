@@ -516,6 +516,10 @@
         <children xmi:type="notation:DecorationNode" xmi:id="_0iPRMLcNEee8W6YHtXWaIQ" type="5002"/>
         <children xmi:type="notation:DecorationNode" xmi:id="_0iPRMbcNEee8W6YHtXWaIQ" type="5003"/>
         <children xmi:type="notation:DecorationNode" xmi:id="_0iPRMrcNEee8W6YHtXWaIQ" type="7002">
+          <children xmi:type="notation:Node" xmi:id="_6HXHgDOnEeuV7JJ5iM0KkQ" type="3002">
+            <element xmi:type="henshin:Attribute" href="smart_office.henshin#_6HUrQDOnEeuV7JJ5iM0KkQ"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_6HXHgTOnEeuV7JJ5iM0KkQ"/>
+          </children>
           <styles xmi:type="notation:SortingStyle" xmi:id="_0iPRM7cNEee8W6YHtXWaIQ"/>
           <styles xmi:type="notation:FilteringStyle" xmi:id="_0iPRNLcNEee8W6YHtXWaIQ"/>
         </children>
@@ -538,7 +542,7 @@
       </children>
     </children>
     <element xmi:type="henshin:Rule" href="smart_office.henshin#_S1Dk4LcNEee8W6YHtXWaIQ"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S1FaEbcNEee8W6YHtXWaIQ" x="21" y="1421" width="603"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S1FaEbcNEee8W6YHtXWaIQ" x="21" y="1421" width="716"/>
   </children>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_th404bcCEee8W6YHtXWaIQ"/>
   <element xmi:type="henshin:Module" href="smart_office.henshin#_th4N0LcCEee8W6YHtXWaIQ"/>

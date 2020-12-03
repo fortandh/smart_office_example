@@ -27,7 +27,6 @@ import at.ac.tuwien.big.momot.search.fitness.IEGraphMultiDimensionalFitnessFunct
 import at.ac.tuwien.big.momot.search.fitness.dimension.AbstractEGraphFitnessDimension;
 import at.ac.tuwien.big.momot.search.fitness.dimension.TransformationLengthDimension;
 import at.ac.tuwien.big.momot.util.MomotUtil;
-import experiment.RequirementFactory;
 
 import java.io.File;
 import java.io.FileWriter;

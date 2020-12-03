@@ -51,7 +51,7 @@ public class Paralleler {
 	private ArrayList<Fact> initialState;
 	private ArrayList<Action> actionsList;
 	private HashSet<Pair<Action, Action>> mutexFactsList;
-	private int executionTime = 15;
+	private int executionTime = 25;
 	private static final Paralleler pl = new Paralleler();
 	
 	
@@ -776,7 +776,7 @@ public class Paralleler {
 		return mutexActionsList;
 	}
 	
-	public int computeDuration(ArrayList<Fact> intialState, TransformationSolution solution, HashSet<Pair<Action, Action>> mutexActionsList) {
+	private int computeDuration(ArrayList<Fact> intialState, TransformationSolution solution, HashSet<Pair<Action, Action>> mutexActionsList) {
 		HashMap<Fact, Integer> systemState = new HashMap<Fact, Integer>();
 		ArrayList<Pair<Action, Integer>> executionList = new ArrayList<Pair<Action, Integer>>();
 		
